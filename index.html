@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Performance Dashboard</title>
+    <!-- Load Plotly from CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Simple styling for a clean, professional look -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f6f8fa;
+            color: #333;
+        }
+        header {
+            background-color: #0066cc;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 200px;
+        }
+        .filter-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        select, input[type="date"] {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            min-width: 150px;
+        }
+        .charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            grid-gap: 20px;
+        }
+        .chart-card {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sales Performance Dashboard</h1>
+        <p>Interactive analysis of sales trends, top products, revenue breakdown, and regional performance</p>
+    </header>
+    <div class="container">
+        <div class="filters">
+            <div class="filter-group">
+                <label for="startDate">Start Date</label>
+                <input type="date" id="startDate" />
+            </div>
+            <div class="filter-group">
+                <label for="endDate">End Date</label>
+                <input type="date" id="endDate" />
+            </div>
+            <div class="filter-group">
+                <label for="regionSelect">Region</label>
+                <select id="regionSelect" multiple></select>
+            </div>
+            <div class="filter-group">
+                <label for="categorySelect">Category</label>
+                <select id="categorySelect" multiple></select>
+            </div>
+            <div class="filter-group">
+                <label for="repSelect">Sales Representative</label>
+                <select id="repSelect" multiple></select>
+            </div>
+        </div>
+        <div class="charts">
+            <div class="chart-card">
+                <div id="salesTrend"></div>
+            </div>
+            <div class="chart-card">
+                <div id="topProducts"></div>
+            </div>
+            <div class="chart-card">
+                <div id="categoryBreakdown"></div>
+            </div>
+            <div class="chart-card">
+                <div id="regionPerformance"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Sales Performance Dashboard. Built with Plotly.js.
+    </footer>
+    <!-- Load dataset and application scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
