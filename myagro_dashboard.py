@@ -268,8 +268,11 @@ def main() -> None:
     app.title = "myAgro Field Dashboard"
     create_dashboard(app, pipeline_df, payment_df)
     # Expose the server for gunicorn or other WSGI servers
+    # In Dash 3.x `run_server` is deprecated in favour of `run`.
     server = app.server
-    app.run_server(debug=False, host="0.0.0.0", port=8050)
+    # When deploying to services like Streamlit Cloud, set debug=False and
+    # specify host/port.  `run` replaces `run_server` from earlier versions.
+    app.run(debug=False, host="0.0.0.0", port=8050)
 
 
 if __name__ == "__main__":
