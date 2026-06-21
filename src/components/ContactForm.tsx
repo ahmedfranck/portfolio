@@ -1,16 +1,11 @@
 import { useState, type FormEvent } from "react";
-import { Mail, Send, CheckCircle2, AlertCircle } from "lucide-react";
+import { AlertCircle, CheckCircle2, Mail, Send } from "lucide-react";
 import { PROFILE } from "../config/content";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-function encode(data: Record<string, string>): string {
-  return Object.entries(data)
-    .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
-    .join("&");
-}
-
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const FORMSUBMIT_ENDPOINT = `https://formsubmit.co/ajax/${PROFILE.email}`;
 
 export default function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
@@ -36,14 +31,26 @@ export default function ContactForm() {
     setError("");
     setStatus("submitting");
     try {
-      // Soumission compatible Netlify Forms (formulaire statique miroir dans index.html).
-      // Pour déployer ailleurs (ex. Formspree), remplacer l'URL ci-dessous par
-      // "https://formspree.io/f/[FORMSPREE_ID]" et envoyer un body JSON.
-      await fetch("/", {
+      const response = await fetch(FORMSUBMIT_ENDPOINT, {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...values }),
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: values.name,
+          email: values.email,
+          message: values.message,
+          _subject: `Nouveau message portfolio - ${values.name}`,
+          _template: "table",
+          _captcha: "false",
+        }),
       });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
       setStatus("success");
       setValues({ name: "", email: "", message: "" });
     } catch {
@@ -55,7 +62,7 @@ export default function ContactForm() {
     return (
       <div className="flex items-center gap-3 rounded-card border border-brand-soft bg-brand-soft p-5 text-sm text-brand-deep">
         <CheckCircle2 size={20} aria-hidden="true" />
-        <p>Merci, votre message a bien été envoyé. Je vous répondrai rapidement.</p>
+        <p>Merci, votre message a bien ete envoye. Je vous repondrai rapidement.</p>
       </div>
     );
   }
@@ -64,12 +71,9 @@ export default function ContactForm() {
     <form
       name="contact"
       method="POST"
-      data-netlify="true"
       onSubmit={handleSubmit}
       className="space-y-4 rounded-card border border-line bg-white p-6 shadow-card"
     >
-      <input type="hidden" name="form-name" value="contact" />
-
       <div>
         <label htmlFor="contact-name" className="mb-1 block text-sm font-medium text-ink">
           Nom
@@ -126,7 +130,7 @@ export default function ContactForm() {
       {status === "error" && (
         <p className="flex items-center gap-2 text-sm text-rose-600">
           <AlertCircle size={16} aria-hidden="true" />
-          L'envoi a échoué. Vous pouvez écrire directement à{" "}
+          L'envoi a echoue. Vous pouvez ecrire directement a{" "}
           <a href={`mailto:${PROFILE.email}`} className="underline">
             {PROFILE.email}
           </a>
@@ -140,11 +144,11 @@ export default function ContactForm() {
         className="inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100"
       >
         <Send size={16} aria-hidden="true" />
-        {status === "submitting" ? "Envoi en cours…" : "Envoyer le message"}
+        {status === "submitting" ? "Envoi en cours..." : "Envoyer le message"}
       </button>
 
       <p className="text-xs text-text-2">
-        Vous pouvez aussi écrire directement à{" "}
+        Vous pouvez aussi ecrire directement a{" "}
         <a
           href={`mailto:${PROFILE.email}`}
           className="inline-flex items-center gap-1 font-medium text-brand hover:underline"
