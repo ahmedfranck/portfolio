@@ -9,14 +9,17 @@ export default function Footer() {
           © {new Date().getFullYear()} {PROFILE.fullName}
         </p>
         <div className="flex flex-wrap gap-4">
-          <a href={`mailto:${PROFILE.email}`} className="inline-flex items-center gap-2 hover:text-brand">
+          <a
+            href={`mailto:${PROFILE.email}`}
+            className="inline-flex items-center gap-2 underline-offset-4 transition-colors duration-200 hover:text-brand hover:underline"
+          >
             <Mail size={16} aria-hidden="true" /> Email
           </a>
           <a
             href={PROFILE.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 hover:text-brand"
+            className="inline-flex items-center gap-2 underline-offset-4 transition-colors duration-200 hover:text-brand hover:underline"
           >
             <Link2 size={16} aria-hidden="true" /> LinkedIn
           </a>

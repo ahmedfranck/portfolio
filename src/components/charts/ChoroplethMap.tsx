@@ -141,7 +141,7 @@ export default function ChoroplethMap({
           type="button"
           aria-label="Zoomer"
           onClick={() => setZoom((z) => Math.min(6, z + 0.6))}
-          className="flex h-7 w-7 items-center justify-center rounded-full border border-line bg-white text-ink shadow-card hover:bg-surface"
+          className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-full border border-line bg-white text-ink shadow-card transition-all duration-200 hover:scale-105 hover:bg-brand-soft hover:text-brand"
         >
           <Plus size={14} aria-hidden="true" />
         </button>
@@ -149,7 +149,7 @@ export default function ChoroplethMap({
           type="button"
           aria-label="Dézoomer"
           onClick={() => setZoom((z) => Math.max(1, z - 0.6))}
-          className="flex h-7 w-7 items-center justify-center rounded-full border border-line bg-white text-ink shadow-card hover:bg-surface"
+          className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-full border border-line bg-white text-ink shadow-card transition-all duration-200 hover:scale-105 hover:bg-brand-soft hover:text-brand"
         >
           <Minus size={14} aria-hidden="true" />
         </button>

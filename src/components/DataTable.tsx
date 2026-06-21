@@ -59,7 +59,7 @@ export default function DataTable<T extends Record<string, unknown>>({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={searchPlaceholder}
-          className="w-full max-w-xs rounded-lg border border-line px-3 py-2 text-sm text-ink"
+          className="w-full max-w-xs rounded-lg border border-line px-3 py-2 text-sm text-ink transition-colors duration-200 hover:border-brand focus:border-brand focus:outline-none"
         />
       )}
       <div className="max-h-[420px] overflow-auto rounded-card border border-line">
@@ -71,7 +71,7 @@ export default function DataTable<T extends Record<string, unknown>>({
                   <button
                     type="button"
                     onClick={() => toggleSort(col.key)}
-                    className="inline-flex items-center gap-1 hover:text-ink"
+                    className="inline-flex cursor-pointer items-center gap-1 transition-colors duration-200 hover:text-brand"
                   >
                     {col.label}
                     {sortKey === col.key && (sortDir === 1 ? <ArrowUp size={12} /> : <ArrowDown size={12} />)}

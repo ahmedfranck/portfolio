@@ -162,7 +162,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
           <RevealGroup className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {HIGHLIGHTS.map((item) => (
-              <RevealItem key={item.value} className="rounded-card border border-line bg-surface p-4">
+              <RevealItem
+                key={item.value}
+                className="rounded-card border border-line bg-surface p-4 shadow-sm transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover"
+              >
                 <CountUpText text={item.value} className="font-display text-2xl font-bold text-ink" />
                 <p className="mt-1 text-sm leading-5 text-text-2">{item.label}</p>
               </RevealItem>
@@ -217,7 +220,10 @@ export default function Home() {
       <section className="scroll-mt-16 bg-brand">
         <RevealGroup className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-12 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
           {HIGHLIGHTS.map((item) => (
-            <RevealItem key={`impact-${item.value}`} className="text-center text-white sm:text-left">
+            <RevealItem
+              key={`impact-${item.value}`}
+              className="rounded-card p-2 text-center text-white transition-all duration-200 hover:-translate-y-[3px] hover:bg-white/10 sm:text-left"
+            >
               <CountUpText text={item.value} className="font-display text-3xl font-bold" />
               <p className="mt-1 text-sm leading-5 text-white/80">{item.label}</p>
             </RevealItem>
@@ -383,8 +389,10 @@ export default function Home() {
                   type="button"
                   onClick={() => setFamily(f.id)}
                   aria-pressed={isActive}
-                  className={`rounded-full px-4 py-2 text-sm font-medium transition-colors duration-200 ${
-                    isActive ? "bg-brand text-white" : "bg-surface text-text-2 hover:bg-surface-2 hover:text-ink"
+                  className={`cursor-pointer rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${
+                    isActive
+                      ? "bg-brand text-white"
+                      : "bg-surface text-text-2 hover:scale-[1.02] hover:bg-brand-soft hover:text-brand"
                   }`}
                 >
                   {f.label}
@@ -459,17 +467,17 @@ export default function Home() {
           <div className="mt-6 grid grid-cols-1 gap-10 lg:grid-cols-2">
             <Reveal>
               <div className="flex flex-col gap-3 text-text-2">
-                <a href={`mailto:${PROFILE.email}`} className="flex items-center gap-2 hover:text-brand">
+                <a href={`mailto:${PROFILE.email}`} className="group inline-flex w-fit items-center gap-2 transition-colors duration-200 hover:text-brand">
                   <Mail size={16} aria-hidden="true" /> {PROFILE.email}
                 </a>
-                <a href={`tel:${PROFILE.phone.replace(/\s/g, "")}`} className="flex items-center gap-2 hover:text-brand">
+                <a href={`tel:${PROFILE.phone.replace(/\s/g, "")}`} className="group inline-flex w-fit items-center gap-2 transition-colors duration-200 hover:text-brand">
                   <Phone size={16} aria-hidden="true" /> {PROFILE.phone}
                 </a>
                 <a
                   href={PROFILE.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 hover:text-brand"
+                  className="group inline-flex w-fit items-center gap-2 transition-colors duration-200 hover:text-brand"
                 >
                   <Link2 size={16} aria-hidden="true" /> Profil LinkedIn
                 </a>
