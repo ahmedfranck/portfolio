@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "gdpGrowth": 2.1,
+      "gdpPerCapita": 973,
+      "inflation": 2.2,
+      "fdiPercentGdp": 0.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "gdpGrowth": 3,
+      "gdpPerCapita": 1059,
+      "inflation": 2.7,
+      "fdiPercentGdp": 1.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 1072,
+      "inflation": 6.7,
+      "fdiPercentGdp": 2.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "gdpGrowth": 7.2,
+      "gdpPerCapita": 1169,
+      "inflation": 0.4,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 1204,
+      "inflation": -0.5,
+      "fdiPercentGdp": 3.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "gdpGrowth": 1.8,
+      "gdpPerCapita": 1002,
+      "inflation": 0.2,
+      "fdiPercentGdp": 1.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "gdpGrowth": 3.3,
+      "gdpPerCapita": 1011,
+      "inflation": -0.8,
+      "fdiPercentGdp": 1.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "gdpGrowth": 5.7,
+      "gdpPerCapita": 1055,
+      "inflation": 0,
+      "fdiPercentGdp": 1.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "gdpGrowth": 6.7,
+      "gdpPerCapita": 1152,
+      "inflation": 0.9,
+      "fdiPercentGdp": 1.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "gdpGrowth": 6.9,
+      "gdpPerCapita": 1131,
+      "inflation": 0.7,
+      "fdiPercentGdp": 1.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "gdpGrowth": 3.8,
+      "gdpPerCapita": 1200,
+      "inflation": 3,
+      "fdiPercentGdp": 1.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "gdpGrowth": 7.2,
+      "gdpPerCapita": 1319,
+      "inflation": 1.7,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "gdpGrowth": 6.3,
+      "gdpPerCapita": 1266,
+      "inflation": 1.4,
+      "fdiPercentGdp": 2.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 1394,
+      "inflation": 2.7,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "gdpGrowth": 7.5,
+      "gdpPerCapita": 1485,
+      "inflation": 1.2,
+      "fdiPercentGdp": 2.5
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "gdpGrowth": 8.4,
+      "gdpPerCapita": 625,
+      "inflation": -0.8,
+      "fdiPercentGdp": 0.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "gdpGrowth": 6.6,
+      "gdpPerCapita": 725,
+      "inflation": 2.8,
+      "fdiPercentGdp": 1.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "gdpGrowth": 6.5,
+      "gdpPerCapita": 731,
+      "inflation": 3.8,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "gdpGrowth": 5.8,
+      "gdpPerCapita": 760,
+      "inflation": 0.5,
+      "fdiPercentGdp": 3.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "gdpGrowth": 4.3,
+      "gdpPerCapita": 765,
+      "inflation": -0.3,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "gdpGrowth": 3.9,
+      "gdpPerCapita": 630,
+      "inflation": 0.7,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "gdpGrowth": 6,
+      "gdpPerCapita": 664,
+      "inflation": 0.4,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "gdpGrowth": 6.2,
+      "gdpPerCapita": 709,
+      "inflation": 1.5,
+      "fdiPercentGdp": 0
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "gdpGrowth": 6.6,
+      "gdpPerCapita": 777,
+      "inflation": 2,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "gdpGrowth": 5.9,
+      "gdpPerCapita": 765,
+      "inflation": -3.2,
+      "fdiPercentGdp": 1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "gdpGrowth": 2,
+      "gdpPerCapita": 825,
+      "inflation": 1.9,
+      "fdiPercentGdp": -0.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "gdpGrowth": 6.9,
+      "gdpPerCapita": 896,
+      "inflation": 3.7,
+      "fdiPercentGdp": -0.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "gdpGrowth": 1.6,
+      "gdpPerCapita": 827,
+      "inflation": 14.3,
+      "fdiPercentGdp": 3.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "gdpGrowth": 3,
+      "gdpPerCapita": 873,
+      "inflation": 0.7,
+      "fdiPercentGdp": 0.5
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 982,
+      "inflation": 4.2,
+      "fdiPercentGdp": 0.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "gdpGrowth": 6.8,
+      "gdpPerCapita": 1554,
+      "inflation": 1.2,
+      "fdiPercentGdp": 1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "gdpGrowth": -5.4,
+      "gdpPerCapita": 1597,
+      "inflation": 4.9,
+      "fdiPercentGdp": 0.8
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "gdpGrowth": 7.6,
+      "gdpPerCapita": 1547,
+      "inflation": 1.3,
+      "fdiPercentGdp": 0.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "gdpGrowth": 10.8,
+      "gdpPerCapita": 1786,
+      "inflation": 2.6,
+      "fdiPercentGdp": 1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "gdpGrowth": 9.4,
+      "gdpPerCapita": 1991,
+      "inflation": 0.4,
+      "fdiPercentGdp": 0.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "gdpGrowth": 7.2,
+      "gdpPerCapita": 1815,
+      "inflation": 1.3,
+      "fdiPercentGdp": 1.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "gdpGrowth": 7.2,
+      "gdpPerCapita": 1863,
+      "inflation": 0.7,
+      "fdiPercentGdp": 1.2
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "gdpGrowth": 7.4,
+      "gdpPerCapita": 1964,
+      "inflation": 0.7,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 2131,
+      "inflation": 0.4,
+      "fdiPercentGdp": 1.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "gdpGrowth": 6.7,
+      "gdpPerCapita": 2142,
+      "inflation": 0.8,
+      "fdiPercentGdp": 1.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "gdpGrowth": 0.7,
+      "gdpPerCapita": 2180,
+      "inflation": 2.4,
+      "fdiPercentGdp": 1.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "gdpGrowth": 7.1,
+      "gdpPerCapita": 2456,
+      "inflation": 4.2,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 2333,
+      "inflation": 5.2,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "gdpGrowth": 6.6,
+      "gdpPerCapita": 2592,
+      "inflation": 4.4,
+      "fdiPercentGdp": 3.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "gdpGrowth": 6,
+      "gdpPerCapita": 2728,
+      "inflation": 3.5,
+      "fdiPercentGdp": 3.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "gdpGrowth": 2.9,
+      "gdpPerCapita": 1399,
+      "inflation": 1.3,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "gdpGrowth": 3.4,
+      "gdpPerCapita": 1514,
+      "inflation": 2.9,
+      "fdiPercentGdp": 2.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "gdpGrowth": 4.6,
+      "gdpPerCapita": 1449,
+      "inflation": 2.7,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "gdpGrowth": 5,
+      "gdpPerCapita": 1576,
+      "inflation": 2.1,
+      "fdiPercentGdp": 1.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "gdpGrowth": 5.7,
+      "gdpPerCapita": 1649,
+      "inflation": 1.9,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "gdpGrowth": 5.7,
+      "gdpPerCapita": 1415,
+      "inflation": 2.7,
+      "fdiPercentGdp": 2.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "gdpGrowth": 4.5,
+      "gdpPerCapita": 1442,
+      "inflation": 0.9,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "gdpGrowth": 3.5,
+      "gdpPerCapita": 1496,
+      "inflation": 0.6,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "gdpGrowth": 4,
+      "gdpPerCapita": 1611,
+      "inflation": 1.1,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "gdpGrowth": 3.5,
+      "gdpPerCapita": 1555,
+      "inflation": 2.5,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "gdpGrowth": 0.3,
+      "gdpPerCapita": 1556,
+      "inflation": 2.4,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "gdpGrowth": 3.3,
+      "gdpPerCapita": 1672,
+      "inflation": 2.3,
+      "fdiPercentGdp": 2.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "gdpGrowth": 3.7,
+      "gdpPerCapita": 1605,
+      "inflation": 6.2,
+      "fdiPercentGdp": 2.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "gdpGrowth": 3.3,
+      "gdpPerCapita": 1720,
+      "inflation": 7.4,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "gdpGrowth": 3.5,
+      "gdpPerCapita": 1830,
+      "inflation": 4.5,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "gdpGrowth": 7.8,
+      "gdpPerCapita": 352,
+      "inflation": 7.1,
+      "fdiPercentGdp": 11.3
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "gdpGrowth": 7.6,
+      "gdpPerCapita": 373,
+      "inflation": 15.3,
+      "fdiPercentGdp": 6
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "gdpGrowth": 8.7,
+      "gdpPerCapita": 410,
+      "inflation": 9.7,
+      "fdiPercentGdp": 9.6
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "gdpGrowth": 9.6,
+      "gdpPerCapita": 460,
+      "inflation": 0.8,
+      "fdiPercentGdp": 4.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "gdpGrowth": 7.3,
+      "gdpPerCapita": 489,
+      "inflation": 1.2,
+      "fdiPercentGdp": 3.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 496,
+      "inflation": 0.7,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "gdpGrowth": 0.4,
+      "gdpPerCapita": 460,
+      "inflation": 2.9,
+      "fdiPercentGdp": 2.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "gdpGrowth": 4.2,
+      "gdpPerCapita": 431,
+      "inflation": null,
+      "fdiPercentGdp": 2.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "gdpGrowth": 6.1,
+      "gdpPerCapita": 518,
+      "inflation": null,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "gdpGrowth": 0.6,
+      "gdpPerCapita": 504,
+      "inflation": null,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "gdpGrowth": 0.8,
+      "gdpPerCapita": 486,
+      "inflation": null,
+      "fdiPercentGdp": 3.2
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 596,
+      "inflation": null,
+      "fdiPercentGdp": 2.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "gdpGrowth": 9.3,
+      "gdpPerCapita": 688,
+      "inflation": null,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "gdpGrowth": 8.5,
+      "gdpPerCapita": 660,
+      "inflation": null,
+      "fdiPercentGdp": 3.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "gdpGrowth": 6.1,
+      "gdpPerCapita": 649,
+      "inflation": null,
+      "fdiPercentGdp": 4.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "gdpGrowth": 7.9,
+      "gdpPerCapita": 1264,
+      "inflation": 10.7,
+      "fdiPercentGdp": 7.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "gdpGrowth": 14,
+      "gdpPerCapita": 1507,
+      "inflation": 8.7,
+      "fdiPercentGdp": 8.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "gdpGrowth": 9.3,
+      "gdpPerCapita": 1544,
+      "inflation": 11.2,
+      "fdiPercentGdp": 8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "gdpGrowth": 7.3,
+      "gdpPerCapita": 2295,
+      "inflation": 11.7,
+      "fdiPercentGdp": 5.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "gdpGrowth": 2.9,
+      "gdpPerCapita": 1950,
+      "inflation": 15.5,
+      "fdiPercentGdp": 6.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "gdpGrowth": 2.1,
+      "gdpPerCapita": 1723,
+      "inflation": 17.1,
+      "fdiPercentGdp": 6.5
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "gdpGrowth": 3.4,
+      "gdpPerCapita": 1912,
+      "inflation": 17.5,
+      "fdiPercentGdp": 6.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "gdpGrowth": 8.1,
+      "gdpPerCapita": 2012,
+      "inflation": 12.4,
+      "fdiPercentGdp": 5.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "gdpGrowth": 6.2,
+      "gdpPerCapita": 2195,
+      "inflation": 7.8,
+      "fdiPercentGdp": 4.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "gdpGrowth": 6.5,
+      "gdpPerCapita": 2187,
+      "inflation": 7.1,
+      "fdiPercentGdp": 5.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "gdpGrowth": 0.5,
+      "gdpPerCapita": 2195,
+      "inflation": 9.9,
+      "fdiPercentGdp": 2.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "gdpGrowth": 5.1,
+      "gdpPerCapita": 2445,
+      "inflation": 10,
+      "fdiPercentGdp": 3.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "gdpGrowth": 3.8,
+      "gdpPerCapita": 2230,
+      "inflation": 31.3,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "gdpGrowth": 3.1,
+      "gdpPerCapita": 2384,
+      "inflation": 38.1,
+      "fdiPercentGdp": 1.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "gdpGrowth": 5.6,
+      "gdpPerCapita": 2391,
+      "inflation": 22.8,
+      "fdiPercentGdp": 2.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 659,
+      "inflation": 15.1,
+      "fdiPercentGdp": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "gdpGrowth": 5.6,
+      "gdpPerCapita": 637,
+      "inflation": 21.3,
+      "fdiPercentGdp": 14.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "gdpGrowth": 5.9,
+      "gdpPerCapita": 699,
+      "inflation": 15.2,
+      "fdiPercentGdp": 7.9
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "gdpGrowth": 3.9,
+      "gdpPerCapita": 748,
+      "inflation": 11.9,
+      "fdiPercentGdp": 0
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "gdpGrowth": 3.7,
+      "gdpPerCapita": 765,
+      "inflation": 6.2,
+      "fdiPercentGdp": -0.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "gdpGrowth": 3.8,
+      "gdpPerCapita": 747,
+      "inflation": 11.8,
+      "fdiPercentGdp": 0.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "gdpGrowth": 10.8,
+      "gdpPerCapita": 712,
+      "inflation": 8.2,
+      "fdiPercentGdp": 18.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "gdpGrowth": 10.3,
+      "gdpPerCapita": 834,
+      "inflation": 8.9,
+      "fdiPercentGdp": 5.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 933,
+      "inflation": 9.8,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "gdpGrowth": 5.6,
+      "gdpPerCapita": 1031,
+      "inflation": 9.5,
+      "fdiPercentGdp": 0.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "gdpGrowth": 4.7,
+      "gdpPerCapita": 1054,
+      "inflation": 10.6,
+      "fdiPercentGdp": 1.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "gdpGrowth": 5.6,
+      "gdpPerCapita": 1245,
+      "inflation": 12.6,
+      "fdiPercentGdp": 1.2
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "gdpGrowth": 4,
+      "gdpPerCapita": 1417,
+      "inflation": 10.5,
+      "fdiPercentGdp": 3.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "gdpGrowth": 5.5,
+      "gdpPerCapita": 1555,
+      "inflation": 7.8,
+      "fdiPercentGdp": 5.9
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "gdpGrowth": 5.4,
+      "gdpPerCapita": 1695,
+      "inflation": 8.1,
+      "fdiPercentGdp": 5.6
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "gdpGrowth": 6.1,
+      "gdpPerCapita": 492,
+      "inflation": 7.3,
+      "fdiPercentGdp": 103.3
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "gdpGrowth": 8.2,
+      "gdpPerCapita": 568,
+      "inflation": 8.5,
+      "fdiPercentGdp": 87
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "gdpGrowth": 8,
+      "gdpPerCapita": 638,
+      "inflation": 6.8,
+      "fdiPercentGdp": 82.7
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "gdpGrowth": 8.7,
+      "gdpPerCapita": 711,
+      "inflation": 7.6,
+      "fdiPercentGdp": 62.9
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "gdpGrowth": 0.7,
+      "gdpPerCapita": 707,
+      "inflation": 9.9,
+      "fdiPercentGdp": 15.6
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "gdpGrowth": 0,
+      "gdpPerCapita": 693,
+      "inflation": 7.7,
+      "fdiPercentGdp": 7.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "gdpGrowth": -1.6,
+      "gdpPerCapita": 715,
+      "inflation": 8.8,
+      "fdiPercentGdp": 9.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "gdpGrowth": 2.5,
+      "gdpPerCapita": 699,
+      "inflation": 12.4,
+      "fdiPercentGdp": 7.3
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "gdpGrowth": 1.2,
+      "gdpPerCapita": 692,
+      "inflation": 23.6,
+      "fdiPercentGdp": 3.8
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "gdpGrowth": -2.5,
+      "gdpPerCapita": 658,
+      "inflation": 27,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "gdpGrowth": -3,
+      "gdpPerCapita": 617,
+      "inflation": 17,
+      "fdiPercentGdp": -3
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "gdpGrowth": 5,
+      "gdpPerCapita": 668,
+      "inflation": 7.8,
+      "fdiPercentGdp": -1.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 745,
+      "inflation": 7.6,
+      "fdiPercentGdp": 3.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "gdpGrowth": 4.7,
+      "gdpPerCapita": 799,
+      "inflation": 10.1,
+      "fdiPercentGdp": 7.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "gdpGrowth": 4,
+      "gdpPerCapita": 851,
+      "inflation": 8.2,
+      "fdiPercentGdp": 9.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "gdpGrowth": 5.6,
+      "gdpPerCapita": 797,
+      "inflation": 1.1,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "gdpGrowth": 2.9,
+      "gdpPerCapita": 938,
+      "inflation": 3,
+      "fdiPercentGdp": 3.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "gdpGrowth": -1.1,
+      "gdpPerCapita": 873,
+      "inflation": 5.3,
+      "fdiPercentGdp": 2.7
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "gdpGrowth": 3.3,
+      "gdpPerCapita": 902,
+      "inflation": -0.6,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "gdpGrowth": 6.5,
+      "gdpPerCapita": 948,
+      "inflation": 0.9,
+      "fdiPercentGdp": 0.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "gdpGrowth": 6.2,
+      "gdpPerCapita": 838,
+      "inflation": 1.5,
+      "fdiPercentGdp": 1.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "gdpGrowth": 6,
+      "gdpPerCapita": 872,
+      "inflation": -1.8,
+      "fdiPercentGdp": 2.1
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "gdpGrowth": 5.4,
+      "gdpPerCapita": 924,
+      "inflation": 1.8,
+      "fdiPercentGdp": 3.1
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "gdpGrowth": 4.9,
+      "gdpPerCapita": 996,
+      "inflation": 0.3,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "gdpGrowth": 5,
+      "gdpPerCapita": 972,
+      "inflation": -1.7,
+      "fdiPercentGdp": 4.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "gdpGrowth": -1.2,
+      "gdpPerCapita": 953,
+      "inflation": 0.4,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "gdpGrowth": 3.1,
+      "gdpPerCapita": 1027,
+      "inflation": 3.9,
+      "fdiPercentGdp": 2.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "gdpGrowth": 3.7,
+      "gdpPerCapita": 977,
+      "inflation": 9.6,
+      "fdiPercentGdp": 3.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "gdpGrowth": 4.7,
+      "gdpPerCapita": 1044,
+      "inflation": 2.1,
+      "fdiPercentGdp": 2.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "gdpGrowth": 5,
+      "gdpPerCapita": 1095,
+      "inflation": 3.2,
+      "fdiPercentGdp": 3.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "gdpGrowth": 2.6,
+      "gdpPerCapita": 1660,
+      "inflation": 6.3,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "gdpGrowth": 4.2,
+      "gdpPerCapita": 1931,
+      "inflation": 5.7,
+      "fdiPercentGdp": 8.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "gdpGrowth": 4.5,
+      "gdpPerCapita": 1859,
+      "inflation": 4.9,
+      "fdiPercentGdp": 20.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "gdpGrowth": 4.2,
+      "gdpPerCapita": 1934,
+      "inflation": 4.1,
+      "fdiPercentGdp": 15.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "gdpGrowth": 4.3,
+      "gdpPerCapita": 1713,
+      "inflation": 3.5,
+      "fdiPercentGdp": 7.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "gdpGrowth": 5.4,
+      "gdpPerCapita": 1555,
+      "inflation": 3.3,
+      "fdiPercentGdp": 8.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "gdpGrowth": 1.3,
+      "gdpPerCapita": 1566,
+      "inflation": 1.5,
+      "fdiPercentGdp": 4.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "gdpGrowth": 6.3,
+      "gdpPerCapita": 1615,
+      "inflation": 2.3,
+      "fdiPercentGdp": 8.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 1723,
+      "inflation": 3.1,
+      "fdiPercentGdp": 10.3
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "gdpGrowth": 3.1,
+      "gdpPerCapita": 1767,
+      "inflation": 2.3,
+      "fdiPercentGdp": -11.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "gdpGrowth": -0.4,
+      "gdpPerCapita": 1796,
+      "inflation": 2.4,
+      "fdiPercentGdp": 11.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "gdpGrowth": 0.7,
+      "gdpPerCapita": 1948,
+      "inflation": 3.6,
+      "fdiPercentGdp": 11.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "gdpGrowth": 6.8,
+      "gdpPerCapita": 1960,
+      "inflation": 9.5,
+      "fdiPercentGdp": 14.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "gdpGrowth": 6.8,
+      "gdpPerCapita": 2136,
+      "inflation": 5,
+      "fdiPercentGdp": 7.9
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "gdpGrowth": 6.3,
+      "gdpPerCapita": 2110,
+      "inflation": 2.5,
+      "fdiPercentGdp": 13.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "gdpGrowth": 8.6,
+      "gdpPerCapita": 474,
+      "inflation": 0.8,
+      "fdiPercentGdp": 10.1
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "gdpGrowth": 2.4,
+      "gdpPerCapita": 511,
+      "inflation": 2.9,
+      "fdiPercentGdp": 12.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "gdpGrowth": 10.5,
+      "gdpPerCapita": 529,
+      "inflation": 0.5,
+      "fdiPercentGdp": 8.9
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "gdpGrowth": 5.3,
+      "gdpPerCapita": 552,
+      "inflation": 2.3,
+      "fdiPercentGdp": 7
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "gdpGrowth": 6.6,
+      "gdpPerCapita": 565,
+      "inflation": -0.9,
+      "fdiPercentGdp": 7.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "gdpGrowth": 4.4,
+      "gdpPerCapita": 486,
+      "inflation": -0.6,
+      "fdiPercentGdp": 5.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "gdpGrowth": 5.7,
+      "gdpPerCapita": 503,
+      "inflation": 1.7,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "gdpGrowth": 5,
+      "gdpPerCapita": 522,
+      "inflation": 2.8,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "gdpGrowth": 7.2,
+      "gdpPerCapita": 579,
+      "inflation": 3,
+      "fdiPercentGdp": 3.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "gdpGrowth": 5.9,
+      "gdpPerCapita": 562,
+      "inflation": -2.5,
+      "fdiPercentGdp": 5.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "gdpGrowth": 3.6,
+      "gdpPerCapita": 580,
+      "inflation": 2.9,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "gdpGrowth": 1.4,
+      "gdpPerCapita": 609,
+      "inflation": 3.8,
+      "fdiPercentGdp": 4
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "gdpGrowth": 11.9,
+      "gdpPerCapita": 610,
+      "inflation": 4.2,
+      "fdiPercentGdp": 6.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "gdpGrowth": 1.7,
+      "gdpPerCapita": 638,
+      "inflation": 3.7,
+      "fdiPercentGdp": 6.1
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "gdpGrowth": 10.3,
+      "gdpPerCapita": 735,
+      "inflation": 9.1,
+      "fdiPercentGdp": 1.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "gdpGrowth": 8,
+      "gdpPerCapita": 2202,
+      "inflation": 13.7,
+      "fdiPercentGdp": 1.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "gdpGrowth": 5.3,
+      "gdpPerCapita": 2418,
+      "inflation": 10.8,
+      "fdiPercentGdp": 2.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "gdpGrowth": 4.2,
+      "gdpPerCapita": 2633,
+      "inflation": 12.2,
+      "fdiPercentGdp": 1.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "gdpGrowth": 6.7,
+      "gdpPerCapita": 2873,
+      "inflation": 8.5,
+      "fdiPercentGdp": 1.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "gdpGrowth": 6.3,
+      "gdpPerCapita": 3089,
+      "inflation": 8,
+      "fdiPercentGdp": 0.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "gdpGrowth": 2.7,
+      "gdpPerCapita": 2586,
+      "inflation": 9,
+      "fdiPercentGdp": 0.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "gdpGrowth": -1.6,
+      "gdpPerCapita": 2070,
+      "inflation": 15.7,
+      "fdiPercentGdp": 0.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "gdpGrowth": 0.8,
+      "gdpPerCapita": 1876,
+      "inflation": 16.5,
+      "fdiPercentGdp": 0.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "gdpGrowth": 1.9,
+      "gdpPerCapita": 2058,
+      "inflation": 12.1,
+      "fdiPercentGdp": 0.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "gdpGrowth": 2.2,
+      "gdpPerCapita": 3190,
+      "inflation": 11.4,
+      "fdiPercentGdp": 0.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "gdpGrowth": -6.4,
+      "gdpPerCapita": 2797,
+      "inflation": 13.2,
+      "fdiPercentGdp": 0.4
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "gdpGrowth": 1.1,
+      "gdpPerCapita": 2787,
+      "inflation": 17,
+      "fdiPercentGdp": 0.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "gdpGrowth": 4.3,
+      "gdpPerCapita": 2899,
+      "inflation": 18.8,
+      "fdiPercentGdp": 0
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "gdpGrowth": 3.3,
+      "gdpPerCapita": 2139,
+      "inflation": 24.7,
+      "fdiPercentGdp": 0.4
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "gdpGrowth": 4.1,
+      "gdpPerCapita": 1084,
+      "inflation": 33.2,
+      "fdiPercentGdp": 0.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "gdpGrowth": 3.4,
+      "gdpPerCapita": 1276,
+      "inflation": 1.2,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "gdpGrowth": 1.3,
+      "gdpPerCapita": 1375,
+      "inflation": 3.4,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "gdpGrowth": 4,
+      "gdpPerCapita": 1327,
+      "inflation": 1.4,
+      "fdiPercentGdp": 1.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "gdpGrowth": 2.4,
+      "gdpPerCapita": 1380,
+      "inflation": 0.7,
+      "fdiPercentGdp": 1.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "gdpGrowth": 6.2,
+      "gdpPerCapita": 1399,
+      "inflation": -1.1,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 1218,
+      "inflation": 0.1,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 1266,
+      "inflation": 0.8,
+      "fdiPercentGdp": 2.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "gdpGrowth": 7.4,
+      "gdpPerCapita": 1357,
+      "inflation": 1.3,
+      "fdiPercentGdp": 2.8
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "gdpGrowth": 6.2,
+      "gdpPerCapita": 1453,
+      "inflation": 0.5,
+      "fdiPercentGdp": 3.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "gdpGrowth": 4.6,
+      "gdpPerCapita": 1431,
+      "inflation": 1.8,
+      "fdiPercentGdp": 4.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "gdpGrowth": 1.3,
+      "gdpPerCapita": 1461,
+      "inflation": 2.5,
+      "fdiPercentGdp": 7.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "gdpGrowth": 6.5,
+      "gdpPerCapita": 1598,
+      "inflation": 2.2,
+      "fdiPercentGdp": 9.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "gdpGrowth": 3.9,
+      "gdpPerCapita": 1574,
+      "inflation": 9.7,
+      "fdiPercentGdp": 10.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "gdpGrowth": 4.3,
+      "gdpPerCapita": 1698,
+      "inflation": 5.9,
+      "fdiPercentGdp": 15.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "gdpGrowth": 6.1,
+      "gdpPerCapita": 1773,
+      "inflation": 0.8,
+      "fdiPercentGdp": 6.1
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 685,
+      "inflation": 7.2,
+      "fdiPercentGdp": 5.6
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "gdpGrowth": 8.1,
+      "gdpPerCapita": 761,
+      "inflation": 6.8,
+      "fdiPercentGdp": 19.6
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "gdpGrowth": 10.6,
+      "gdpPerCapita": 938,
+      "inflation": 6.6,
+      "fdiPercentGdp": 11.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "gdpGrowth": 14.7,
+      "gdpPerCapita": 1117,
+      "inflation": 5.5,
+      "fdiPercentGdp": 5.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "gdpGrowth": -7.8,
+      "gdpPerCapita": 1118,
+      "inflation": 4.6,
+      "fdiPercentGdp": 4.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "gdpGrowth": -4.4,
+      "gdpPerCapita": 965,
+      "inflation": 6.7,
+      "fdiPercentGdp": 3.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "gdpGrowth": 6.4,
+      "gdpPerCapita": 844,
+      "inflation": 10.9,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "gdpGrowth": 3.2,
+      "gdpPerCapita": 779,
+      "inflation": 18.2,
+      "fdiPercentGdp": 7.2
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "gdpGrowth": 2.9,
+      "gdpPerCapita": 846,
+      "inflation": 16,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "gdpGrowth": 5.5,
+      "gdpPerCapita": 844,
+      "inflation": 14.8,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "gdpGrowth": -1.3,
+      "gdpPerCapita": 845,
+      "inflation": 13.4,
+      "fdiPercentGdp": 0.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "gdpGrowth": 5.9,
+      "gdpPerCapita": 885,
+      "inflation": 11.9,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "gdpGrowth": 5.3,
+      "gdpPerCapita": 860,
+      "inflation": 27.2,
+      "fdiPercentGdp": 2
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "gdpGrowth": 5.7,
+      "gdpPerCapita": 758,
+      "inflation": 47.6,
+      "fdiPercentGdp": 2.3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "gdpGrowth": 4.3,
+      "gdpPerCapita": 807,
+      "inflation": 28.6,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "gdpGrowth": 13.7,
+      "gdpPerCapita": 1142,
+      "inflation": -2.1,
+      "fdiPercentGdp": 2.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "gdpGrowth": 4.5,
+      "gdpPerCapita": 1308,
+      "inflation": 2,
+      "fdiPercentGdp": 1.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "gdpGrowth": 9.1,
+      "gdpPerCapita": 1354,
+      "inflation": 7.5,
+      "fdiPercentGdp": 3.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "gdpGrowth": 2.8,
+      "gdpPerCapita": 1305,
+      "inflation": 0.2,
+      "fdiPercentGdp": 2.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "gdpGrowth": 2.1,
+      "gdpPerCapita": 1279,
+      "inflation": 1.7,
+      "fdiPercentGdp": -3.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "gdpGrowth": 3.3,
+      "gdpPerCapita": 994,
+      "inflation": 4.4,
+      "fdiPercentGdp": 3.8
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "gdpGrowth": -4.1,
+      "gdpPerCapita": 862,
+      "inflation": -0.8,
+      "fdiPercentGdp": 1.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "gdpGrowth": -1.6,
+      "gdpPerCapita": 854,
+      "inflation": -1.5,
+      "fdiPercentGdp": 2.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "gdpGrowth": 5.7,
+      "gdpPerCapita": 949,
+      "inflation": 4.3,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "gdpGrowth": 5.4,
+      "gdpPerCapita": 893,
+      "inflation": -1,
+      "fdiPercentGdp": 3.8
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "gdpGrowth": -0.4,
+      "gdpPerCapita": 867,
+      "inflation": 4.5,
+      "fdiPercentGdp": 3.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "gdpGrowth": 0.3,
+      "gdpPerCapita": 946,
+      "inflation": -0.8,
+      "fdiPercentGdp": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "gdpGrowth": 4.1,
+      "gdpPerCapita": 966,
+      "inflation": 5.8,
+      "fdiPercentGdp": 3.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "gdpGrowth": 4,
+      "gdpPerCapita": 949,
+      "inflation": 10.8,
+      "fdiPercentGdp": 5
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "gdpGrowth": 4.2,
+      "gdpPerCapita": 962,
+      "inflation": 8.9,
+      "fdiPercentGdp": 5.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "gdpGrowth": 5.9,
+      "gdpPerCapita": 705,
+      "inflation": 1.4,
+      "fdiPercentGdp": 2.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "gdpGrowth": 5.8,
+      "gdpPerCapita": 784,
+      "inflation": 3.6,
+      "fdiPercentGdp": 13.4
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "gdpGrowth": 6.3,
+      "gdpPerCapita": 762,
+      "inflation": 2.6,
+      "fdiPercentGdp": 2.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "gdpGrowth": 5.8,
+      "gdpPerCapita": 827,
+      "inflation": 1.8,
+      "fdiPercentGdp": 3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "gdpGrowth": 5.6,
+      "gdpPerCapita": 856,
+      "inflation": 0.2,
+      "fdiPercentGdp": 0.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "gdpGrowth": 5.5,
+      "gdpPerCapita": 751,
+      "inflation": 2.6,
+      "fdiPercentGdp": 4.5
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "gdpGrowth": 4.2,
+      "gdpPerCapita": 773,
+      "inflation": 1.3,
+      "fdiPercentGdp": -0.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "gdpGrowth": 4,
+      "gdpPerCapita": 793,
+      "inflation": -1,
+      "fdiPercentGdp": 1.4
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "gdpGrowth": 4.8,
+      "gdpPerCapita": 851,
+      "inflation": 0.9,
+      "fdiPercentGdp": -2.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "gdpGrowth": 4.9,
+      "gdpPerCapita": 826,
+      "inflation": 0.7,
+      "fdiPercentGdp": 4.9
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "gdpGrowth": 2.2,
+      "gdpPerCapita": 863,
+      "inflation": 1.7,
+      "fdiPercentGdp": -0.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "gdpGrowth": 5.1,
+      "gdpPerCapita": 962,
+      "inflation": 4.2,
+      "fdiPercentGdp": -1.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "gdpGrowth": 6.3,
+      "gdpPerCapita": 951,
+      "inflation": 8,
+      "fdiPercentGdp": -2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "gdpGrowth": 6.2,
+      "gdpPerCapita": 1055,
+      "inflation": 5.5,
+      "fdiPercentGdp": 0.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "gdpGrowth": 6.5,
+      "gdpPerCapita": 1119,
+      "inflation": 2.9,
+      "fdiPercentGdp": 0.8
+    }
+  ],
+  "indicators": [
+    {
+      "key": "gdpGrowth",
+      "code": "NY.GDP.MKTP.KD.ZG",
+      "label": "Croissance du PIB",
+      "unit": "% annuel",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "gdpPerCapita",
+      "code": "NY.GDP.PCAP.CD",
+      "label": "PIB par habitant",
+      "unit": "USD courants",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "inflation",
+      "code": "FP.CPI.TOTL.ZG",
+      "label": "Inflation des prix à la consommation",
+      "unit": "% annuel",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "fdiPercentGdp",
+      "code": "BX.KLT.DINV.WD.GD.ZS",
+      "label": "Investissements directs étrangers, entrants",
+      "unit": "% du PIB",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

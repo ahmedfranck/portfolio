@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --ink: #14161b;
+  --ink-soft: #1e2129;
+  --paper: #ffffff;
+  --surface: #f5f6f8;
+  --surface-2: #edeff3;
+  --line: #e4e7ec;
+  --text: #14161b;
+  --text-2: #586072;
+  --text-3: #8a92a3;
+
+  --brand: #5b4be3;
+  --brand-deep: #3f32b5;
+  --brand-soft: #eeebfb;
+
+  --c1: #5b4be3;
+  --c2: #0ea5a4;
+  --c3: #f59e0b;
+  --c4: #e0457b;
+  --c5: #3b82f6;
+  --c6: #10b981;
+  --c7: #64748b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: var(--paper);
+  color: var(--text);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-data {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+.hatched-missing {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--surface-2) 0,
+    var(--surface-2) 4px,
+    var(--line) 4px,
+    var(--line) 8px
+  );
+}

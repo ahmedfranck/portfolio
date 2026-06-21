@@ -1,0 +1,2479 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 106.5,
+      "enrollmentPrimaryMale": 118.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.89,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 108.6,
+      "enrollmentPrimaryMale": 120.7,
+      "enrollmentSecondaryFemale": 35.2,
+      "enrollmentSecondaryMale": 55.9,
+      "parityPrimary": 0.89,
+      "literacyYoungWomen": 48.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 113,
+      "enrollmentPrimaryMale": 123.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 114.3,
+      "enrollmentPrimaryMale": 124.3,
+      "enrollmentSecondaryFemale": 41.9,
+      "enrollmentSecondaryMale": 61.9,
+      "parityPrimary": 0.92,
+      "literacyYoungWomen": 53.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 115.1,
+      "enrollmentPrimaryMale": 124.1,
+      "enrollmentSecondaryFemale": 43,
+      "enrollmentSecondaryMale": 61.8,
+      "parityPrimary": 0.92,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 117.7,
+      "enrollmentPrimaryMale": 126.2,
+      "enrollmentSecondaryFemale": 46,
+      "enrollmentSecondaryMale": 63.9,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 116.4,
+      "enrollmentPrimaryMale": 124.1,
+      "enrollmentSecondaryFemale": 47.7,
+      "enrollmentSecondaryMale": 62.6,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 112.3,
+      "enrollmentPrimaryMale": 120.1,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": 51
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 108.1,
+      "enrollmentPrimaryMale": 115.4,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 102.8,
+      "enrollmentPrimaryMale": 110.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": 62.8
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 99.9,
+      "enrollmentPrimaryMale": 108.1,
+      "enrollmentSecondaryFemale": 39.4,
+      "enrollmentSecondaryMale": 48.4,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 101.4,
+      "enrollmentPrimaryMale": 109.8,
+      "enrollmentSecondaryFemale": 40.3,
+      "enrollmentSecondaryMale": 48.2,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": 59.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 103.9,
+      "enrollmentPrimaryMale": 112.1,
+      "enrollmentSecondaryFemale": 40.3,
+      "enrollmentSecondaryMale": 46.7,
+      "parityPrimary": null,
+      "literacyYoungWomen": 67.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 72.5,
+      "enrollmentPrimaryMale": 80.2,
+      "enrollmentSecondaryFemale": 18.2,
+      "enrollmentSecondaryMale": 24.1,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": 27.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 76.4,
+      "enrollmentPrimaryMale": 83,
+      "enrollmentSecondaryFemale": 20.2,
+      "enrollmentSecondaryMale": 26.1,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 79.4,
+      "enrollmentPrimaryMale": 84.5,
+      "enrollmentSecondaryFemale": 22.4,
+      "enrollmentSecondaryMale": 28,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 81.6,
+      "enrollmentPrimaryMale": 85,
+      "enrollmentSecondaryFemale": 25.1,
+      "enrollmentSecondaryMale": 30,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 83.1,
+      "enrollmentPrimaryMale": 86,
+      "enrollmentSecondaryFemale": 27.4,
+      "enrollmentSecondaryMale": 31.7,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": 44
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 83.7,
+      "enrollmentPrimaryMale": 86.5,
+      "enrollmentSecondaryFemale": 31.3,
+      "enrollmentSecondaryMale": 34.4,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 86.2,
+      "enrollmentPrimaryMale": 88.6,
+      "enrollmentSecondaryFemale": 33.8,
+      "enrollmentSecondaryMale": 36,
+      "parityPrimary": 0.98,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 88.6,
+      "enrollmentPrimaryMale": 90.4,
+      "enrollmentSecondaryFemale": 36.4,
+      "enrollmentSecondaryMale": 37.9,
+      "parityPrimary": 0.98,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 90.5,
+      "enrollmentPrimaryMale": 92.5,
+      "enrollmentSecondaryFemale": 39.4,
+      "enrollmentSecondaryMale": 39.8,
+      "parityPrimary": 0.98,
+      "literacyYoungWomen": 54.5
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 89.3,
+      "enrollmentPrimaryMale": 90.2,
+      "enrollmentSecondaryFemale": 40.5,
+      "enrollmentSecondaryMale": 39.6,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": 43.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 87.9,
+      "enrollmentPrimaryMale": 87.5,
+      "enrollmentSecondaryFemale": 40.2,
+      "enrollmentSecondaryMale": 38.3,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 87.6,
+      "enrollmentPrimaryMale": 86.5,
+      "enrollmentSecondaryFemale": 40.1,
+      "enrollmentSecondaryMale": 36.2,
+      "parityPrimary": 1.02,
+      "literacyYoungWomen": 58.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 83.2,
+      "enrollmentPrimaryMale": 81.3,
+      "enrollmentSecondaryFemale": 36.1,
+      "enrollmentSecondaryMale": 31.2,
+      "parityPrimary": null,
+      "literacyYoungWomen": 60.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 73.4,
+      "enrollmentPrimaryMale": 71.1,
+      "enrollmentSecondaryFemale": 33.6,
+      "enrollmentSecondaryMale": 28.1,
+      "parityPrimary": null,
+      "literacyYoungWomen": 67.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 78.3,
+      "enrollmentPrimaryMale": 76.1,
+      "enrollmentSecondaryFemale": 33.2,
+      "enrollmentSecondaryMale": 26.8,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 68.2,
+      "enrollmentPrimaryMale": 78.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.83,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 73.5,
+      "enrollmentPrimaryMale": 82.8,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 76.9,
+      "enrollmentPrimaryMale": 84.4,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.86,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 80.3,
+      "enrollmentPrimaryMale": 86.9,
+      "enrollmentSecondaryFemale": 34.4,
+      "enrollmentSecondaryMale": 46.2,
+      "parityPrimary": 0.87,
+      "literacyYoungWomen": 47
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 82.1,
+      "enrollmentPrimaryMale": 88.2,
+      "enrollmentSecondaryFemale": 38,
+      "enrollmentSecondaryMale": 49.5,
+      "parityPrimary": 0.88,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 85.3,
+      "enrollmentPrimaryMale": 90.5,
+      "enrollmentSecondaryFemale": 40.6,
+      "enrollmentSecondaryMale": 51.4,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": 54.7
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 86.1,
+      "enrollmentPrimaryMale": 90.2,
+      "enrollmentSecondaryFemale": 43.9,
+      "enrollmentSecondaryMale": 53.8,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 86.8,
+      "enrollmentPrimaryMale": 89.6,
+      "enrollmentSecondaryFemale": 46.4,
+      "enrollmentSecondaryMale": 55.4,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 87.7,
+      "enrollmentPrimaryMale": 89.2,
+      "enrollmentSecondaryFemale": 49.5,
+      "enrollmentSecondaryMale": 57.8,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": 61
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 87.9,
+      "enrollmentPrimaryMale": 89.4,
+      "enrollmentSecondaryFemale": 51.9,
+      "enrollmentSecondaryMale": 58.7,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 85.1,
+      "enrollmentPrimaryMale": 86.5,
+      "enrollmentSecondaryFemale": 54.4,
+      "enrollmentSecondaryMale": 59.7,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": 58.3
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 85.6,
+      "enrollmentPrimaryMale": 87.3,
+      "enrollmentSecondaryFemale": 52.2,
+      "enrollmentSecondaryMale": 55.9,
+      "parityPrimary": 0.96,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 90.6,
+      "enrollmentPrimaryMale": 93,
+      "enrollmentSecondaryFemale": 63.1,
+      "enrollmentSecondaryMale": 64.8,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 94.4,
+      "enrollmentPrimaryMale": 92.2,
+      "enrollmentSecondaryFemale": 64.5,
+      "enrollmentSecondaryMale": 66.1,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 102.6,
+      "enrollmentPrimaryMale": 119.8,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.86,
+      "literacyYoungWomen": 76.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 101.9,
+      "enrollmentPrimaryMale": 118.1,
+      "enrollmentSecondaryFemale": 45.5,
+      "enrollmentSecondaryMale": 54.2,
+      "parityPrimary": 0.87,
+      "literacyYoungWomen": 73.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 106.3,
+      "enrollmentPrimaryMale": 122.3,
+      "enrollmentSecondaryFemale": 48.8,
+      "enrollmentSecondaryMale": 57.4,
+      "parityPrimary": 0.88,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": 50.4,
+      "enrollmentSecondaryMale": 59.4,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 108.1,
+      "enrollmentPrimaryMale": 122.4,
+      "enrollmentSecondaryFemale": 54.1,
+      "enrollmentSecondaryMale": 64.1,
+      "parityPrimary": 0.89,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 110.9,
+      "enrollmentPrimaryMale": 124.5,
+      "enrollmentSecondaryFemale": 55.5,
+      "enrollmentSecondaryMale": 65.4,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 110.5,
+      "enrollmentPrimaryMale": 123.8,
+      "enrollmentSecondaryFemale": 56.5,
+      "enrollmentSecondaryMale": 66.3,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 104.9,
+      "enrollmentPrimaryMale": 117.5,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 98.5,
+      "enrollmentPrimaryMale": 110.2,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": 76.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 100.8,
+      "enrollmentPrimaryMale": 112.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 104.3,
+      "enrollmentPrimaryMale": 115.9,
+      "enrollmentSecondaryFemale": 42.6,
+      "enrollmentSecondaryMale": 48.4,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 107.2,
+      "enrollmentPrimaryMale": 117.8,
+      "enrollmentSecondaryFemale": 43.2,
+      "enrollmentSecondaryMale": 48,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 109.3,
+      "enrollmentPrimaryMale": 119.5,
+      "enrollmentSecondaryFemale": 42.5,
+      "enrollmentSecondaryMale": 47.2,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 109.5,
+      "enrollmentPrimaryMale": 119.2,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 85.3,
+      "enrollmentPrimaryMale": 98.9,
+      "enrollmentSecondaryFemale": 27,
+      "enrollmentSecondaryMale": 47.1,
+      "parityPrimary": 0.87,
+      "literacyYoungWomen": 64.3
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 86.5,
+      "enrollmentPrimaryMale": 100.5,
+      "enrollmentSecondaryFemale": 28.7,
+      "enrollmentSecondaryMale": 49.2,
+      "parityPrimary": 0.87,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 91.5,
+      "enrollmentPrimaryMale": 105,
+      "enrollmentSecondaryFemale": 28.8,
+      "enrollmentSecondaryMale": 48.8,
+      "parityPrimary": 0.88,
+      "literacyYoungWomen": 76.7
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 94.3,
+      "enrollmentPrimaryMale": 105.5,
+      "enrollmentSecondaryFemale": 29.4,
+      "enrollmentSecondaryMale": 47.6,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": 76.6
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 98.1,
+      "enrollmentPrimaryMale": 109.6,
+      "enrollmentSecondaryFemale": 31.4,
+      "enrollmentSecondaryMale": 50.9,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 100.9,
+      "enrollmentPrimaryMale": 103.2,
+      "enrollmentSecondaryFemale": 32.7,
+      "enrollmentSecondaryMale": 51.6,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 79.7
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 107,
+      "enrollmentPrimaryMale": 116,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": 77.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 111.8,
+      "enrollmentPrimaryMale": 120,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": 68.6
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 116.3,
+      "enrollmentPrimaryMale": 123.8,
+      "enrollmentSecondaryFemale": 43,
+      "enrollmentSecondaryMale": 67.8,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 114.3,
+      "enrollmentPrimaryMale": 120.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 68.3
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 83.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 98,
+      "enrollmentPrimaryMale": 100.8,
+      "enrollmentSecondaryFemale": 52.1,
+      "enrollmentSecondaryMale": 59,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": 84.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 97.8,
+      "enrollmentPrimaryMale": 106.2,
+      "enrollmentSecondaryFemale": 53.1,
+      "enrollmentSecondaryMale": 60.3,
+      "parityPrimary": 1,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 100,
+      "enrollmentPrimaryMale": 102.1,
+      "enrollmentSecondaryFemale": 64.3,
+      "enrollmentSecondaryMale": 72,
+      "parityPrimary": 1,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 98.5,
+      "enrollmentPrimaryMale": 100.6,
+      "enrollmentSecondaryFemale": 61.3,
+      "enrollmentSecondaryMale": 66.6,
+      "parityPrimary": 1,
+      "literacyYoungWomen": 83.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 102.1,
+      "enrollmentPrimaryMale": 104.3,
+      "enrollmentSecondaryFemale": 64.5,
+      "enrollmentSecondaryMale": 69.5,
+      "parityPrimary": 1,
+      "literacyYoungWomen": 76.9
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 101.4,
+      "enrollmentPrimaryMale": 102.1,
+      "enrollmentSecondaryFemale": 65.4,
+      "enrollmentSecondaryMale": 69.1,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 100,
+      "enrollmentPrimaryMale": 101,
+      "enrollmentSecondaryFemale": 65,
+      "enrollmentSecondaryMale": 68.3,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": 85.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 98.3,
+      "enrollmentPrimaryMale": 99,
+      "enrollmentSecondaryFemale": 66.9,
+      "enrollmentSecondaryMale": 69.5,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 99.6,
+      "enrollmentPrimaryMale": 100.2,
+      "enrollmentSecondaryFemale": 70.3,
+      "enrollmentSecondaryMale": 72.1,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 98.3,
+      "enrollmentPrimaryMale": 98.5,
+      "enrollmentSecondaryFemale": 73.3,
+      "enrollmentSecondaryMale": 74.7,
+      "parityPrimary": 1.02,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 99.3,
+      "enrollmentPrimaryMale": 99.6,
+      "enrollmentSecondaryFemale": 75.6,
+      "enrollmentSecondaryMale": 76.8,
+      "parityPrimary": null,
+      "literacyYoungWomen": 91.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 96.8,
+      "enrollmentPrimaryMale": 99.6,
+      "enrollmentSecondaryFemale": 78,
+      "enrollmentSecondaryMale": 77.7,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 100.7,
+      "enrollmentPrimaryMale": 101.3,
+      "enrollmentSecondaryFemale": 76.4,
+      "enrollmentSecondaryMale": 75,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 77.8,
+      "enrollmentPrimaryMale": 93.3,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.82,
+      "literacyYoungWomen": 21.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 82.7,
+      "enrollmentPrimaryMale": 95.9,
+      "enrollmentSecondaryFemale": 28.5,
+      "enrollmentSecondaryMale": 44.8,
+      "parityPrimary": 0.85,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 84.1,
+      "enrollmentPrimaryMale": 98.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 86,
+      "enrollmentPrimaryMale": 100.8,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 87.7,
+      "enrollmentPrimaryMale": 102.4,
+      "enrollmentSecondaryFemale": 30.6,
+      "enrollmentSecondaryMale": 46.3,
+      "parityPrimary": 0.85,
+      "literacyYoungWomen": 37.2
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.81,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 84.3,
+      "enrollmentPrimaryMale": 101.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.82,
+      "literacyYoungWomen": 46.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": 43.5
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 92.8,
+      "enrollmentPrimaryMale": 108,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.85,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 73
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 95.3,
+      "enrollmentPrimaryMale": 106.1,
+      "enrollmentSecondaryFemale": 38.8,
+      "enrollmentSecondaryMale": 48.5,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 49.7,
+      "enrollmentPrimaryMale": 54.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 63.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 87.7,
+      "enrollmentPrimaryMale": 97.3,
+      "enrollmentSecondaryFemale": 31.8,
+      "enrollmentSecondaryMale": 41.7,
+      "parityPrimary": 0.92,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 84.5,
+      "enrollmentPrimaryMale": 95.4,
+      "enrollmentSecondaryFemale": 31.4,
+      "enrollmentSecondaryMale": 41.3,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 83,
+      "enrollmentPrimaryMale": 84.8,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 78.7,
+      "enrollmentPrimaryMale": 80.5,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 71.7,
+      "enrollmentPrimaryMale": 73.1,
+      "enrollmentSecondaryFemale": 37,
+      "enrollmentSecondaryMale": 38.4,
+      "parityPrimary": 1,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 67.2,
+      "enrollmentPrimaryMale": 67.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 67.4,
+      "enrollmentPrimaryMale": 65.8,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 72.1,
+      "enrollmentPrimaryMale": 84.3,
+      "enrollmentSecondaryFemale": 29.9,
+      "enrollmentSecondaryMale": 43.4,
+      "parityPrimary": 0.86,
+      "literacyYoungWomen": 34
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 73.1,
+      "enrollmentPrimaryMale": 84.1,
+      "enrollmentSecondaryFemale": 31.9,
+      "enrollmentSecondaryMale": 45.5,
+      "parityPrimary": 0.87,
+      "literacyYoungWomen": 29.7
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 70.2,
+      "enrollmentPrimaryMale": 80.5,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.87,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": 34.5,
+      "enrollmentSecondaryMale": 43.9,
+      "parityPrimary": 1.09,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 67.3,
+      "enrollmentPrimaryMale": 76.2,
+      "enrollmentSecondaryFemale": 35.1,
+      "enrollmentSecondaryMale": 47.2,
+      "parityPrimary": 0.89,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 66.5,
+      "enrollmentPrimaryMale": 74.5,
+      "enrollmentSecondaryFemale": 34.5,
+      "enrollmentSecondaryMale": 43.4,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": 39.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 67.1,
+      "enrollmentPrimaryMale": 76.5,
+      "enrollmentSecondaryFemale": 34.2,
+      "enrollmentSecondaryMale": 45.8,
+      "parityPrimary": 0.88,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 70.2,
+      "enrollmentPrimaryMale": 79.1,
+      "enrollmentSecondaryFemale": 34.4,
+      "enrollmentSecondaryMale": 42.5,
+      "parityPrimary": 0.89,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 66.4,
+      "enrollmentPrimaryMale": 74.3,
+      "enrollmentSecondaryFemale": 34.3,
+      "enrollmentSecondaryMale": 41.6,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": 43.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": 60.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 69.4,
+      "enrollmentPrimaryMale": 76.1,
+      "enrollmentSecondaryFemale": 37.1,
+      "enrollmentSecondaryMale": 40.7,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 43.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 98.2,
+      "enrollmentPrimaryMale": 97.5,
+      "enrollmentSecondaryFemale": 18.3,
+      "enrollmentSecondaryMale": 22.6,
+      "parityPrimary": 1.05,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 95.9,
+      "enrollmentPrimaryMale": 95,
+      "enrollmentSecondaryFemale": 20.1,
+      "enrollmentSecondaryMale": 25.5,
+      "parityPrimary": 1.05,
+      "literacyYoungWomen": 57.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 95,
+      "enrollmentPrimaryMale": 94.8,
+      "enrollmentSecondaryFemale": 24,
+      "enrollmentSecondaryMale": 30.8,
+      "parityPrimary": 1.05,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 93.6,
+      "enrollmentPrimaryMale": 93.7,
+      "enrollmentSecondaryFemale": 27.9,
+      "enrollmentSecondaryMale": 32.8,
+      "parityPrimary": 1.05,
+      "literacyYoungWomen": 68.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 94.5,
+      "enrollmentPrimaryMale": 93.3,
+      "enrollmentSecondaryFemale": 28,
+      "enrollmentSecondaryMale": 33.5,
+      "parityPrimary": 1.06,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 97.4,
+      "enrollmentPrimaryMale": 96,
+      "enrollmentSecondaryFemale": 28.8,
+      "enrollmentSecondaryMale": 33.7,
+      "parityPrimary": 1.05,
+      "literacyYoungWomen": 75.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 90.2,
+      "enrollmentPrimaryMale": 87.1,
+      "enrollmentSecondaryFemale": 30.5,
+      "enrollmentSecondaryMale": 33.9,
+      "parityPrimary": 1.06,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 89.9,
+      "enrollmentPrimaryMale": 85.8,
+      "enrollmentSecondaryFemale": 30.7,
+      "enrollmentSecondaryMale": 32.8,
+      "parityPrimary": 1.07,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 92.3,
+      "enrollmentPrimaryMale": 88.2,
+      "enrollmentSecondaryFemale": 34.8,
+      "enrollmentSecondaryMale": 36.3,
+      "parityPrimary": 1.06,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 92.8,
+      "enrollmentPrimaryMale": 87.8,
+      "enrollmentSecondaryFemale": 37.6,
+      "enrollmentSecondaryMale": 37.6,
+      "parityPrimary": 1.06,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 93.1,
+      "enrollmentPrimaryMale": 94.5,
+      "enrollmentSecondaryFemale": 36.2,
+      "enrollmentSecondaryMale": 35.9,
+      "parityPrimary": 1.07,
+      "literacyYoungWomen": 67
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 103.7,
+      "enrollmentPrimaryMale": 104.3,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 106.9,
+      "enrollmentPrimaryMale": 104,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 54.9,
+      "enrollmentPrimaryMale": 68,
+      "enrollmentSecondaryFemale": 10.5,
+      "enrollmentSecondaryMale": 15,
+      "parityPrimary": 0.81,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 58.7,
+      "enrollmentPrimaryMale": 71.6,
+      "enrollmentSecondaryFemale": 10.9,
+      "enrollmentSecondaryMale": 16.3,
+      "parityPrimary": 0.82,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 61,
+      "enrollmentPrimaryMale": 73.1,
+      "enrollmentSecondaryFemale": 12.1,
+      "enrollmentSecondaryMale": 17.4,
+      "parityPrimary": 0.83,
+      "literacyYoungWomen": 31.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 61.9,
+      "enrollmentPrimaryMale": 73.9,
+      "enrollmentSecondaryFemale": 13.2,
+      "enrollmentSecondaryMale": 18.6,
+      "parityPrimary": 0.84,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 63,
+      "enrollmentPrimaryMale": 74.2,
+      "enrollmentSecondaryFemale": 15,
+      "enrollmentSecondaryMale": 20.5,
+      "parityPrimary": 0.85,
+      "literacyYoungWomen": 36.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 65,
+      "enrollmentPrimaryMale": 76.6,
+      "enrollmentSecondaryFemale": 16.7,
+      "enrollmentSecondaryMale": 22.6,
+      "parityPrimary": 0.85,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 67,
+      "enrollmentPrimaryMale": 78.4,
+      "enrollmentSecondaryFemale": 19.4,
+      "enrollmentSecondaryMale": 25.8,
+      "parityPrimary": 0.85,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 69,
+      "enrollmentPrimaryMale": 79.6,
+      "enrollmentSecondaryFemale": 20.3,
+      "enrollmentSecondaryMale": 27.1,
+      "parityPrimary": 0.86,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.86,
+      "literacyYoungWomen": 36.4
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 62.4,
+      "enrollmentPrimaryMale": 71,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.88,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 62.9,
+      "enrollmentPrimaryMale": 68.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 63.7,
+      "enrollmentPrimaryMale": 68.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 44.7
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 65,
+      "enrollmentPrimaryMale": 68.7,
+      "enrollmentSecondaryFemale": 20.7,
+      "enrollmentSecondaryMale": 22.4,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 63.3,
+      "enrollmentPrimaryMale": 66,
+      "enrollmentSecondaryFemale": 19.5,
+      "enrollmentSecondaryMale": 20.2,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 75.6,
+      "enrollmentPrimaryMale": 83.9,
+      "enrollmentSecondaryFemale": 39,
+      "enrollmentSecondaryMale": 44.5,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 81.3,
+      "enrollmentPrimaryMale": 87.9,
+      "enrollmentSecondaryFemale": 39.6,
+      "enrollmentSecondaryMale": 46.3,
+      "parityPrimary": 0.93,
+      "literacyYoungWomen": 79.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 84.4,
+      "enrollmentPrimaryMale": 87.4,
+      "enrollmentSecondaryFemale": 42.4,
+      "enrollmentSecondaryMale": 46.4,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 86.3,
+      "enrollmentPrimaryMale": 89.4,
+      "enrollmentSecondaryFemale": 50.3,
+      "enrollmentSecondaryMale": 55.2,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": 70.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 83.1,
+      "enrollmentPrimaryMale": 85.2,
+      "enrollmentSecondaryFemale": 40.4,
+      "enrollmentSecondaryMale": 45.1,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 25.8,
+      "enrollmentPrimaryMale": 25.3,
+      "enrollmentSecondaryFemale": 41.9,
+      "enrollmentSecondaryMale": 45.7,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 76.1,
+      "enrollmentPrimaryMale": 81.6,
+      "enrollmentSecondaryFemale": 37.3,
+      "enrollmentSecondaryMale": 41.3,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": 67.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 80.2,
+      "enrollmentPrimaryMale": 83,
+      "enrollmentSecondaryFemale": 39.4,
+      "enrollmentSecondaryMale": 41.5,
+      "parityPrimary": 0.98,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 83.9,
+      "enrollmentPrimaryMale": 84.9,
+      "enrollmentSecondaryFemale": 43.9,
+      "enrollmentSecondaryMale": 44.3,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 83.4,
+      "enrollmentPrimaryMale": 84.2,
+      "enrollmentSecondaryFemale": 45.2,
+      "enrollmentSecondaryMale": 45.7,
+      "parityPrimary": null,
+      "literacyYoungWomen": 69.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 88.2,
+      "enrollmentPrimaryMale": 90.9,
+      "enrollmentSecondaryFemale": 47.4,
+      "enrollmentSecondaryMale": 46.4,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 81.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 86.2,
+      "enrollmentPrimaryMale": 81.5,
+      "enrollmentSecondaryFemale": 34.5,
+      "enrollmentSecondaryMale": 39.7,
+      "parityPrimary": 1.06,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 91.6,
+      "enrollmentPrimaryMale": 81.7,
+      "enrollmentSecondaryFemale": 40.7,
+      "enrollmentSecondaryMale": 44.5,
+      "parityPrimary": 1.12,
+      "literacyYoungWomen": 58.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 91.1,
+      "enrollmentPrimaryMale": 81.8,
+      "enrollmentSecondaryFemale": 45,
+      "enrollmentSecondaryMale": 47.8,
+      "parityPrimary": 1.11,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 89.4,
+      "enrollmentPrimaryMale": 79.4,
+      "enrollmentSecondaryFemale": 48.3,
+      "enrollmentSecondaryMale": 49.8,
+      "parityPrimary": 1.12,
+      "literacyYoungWomen": 51.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 90.5,
+      "enrollmentPrimaryMale": 80,
+      "enrollmentSecondaryFemale": 50.5,
+      "enrollmentSecondaryMale": 50.6,
+      "parityPrimary": 1.12,
+      "literacyYoungWomen": 51.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 90.1,
+      "enrollmentPrimaryMale": 79.8,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 1.12,
+      "literacyYoungWomen": 56.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 1.1,
+      "literacyYoungWomen": 59.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 1.11,
+      "literacyYoungWomen": 63.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 1.12,
+      "literacyYoungWomen": 65.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 90.3,
+      "enrollmentPrimaryMale": 76.6,
+      "enrollmentSecondaryFemale": 47.6,
+      "enrollmentSecondaryMale": 41.4,
+      "parityPrimary": 1.14,
+      "literacyYoungWomen": 64
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 92.8,
+      "enrollmentPrimaryMale": 77.5,
+      "enrollmentSecondaryFemale": 48.7,
+      "enrollmentSecondaryMale": 41,
+      "parityPrimary": 1.15,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 92.7,
+      "enrollmentPrimaryMale": 76,
+      "enrollmentSecondaryFemale": 50.1,
+      "enrollmentSecondaryMale": 40.5,
+      "parityPrimary": 1.16,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 93,
+      "enrollmentPrimaryMale": 76.2,
+      "enrollmentSecondaryFemale": 51,
+      "enrollmentSecondaryMale": 40.1,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 96.1,
+      "enrollmentPrimaryMale": 75.8,
+      "enrollmentSecondaryFemale": 50.2,
+      "enrollmentSecondaryMale": 38.3,
+      "parityPrimary": null,
+      "literacyYoungWomen": 65.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 96.1,
+      "enrollmentPrimaryMale": 75.5,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 49.5
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 112.7,
+      "enrollmentPrimaryMale": 116.4,
+      "enrollmentSecondaryFemale": 34.8,
+      "enrollmentSecondaryMale": 46.1,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 118.3,
+      "enrollmentPrimaryMale": 117.2,
+      "enrollmentSecondaryFemale": 41.3,
+      "enrollmentSecondaryMale": 47.8,
+      "parityPrimary": 0.99,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 121,
+      "enrollmentPrimaryMale": 118.6,
+      "enrollmentSecondaryFemale": 36.8,
+      "enrollmentSecondaryMale": 41.7,
+      "parityPrimary": 1,
+      "literacyYoungWomen": 57.3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 122.5,
+      "enrollmentPrimaryMale": 118.9,
+      "enrollmentSecondaryFemale": 37.5,
+      "enrollmentSecondaryMale": 42.1,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": 63.3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 124.7,
+      "enrollmentPrimaryMale": 121.4,
+      "enrollmentSecondaryFemale": 40.8,
+      "enrollmentSecondaryMale": 43.5,
+      "parityPrimary": 1.01,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 129,
+      "enrollmentPrimaryMale": 124.7,
+      "enrollmentSecondaryFemale": 41.1,
+      "enrollmentSecondaryMale": 42,
+      "parityPrimary": 1.02,
+      "literacyYoungWomen": 68.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 117.3,
+      "enrollmentPrimaryMale": 111.9,
+      "enrollmentSecondaryFemale": 42.5,
+      "enrollmentSecondaryMale": 43.7,
+      "parityPrimary": 1.03,
+      "literacyYoungWomen": 73.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 148.4,
+      "enrollmentPrimaryMale": 142.9,
+      "enrollmentSecondaryFemale": 61,
+      "enrollmentSecondaryMale": 61.4,
+      "parityPrimary": 1.03,
+      "literacyYoungWomen": 67.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 145.9,
+      "enrollmentPrimaryMale": 139.7,
+      "enrollmentSecondaryFemale": 62.9,
+      "enrollmentSecondaryMale": 62.2,
+      "parityPrimary": 1.03,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 161.4,
+      "enrollmentPrimaryMale": 154,
+      "enrollmentSecondaryFemale": 74.4,
+      "enrollmentSecondaryMale": 72.5,
+      "parityPrimary": 1.04,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 167.5,
+      "enrollmentPrimaryMale": 158.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 163.5,
+      "enrollmentPrimaryMale": 155.3,
+      "enrollmentSecondaryFemale": 91.7,
+      "enrollmentSecondaryMale": 82.2,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 166.4,
+      "enrollmentPrimaryMale": 157.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 68.8,
+      "enrollmentPrimaryMale": 92.7,
+      "enrollmentSecondaryFemale": 13.4,
+      "enrollmentSecondaryMale": 31.2,
+      "parityPrimary": 0.73,
+      "literacyYoungWomen": 16.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 75.2,
+      "enrollmentPrimaryMale": 98.8,
+      "enrollmentSecondaryFemale": 14,
+      "enrollmentSecondaryMale": 31.5,
+      "parityPrimary": 0.75,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 78.9,
+      "enrollmentPrimaryMale": 102.5,
+      "enrollmentSecondaryFemale": 13.9,
+      "enrollmentSecondaryMale": 30.1,
+      "parityPrimary": 0.75,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 85.1,
+      "enrollmentPrimaryMale": 109.7,
+      "enrollmentSecondaryFemale": 15.5,
+      "enrollmentSecondaryMale": 33.3,
+      "parityPrimary": 0.76,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 85.6,
+      "enrollmentPrimaryMale": 110.7,
+      "enrollmentSecondaryFemale": 14.3,
+      "enrollmentSecondaryMale": 31.2,
+      "parityPrimary": 0.75,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 77.2,
+      "enrollmentPrimaryMale": 98.3,
+      "enrollmentSecondaryFemale": 13.9,
+      "enrollmentSecondaryMale": 30.4,
+      "parityPrimary": 0.77,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 72.7,
+      "enrollmentPrimaryMale": 92.1,
+      "enrollmentSecondaryFemale": 14.3,
+      "enrollmentSecondaryMale": 30.6,
+      "parityPrimary": 0.77,
+      "literacyYoungWomen": 22.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 64.8,
+      "enrollmentPrimaryMale": 83.4,
+      "enrollmentSecondaryFemale": 14,
+      "enrollmentSecondaryMale": 27,
+      "parityPrimary": 0.76,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 74.7,
+      "enrollmentPrimaryMale": 93.7,
+      "enrollmentSecondaryFemale": 13.9,
+      "enrollmentSecondaryMale": 25.9,
+      "parityPrimary": 0.78,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 73.8,
+      "enrollmentPrimaryMale": 92.5,
+      "enrollmentSecondaryFemale": 14.2,
+      "enrollmentSecondaryMale": 26,
+      "parityPrimary": 0.78,
+      "literacyYoungWomen": 33.3
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "enrollmentPrimaryFemale": null,
+      "enrollmentPrimaryMale": null,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 77.4,
+      "enrollmentPrimaryMale": 94.6,
+      "enrollmentSecondaryFemale": 17.3,
+      "enrollmentSecondaryMale": 28.9,
+      "parityPrimary": 0.8,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 78.8,
+      "enrollmentPrimaryMale": 95.1,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 80.6,
+      "enrollmentPrimaryMale": 95.9,
+      "enrollmentSecondaryFemale": 19.2,
+      "enrollmentSecondaryMale": 29,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 81.8,
+      "enrollmentPrimaryMale": 94.9,
+      "enrollmentSecondaryFemale": 19.4,
+      "enrollmentSecondaryMale": 27.4,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "enrollmentPrimaryFemale": 119,
+      "enrollmentPrimaryMale": 130.3,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.9,
+      "literacyYoungWomen": 69.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "enrollmentPrimaryFemale": 117.8,
+      "enrollmentPrimaryMale": 127.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.91,
+      "literacyYoungWomen": 72.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "enrollmentPrimaryFemale": 121.5,
+      "enrollmentPrimaryMale": 129.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.92,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "enrollmentPrimaryFemale": 122.7,
+      "enrollmentPrimaryMale": 129.4,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "enrollmentPrimaryFemale": 119.4,
+      "enrollmentPrimaryMale": 125.1,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.94,
+      "literacyYoungWomen": 67.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "enrollmentPrimaryFemale": 123.3,
+      "enrollmentPrimaryMale": 127.9,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": 78.4
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "enrollmentPrimaryFemale": 119.2,
+      "enrollmentPrimaryMale": 123.7,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "enrollmentPrimaryFemale": 117.3,
+      "enrollmentPrimaryMale": 121.4,
+      "enrollmentSecondaryFemale": 51.5,
+      "enrollmentSecondaryMale": 69.9,
+      "parityPrimary": 0.95,
+      "literacyYoungWomen": 74.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "enrollmentPrimaryFemale": 116.4,
+      "enrollmentPrimaryMale": 119.2,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.96,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "enrollmentPrimaryFemale": 116.5,
+      "enrollmentPrimaryMale": 119,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": 84
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "enrollmentPrimaryFemale": 118.3,
+      "enrollmentPrimaryMale": 120.2,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": 0.97,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "enrollmentPrimaryFemale": 115.6,
+      "enrollmentPrimaryMale": 118.3,
+      "enrollmentSecondaryFemale": 57,
+      "enrollmentSecondaryMale": 69,
+      "parityPrimary": 0.96,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "enrollmentPrimaryFemale": 117.3,
+      "enrollmentPrimaryMale": 119.6,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": 87.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "enrollmentPrimaryFemale": 115.1,
+      "enrollmentPrimaryMale": 117.5,
+      "enrollmentSecondaryFemale": 59.1,
+      "enrollmentSecondaryMale": 67.7,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "enrollmentPrimaryFemale": 113.2,
+      "enrollmentPrimaryMale": 115.4,
+      "enrollmentSecondaryFemale": null,
+      "enrollmentSecondaryMale": null,
+      "parityPrimary": null,
+      "literacyYoungWomen": null
+    }
+  ],
+  "indicators": [
+    {
+      "key": "enrollmentPrimaryFemale",
+      "code": "SE.PRM.ENRR.FE",
+      "label": "Scolarisation primaire, filles (brut)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "enrollmentPrimaryMale",
+      "code": "SE.PRM.ENRR.MA",
+      "label": "Scolarisation primaire, garçons (brut)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "enrollmentSecondaryFemale",
+      "code": "SE.SEC.ENRR.FE",
+      "label": "Scolarisation secondaire, filles (brut)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "enrollmentSecondaryMale",
+      "code": "SE.SEC.ENRR.MA",
+      "label": "Scolarisation secondaire, garçons (brut)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "parityPrimary",
+      "code": "SE.ENR.PRIM.FM.ZS",
+      "label": "Indice de parité filles/garçons, primaire (GPI)",
+      "unit": "ratio",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2022
+      ]
+    },
+    {
+      "key": "literacyYoungWomen",
+      "code": "SE.ADT.1524.LT.FE.ZS",
+      "label": "Alphabétisation des jeunes femmes (15-24 ans)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

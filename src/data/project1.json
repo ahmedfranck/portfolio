@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "maternalMortalityRatio": 607,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "maternalMortalityRatio": 613,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "maternalMortalityRatio": 618,
+      "prenatalCareCoverage": 83.5,
+      "skilledBirthAttendance": 80.9,
+      "neonatalMortality": 32.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "maternalMortalityRatio": 607,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "maternalMortalityRatio": 605,
+      "prenatalCareCoverage": 82.8,
+      "skilledBirthAttendance": 77.2,
+      "neonatalMortality": 31.8
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "maternalMortalityRatio": 606,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "maternalMortalityRatio": 604,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "maternalMortalityRatio": 592,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "maternalMortalityRatio": 585,
+      "prenatalCareCoverage": 83.2,
+      "skilledBirthAttendance": 78.1,
+      "neonatalMortality": 30.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "maternalMortalityRatio": 572,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "maternalMortalityRatio": 578,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "maternalMortalityRatio": 584,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "maternalMortalityRatio": 547,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "maternalMortalityRatio": 518,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "maternalMortalityRatio": 404,
+      "prenatalCareCoverage": 94.3,
+      "skilledBirthAttendance": 65.9,
+      "neonatalMortality": 30.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "maternalMortalityRatio": 388,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "maternalMortalityRatio": 376,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "maternalMortalityRatio": 361,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "maternalMortalityRatio": 344,
+      "prenatalCareCoverage": 96.6,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "maternalMortalityRatio": 328,
+      "prenatalCareCoverage": 92.8,
+      "skilledBirthAttendance": 79.8,
+      "neonatalMortality": 28.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "maternalMortalityRatio": 313,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "maternalMortalityRatio": 298,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "maternalMortalityRatio": 286,
+      "prenatalCareCoverage": 80.2,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "maternalMortalityRatio": 274,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "maternalMortalityRatio": 334,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "maternalMortalityRatio": 354,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "maternalMortalityRatio": 316,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.7
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "maternalMortalityRatio": 242,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.8
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "maternalMortalityRatio": 592,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 35.3
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "maternalMortalityRatio": 569,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.7
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "maternalMortalityRatio": 566,
+      "prenatalCareCoverage": 90.6,
+      "skilledBirthAttendance": 59.4,
+      "neonatalMortality": 34.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "maternalMortalityRatio": 544,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "maternalMortalityRatio": 522,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.8
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "maternalMortalityRatio": 505,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.2
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "maternalMortalityRatio": 488,
+      "prenatalCareCoverage": 93.2,
+      "skilledBirthAttendance": 73.6,
+      "neonatalMortality": 31.7
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "maternalMortalityRatio": 465,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "maternalMortalityRatio": 449,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.6
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "maternalMortalityRatio": 429,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "maternalMortalityRatio": 447,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.5
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "maternalMortalityRatio": 459,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": 84,
+      "neonatalMortality": 29
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "maternalMortalityRatio": 409,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.5
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "maternalMortalityRatio": 359,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "maternalMortalityRatio": 562,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "maternalMortalityRatio": 541,
+      "prenatalCareCoverage": 84.7,
+      "skilledBirthAttendance": 56.1,
+      "neonatalMortality": 31.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "maternalMortalityRatio": 500,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.8
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "maternalMortalityRatio": 469,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "maternalMortalityRatio": 440,
+      "prenatalCareCoverage": 82.8,
+      "skilledBirthAttendance": 64.7,
+      "neonatalMortality": 30
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "maternalMortalityRatio": 417,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.5
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "maternalMortalityRatio": 393,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "maternalMortalityRatio": 372,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "maternalMortalityRatio": 354,
+      "prenatalCareCoverage": 87,
+      "skilledBirthAttendance": 69,
+      "neonatalMortality": 27.8
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "maternalMortalityRatio": 336,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.3
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "maternalMortalityRatio": 316,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.8
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "maternalMortalityRatio": 342,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.3
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "maternalMortalityRatio": 276,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.7
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "maternalMortalityRatio": 258,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "maternalMortalityRatio": 601,
+      "prenatalCareCoverage": 87.3,
+      "skilledBirthAttendance": 74.1,
+      "neonatalMortality": 26
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "maternalMortalityRatio": 589,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "maternalMortalityRatio": 578,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "maternalMortalityRatio": 567,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "maternalMortalityRatio": 558,
+      "prenatalCareCoverage": 88.4,
+      "skilledBirthAttendance": 80.1,
+      "neonatalMortality": 24.2
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "maternalMortalityRatio": 545,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "maternalMortalityRatio": 526,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "maternalMortalityRatio": 519,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "maternalMortalityRatio": 508,
+      "prenatalCareCoverage": 82.4,
+      "skilledBirthAttendance": 85.2,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "maternalMortalityRatio": 493,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "maternalMortalityRatio": 489,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.1
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "maternalMortalityRatio": 507,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.1
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "maternalMortalityRatio": 456,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "maternalMortalityRatio": 427,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "maternalMortalityRatio": 363,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "maternalMortalityRatio": 356,
+      "prenatalCareCoverage": 96.4,
+      "skilledBirthAttendance": 67.2,
+      "neonatalMortality": 28.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "maternalMortalityRatio": 351,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "maternalMortalityRatio": 338,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "maternalMortalityRatio": 317,
+      "prenatalCareCoverage": 90.5,
+      "skilledBirthAttendance": 70.8,
+      "neonatalMortality": 25.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "maternalMortalityRatio": 310,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "maternalMortalityRatio": 296,
+      "prenatalCareCoverage": 97.5,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "maternalMortalityRatio": 287,
+      "prenatalCareCoverage": 97.6,
+      "skilledBirthAttendance": 78.1,
+      "neonatalMortality": 22.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "maternalMortalityRatio": 276,
+      "prenatalCareCoverage": 97.1,
+      "skilledBirthAttendance": 78.9,
+      "neonatalMortality": 21.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "maternalMortalityRatio": 260,
+      "prenatalCareCoverage": 97.4,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 21
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "maternalMortalityRatio": 253,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 20.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "maternalMortalityRatio": 264,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 19.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "maternalMortalityRatio": 239,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 19.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "maternalMortalityRatio": 234,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 18.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 18.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "maternalMortalityRatio": 750,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 36
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "maternalMortalityRatio": 728,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 35.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "maternalMortalityRatio": 703,
+      "prenatalCareCoverage": 85.2,
+      "skilledBirthAttendance": 45.3,
+      "neonatalMortality": 35.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "maternalMortalityRatio": 682,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "maternalMortalityRatio": 664,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "maternalMortalityRatio": 642,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "maternalMortalityRatio": 606,
+      "prenatalCareCoverage": 84.3,
+      "skilledBirthAttendance": 62.7,
+      "neonatalMortality": 33.2
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "maternalMortalityRatio": 582,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.9
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "maternalMortalityRatio": 560,
+      "prenatalCareCoverage": 80.9,
+      "skilledBirthAttendance": 55.3,
+      "neonatalMortality": 32.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "maternalMortalityRatio": 548,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.2
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "maternalMortalityRatio": 528,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "maternalMortalityRatio": 533,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "maternalMortalityRatio": 500,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "maternalMortalityRatio": 494,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.8
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "maternalMortalityRatio": 712,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.8
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "maternalMortalityRatio": 726,
+      "prenatalCareCoverage": 95.4,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.4
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "maternalMortalityRatio": 728,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "maternalMortalityRatio": 725,
+      "prenatalCareCoverage": 95.9,
+      "skilledBirthAttendance": 61.1,
+      "neonatalMortality": 34.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "maternalMortalityRatio": 801,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "maternalMortalityRatio": 784,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "maternalMortalityRatio": 690,
+      "prenatalCareCoverage": 97.9,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.9
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "maternalMortalityRatio": 703,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.8
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "maternalMortalityRatio": 707,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.7
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "maternalMortalityRatio": 689,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.5
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "maternalMortalityRatio": 664,
+      "prenatalCareCoverage": 97.8,
+      "skilledBirthAttendance": 84.4,
+      "neonatalMortality": 33.4
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "maternalMortalityRatio": 667,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.4
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "maternalMortalityRatio": 634,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "maternalMortalityRatio": 628,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "maternalMortalityRatio": 558,
+      "prenatalCareCoverage": 34.7,
+      "skilledBirthAttendance": 28.1,
+      "neonatalMortality": 39.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "maternalMortalityRatio": 553,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 38.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "maternalMortalityRatio": 549,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 37.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "maternalMortalityRatio": 525,
+      "prenatalCareCoverage": 74.2,
+      "skilledBirthAttendance": 58.6,
+      "neonatalMortality": 36.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "maternalMortalityRatio": 507,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 36.1
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "maternalMortalityRatio": 490,
+      "prenatalCareCoverage": 42.1,
+      "skilledBirthAttendance": 43.7,
+      "neonatalMortality": 35.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "maternalMortalityRatio": 472,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "maternalMortalityRatio": 453,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.7
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "maternalMortalityRatio": 434,
+      "prenatalCareCoverage": 79.5,
+      "skilledBirthAttendance": 67.3,
+      "neonatalMortality": 32.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "maternalMortalityRatio": 416,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "maternalMortalityRatio": 405,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "maternalMortalityRatio": 415,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "maternalMortalityRatio": 381,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "maternalMortalityRatio": 367,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.7
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "maternalMortalityRatio": 499,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.3
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "maternalMortalityRatio": 494,
+      "prenatalCareCoverage": 84.2,
+      "skilledBirthAttendance": 65.1,
+      "neonatalMortality": 27.8
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "maternalMortalityRatio": 496,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "maternalMortalityRatio": 496,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "maternalMortalityRatio": 484,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "maternalMortalityRatio": 469,
+      "prenatalCareCoverage": 86.9,
+      "skilledBirthAttendance": 69.3,
+      "neonatalMortality": 25.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "maternalMortalityRatio": 456,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "maternalMortalityRatio": 450,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.5
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "maternalMortalityRatio": 437,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "maternalMortalityRatio": 424,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "maternalMortalityRatio": 413,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 22.9
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "maternalMortalityRatio": 425,
+      "prenatalCareCoverage": 85,
+      "skilledBirthAttendance": 70.4,
+      "neonatalMortality": 22.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "maternalMortalityRatio": 385,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 21.8
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "maternalMortalityRatio": 381,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 21.3
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 20.8
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "maternalMortalityRatio": 621,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.4
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "maternalMortalityRatio": 585,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "maternalMortalityRatio": 554,
+      "prenatalCareCoverage": 82.8,
+      "skilledBirthAttendance": 29.3,
+      "neonatalMortality": 34.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "maternalMortalityRatio": 526,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "maternalMortalityRatio": 497,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.4
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "maternalMortalityRatio": 473,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": 39.7,
+      "neonatalMortality": 34.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "maternalMortalityRatio": 450,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": 39.1,
+      "neonatalMortality": 34.4
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "maternalMortalityRatio": 433,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.4
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "maternalMortalityRatio": 420,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "maternalMortalityRatio": 406,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "maternalMortalityRatio": 388,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "maternalMortalityRatio": 396,
+      "prenatalCareCoverage": 83.5,
+      "skilledBirthAttendance": 43.7,
+      "neonatalMortality": 33.9
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "maternalMortalityRatio": 361,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "maternalMortalityRatio": 350,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "maternalMortalityRatio": 1094,
+      "prenatalCareCoverage": 54.1,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 37.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "maternalMortalityRatio": 1108,
+      "prenatalCareCoverage": 66.2,
+      "skilledBirthAttendance": 47.3,
+      "neonatalMortality": 37.7
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "maternalMortalityRatio": 1124,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 37.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "maternalMortalityRatio": 1146,
+      "prenatalCareCoverage": 60.6,
+      "skilledBirthAttendance": 35.2,
+      "neonatalMortality": 37.7
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "maternalMortalityRatio": 1155,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 37.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "maternalMortalityRatio": 1168,
+      "prenatalCareCoverage": 62.6,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 38
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "maternalMortalityRatio": 1155,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 38.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "maternalMortalityRatio": 1142,
+      "prenatalCareCoverage": 65.8,
+      "skilledBirthAttendance": 43,
+      "neonatalMortality": 38.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "maternalMortalityRatio": 1118,
+      "prenatalCareCoverage": 67,
+      "skilledBirthAttendance": 43.3,
+      "neonatalMortality": 38.7
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "maternalMortalityRatio": 1091,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 39
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "maternalMortalityRatio": 1065,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 39.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "maternalMortalityRatio": 1046,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 39.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "maternalMortalityRatio": 1016,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": 50.7,
+      "neonatalMortality": 39.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "maternalMortalityRatio": 993,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 39.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 39
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "maternalMortalityRatio": 436,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "maternalMortalityRatio": 415,
+      "prenatalCareCoverage": 93.3,
+      "skilledBirthAttendance": 65.1,
+      "neonatalMortality": 26
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "maternalMortalityRatio": 405,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "maternalMortalityRatio": 385,
+      "prenatalCareCoverage": 94.5,
+      "skilledBirthAttendance": 50.5,
+      "neonatalMortality": 25.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "maternalMortalityRatio": 373,
+      "prenatalCareCoverage": 96.2,
+      "skilledBirthAttendance": 59.1,
+      "neonatalMortality": 25.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "maternalMortalityRatio": 357,
+      "prenatalCareCoverage": 95,
+      "skilledBirthAttendance": 53.2,
+      "neonatalMortality": 25.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "maternalMortalityRatio": 345,
+      "prenatalCareCoverage": 95.9,
+      "skilledBirthAttendance": 58.6,
+      "neonatalMortality": 25.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "maternalMortalityRatio": 325,
+      "prenatalCareCoverage": 97.1,
+      "skilledBirthAttendance": 68.4,
+      "neonatalMortality": 25.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "maternalMortalityRatio": 305,
+      "prenatalCareCoverage": 97.7,
+      "skilledBirthAttendance": 74.2,
+      "neonatalMortality": 25
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "maternalMortalityRatio": 286,
+      "prenatalCareCoverage": 97.6,
+      "skilledBirthAttendance": 74.5,
+      "neonatalMortality": 24.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "maternalMortalityRatio": 252,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "maternalMortalityRatio": 263,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "maternalMortalityRatio": 228,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 22.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "maternalMortalityRatio": 237,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 21.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 20.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "maternalMortalityRatio": 1018,
+      "prenatalCareCoverage": 93,
+      "skilledBirthAttendance": 60.8,
+      "neonatalMortality": 38.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "maternalMortalityRatio": 967,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 37.6
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "maternalMortalityRatio": 915,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 36.5
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "maternalMortalityRatio": 842,
+      "prenatalCareCoverage": 97.1,
+      "skilledBirthAttendance": 59.7,
+      "neonatalMortality": 35.6
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "maternalMortalityRatio": 821,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "maternalMortalityRatio": 730,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "maternalMortalityRatio": 633,
+      "prenatalCareCoverage": 94.2,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.1
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "maternalMortalityRatio": 578,
+      "prenatalCareCoverage": 97.4,
+      "skilledBirthAttendance": 81.6,
+      "neonatalMortality": 32.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "maternalMortalityRatio": 491,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "maternalMortalityRatio": 464,
+      "prenatalCareCoverage": 97.9,
+      "skilledBirthAttendance": 86.9,
+      "neonatalMortality": 31.1
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "maternalMortalityRatio": 422,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.5
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "maternalMortalityRatio": 403,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "maternalMortalityRatio": 370,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 29.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "maternalMortalityRatio": 354,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.3
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "maternalMortalityRatio": 1284,
+      "prenatalCareCoverage": 53.2,
+      "skilledBirthAttendance": 16.6,
+      "neonatalMortality": 37.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "maternalMortalityRatio": 1264,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 37.3
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "maternalMortalityRatio": 1245,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 36.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "maternalMortalityRatio": 1216,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 36.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "maternalMortalityRatio": 1198,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 35.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "maternalMortalityRatio": 1176,
+      "prenatalCareCoverage": 54.7,
+      "skilledBirthAttendance": 24.3,
+      "neonatalMortality": 35.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "maternalMortalityRatio": 1133,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 35
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "maternalMortalityRatio": 1085,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 34.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "maternalMortalityRatio": 1020,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 33.8
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "maternalMortalityRatio": 958,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": 47.2,
+      "neonatalMortality": 33.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "maternalMortalityRatio": 877,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "maternalMortalityRatio": 869,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 32.1
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "maternalMortalityRatio": 775,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 31.5
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "maternalMortalityRatio": 748,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 30.4
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "maternalMortalityRatio": 497,
+      "prenatalCareCoverage": 71.6,
+      "skilledBirthAttendance": 43.9,
+      "neonatalMortality": 29.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "maternalMortalityRatio": 501,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "maternalMortalityRatio": 506,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 28.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "maternalMortalityRatio": 500,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 27.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "maternalMortalityRatio": 490,
+      "prenatalCareCoverage": 72.7,
+      "skilledBirthAttendance": 44.6,
+      "neonatalMortality": 27.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "maternalMortalityRatio": 470,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "maternalMortalityRatio": 460,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 26.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "maternalMortalityRatio": 443,
+      "prenatalCareCoverage": 77.9,
+      "skilledBirthAttendance": 69.4,
+      "neonatalMortality": 25.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "maternalMortalityRatio": 435,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 25.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "maternalMortalityRatio": 416,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "maternalMortalityRatio": 398,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 24.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "maternalMortalityRatio": 397,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.9
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "maternalMortalityRatio": 362,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23.5
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "maternalMortalityRatio": 349,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 23
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "maternalMortalityRatio": null,
+      "prenatalCareCoverage": null,
+      "skilledBirthAttendance": null,
+      "neonatalMortality": 22.6
+    }
+  ],
+  "indicators": [
+    {
+      "key": "maternalMortalityRatio",
+      "code": "SH.STA.MMRT",
+      "label": "Ratio de mortalité maternelle",
+      "unit": "pour 100 000 naissances vivantes",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "prenatalCareCoverage",
+      "code": "SH.STA.ANVC.ZS",
+      "label": "Femmes enceintes ayant reçu des soins prénatals",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2021
+      ]
+    },
+    {
+      "key": "skilledBirthAttendance",
+      "code": "SH.STA.BRTC.ZS",
+      "label": "Accouchements assistés par personnel qualifié",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2022
+      ]
+    },
+    {
+      "key": "neonatalMortality",
+      "code": "SH.DYN.NMRT",
+      "label": "Mortalité néonatale",
+      "unit": "pour 1 000 naissances vivantes",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}
