@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "mobileSubscriptions": 72.2,
+      "internetUsers": 3.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.28
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "mobileSubscriptions": 76.9,
+      "internetUsers": 4.1,
+      "accountOwnership": 10.5,
+      "fixedBroadband": 0.37
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "mobileSubscriptions": 80.9,
+      "internetUsers": 4.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "mobileSubscriptions": 89.9,
+      "internetUsers": 4.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "mobileSubscriptions": 78.5,
+      "internetUsers": 6,
+      "accountOwnership": 16.6,
+      "fixedBroadband": 0.41
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "mobileSubscriptions": 82,
+      "internetUsers": 11.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.64
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "mobileSubscriptions": 76,
+      "internetUsers": 14.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.19
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "mobileSubscriptions": 72.9,
+      "internetUsers": 18.7,
+      "accountOwnership": 38.5,
+      "fixedBroadband": 0.24
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "mobileSubscriptions": 76.4,
+      "internetUsers": 19,
+      "accountOwnership": null,
+      "fixedBroadband": 0.22
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "mobileSubscriptions": 81.3,
+      "internetUsers": 20.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "mobileSubscriptions": 85.2,
+      "internetUsers": 22.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.23
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "mobileSubscriptions": 94.9,
+      "internetUsers": 28.2,
+      "accountOwnership": 48.6,
+      "fixedBroadband": 0.15
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "mobileSubscriptions": 105.7,
+      "internetUsers": 30.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.15
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "mobileSubscriptions": 116,
+      "internetUsers": 32.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.17
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "mobileSubscriptions": 125.9,
+      "internetUsers": 34,
+      "accountOwnership": 51.8,
+      "fixedBroadband": 0.28
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "mobileSubscriptions": 35.3,
+      "internetUsers": 2.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "mobileSubscriptions": 46.1,
+      "internetUsers": 3,
+      "accountOwnership": 13.4,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "mobileSubscriptions": 58.1,
+      "internetUsers": 3.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "mobileSubscriptions": 63.5,
+      "internetUsers": 5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.07
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "mobileSubscriptions": 68.5,
+      "internetUsers": 6,
+      "accountOwnership": 14.4,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "mobileSubscriptions": 76.9,
+      "internetUsers": 6.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "mobileSubscriptions": 79.7,
+      "internetUsers": 7.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.06
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "mobileSubscriptions": 90.2,
+      "internetUsers": 7.8,
+      "accountOwnership": 43.2,
+      "fixedBroadband": 0.06
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "mobileSubscriptions": 94.6,
+      "internetUsers": 8.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.07
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "mobileSubscriptions": 97.1,
+      "internetUsers": 9.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.06
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "mobileSubscriptions": 103,
+      "internetUsers": 13,
+      "accountOwnership": null,
+      "fixedBroadband": 0.07
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "mobileSubscriptions": 112.2,
+      "internetUsers": 18.2,
+      "accountOwnership": 36.1,
+      "fixedBroadband": 0.07
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "mobileSubscriptions": 114,
+      "internetUsers": 25.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.21
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "mobileSubscriptions": 116.2,
+      "internetUsers": 25.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.46
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "mobileSubscriptions": 116.6,
+      "internetUsers": 28.3,
+      "accountOwnership": 51.4,
+      "fixedBroadband": 0.85
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "mobileSubscriptions": 69.4,
+      "internetUsers": 2.7,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "mobileSubscriptions": 75.5,
+      "internetUsers": 2.9,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "mobileSubscriptions": 77.1,
+      "internetUsers": 4.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.2
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "mobileSubscriptions": 81,
+      "internetUsers": 6.6,
+      "accountOwnership": null,
+      "fixedBroadband": 0.24
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "mobileSubscriptions": 90.1,
+      "internetUsers": 10,
+      "accountOwnership": 34.3,
+      "fixedBroadband": 0.52
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "mobileSubscriptions": 100.6,
+      "internetUsers": 38.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.43
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "mobileSubscriptions": 105.6,
+      "internetUsers": 41.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.52
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "mobileSubscriptions": 118.8,
+      "internetUsers": 43.8,
+      "accountOwnership": 41.3,
+      "fixedBroadband": 0.53
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "mobileSubscriptions": 123.1,
+      "internetUsers": 37.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.64
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "mobileSubscriptions": 132.6,
+      "internetUsers": 36.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.77
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "mobileSubscriptions": 138.7,
+      "internetUsers": 36,
+      "accountOwnership": null,
+      "fixedBroadband": 0.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "mobileSubscriptions": 150.3,
+      "internetUsers": 36,
+      "accountOwnership": 50.8,
+      "fixedBroadband": 1.13
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "mobileSubscriptions": 161.2,
+      "internetUsers": 38.4,
+      "accountOwnership": null,
+      "fixedBroadband": 1.25
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "mobileSubscriptions": 172,
+      "internetUsers": 40.7,
+      "accountOwnership": null,
+      "fixedBroadband": 1.36
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "mobileSubscriptions": 183.9,
+      "internetUsers": 41.4,
+      "accountOwnership": 57.6,
+      "fixedBroadband": 1.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "mobileSubscriptions": 43.9,
+      "internetUsers": 4.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "mobileSubscriptions": 51.8,
+      "internetUsers": 5,
+      "accountOwnership": 14.8,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "mobileSubscriptions": 63,
+      "internetUsers": 7.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.07
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "mobileSubscriptions": 73.2,
+      "internetUsers": 10,
+      "accountOwnership": null,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "mobileSubscriptions": 77.2,
+      "internetUsers": 16.2,
+      "accountOwnership": 12.2,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "mobileSubscriptions": 79.8,
+      "internetUsers": 18.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.09
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "mobileSubscriptions": 79.8,
+      "internetUsers": 20.6,
+      "accountOwnership": null,
+      "fixedBroadband": 1.56
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "mobileSubscriptions": 83.5,
+      "internetUsers": 23.2,
+      "accountOwnership": 34.6,
+      "fixedBroadband": 1.58
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "mobileSubscriptions": 74.4,
+      "internetUsers": 29.7,
+      "accountOwnership": null,
+      "fixedBroadband": 1.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "mobileSubscriptions": 83.9,
+      "internetUsers": 36.5,
+      "accountOwnership": null,
+      "fixedBroadband": 1.57
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "mobileSubscriptions": 85.3,
+      "internetUsers": 37.7,
+      "accountOwnership": null,
+      "fixedBroadband": 2.76
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "mobileSubscriptions": 80.8,
+      "internetUsers": 38.9,
+      "accountOwnership": 51.7,
+      "fixedBroadband": 2.23
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "mobileSubscriptions": 89.8,
+      "internetUsers": 40.1,
+      "accountOwnership": null,
+      "fixedBroadband": 2.13
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "mobileSubscriptions": 96.5,
+      "internetUsers": 42.2,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "mobileSubscriptions": 108.2,
+      "internetUsers": 46.3,
+      "accountOwnership": 60.9,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "mobileSubscriptions": 17.2,
+      "internetUsers": 0.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "mobileSubscriptions": 22.1,
+      "internetUsers": 1.2,
+      "accountOwnership": 3.7,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "mobileSubscriptions": 27.4,
+      "internetUsers": 1.7,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "mobileSubscriptions": 37.3,
+      "internetUsers": 2.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "mobileSubscriptions": 47.3,
+      "internetUsers": 3,
+      "accountOwnership": 17.5,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "mobileSubscriptions": 46.6,
+      "internetUsers": 3.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "mobileSubscriptions": 34.4,
+      "internetUsers": 10.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "mobileSubscriptions": 40.6,
+      "internetUsers": null,
+      "accountOwnership": 25.8,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "mobileSubscriptions": 40.5,
+      "internetUsers": 11.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "mobileSubscriptions": 39.9,
+      "internetUsers": 13,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "mobileSubscriptions": 42.5,
+      "internetUsers": 14.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "mobileSubscriptions": 47.3,
+      "internetUsers": 16.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "mobileSubscriptions": 48.7,
+      "internetUsers": 18,
+      "accountOwnership": 27.4,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "mobileSubscriptions": 53.2,
+      "internetUsers": 19,
+      "accountOwnership": null,
+      "fixedBroadband": 0.02
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "mobileSubscriptions": 58.5,
+      "internetUsers": 19.7,
+      "accountOwnership": 39.2,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "mobileSubscriptions": 68.4,
+      "internetUsers": 7.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "mobileSubscriptions": 81.1,
+      "internetUsers": 9,
+      "accountOwnership": 29.4,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "mobileSubscriptions": 95.8,
+      "internetUsers": 10.6,
+      "accountOwnership": null,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "mobileSubscriptions": 102.3,
+      "internetUsers": 15,
+      "accountOwnership": null,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "mobileSubscriptions": 108.3,
+      "internetUsers": 19,
+      "accountOwnership": 40.5,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "mobileSubscriptions": 122,
+      "internetUsers": 23,
+      "accountOwnership": null,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "mobileSubscriptions": 130.5,
+      "internetUsers": 28,
+      "accountOwnership": null,
+      "fixedBroadband": 0.29
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "mobileSubscriptions": 122.5,
+      "internetUsers": 37.9,
+      "accountOwnership": 57.7,
+      "fixedBroadband": 0.19
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "mobileSubscriptions": 133.6,
+      "internetUsers": 43,
+      "accountOwnership": null,
+      "fixedBroadband": 0.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "mobileSubscriptions": 130.7,
+      "internetUsers": 22.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.19
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "mobileSubscriptions": 126.9,
+      "internetUsers": 62.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "mobileSubscriptions": 124.4,
+      "internetUsers": 68.6,
+      "accountOwnership": 68.2,
+      "fixedBroadband": 0.35
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "mobileSubscriptions": 120.8,
+      "internetUsers": 69.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.62
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "mobileSubscriptions": 98.8,
+      "internetUsers": 70.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.56
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "mobileSubscriptions": 113.6,
+      "internetUsers": 72.2,
+      "accountOwnership": 81.2,
+      "fixedBroadband": 0.66
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "mobileSubscriptions": 38.5,
+      "internetUsers": 1,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "mobileSubscriptions": 45.6,
+      "internetUsers": 2,
+      "accountOwnership": 3.7,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "mobileSubscriptions": 51.1,
+      "internetUsers": 3.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "mobileSubscriptions": 66.4,
+      "internetUsers": 4.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "mobileSubscriptions": 75.7,
+      "internetUsers": 6.4,
+      "accountOwnership": 7,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "mobileSubscriptions": 91.5,
+      "internetUsers": 9.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "mobileSubscriptions": 92,
+      "internetUsers": 13.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "mobileSubscriptions": 94.5,
+      "internetUsers": 18.7,
+      "accountOwnership": 23.5,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "mobileSubscriptions": 94.6,
+      "internetUsers": 21.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "mobileSubscriptions": 98.8,
+      "internetUsers": 23.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "mobileSubscriptions": 107.8,
+      "internetUsers": 26.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "mobileSubscriptions": 110.2,
+      "internetUsers": 28.6,
+      "accountOwnership": 30.4,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "mobileSubscriptions": 95.3,
+      "internetUsers": 31.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "mobileSubscriptions": 97.9,
+      "internetUsers": 32.3,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "mobileSubscriptions": null,
+      "internetUsers": 33.3,
+      "accountOwnership": 36,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "mobileSubscriptions": 38.7,
+      "internetUsers": 2.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "mobileSubscriptions": 47.9,
+      "internetUsers": 2.5,
+      "accountOwnership": 18.8,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "mobileSubscriptions": 54.4,
+      "internetUsers": 2.6,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "mobileSubscriptions": 57.1,
+      "internetUsers": 3.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.11
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "mobileSubscriptions": 70.7,
+      "internetUsers": 5.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.13
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "mobileSubscriptions": 78.4,
+      "internetUsers": 10,
+      "accountOwnership": null,
+      "fixedBroadband": 0.15
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "mobileSubscriptions": 65.5,
+      "internetUsers": 15.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.17
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "mobileSubscriptions": 54.9,
+      "internetUsers": 16.3,
+      "accountOwnership": 35.7,
+      "fixedBroadband": 0.19
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "mobileSubscriptions": null,
+      "internetUsers": 17.3,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "mobileSubscriptions": 38.4,
+      "internetUsers": 19.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.22
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "mobileSubscriptions": 32.1,
+      "internetUsers": 22.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "mobileSubscriptions": 31.4,
+      "internetUsers": 26.4,
+      "accountOwnership": 51.6,
+      "fixedBroadband": 0.25
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "mobileSubscriptions": 32.1,
+      "internetUsers": 30.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.27
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "mobileSubscriptions": null,
+      "internetUsers": 31.2,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "mobileSubscriptions": null,
+      "internetUsers": 32.2,
+      "accountOwnership": 52.2,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "mobileSubscriptions": 46.7,
+      "internetUsers": 2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "mobileSubscriptions": 65.7,
+      "internetUsers": 2.2,
+      "accountOwnership": 8.2,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "mobileSubscriptions": 86.2,
+      "internetUsers": 2.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "mobileSubscriptions": 113.1,
+      "internetUsers": 3.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.02
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "mobileSubscriptions": 130.4,
+      "internetUsers": 7,
+      "accountOwnership": 20.1,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "mobileSubscriptions": 122.1,
+      "internetUsers": 10.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.02
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "mobileSubscriptions": 105.3,
+      "internetUsers": 14,
+      "accountOwnership": null,
+      "fixedBroadband": 0.11
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "mobileSubscriptions": 111.2,
+      "internetUsers": 18.9,
+      "accountOwnership": 35.4,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "mobileSubscriptions": 107.4,
+      "internetUsers": 21.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.59
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "mobileSubscriptions": 108.8,
+      "internetUsers": 25,
+      "accountOwnership": null,
+      "fixedBroadband": 0.68
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "mobileSubscriptions": 116.6,
+      "internetUsers": 29.1,
+      "accountOwnership": null,
+      "fixedBroadband": 1.12
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "mobileSubscriptions": 108.7,
+      "internetUsers": 34,
+      "accountOwnership": 43.5,
+      "fixedBroadband": 0.65
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "mobileSubscriptions": 112.1,
+      "internetUsers": 35.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.77
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "mobileSubscriptions": null,
+      "internetUsers": 36,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "mobileSubscriptions": null,
+      "internetUsers": 36.8,
+      "accountOwnership": 54.7,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "mobileSubscriptions": 81.9,
+      "internetUsers": 4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.17
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "mobileSubscriptions": 94.6,
+      "internetUsers": 4.5,
+      "accountOwnership": 17.5,
+      "fixedBroadband": 0.17
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "mobileSubscriptions": 111.2,
+      "internetUsers": 5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.19
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "mobileSubscriptions": 106.8,
+      "internetUsers": 6.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "mobileSubscriptions": 97.5,
+      "internetUsers": 11.8,
+      "accountOwnership": 22.9,
+      "fixedBroadband": 0.21
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "mobileSubscriptions": 91.9,
+      "internetUsers": 17.6,
+      "accountOwnership": null,
+      "fixedBroadband": 0.24
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "mobileSubscriptions": 88.4,
+      "internetUsers": 19.2,
+      "accountOwnership": null,
+      "fixedBroadband": 0.27
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "mobileSubscriptions": 96.8,
+      "internetUsers": 21,
+      "accountOwnership": 20.9,
+      "fixedBroadband": 0.3
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "mobileSubscriptions": 105.3,
+      "internetUsers": 23,
+      "accountOwnership": null,
+      "fixedBroadband": 0.3
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "mobileSubscriptions": 105.4,
+      "internetUsers": 25.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.24
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "mobileSubscriptions": 126.3,
+      "internetUsers": 29.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "mobileSubscriptions": 137.5,
+      "internetUsers": 35.6,
+      "accountOwnership": null,
+      "fixedBroadband": 0.41
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "mobileSubscriptions": 109.9,
+      "internetUsers": 42.5,
+      "accountOwnership": 23.5,
+      "fixedBroadband": 0.42
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "mobileSubscriptions": 90.8,
+      "internetUsers": 45,
+      "accountOwnership": null,
+      "fixedBroadband": 0.59
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "mobileSubscriptions": 92.1,
+      "internetUsers": 45.8,
+      "accountOwnership": 27.3,
+      "fixedBroadband": 0.95
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "mobileSubscriptions": 22.2,
+      "internetUsers": 0.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "mobileSubscriptions": 27.6,
+      "internetUsers": 0.9,
+      "accountOwnership": 1.5,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "mobileSubscriptions": 30.2,
+      "internetUsers": 1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.02
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "mobileSubscriptions": 37.8,
+      "internetUsers": 1.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "mobileSubscriptions": 42.9,
+      "internetUsers": 1.2,
+      "accountOwnership": 6.7,
+      "fixedBroadband": 0.16
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "mobileSubscriptions": 44.9,
+      "internetUsers": 2.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.14
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "mobileSubscriptions": 36.1,
+      "internetUsers": 4.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.04
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "mobileSubscriptions": 41,
+      "internetUsers": 10.2,
+      "accountOwnership": 15.5,
+      "fixedBroadband": 0.04
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "mobileSubscriptions": null,
+      "internetUsers": 10.7,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "mobileSubscriptions": 52.8,
+      "internetUsers": 11.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "mobileSubscriptions": 60,
+      "internetUsers": 11.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "mobileSubscriptions": 61.5,
+      "internetUsers": 12.5,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "mobileSubscriptions": 63.4,
+      "internetUsers": 13.1,
+      "accountOwnership": 11.7,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "mobileSubscriptions": 65.7,
+      "internetUsers": 13,
+      "accountOwnership": null,
+      "fixedBroadband": 0.11
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "mobileSubscriptions": 60.6,
+      "internetUsers": 15.6,
+      "accountOwnership": 14.8,
+      "fixedBroadband": 0.11
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "mobileSubscriptions": 52.4,
+      "internetUsers": 11.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.06
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "mobileSubscriptions": 55.5,
+      "internetUsers": 13.8,
+      "accountOwnership": 29.7,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "mobileSubscriptions": 64,
+      "internetUsers": 16.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "mobileSubscriptions": 70.3,
+      "internetUsers": 19.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "mobileSubscriptions": 74.8,
+      "internetUsers": 21,
+      "accountOwnership": 44.4,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "mobileSubscriptions": 79.1,
+      "internetUsers": 22.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.01
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "mobileSubscriptions": 79,
+      "internetUsers": 24.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.06
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "mobileSubscriptions": 72.4,
+      "internetUsers": 25.9,
+      "accountOwnership": 39.7,
+      "fixedBroadband": 0.06
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "mobileSubscriptions": 84.3,
+      "internetUsers": 27.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.04
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "mobileSubscriptions": 88.1,
+      "internetUsers": 29.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.04
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "mobileSubscriptions": 95.4,
+      "internetUsers": 31.9,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "mobileSubscriptions": 89.3,
+      "internetUsers": 35.5,
+      "accountOwnership": 45.3,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "mobileSubscriptions": 99.6,
+      "internetUsers": 39.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.04
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "mobileSubscriptions": 98.5,
+      "internetUsers": 40.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.05
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "mobileSubscriptions": 70.8,
+      "internetUsers": 41.2,
+      "accountOwnership": 63.3,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "mobileSubscriptions": 66,
+      "internetUsers": 8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.62
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "mobileSubscriptions": 72.2,
+      "internetUsers": 9.8,
+      "accountOwnership": 5.8,
+      "fixedBroadband": 0.72
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "mobileSubscriptions": 86.2,
+      "internetUsers": 10.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.72
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "mobileSubscriptions": 95.8,
+      "internetUsers": 13.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.78
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "mobileSubscriptions": 101.6,
+      "internetUsers": 17.7,
+      "accountOwnership": 15.4,
+      "fixedBroadband": 0.73
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "mobileSubscriptions": 102.5,
+      "internetUsers": 21.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.69
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "mobileSubscriptions": 101,
+      "internetUsers": 25.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.65
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "mobileSubscriptions": 101.8,
+      "internetUsers": 29.6,
+      "accountOwnership": 42.3,
+      "fixedBroadband": 0.72
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "mobileSubscriptions": 104.1,
+      "internetUsers": 35.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.82
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "mobileSubscriptions": 109.3,
+      "internetUsers": 43.4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.93
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "mobileSubscriptions": 113.6,
+      "internetUsers": 53.3,
+      "accountOwnership": null,
+      "fixedBroadband": 1.06
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "mobileSubscriptions": 115.3,
+      "internetUsers": 55,
+      "accountOwnership": 56,
+      "fixedBroadband": 1.21
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "mobileSubscriptions": 118.2,
+      "internetUsers": 56.8,
+      "accountOwnership": null,
+      "fixedBroadband": 1.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "mobileSubscriptions": 123.9,
+      "internetUsers": 59.2,
+      "accountOwnership": null,
+      "fixedBroadband": 1.97
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "mobileSubscriptions": 123.9,
+      "internetUsers": 60.1,
+      "accountOwnership": 76.5,
+      "fixedBroadband": 4.04
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "mobileSubscriptions": 32.1,
+      "internetUsers": 0.6,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "mobileSubscriptions": 33.5,
+      "internetUsers": 0.9,
+      "accountOwnership": 15.3,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "mobileSubscriptions": 33.7,
+      "internetUsers": 2.5,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "mobileSubscriptions": 59.6,
+      "internetUsers": 4,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "mobileSubscriptions": 69.2,
+      "internetUsers": 6.1,
+      "accountOwnership": 15.6,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "mobileSubscriptions": 80.4,
+      "internetUsers": 6.3,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "mobileSubscriptions": 87.1,
+      "internetUsers": 7.7,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "mobileSubscriptions": 89.8,
+      "internetUsers": 9.3,
+      "accountOwnership": 19.8,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "mobileSubscriptions": 84.1,
+      "internetUsers": 14.4,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "mobileSubscriptions": 87,
+      "internetUsers": 15.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "mobileSubscriptions": 87,
+      "internetUsers": 17.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "mobileSubscriptions": 101.6,
+      "internetUsers": 18.7,
+      "accountOwnership": 28.8,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "mobileSubscriptions": 107.9,
+      "internetUsers": 21.5,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "mobileSubscriptions": null,
+      "internetUsers": 23.7,
+      "accountOwnership": null,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "mobileSubscriptions": null,
+      "internetUsers": 25.1,
+      "accountOwnership": 38.6,
+      "fixedBroadband": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "mobileSubscriptions": 23.4,
+      "internetUsers": 1.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "mobileSubscriptions": 28.7,
+      "internetUsers": 1.9,
+      "accountOwnership": 9,
+      "fixedBroadband": 0.12
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "mobileSubscriptions": 33.3,
+      "internetUsers": 2.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.15
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "mobileSubscriptions": 33.3,
+      "internetUsers": 2.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.11
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "mobileSubscriptions": 37,
+      "internetUsers": 2.9,
+      "accountOwnership": 12.4,
+      "fixedBroadband": 0.07
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "mobileSubscriptions": 37.3,
+      "internetUsers": 3.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.08
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "mobileSubscriptions": 37,
+      "internetUsers": 5.8,
+      "accountOwnership": null,
+      "fixedBroadband": 0.03
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "mobileSubscriptions": 40.8,
+      "internetUsers": 6.4,
+      "accountOwnership": 21.8,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "mobileSubscriptions": 43.2,
+      "internetUsers": 7,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "mobileSubscriptions": 45.9,
+      "internetUsers": 7.6,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "mobileSubscriptions": 50.4,
+      "internetUsers": 8.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "mobileSubscriptions": 58,
+      "internetUsers": 9.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "mobileSubscriptions": 65.4,
+      "internetUsers": 11.2,
+      "accountOwnership": 23.7,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "mobileSubscriptions": 70.2,
+      "internetUsers": 12,
+      "accountOwnership": null,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "mobileSubscriptions": 72.9,
+      "internetUsers": 12.6,
+      "accountOwnership": 20.9,
+      "fixedBroadband": 0
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "mobileSubscriptions": 38.7,
+      "internetUsers": 3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.4
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "mobileSubscriptions": 39,
+      "internetUsers": 3.5,
+      "accountOwnership": 10.2,
+      "fixedBroadband": 0.49
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "mobileSubscriptions": 46.6,
+      "internetUsers": 4,
+      "accountOwnership": null,
+      "fixedBroadband": 0.58
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "mobileSubscriptions": 58.5,
+      "internetUsers": 4.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.09
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "mobileSubscriptions": 60.4,
+      "internetUsers": 5.7,
+      "accountOwnership": 18.3,
+      "fixedBroadband": 0.17
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "mobileSubscriptions": 63.4,
+      "internetUsers": 7.1,
+      "accountOwnership": null,
+      "fixedBroadband": 0.86
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "mobileSubscriptions": 70.1,
+      "internetUsers": 11.3,
+      "accountOwnership": null,
+      "fixedBroadband": 0.62
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "mobileSubscriptions": 75.3,
+      "internetUsers": 12.4,
+      "accountOwnership": 45.3,
+      "fixedBroadband": 0.63
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "mobileSubscriptions": 74.4,
+      "internetUsers": 15.5,
+      "accountOwnership": null,
+      "fixedBroadband": 0.32
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "mobileSubscriptions": 73.7,
+      "internetUsers": 20.7,
+      "accountOwnership": null,
+      "fixedBroadband": 0.38
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "mobileSubscriptions": 75.2,
+      "internetUsers": 29,
+      "accountOwnership": null,
+      "fixedBroadband": 0.61
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "mobileSubscriptions": 70.4,
+      "internetUsers": 30.3,
+      "accountOwnership": 49.6,
+      "fixedBroadband": 0.75
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "mobileSubscriptions": 72.2,
+      "internetUsers": 35.6,
+      "accountOwnership": null,
+      "fixedBroadband": 1.04
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "mobileSubscriptions": 75.8,
+      "internetUsers": 37.6,
+      "accountOwnership": null,
+      "fixedBroadband": 1.23
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "mobileSubscriptions": 80.8,
+      "internetUsers": 39.5,
+      "accountOwnership": 57.4,
+      "fixedBroadband": 1.42
+    }
+  ],
+  "indicators": [
+    {
+      "key": "mobileSubscriptions",
+      "code": "IT.CEL.SETS.P2",
+      "label": "Abonnements à la téléphonie mobile",
+      "unit": "pour 100 habitants",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "internetUsers",
+      "code": "IT.NET.USER.ZS",
+      "label": "Utilisateurs d'Internet",
+      "unit": "% de la population",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "accountOwnership",
+      "code": "FX.OWN.TOTL.ZS",
+      "label": "Détention d'un compte (banque/mobile money)",
+      "unit": "% des 15 ans et plus",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2011,
+        2024
+      ]
+    },
+    {
+      "key": "fixedBroadband",
+      "code": "IT.NET.BBND.P2",
+      "label": "Abonnements au haut débit fixe",
+      "unit": "pour 100 habitants",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

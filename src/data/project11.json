@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "youthUnemployment": 2.1,
+      "totalUnemployment": 1,
+      "vulnerableEmployment": 83.9,
+      "laborForceParticipation": 71.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "youthUnemployment": 5.4,
+      "totalUnemployment": 2.6,
+      "vulnerableEmployment": 83.8,
+      "laborForceParticipation": 71.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 2.5,
+      "vulnerableEmployment": 83.6,
+      "laborForceParticipation": 72.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "youthUnemployment": 4,
+      "totalUnemployment": 2.2,
+      "vulnerableEmployment": 83.4,
+      "laborForceParticipation": 72.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "youthUnemployment": 3.6,
+      "totalUnemployment": 2,
+      "vulnerableEmployment": 83.2,
+      "laborForceParticipation": 73.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "youthUnemployment": 3.4,
+      "totalUnemployment": 1.9,
+      "vulnerableEmployment": 83.1,
+      "laborForceParticipation": 73.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "youthUnemployment": 3.2,
+      "totalUnemployment": 1.8,
+      "vulnerableEmployment": 82.8,
+      "laborForceParticipation": 73.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "youthUnemployment": 3,
+      "totalUnemployment": 1.7,
+      "vulnerableEmployment": 82.6,
+      "laborForceParticipation": 74.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "youthUnemployment": 2.6,
+      "totalUnemployment": 1.4,
+      "vulnerableEmployment": 82.3,
+      "laborForceParticipation": 74.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 1.2,
+      "vulnerableEmployment": 81.9,
+      "laborForceParticipation": 75.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "youthUnemployment": 3,
+      "totalUnemployment": 1.5,
+      "vulnerableEmployment": 82.2,
+      "laborForceParticipation": 74.8
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "youthUnemployment": 3.2,
+      "totalUnemployment": 1.8,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 76.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "youthUnemployment": 3.1,
+      "totalUnemployment": 1.7,
+      "vulnerableEmployment": 79.5,
+      "laborForceParticipation": 76.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "youthUnemployment": 3.1,
+      "totalUnemployment": 1.6,
+      "vulnerableEmployment": 79.2,
+      "laborForceParticipation": 76.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "youthUnemployment": 3.1,
+      "totalUnemployment": 1.6,
+      "vulnerableEmployment": 78.9,
+      "laborForceParticipation": 76.3
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "youthUnemployment": 5.9,
+      "totalUnemployment": 3.7,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 79.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "youthUnemployment": 6.1,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 79.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "youthUnemployment": 6.2,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 79.3
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "youthUnemployment": 6.5,
+      "totalUnemployment": 4.1,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 79.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "youthUnemployment": 6.8,
+      "totalUnemployment": 4.3,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 78.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "youthUnemployment": 7.2,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 78.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "youthUnemployment": 7.4,
+      "totalUnemployment": 4.6,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 78.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "youthUnemployment": 7.5,
+      "totalUnemployment": 4.7,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 78.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "youthUnemployment": 7.6,
+      "totalUnemployment": 4.7,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 77.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "youthUnemployment": 7.4,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 77.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "youthUnemployment": 8,
+      "totalUnemployment": 4.6,
+      "vulnerableEmployment": 82.1,
+      "laborForceParticipation": 75.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "youthUnemployment": 7.6,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 81.3,
+      "laborForceParticipation": 74
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "youthUnemployment": 6.7,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 72.3
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "youthUnemployment": 6.6,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 71.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "youthUnemployment": 6.5,
+      "totalUnemployment": 3.4,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 70.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "youthUnemployment": 9.1,
+      "totalUnemployment": 6.6,
+      "vulnerableEmployment": 78.7,
+      "laborForceParticipation": 67
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "youthUnemployment": 9.7,
+      "totalUnemployment": 7.1,
+      "vulnerableEmployment": 78.3,
+      "laborForceParticipation": 67.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "youthUnemployment": 9.9,
+      "totalUnemployment": 7.2,
+      "vulnerableEmployment": 77.9,
+      "laborForceParticipation": 67.3
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 4.3,
+      "vulnerableEmployment": 75.8,
+      "laborForceParticipation": 67.2
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 3.3,
+      "vulnerableEmployment": 74.6,
+      "laborForceParticipation": 67.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "youthUnemployment": 3.4,
+      "totalUnemployment": 2.6,
+      "vulnerableEmployment": 73.3,
+      "laborForceParticipation": 66.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "youthUnemployment": 2,
+      "totalUnemployment": 1.9,
+      "vulnerableEmployment": 72.1,
+      "laborForceParticipation": 66.8
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "youthUnemployment": 5.3,
+      "totalUnemployment": 3.3,
+      "vulnerableEmployment": 72.7,
+      "laborForceParticipation": 66.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 71.7,
+      "laborForceParticipation": 65.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "youthUnemployment": 4,
+      "totalUnemployment": 2.4,
+      "vulnerableEmployment": 70.6,
+      "laborForceParticipation": 64.7
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 2.6,
+      "vulnerableEmployment": 71.4,
+      "laborForceParticipation": 64.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "youthUnemployment": 4.8,
+      "totalUnemployment": 2.6,
+      "vulnerableEmployment": 70.9,
+      "laborForceParticipation": 66.2
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "youthUnemployment": 4.3,
+      "totalUnemployment": 2.3,
+      "vulnerableEmployment": 70.4,
+      "laborForceParticipation": 67.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "youthUnemployment": 4.2,
+      "totalUnemployment": 2.3,
+      "vulnerableEmployment": 70.1,
+      "laborForceParticipation": 67.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "youthUnemployment": 4.2,
+      "totalUnemployment": 2.3,
+      "vulnerableEmployment": 69.8,
+      "laborForceParticipation": 67.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 4.1,
+      "vulnerableEmployment": 77.3,
+      "laborForceParticipation": 76.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 4,
+      "vulnerableEmployment": 76.7,
+      "laborForceParticipation": 75.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 76,
+      "laborForceParticipation": 74.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "youthUnemployment": 6.2,
+      "totalUnemployment": 3.7,
+      "vulnerableEmployment": 75.3,
+      "laborForceParticipation": 73.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "youthUnemployment": 6.2,
+      "totalUnemployment": 3.5,
+      "vulnerableEmployment": 74.6,
+      "laborForceParticipation": 72.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "youthUnemployment": 6.2,
+      "totalUnemployment": 3.5,
+      "vulnerableEmployment": 73.6,
+      "laborForceParticipation": 71.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 3.5,
+      "vulnerableEmployment": 72.6,
+      "laborForceParticipation": 70.2
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "youthUnemployment": 6.4,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 71.7,
+      "laborForceParticipation": 69.3
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "youthUnemployment": 6.5,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 70.7,
+      "laborForceParticipation": 68.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "youthUnemployment": 6.6,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 69.7,
+      "laborForceParticipation": 67.5
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "youthUnemployment": 7.4,
+      "totalUnemployment": 3.9,
+      "vulnerableEmployment": 69.7,
+      "laborForceParticipation": 65.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "youthUnemployment": 7.2,
+      "totalUnemployment": 4,
+      "vulnerableEmployment": 68.5,
+      "laborForceParticipation": 65.3
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "youthUnemployment": 6.7,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 68.2,
+      "laborForceParticipation": 65.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "youthUnemployment": 6.6,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 68,
+      "laborForceParticipation": 65.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "youthUnemployment": 6.6,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 67.8,
+      "laborForceParticipation": 65.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "youthUnemployment": 7.5,
+      "totalUnemployment": 4.1,
+      "vulnerableEmployment": 80.9,
+      "laborForceParticipation": 68
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "youthUnemployment": 8,
+      "totalUnemployment": 4.3,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 67
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "youthUnemployment": 8.5,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 80.6,
+      "laborForceParticipation": 66
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "youthUnemployment": 8.4,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 65.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "youthUnemployment": 8.3,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 80.9,
+      "laborForceParticipation": 65.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "youthUnemployment": 8.2,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 81,
+      "laborForceParticipation": 65.3
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "youthUnemployment": 8.3,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 81.2,
+      "laborForceParticipation": 65
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "youthUnemployment": 8.3,
+      "totalUnemployment": 4.6,
+      "vulnerableEmployment": 81.4,
+      "laborForceParticipation": 64.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "youthUnemployment": 8.3,
+      "totalUnemployment": 4.6,
+      "vulnerableEmployment": 81.7,
+      "laborForceParticipation": 64.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "youthUnemployment": 8.2,
+      "totalUnemployment": 4.6,
+      "vulnerableEmployment": 82,
+      "laborForceParticipation": 64.3
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "youthUnemployment": 9.6,
+      "totalUnemployment": 5.4,
+      "vulnerableEmployment": 83.1,
+      "laborForceParticipation": 63.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "youthUnemployment": 9.2,
+      "totalUnemployment": 5.3,
+      "vulnerableEmployment": 82.6,
+      "laborForceParticipation": 63.6
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "youthUnemployment": 8.1,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 82.3,
+      "laborForceParticipation": 64.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "youthUnemployment": 8,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 82.1,
+      "laborForceParticipation": 64.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "youthUnemployment": 8,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 81.8,
+      "laborForceParticipation": 64.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "youthUnemployment": 11.1,
+      "totalUnemployment": 5.4,
+      "vulnerableEmployment": 73.6,
+      "laborForceParticipation": 71.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "youthUnemployment": 8.8,
+      "totalUnemployment": 4.2,
+      "vulnerableEmployment": 72.8,
+      "laborForceParticipation": 71.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "youthUnemployment": 6.7,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 72.2,
+      "laborForceParticipation": 71.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 2.2,
+      "vulnerableEmployment": 71.7,
+      "laborForceParticipation": 71.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "youthUnemployment": 9.3,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 71.2,
+      "laborForceParticipation": 70.5
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "youthUnemployment": 14.2,
+      "totalUnemployment": 6.8,
+      "vulnerableEmployment": 70.8,
+      "laborForceParticipation": 69.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "youthUnemployment": 10.6,
+      "totalUnemployment": 5.3,
+      "vulnerableEmployment": 69.1,
+      "laborForceParticipation": 68.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "youthUnemployment": 6.4,
+      "totalUnemployment": 3.4,
+      "vulnerableEmployment": 67.2,
+      "laborForceParticipation": 66.9
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "youthUnemployment": 6.1,
+      "totalUnemployment": 3.2,
+      "vulnerableEmployment": 65.4,
+      "laborForceParticipation": 65.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "youthUnemployment": 5.9,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 63.6,
+      "laborForceParticipation": 63.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 3.2,
+      "vulnerableEmployment": 63.1,
+      "laborForceParticipation": 61.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "youthUnemployment": 6,
+      "totalUnemployment": 3.2,
+      "vulnerableEmployment": 61.3,
+      "laborForceParticipation": 60.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "youthUnemployment": 5.4,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 60.9,
+      "laborForceParticipation": 59.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "youthUnemployment": 5.4,
+      "totalUnemployment": 2.8,
+      "vulnerableEmployment": 60.7,
+      "laborForceParticipation": 59.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "youthUnemployment": 5.3,
+      "totalUnemployment": 2.8,
+      "vulnerableEmployment": 60.3,
+      "laborForceParticipation": 59.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "youthUnemployment": 6,
+      "totalUnemployment": 5,
+      "vulnerableEmployment": 86,
+      "laborForceParticipation": 59.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "youthUnemployment": 6,
+      "totalUnemployment": 5,
+      "vulnerableEmployment": 85.4,
+      "laborForceParticipation": 58.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "youthUnemployment": 5.8,
+      "totalUnemployment": 4.9,
+      "vulnerableEmployment": 84.7,
+      "laborForceParticipation": 57.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "youthUnemployment": 5.9,
+      "totalUnemployment": 4.9,
+      "vulnerableEmployment": 84.1,
+      "laborForceParticipation": 57.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "youthUnemployment": 6,
+      "totalUnemployment": 5,
+      "vulnerableEmployment": 83.5,
+      "laborForceParticipation": 56.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "youthUnemployment": 6.3,
+      "totalUnemployment": 5.2,
+      "vulnerableEmployment": 82.9,
+      "laborForceParticipation": 55.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "youthUnemployment": 6.4,
+      "totalUnemployment": 5,
+      "vulnerableEmployment": 82.1,
+      "laborForceParticipation": 55
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "youthUnemployment": 6.4,
+      "totalUnemployment": 4.9,
+      "vulnerableEmployment": 81.3,
+      "laborForceParticipation": 54.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "youthUnemployment": 6.6,
+      "totalUnemployment": 4.8,
+      "vulnerableEmployment": 80.5,
+      "laborForceParticipation": 53.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "youthUnemployment": 7,
+      "totalUnemployment": 5,
+      "vulnerableEmployment": 79.8,
+      "laborForceParticipation": 52.9
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "youthUnemployment": 8.4,
+      "totalUnemployment": 6,
+      "vulnerableEmployment": 80.7,
+      "laborForceParticipation": 52.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "youthUnemployment": 8,
+      "totalUnemployment": 5.8,
+      "vulnerableEmployment": 80.3,
+      "laborForceParticipation": 52.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "youthUnemployment": 7.1,
+      "totalUnemployment": 5.2,
+      "vulnerableEmployment": 80.1,
+      "laborForceParticipation": 52.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "youthUnemployment": 7.1,
+      "totalUnemployment": 5.1,
+      "vulnerableEmployment": 79.7,
+      "laborForceParticipation": 52.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "youthUnemployment": 7.1,
+      "totalUnemployment": 5.1,
+      "vulnerableEmployment": 79.5,
+      "laborForceParticipation": 52.8
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "youthUnemployment": 3.2,
+      "totalUnemployment": 2.3,
+      "vulnerableEmployment": 78.5,
+      "laborForceParticipation": 77.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "youthUnemployment": 2.8,
+      "totalUnemployment": 2.2,
+      "vulnerableEmployment": 78.3,
+      "laborForceParticipation": 77
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "youthUnemployment": 2.4,
+      "totalUnemployment": 2.1,
+      "vulnerableEmployment": 78,
+      "laborForceParticipation": 77
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "youthUnemployment": 2,
+      "totalUnemployment": 2.1,
+      "vulnerableEmployment": 77.8,
+      "laborForceParticipation": 77
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "youthUnemployment": 1.6,
+      "totalUnemployment": 2.1,
+      "vulnerableEmployment": 77.5,
+      "laborForceParticipation": 77
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "youthUnemployment": 1.9,
+      "totalUnemployment": 2.6,
+      "vulnerableEmployment": 77.5,
+      "laborForceParticipation": 77
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 77.3,
+      "laborForceParticipation": 76.9
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 77.2,
+      "laborForceParticipation": 76.9
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 77.1,
+      "laborForceParticipation": 76.9
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 77,
+      "laborForceParticipation": 76.8
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "youthUnemployment": 2.9,
+      "totalUnemployment": 4.1,
+      "vulnerableEmployment": 78.3,
+      "laborForceParticipation": 76.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "youthUnemployment": 2.8,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 77.8,
+      "laborForceParticipation": 76.3
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 3,
+      "vulnerableEmployment": 77.6,
+      "laborForceParticipation": 76.7
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 77.4,
+      "laborForceParticipation": 76.6
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 77.1,
+      "laborForceParticipation": 76.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "youthUnemployment": 2.1,
+      "totalUnemployment": 1.4,
+      "vulnerableEmployment": 82,
+      "laborForceParticipation": 70.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 1.4,
+      "vulnerableEmployment": 81.9,
+      "laborForceParticipation": 70.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 1.5,
+      "vulnerableEmployment": 81.8,
+      "laborForceParticipation": 70.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 1.5,
+      "vulnerableEmployment": 81.7,
+      "laborForceParticipation": 70.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 1.5,
+      "vulnerableEmployment": 81.6,
+      "laborForceParticipation": 70.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 1.4,
+      "vulnerableEmployment": 81.7,
+      "laborForceParticipation": 70.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "youthUnemployment": 2.1,
+      "totalUnemployment": 1.4,
+      "vulnerableEmployment": 80.2,
+      "laborForceParticipation": 69.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "youthUnemployment": 2.2,
+      "totalUnemployment": 1.5,
+      "vulnerableEmployment": 79.7,
+      "laborForceParticipation": 69.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 1.6,
+      "vulnerableEmployment": 80.4,
+      "laborForceParticipation": 68.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 3.3,
+      "vulnerableEmployment": 82.2,
+      "laborForceParticipation": 67.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "youthUnemployment": 6.7,
+      "totalUnemployment": 3.5,
+      "vulnerableEmployment": 85,
+      "laborForceParticipation": 65.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "youthUnemployment": 4.4,
+      "totalUnemployment": 4,
+      "vulnerableEmployment": 80.6,
+      "laborForceParticipation": 66.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "youthUnemployment": 3.2,
+      "totalUnemployment": 2.4,
+      "vulnerableEmployment": 76.6,
+      "laborForceParticipation": 67.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "youthUnemployment": 3.9,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 76.4,
+      "laborForceParticipation": 67.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "youthUnemployment": 3.8,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 76.3,
+      "laborForceParticipation": 67.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "youthUnemployment": 15.4,
+      "totalUnemployment": 10.1,
+      "vulnerableEmployment": 54.8,
+      "laborForceParticipation": 44
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "youthUnemployment": 15.2,
+      "totalUnemployment": 10,
+      "vulnerableEmployment": 54.4,
+      "laborForceParticipation": 43.8
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "youthUnemployment": 15.1,
+      "totalUnemployment": 9.9,
+      "vulnerableEmployment": 54.5,
+      "laborForceParticipation": 43.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "youthUnemployment": 16.2,
+      "totalUnemployment": 9.9,
+      "vulnerableEmployment": 54.4,
+      "laborForceParticipation": 43.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "youthUnemployment": 17.4,
+      "totalUnemployment": 10,
+      "vulnerableEmployment": 54.7,
+      "laborForceParticipation": 42.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "youthUnemployment": 18.5,
+      "totalUnemployment": 10.1,
+      "vulnerableEmployment": 54.8,
+      "laborForceParticipation": 42.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "youthUnemployment": 19.8,
+      "totalUnemployment": 10.3,
+      "vulnerableEmployment": 54.7,
+      "laborForceParticipation": 41.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "youthUnemployment": 21,
+      "totalUnemployment": 10.3,
+      "vulnerableEmployment": 54.7,
+      "laborForceParticipation": 41.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "youthUnemployment": 22.2,
+      "totalUnemployment": 10.4,
+      "vulnerableEmployment": 54.4,
+      "laborForceParticipation": 41.1
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "youthUnemployment": 23.4,
+      "totalUnemployment": 10.4,
+      "vulnerableEmployment": 53.9,
+      "laborForceParticipation": 41
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "youthUnemployment": 25.5,
+      "totalUnemployment": 11.1,
+      "vulnerableEmployment": 54.7,
+      "laborForceParticipation": 40.5
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "youthUnemployment": 24.9,
+      "totalUnemployment": 11.1,
+      "vulnerableEmployment": 54.2,
+      "laborForceParticipation": 40.7
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "youthUnemployment": 23.5,
+      "totalUnemployment": 10.5,
+      "vulnerableEmployment": 54.1,
+      "laborForceParticipation": 40.9
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "youthUnemployment": 23.2,
+      "totalUnemployment": 10.4,
+      "vulnerableEmployment": 53.8,
+      "laborForceParticipation": 40.9
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "youthUnemployment": 23,
+      "totalUnemployment": 10.3,
+      "vulnerableEmployment": 53.6,
+      "laborForceParticipation": 40.9
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "youthUnemployment": 1.2,
+      "totalUnemployment": 0.7,
+      "vulnerableEmployment": 84.9,
+      "laborForceParticipation": 79.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "youthUnemployment": 0.5,
+      "totalUnemployment": 0.3,
+      "vulnerableEmployment": 85,
+      "laborForceParticipation": 79.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "youthUnemployment": 3.9,
+      "totalUnemployment": 2.2,
+      "vulnerableEmployment": 86.6,
+      "laborForceParticipation": 77.7
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "youthUnemployment": 2.3,
+      "totalUnemployment": 1.4,
+      "vulnerableEmployment": 88.2,
+      "laborForceParticipation": 75.7
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.5,
+      "vulnerableEmployment": 89.8,
+      "laborForceParticipation": 73.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.6,
+      "vulnerableEmployment": 89.7,
+      "laborForceParticipation": 73.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.6,
+      "vulnerableEmployment": 89.6,
+      "laborForceParticipation": 73.1
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.6,
+      "vulnerableEmployment": 89.4,
+      "laborForceParticipation": 72.9
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.5,
+      "vulnerableEmployment": 87.3,
+      "laborForceParticipation": 72.7
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "youthUnemployment": 0.8,
+      "totalUnemployment": 0.5,
+      "vulnerableEmployment": 85.2,
+      "laborForceParticipation": 72.4
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.6,
+      "vulnerableEmployment": 85.4,
+      "laborForceParticipation": 74.1
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "youthUnemployment": 0.7,
+      "totalUnemployment": 0.8,
+      "vulnerableEmployment": 84.7,
+      "laborForceParticipation": 76.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "youthUnemployment": 0.4,
+      "totalUnemployment": 0.4,
+      "vulnerableEmployment": 84.4,
+      "laborForceParticipation": 79.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "youthUnemployment": 0.4,
+      "totalUnemployment": 0.4,
+      "vulnerableEmployment": 84.2,
+      "laborForceParticipation": 79.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "youthUnemployment": 0.4,
+      "totalUnemployment": 0.4,
+      "vulnerableEmployment": 84,
+      "laborForceParticipation": 79.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "youthUnemployment": 7.9,
+      "totalUnemployment": 3.7,
+      "vulnerableEmployment": 69.5,
+      "laborForceParticipation": 81.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "youthUnemployment": 7.9,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 69,
+      "laborForceParticipation": 81.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "youthUnemployment": 7.9,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 68.7,
+      "laborForceParticipation": 81.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "youthUnemployment": 7.7,
+      "totalUnemployment": 3.7,
+      "vulnerableEmployment": 68.4,
+      "laborForceParticipation": 80.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "youthUnemployment": 8,
+      "totalUnemployment": 3.9,
+      "vulnerableEmployment": 68.1,
+      "laborForceParticipation": 80.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "youthUnemployment": 8.5,
+      "totalUnemployment": 4.1,
+      "vulnerableEmployment": 67.9,
+      "laborForceParticipation": 80.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "youthUnemployment": 9.1,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 67.8,
+      "laborForceParticipation": 80.8
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "youthUnemployment": 9.7,
+      "totalUnemployment": 4.8,
+      "vulnerableEmployment": 67.4,
+      "laborForceParticipation": 80.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "youthUnemployment": 10.1,
+      "totalUnemployment": 5.1,
+      "vulnerableEmployment": 67.1,
+      "laborForceParticipation": 81
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "youthUnemployment": 10.4,
+      "totalUnemployment": 5.2,
+      "vulnerableEmployment": 66.9,
+      "laborForceParticipation": 81
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "youthUnemployment": 10.8,
+      "totalUnemployment": 5.7,
+      "vulnerableEmployment": 68,
+      "laborForceParticipation": 79.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "youthUnemployment": 9,
+      "totalUnemployment": 5.4,
+      "vulnerableEmployment": 67.4,
+      "laborForceParticipation": 80.1
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "youthUnemployment": 6,
+      "totalUnemployment": 3.8,
+      "vulnerableEmployment": 67.2,
+      "laborForceParticipation": 81.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "youthUnemployment": 5.1,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 67,
+      "laborForceParticipation": 82.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "youthUnemployment": 5.1,
+      "totalUnemployment": 3,
+      "vulnerableEmployment": 66.7,
+      "laborForceParticipation": 82.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "youthUnemployment": 2.9,
+      "totalUnemployment": 2.8,
+      "vulnerableEmployment": 66.5,
+      "laborForceParticipation": 48
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "youthUnemployment": 3,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 66.4,
+      "laborForceParticipation": 47.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "youthUnemployment": 4.3,
+      "totalUnemployment": 3.9,
+      "vulnerableEmployment": 66.8,
+      "laborForceParticipation": 47
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "youthUnemployment": 5.7,
+      "totalUnemployment": 5,
+      "vulnerableEmployment": 66.7,
+      "laborForceParticipation": 46.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "youthUnemployment": 6.8,
+      "totalUnemployment": 5.8,
+      "vulnerableEmployment": 66.2,
+      "laborForceParticipation": 46
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "youthUnemployment": 8,
+      "totalUnemployment": 6.8,
+      "vulnerableEmployment": 65.8,
+      "laborForceParticipation": 45.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "youthUnemployment": 6.4,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 70.6,
+      "laborForceParticipation": 50.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "youthUnemployment": 5.8,
+      "totalUnemployment": 4.1,
+      "vulnerableEmployment": 68.3,
+      "laborForceParticipation": 46
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "youthUnemployment": 4.9,
+      "totalUnemployment": 3.5,
+      "vulnerableEmployment": 66.1,
+      "laborForceParticipation": 48.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "youthUnemployment": 4,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 63.9,
+      "laborForceParticipation": 50.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "youthUnemployment": 4.8,
+      "totalUnemployment": 3.4,
+      "vulnerableEmployment": 64.9,
+      "laborForceParticipation": 50.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "youthUnemployment": 4.7,
+      "totalUnemployment": 3.4,
+      "vulnerableEmployment": 64.2,
+      "laborForceParticipation": 51.7
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "youthUnemployment": 3.9,
+      "totalUnemployment": 2.8,
+      "vulnerableEmployment": 63.7,
+      "laborForceParticipation": 51.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "youthUnemployment": 3.9,
+      "totalUnemployment": 2.8,
+      "vulnerableEmployment": 63.6,
+      "laborForceParticipation": 51.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "youthUnemployment": 3.9,
+      "totalUnemployment": 2.8,
+      "vulnerableEmployment": 63.3,
+      "laborForceParticipation": 51.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "youthUnemployment": 7.8,
+      "totalUnemployment": 4.3,
+      "vulnerableEmployment": 88,
+      "laborForceParticipation": 60.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "youthUnemployment": 8.2,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 87.8,
+      "laborForceParticipation": 59.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "youthUnemployment": 8.4,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 87.4,
+      "laborForceParticipation": 58.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "youthUnemployment": 8.7,
+      "totalUnemployment": 4.4,
+      "vulnerableEmployment": 86.8,
+      "laborForceParticipation": 57.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "youthUnemployment": 9.4,
+      "totalUnemployment": 4.7,
+      "vulnerableEmployment": 86.4,
+      "laborForceParticipation": 56.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "youthUnemployment": 8.1,
+      "totalUnemployment": 4.5,
+      "vulnerableEmployment": 86.5,
+      "laborForceParticipation": 56.2
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "youthUnemployment": 6.7,
+      "totalUnemployment": 4.2,
+      "vulnerableEmployment": 86.5,
+      "laborForceParticipation": 55.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "youthUnemployment": 5.1,
+      "totalUnemployment": 3.7,
+      "vulnerableEmployment": 86.4,
+      "laborForceParticipation": 54.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "youthUnemployment": 3.6,
+      "totalUnemployment": 3.2,
+      "vulnerableEmployment": 86.3,
+      "laborForceParticipation": 53.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "youthUnemployment": 3.6,
+      "totalUnemployment": 3.2,
+      "vulnerableEmployment": 86.2,
+      "laborForceParticipation": 53.8
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "youthUnemployment": 4.1,
+      "totalUnemployment": 3.5,
+      "vulnerableEmployment": 87.5,
+      "laborForceParticipation": 53.3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "youthUnemployment": 3.9,
+      "totalUnemployment": 3.6,
+      "vulnerableEmployment": 87,
+      "laborForceParticipation": 53.6
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "youthUnemployment": 3.5,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 86.8,
+      "laborForceParticipation": 53.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "youthUnemployment": 3.5,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 86.5,
+      "laborForceParticipation": 53.6
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "youthUnemployment": 3.5,
+      "totalUnemployment": 3.1,
+      "vulnerableEmployment": 86.3,
+      "laborForceParticipation": 53.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "youthUnemployment": 1.3,
+      "totalUnemployment": 0.9,
+      "vulnerableEmployment": 90.5,
+      "laborForceParticipation": 64.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "youthUnemployment": 1.3,
+      "totalUnemployment": 0.9,
+      "vulnerableEmployment": 90.3,
+      "laborForceParticipation": 63.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "youthUnemployment": 1.3,
+      "totalUnemployment": 0.9,
+      "vulnerableEmployment": 90.1,
+      "laborForceParticipation": 63.1
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "youthUnemployment": 1.4,
+      "totalUnemployment": 1,
+      "vulnerableEmployment": 90.1,
+      "laborForceParticipation": 62.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "youthUnemployment": 1.4,
+      "totalUnemployment": 1,
+      "vulnerableEmployment": 89.9,
+      "laborForceParticipation": 62.1
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "youthUnemployment": 1.4,
+      "totalUnemployment": 1,
+      "vulnerableEmployment": 89.8,
+      "laborForceParticipation": 61.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 89.9,
+      "laborForceParticipation": 61
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 90.1,
+      "laborForceParticipation": 60.5
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 90,
+      "laborForceParticipation": 60
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 90.1,
+      "laborForceParticipation": 59.9
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "youthUnemployment": 1.9,
+      "totalUnemployment": 1.7,
+      "vulnerableEmployment": 90.6,
+      "laborForceParticipation": 59.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "youthUnemployment": 2,
+      "totalUnemployment": 1.5,
+      "vulnerableEmployment": 90,
+      "laborForceParticipation": 59.3
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 90,
+      "laborForceParticipation": 59.8
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 90.1,
+      "laborForceParticipation": 59.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "youthUnemployment": 1.5,
+      "totalUnemployment": 1.1,
+      "vulnerableEmployment": 90.2,
+      "laborForceParticipation": 59.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "youthUnemployment": 4,
+      "totalUnemployment": 2.4,
+      "vulnerableEmployment": 81.5,
+      "laborForceParticipation": 58.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "youthUnemployment": 3.2,
+      "totalUnemployment": 2,
+      "vulnerableEmployment": 81.3,
+      "laborForceParticipation": 58.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "youthUnemployment": 3.4,
+      "totalUnemployment": 2,
+      "vulnerableEmployment": 81.1,
+      "laborForceParticipation": 58.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "youthUnemployment": 3.7,
+      "totalUnemployment": 2.1,
+      "vulnerableEmployment": 80.8,
+      "laborForceParticipation": 58.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "youthUnemployment": 4,
+      "totalUnemployment": 2.1,
+      "vulnerableEmployment": 80.5,
+      "laborForceParticipation": 58.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "youthUnemployment": 4.3,
+      "totalUnemployment": 2.2,
+      "vulnerableEmployment": 80.3,
+      "laborForceParticipation": 58.1
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "youthUnemployment": 6.8,
+      "totalUnemployment": 3,
+      "vulnerableEmployment": 79.9,
+      "laborForceParticipation": 58.1
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "youthUnemployment": 9.3,
+      "totalUnemployment": 3.7,
+      "vulnerableEmployment": 79.5,
+      "laborForceParticipation": 58.1
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "youthUnemployment": 6.2,
+      "totalUnemployment": 2.9,
+      "vulnerableEmployment": 79.1,
+      "laborForceParticipation": 58
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "youthUnemployment": 3.1,
+      "totalUnemployment": 2,
+      "vulnerableEmployment": 78.7,
+      "laborForceParticipation": 58
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "youthUnemployment": 3.7,
+      "totalUnemployment": 2.2,
+      "vulnerableEmployment": 79,
+      "laborForceParticipation": 57.4
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "youthUnemployment": 3.8,
+      "totalUnemployment": 2.3,
+      "vulnerableEmployment": 77.4,
+      "laborForceParticipation": 57.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "youthUnemployment": 3.4,
+      "totalUnemployment": 2,
+      "vulnerableEmployment": 76,
+      "laborForceParticipation": 57.9
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "youthUnemployment": 3.4,
+      "totalUnemployment": 1.9,
+      "vulnerableEmployment": 75.7,
+      "laborForceParticipation": 57.9
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "youthUnemployment": 3.4,
+      "totalUnemployment": 1.9,
+      "vulnerableEmployment": 75.5,
+      "laborForceParticipation": 57.9
+    }
+  ],
+  "indicators": [
+    {
+      "key": "youthUnemployment",
+      "code": "SL.UEM.1524.ZS",
+      "label": "Chômage des jeunes (15-24 ans)",
+      "unit": "% de la population active 15-24 ans",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "totalUnemployment",
+      "code": "SL.UEM.TOTL.ZS",
+      "label": "Chômage total",
+      "unit": "% de la population active",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "vulnerableEmployment",
+      "code": "SL.EMP.VULN.ZS",
+      "label": "Emploi vulnérable",
+      "unit": "% de l'emploi total",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "laborForceParticipation",
+      "code": "SL.TLF.CACT.ZS",
+      "label": "Taux d'activité",
+      "unit": "% de la population 15+",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

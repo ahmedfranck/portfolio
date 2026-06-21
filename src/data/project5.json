@@ -1,0 +1,2227 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "waterAccess": 64.8,
+      "basicSanitation": 13.4,
+      "openDefecation": 59.1,
+      "childMortality": 107.4,
+      "populationMillions": 9.8
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "waterAccess": 65.2,
+      "basicSanitation": 14,
+      "openDefecation": 58.2,
+      "childMortality": 105.1,
+      "populationMillions": 10.09
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "waterAccess": 65.6,
+      "basicSanitation": 14.5,
+      "openDefecation": 57.3,
+      "childMortality": 102.9,
+      "populationMillions": 10.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "waterAccess": 65.9,
+      "basicSanitation": 15.1,
+      "openDefecation": 56.4,
+      "childMortality": 100.6,
+      "populationMillions": 10.71
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "waterAccess": 66.3,
+      "basicSanitation": 15.7,
+      "openDefecation": 55.5,
+      "childMortality": 98.4,
+      "populationMillions": 11.03
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "waterAccess": 66.6,
+      "basicSanitation": 16.3,
+      "openDefecation": 54.7,
+      "childMortality": 96.1,
+      "populationMillions": 11.36
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "waterAccess": 67,
+      "basicSanitation": 16.9,
+      "openDefecation": 53.8,
+      "childMortality": 94,
+      "populationMillions": 11.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "waterAccess": 67.3,
+      "basicSanitation": 17.6,
+      "openDefecation": 52.9,
+      "childMortality": 91.8,
+      "populationMillions": 12.04
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "waterAccess": 67.6,
+      "basicSanitation": 18.2,
+      "openDefecation": 52.1,
+      "childMortality": 89.4,
+      "populationMillions": 12.38
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "waterAccess": 68,
+      "basicSanitation": 18.8,
+      "openDefecation": 51.2,
+      "childMortality": 87,
+      "populationMillions": 12.73
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "waterAccess": 68.3,
+      "basicSanitation": 19.5,
+      "openDefecation": 50.4,
+      "childMortality": 84.6,
+      "populationMillions": 13.07
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "waterAccess": 68.6,
+      "basicSanitation": 20.2,
+      "openDefecation": 49.5,
+      "childMortality": 82.2,
+      "populationMillions": 13.41
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "waterAccess": 69,
+      "basicSanitation": 20.9,
+      "openDefecation": 48.7,
+      "childMortality": 79.6,
+      "populationMillions": 13.76
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "waterAccess": 69.3,
+      "basicSanitation": 21.5,
+      "openDefecation": 47.9,
+      "childMortality": 77.2,
+      "populationMillions": 14.11
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "waterAccess": 69.6,
+      "basicSanitation": 22.2,
+      "openDefecation": 47,
+      "childMortality": 74.7,
+      "populationMillions": 14.46
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "waterAccess": 53.5,
+      "basicSanitation": 17.7,
+      "openDefecation": 54.8,
+      "childMortality": 121.3,
+      "populationMillions": 16.18
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "waterAccess": 53.2,
+      "basicSanitation": 18.7,
+      "openDefecation": 52.9,
+      "childMortality": 116.6,
+      "populationMillions": 16.66
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "waterAccess": 52.9,
+      "basicSanitation": 19.6,
+      "openDefecation": 51,
+      "childMortality": 112.3,
+      "populationMillions": 17.17
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "waterAccess": 52.6,
+      "basicSanitation": 20.6,
+      "openDefecation": 49.2,
+      "childMortality": 108.2,
+      "populationMillions": 17.7
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "waterAccess": 52.3,
+      "basicSanitation": 21.6,
+      "openDefecation": 47.3,
+      "childMortality": 104.3,
+      "populationMillions": 18.23
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "waterAccess": 52,
+      "basicSanitation": 22.6,
+      "openDefecation": 45.5,
+      "childMortality": 100.8,
+      "populationMillions": 18.78
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "waterAccess": 51.6,
+      "basicSanitation": 23.6,
+      "openDefecation": 43.7,
+      "childMortality": 97.4,
+      "populationMillions": 19.33
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "waterAccess": 51.3,
+      "basicSanitation": 24.7,
+      "openDefecation": 41.9,
+      "childMortality": 94.1,
+      "populationMillions": 19.89
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "waterAccess": 51,
+      "basicSanitation": 25.7,
+      "openDefecation": 40.1,
+      "childMortality": 91,
+      "populationMillions": 20.44
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "waterAccess": 50.7,
+      "basicSanitation": 26.7,
+      "openDefecation": 38.4,
+      "childMortality": 88.1,
+      "populationMillions": 20.96
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "waterAccess": 50.4,
+      "basicSanitation": 27.8,
+      "openDefecation": 36.6,
+      "childMortality": 85.1,
+      "populationMillions": 21.48
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "waterAccess": 50.1,
+      "basicSanitation": 28.8,
+      "openDefecation": 34.9,
+      "childMortality": 82.4,
+      "populationMillions": 22
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "waterAccess": 49.8,
+      "basicSanitation": 29.9,
+      "openDefecation": 33.2,
+      "childMortality": 79.8,
+      "populationMillions": 22.51
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "waterAccess": 49.5,
+      "basicSanitation": 30.9,
+      "openDefecation": 31.5,
+      "childMortality": 77.4,
+      "populationMillions": 23.03
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "waterAccess": 50,
+      "basicSanitation": 31.8,
+      "openDefecation": 29.9,
+      "childMortality": 74.9,
+      "populationMillions": 23.55
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "waterAccess": 72.5,
+      "basicSanitation": 27.7,
+      "openDefecation": 28.6,
+      "childMortality": 101.6,
+      "populationMillions": 22.49
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "waterAccess": 72.9,
+      "basicSanitation": 28.6,
+      "openDefecation": 27.7,
+      "childMortality": 98.4,
+      "populationMillions": 22.98
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "waterAccess": 73.2,
+      "basicSanitation": 29.5,
+      "openDefecation": 26.8,
+      "childMortality": 95.3,
+      "populationMillions": 23.47
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "waterAccess": 73.6,
+      "basicSanitation": 30.3,
+      "openDefecation": 25.9,
+      "childMortality": 92,
+      "populationMillions": 23.94
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "waterAccess": 73.9,
+      "basicSanitation": 31.2,
+      "openDefecation": 25,
+      "childMortality": 88.6,
+      "populationMillions": 24.53
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "waterAccess": 74.3,
+      "basicSanitation": 32.1,
+      "openDefecation": 24.2,
+      "childMortality": 85.5,
+      "populationMillions": 25.25
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "waterAccess": 74.6,
+      "basicSanitation": 33,
+      "openDefecation": 23.3,
+      "childMortality": 83,
+      "populationMillions": 25.99
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "waterAccess": 75,
+      "basicSanitation": 33.9,
+      "openDefecation": 22.4,
+      "childMortality": 80.5,
+      "populationMillions": 26.73
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "waterAccess": 75.3,
+      "basicSanitation": 34.9,
+      "openDefecation": 21.6,
+      "childMortality": 77.9,
+      "populationMillions": 27.46
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "waterAccess": 75.6,
+      "basicSanitation": 35.8,
+      "openDefecation": 20.8,
+      "childMortality": 75.3,
+      "populationMillions": 28.19
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "waterAccess": 76,
+      "basicSanitation": 36.8,
+      "openDefecation": 19.9,
+      "childMortality": 73,
+      "populationMillions": 28.92
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "waterAccess": 76.3,
+      "basicSanitation": 37.7,
+      "openDefecation": 19.1,
+      "childMortality": 70.8,
+      "populationMillions": 29.64
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "waterAccess": 76.7,
+      "basicSanitation": 38.7,
+      "openDefecation": 18.3,
+      "childMortality": 68.7,
+      "populationMillions": 30.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "waterAccess": 77,
+      "basicSanitation": 39.6,
+      "openDefecation": 17.5,
+      "childMortality": 66.5,
+      "populationMillions": 31.17
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "waterAccess": 77.2,
+      "basicSanitation": 40.4,
+      "openDefecation": 16.7,
+      "childMortality": 64.5,
+      "populationMillions": 31.93
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "waterAccess": 63.5,
+      "basicSanitation": 41.1,
+      "openDefecation": 6.5,
+      "childMortality": 109.5,
+      "populationMillions": 19.67
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "waterAccess": 64.1,
+      "basicSanitation": 41.5,
+      "openDefecation": 6.4,
+      "childMortality": 105.2,
+      "populationMillions": 20.23
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "waterAccess": 64.8,
+      "basicSanitation": 41.9,
+      "openDefecation": 6.2,
+      "childMortality": 100.8,
+      "populationMillions": 20.81
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "waterAccess": 65.4,
+      "basicSanitation": 42.3,
+      "openDefecation": 6.1,
+      "childMortality": 96.5,
+      "populationMillions": 21.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "waterAccess": 66,
+      "basicSanitation": 42.7,
+      "openDefecation": 5.9,
+      "childMortality": 92.4,
+      "populationMillions": 22.06
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "waterAccess": 66.6,
+      "basicSanitation": 43.1,
+      "openDefecation": 5.7,
+      "childMortality": 88.5,
+      "populationMillions": 22.76
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "waterAccess": 67.2,
+      "basicSanitation": 43.6,
+      "openDefecation": 5.6,
+      "childMortality": 85.1,
+      "populationMillions": 23.45
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "waterAccess": 67.7,
+      "basicSanitation": 44,
+      "openDefecation": 5.4,
+      "childMortality": 81.9,
+      "populationMillions": 24.13
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "waterAccess": 68.3,
+      "basicSanitation": 44.4,
+      "openDefecation": 5.3,
+      "childMortality": 78.9,
+      "populationMillions": 24.81
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "waterAccess": 68.8,
+      "basicSanitation": 44.8,
+      "openDefecation": 5.1,
+      "childMortality": 76.6,
+      "populationMillions": 25.51
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "waterAccess": 69.3,
+      "basicSanitation": 45.3,
+      "openDefecation": 5,
+      "childMortality": 74.4,
+      "populationMillions": 26.21
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "waterAccess": 69.8,
+      "basicSanitation": 45.7,
+      "openDefecation": 4.8,
+      "childMortality": 71.9,
+      "populationMillions": 26.92
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "waterAccess": 70.3,
+      "basicSanitation": 46.2,
+      "openDefecation": 4.7,
+      "childMortality": 69.4,
+      "populationMillions": 27.63
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "waterAccess": 70.7,
+      "basicSanitation": 46.6,
+      "openDefecation": 4.6,
+      "childMortality": 67,
+      "populationMillions": 28.37
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "waterAccess": 71.4,
+      "basicSanitation": 47.1,
+      "openDefecation": 4.4,
+      "childMortality": 64.8,
+      "populationMillions": 29.12
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "waterAccess": 36.9,
+      "basicSanitation": 19.5,
+      "openDefecation": 11.4,
+      "childMortality": 101.4,
+      "populationMillions": 68.56
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "waterAccess": 36.8,
+      "basicSanitation": 19.1,
+      "openDefecation": 11.4,
+      "childMortality": 98.3,
+      "populationMillions": 70.85
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "waterAccess": 36.7,
+      "basicSanitation": 18.8,
+      "openDefecation": 11.5,
+      "childMortality": 95.9,
+      "populationMillions": 73.25
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "waterAccess": 36.6,
+      "basicSanitation": 18.4,
+      "openDefecation": 11.6,
+      "childMortality": 94.1,
+      "populationMillions": 75.79
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "waterAccess": 36.4,
+      "basicSanitation": 18,
+      "openDefecation": 11.7,
+      "childMortality": 92.7,
+      "populationMillions": 78.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "waterAccess": 36.3,
+      "basicSanitation": 17.7,
+      "openDefecation": 11.7,
+      "childMortality": 91.9,
+      "populationMillions": 81.04
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "waterAccess": 36.2,
+      "basicSanitation": 17.4,
+      "openDefecation": 11.8,
+      "childMortality": 91.5,
+      "populationMillions": 83.96
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "waterAccess": 36,
+      "basicSanitation": 17,
+      "openDefecation": 11.9,
+      "childMortality": 91.5,
+      "populationMillions": 87.08
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "waterAccess": 35.9,
+      "basicSanitation": 16.7,
+      "openDefecation": 11.9,
+      "childMortality": 91.7,
+      "populationMillions": 90.05
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "waterAccess": 35.7,
+      "basicSanitation": 16.4,
+      "openDefecation": 12,
+      "childMortality": 92.2,
+      "populationMillions": 92.95
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "waterAccess": 35.5,
+      "basicSanitation": 16.1,
+      "openDefecation": 12,
+      "childMortality": 92.7,
+      "populationMillions": 95.99
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "waterAccess": 35.3,
+      "basicSanitation": 16.1,
+      "openDefecation": 11.9,
+      "childMortality": 92.9,
+      "populationMillions": 99.15
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "waterAccess": 35.1,
+      "basicSanitation": 16.2,
+      "openDefecation": 11.8,
+      "childMortality": 92.5,
+      "populationMillions": 102.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "waterAccess": 35.4,
+      "basicSanitation": 16.2,
+      "openDefecation": 11.8,
+      "childMortality": 91.3,
+      "populationMillions": 105.79
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "waterAccess": 35.7,
+      "basicSanitation": 16.3,
+      "openDefecation": 11.7,
+      "childMortality": 89.7,
+      "populationMillions": 109.28
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "waterAccess": 75.5,
+      "basicSanitation": 14.9,
+      "openDefecation": 19.2,
+      "childMortality": 66.5,
+      "populationMillions": 25.47
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "waterAccess": 76.5,
+      "basicSanitation": 16,
+      "openDefecation": 19.1,
+      "childMortality": 63.3,
+      "populationMillions": 26.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "waterAccess": 77.5,
+      "basicSanitation": 17.1,
+      "openDefecation": 19,
+      "childMortality": 60.3,
+      "populationMillions": 26.73
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "waterAccess": 78.6,
+      "basicSanitation": 18.3,
+      "openDefecation": 18.9,
+      "childMortality": 57.5,
+      "populationMillions": 27.39
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "waterAccess": 79.6,
+      "basicSanitation": 19.4,
+      "openDefecation": 18.8,
+      "childMortality": 54.9,
+      "populationMillions": 28.04
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "waterAccess": 80.6,
+      "basicSanitation": 20.6,
+      "openDefecation": 18.7,
+      "childMortality": 52.5,
+      "populationMillions": 28.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "waterAccess": 81.7,
+      "basicSanitation": 21.7,
+      "openDefecation": 18.6,
+      "childMortality": 50.3,
+      "populationMillions": 29.36
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "waterAccess": 82.7,
+      "basicSanitation": 22.9,
+      "openDefecation": 18.5,
+      "childMortality": 48.2,
+      "populationMillions": 30.01
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "waterAccess": 83.7,
+      "basicSanitation": 24.1,
+      "openDefecation": 18.4,
+      "childMortality": 46.1,
+      "populationMillions": 30.64
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "waterAccess": 84.8,
+      "basicSanitation": 25.3,
+      "openDefecation": 18.3,
+      "childMortality": 44.1,
+      "populationMillions": 31.26
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "waterAccess": 85.8,
+      "basicSanitation": 26.6,
+      "openDefecation": 18.2,
+      "childMortality": 42.2,
+      "populationMillions": 31.89
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "waterAccess": 86.8,
+      "basicSanitation": 27.8,
+      "openDefecation": 18.1,
+      "childMortality": 40.3,
+      "populationMillions": 32.52
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "waterAccess": 87.9,
+      "basicSanitation": 29,
+      "openDefecation": 18,
+      "childMortality": 38.6,
+      "populationMillions": 33.15
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "waterAccess": 88.9,
+      "basicSanitation": 30.3,
+      "openDefecation": 17.9,
+      "childMortality": 37.2,
+      "populationMillions": 33.79
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "waterAccess": 89.9,
+      "basicSanitation": 31.6,
+      "openDefecation": 17.8,
+      "childMortality": 35.9,
+      "populationMillions": 34.43
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "waterAccess": 57.2,
+      "basicSanitation": 17.8,
+      "openDefecation": 18.4,
+      "childMortality": 122.2,
+      "populationMillions": 10.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "waterAccess": 58.4,
+      "basicSanitation": 18.8,
+      "openDefecation": 17.4,
+      "childMortality": 120.3,
+      "populationMillions": 10.66
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "waterAccess": 59.5,
+      "basicSanitation": 19.9,
+      "openDefecation": 16.3,
+      "childMortality": 118.4,
+      "populationMillions": 10.92
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "waterAccess": 60.7,
+      "basicSanitation": 20.9,
+      "openDefecation": 15.3,
+      "childMortality": 116.6,
+      "populationMillions": 11.19
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "waterAccess": 61.9,
+      "basicSanitation": 22,
+      "openDefecation": 14.3,
+      "childMortality": 115.4,
+      "populationMillions": 11.47
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "waterAccess": 63.2,
+      "basicSanitation": 23,
+      "openDefecation": 13.3,
+      "childMortality": 113.7,
+      "populationMillions": 11.77
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "waterAccess": 64.4,
+      "basicSanitation": 24.1,
+      "openDefecation": 12.3,
+      "childMortality": 111.4,
+      "populationMillions": 12.07
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "waterAccess": 65.6,
+      "basicSanitation": 25.3,
+      "openDefecation": 11.3,
+      "childMortality": 109.5,
+      "populationMillions": 12.39
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "waterAccess": 66.9,
+      "basicSanitation": 26.4,
+      "openDefecation": 10.4,
+      "childMortality": 107.5,
+      "populationMillions": 12.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "waterAccess": 68.2,
+      "basicSanitation": 27.6,
+      "openDefecation": 9.4,
+      "childMortality": 105.4,
+      "populationMillions": 13.03
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "waterAccess": 69.4,
+      "basicSanitation": 28.8,
+      "openDefecation": 8.4,
+      "childMortality": 102.9,
+      "populationMillions": 13.37
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "waterAccess": 70.7,
+      "basicSanitation": 30,
+      "openDefecation": 7.5,
+      "childMortality": 100.3,
+      "populationMillions": 13.71
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "waterAccess": 72.1,
+      "basicSanitation": 31.3,
+      "openDefecation": 6.5,
+      "childMortality": 97.6,
+      "populationMillions": 14.06
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "waterAccess": 73.4,
+      "basicSanitation": 32.5,
+      "openDefecation": 5.6,
+      "childMortality": 95,
+      "populationMillions": 14.41
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "waterAccess": 74.2,
+      "basicSanitation": 32.6,
+      "openDefecation": 4.7,
+      "childMortality": 92.1,
+      "populationMillions": 14.75
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "waterAccess": 69.2,
+      "basicSanitation": 16,
+      "openDefecation": 46.1,
+      "childMortality": 105.7,
+      "populationMillions": 4.06
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "waterAccess": 69.9,
+      "basicSanitation": 16.4,
+      "openDefecation": 45.2,
+      "childMortality": 102.4,
+      "populationMillions": 4.22
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "waterAccess": 70.6,
+      "basicSanitation": 16.9,
+      "openDefecation": 44.4,
+      "childMortality": 99.5,
+      "populationMillions": 4.37
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "waterAccess": 71.3,
+      "basicSanitation": 17.4,
+      "openDefecation": 43.5,
+      "childMortality": 97,
+      "populationMillions": 4.47
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "waterAccess": 72,
+      "basicSanitation": 17.9,
+      "openDefecation": 42.7,
+      "childMortality": 97,
+      "populationMillions": 4.56
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "waterAccess": 72.8,
+      "basicSanitation": 18.4,
+      "openDefecation": 41.8,
+      "childMortality": 93.2,
+      "populationMillions": 4.66
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "waterAccess": 73.5,
+      "basicSanitation": 18.9,
+      "openDefecation": 40.9,
+      "childMortality": 91.5,
+      "populationMillions": 4.76
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "waterAccess": 74.1,
+      "basicSanitation": 19.5,
+      "openDefecation": 40.1,
+      "childMortality": 90.3,
+      "populationMillions": 4.85
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "waterAccess": 74.8,
+      "basicSanitation": 20,
+      "openDefecation": 39.2,
+      "childMortality": 89.4,
+      "populationMillions": 4.94
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "waterAccess": 75.5,
+      "basicSanitation": 20.5,
+      "openDefecation": 38.3,
+      "childMortality": 88.7,
+      "populationMillions": 5.04
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "waterAccess": 76.2,
+      "basicSanitation": 21.1,
+      "openDefecation": 37.5,
+      "childMortality": 88.3,
+      "populationMillions": 5.15
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "waterAccess": 76.9,
+      "basicSanitation": 21.6,
+      "openDefecation": 36.6,
+      "childMortality": 88,
+      "populationMillions": 5.26
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "waterAccess": 77.5,
+      "basicSanitation": 22.2,
+      "openDefecation": 35.7,
+      "childMortality": 87.8,
+      "populationMillions": 5.37
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "waterAccess": 78.2,
+      "basicSanitation": 22.8,
+      "openDefecation": 34.8,
+      "childMortality": 87.3,
+      "populationMillions": 5.49
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "waterAccess": 78.8,
+      "basicSanitation": 23.3,
+      "openDefecation": 33.9,
+      "childMortality": 86.4,
+      "populationMillions": 5.61
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "waterAccess": 65.7,
+      "basicSanitation": 29.7,
+      "openDefecation": 12.1,
+      "childMortality": 133.8,
+      "populationMillions": 15.95
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "waterAccess": 67.3,
+      "basicSanitation": 31,
+      "openDefecation": 11.4,
+      "childMortality": 128.8,
+      "populationMillions": 16.47
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "waterAccess": 68.8,
+      "basicSanitation": 32.2,
+      "openDefecation": 10.8,
+      "childMortality": 123.9,
+      "populationMillions": 16.96
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "waterAccess": 70.4,
+      "basicSanitation": 33.5,
+      "openDefecation": 10.1,
+      "childMortality": 119.1,
+      "populationMillions": 17.46
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "waterAccess": 71.9,
+      "basicSanitation": 34.8,
+      "openDefecation": 9.5,
+      "childMortality": 114.4,
+      "populationMillions": 18.02
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "waterAccess": 73.4,
+      "basicSanitation": 36.1,
+      "openDefecation": 8.9,
+      "childMortality": 109.7,
+      "populationMillions": 18.59
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "waterAccess": 75,
+      "basicSanitation": 37.4,
+      "openDefecation": 8.3,
+      "childMortality": 105.1,
+      "populationMillions": 19.19
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "waterAccess": 76.4,
+      "basicSanitation": 38.7,
+      "openDefecation": 7.7,
+      "childMortality": 100.6,
+      "populationMillions": 19.81
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "waterAccess": 77.9,
+      "basicSanitation": 39.9,
+      "openDefecation": 7.1,
+      "childMortality": 96.2,
+      "populationMillions": 20.44
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "waterAccess": 79.4,
+      "basicSanitation": 41.2,
+      "openDefecation": 6.5,
+      "childMortality": 91.9,
+      "populationMillions": 21.07
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "waterAccess": 80.8,
+      "basicSanitation": 42.5,
+      "openDefecation": 6,
+      "childMortality": 87.6,
+      "populationMillions": 21.71
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "waterAccess": 82.3,
+      "basicSanitation": 43.8,
+      "openDefecation": 5.4,
+      "childMortality": 83.6,
+      "populationMillions": 22.39
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "waterAccess": 83.7,
+      "basicSanitation": 45.1,
+      "openDefecation": 4.9,
+      "childMortality": 79.7,
+      "populationMillions": 23.07
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "waterAccess": 85.1,
+      "basicSanitation": 46.4,
+      "openDefecation": 4.4,
+      "childMortality": 76.2,
+      "populationMillions": 23.77
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "waterAccess": 86.4,
+      "basicSanitation": 47.8,
+      "openDefecation": 3.9,
+      "childMortality": 73,
+      "populationMillions": 24.48
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "waterAccess": 56.1,
+      "basicSanitation": 32.6,
+      "openDefecation": 39.9,
+      "childMortality": 56.8,
+      "populationMillions": 3.39
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "waterAccess": 57.6,
+      "basicSanitation": 34.4,
+      "openDefecation": 38,
+      "childMortality": 55.1,
+      "populationMillions": 3.5
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "waterAccess": 59.2,
+      "basicSanitation": 36.2,
+      "openDefecation": 36.2,
+      "childMortality": 53.5,
+      "populationMillions": 3.62
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "waterAccess": 60.8,
+      "basicSanitation": 38,
+      "openDefecation": 34.4,
+      "childMortality": 52.1,
+      "populationMillions": 3.73
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "waterAccess": 62.3,
+      "basicSanitation": 39.9,
+      "openDefecation": 32.6,
+      "childMortality": 50.6,
+      "populationMillions": 3.85
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "waterAccess": 63.9,
+      "basicSanitation": 41.8,
+      "openDefecation": 30.9,
+      "childMortality": 49.1,
+      "populationMillions": 3.97
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "waterAccess": 65.5,
+      "basicSanitation": 43.7,
+      "openDefecation": 29.1,
+      "childMortality": 47.7,
+      "populationMillions": 4.09
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "waterAccess": 67.1,
+      "basicSanitation": 45.7,
+      "openDefecation": 27.4,
+      "childMortality": 46.2,
+      "populationMillions": 4.21
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "waterAccess": 68.6,
+      "basicSanitation": 47.7,
+      "openDefecation": 25.8,
+      "childMortality": 44.7,
+      "populationMillions": 4.34
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "waterAccess": 70.2,
+      "basicSanitation": 49.7,
+      "openDefecation": 24.1,
+      "childMortality": 43.4,
+      "populationMillions": 4.47
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "waterAccess": 71.7,
+      "basicSanitation": 51.8,
+      "openDefecation": 22.5,
+      "childMortality": 42,
+      "populationMillions": 4.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "waterAccess": 73.3,
+      "basicSanitation": 53.9,
+      "openDefecation": 20.9,
+      "childMortality": 40.7,
+      "populationMillions": 4.73
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "waterAccess": 74.9,
+      "basicSanitation": 56.1,
+      "openDefecation": 19.3,
+      "childMortality": 39.4,
+      "populationMillions": 4.88
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "waterAccess": 76.4,
+      "basicSanitation": 58.3,
+      "openDefecation": 17.7,
+      "childMortality": 38.1,
+      "populationMillions": 5.02
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "waterAccess": 77.3,
+      "basicSanitation": 58.7,
+      "openDefecation": 16.2,
+      "childMortality": 36.9,
+      "populationMillions": 5.17
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "waterAccess": 43.9,
+      "basicSanitation": 10.5,
+      "openDefecation": 75.1,
+      "childMortality": 136,
+      "populationMillions": 16.55
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "waterAccess": 44.6,
+      "basicSanitation": 10.9,
+      "openDefecation": 74.5,
+      "childMortality": 132.7,
+      "populationMillions": 17.18
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "waterAccess": 45.3,
+      "basicSanitation": 11.3,
+      "openDefecation": 73.9,
+      "childMortality": 130.3,
+      "populationMillions": 17.84
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "waterAccess": 46,
+      "basicSanitation": 11.7,
+      "openDefecation": 73.3,
+      "childMortality": 128.3,
+      "populationMillions": 18.52
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "waterAccess": 46.6,
+      "basicSanitation": 12.1,
+      "openDefecation": 72.7,
+      "childMortality": 126.8,
+      "populationMillions": 19.22
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "waterAccess": 47.3,
+      "basicSanitation": 12.5,
+      "openDefecation": 72.1,
+      "childMortality": 125.4,
+      "populationMillions": 19.94
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "waterAccess": 48,
+      "basicSanitation": 12.9,
+      "openDefecation": 71.4,
+      "childMortality": 124.3,
+      "populationMillions": 20.69
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "waterAccess": 48.7,
+      "basicSanitation": 13.3,
+      "openDefecation": 70.8,
+      "childMortality": 123.1,
+      "populationMillions": 21.44
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "waterAccess": 49.4,
+      "basicSanitation": 13.7,
+      "openDefecation": 70.1,
+      "childMortality": 121.9,
+      "populationMillions": 22.19
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "waterAccess": 50,
+      "basicSanitation": 14.1,
+      "openDefecation": 69.5,
+      "childMortality": 120.8,
+      "populationMillions": 22.95
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "waterAccess": 50.7,
+      "basicSanitation": 14.5,
+      "openDefecation": 68.8,
+      "childMortality": 119.5,
+      "populationMillions": 23.72
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "waterAccess": 51.4,
+      "basicSanitation": 15,
+      "openDefecation": 68.1,
+      "childMortality": 118,
+      "populationMillions": 24.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "waterAccess": 52.1,
+      "basicSanitation": 15.4,
+      "openDefecation": 67.4,
+      "childMortality": 116,
+      "populationMillions": 25.31
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "waterAccess": 52.8,
+      "basicSanitation": 15.9,
+      "openDefecation": 66.7,
+      "childMortality": 113.5,
+      "populationMillions": 26.16
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "waterAccess": 53.4,
+      "basicSanitation": 16.3,
+      "openDefecation": 66,
+      "childMortality": 110.7,
+      "populationMillions": 27.03
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "waterAccess": 60,
+      "basicSanitation": 34.7,
+      "openDefecation": 21.9,
+      "childMortality": 126.3,
+      "populationMillions": 166.64
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "waterAccess": 61.7,
+      "basicSanitation": 35.5,
+      "openDefecation": 21.6,
+      "childMortality": 123.8,
+      "populationMillions": 171.38
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "waterAccess": 63.3,
+      "basicSanitation": 36.4,
+      "openDefecation": 21.4,
+      "childMortality": 121.6,
+      "populationMillions": 176.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "waterAccess": 64.9,
+      "basicSanitation": 37.3,
+      "openDefecation": 21.1,
+      "childMortality": 119.9,
+      "populationMillions": 181.05
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "waterAccess": 66.5,
+      "basicSanitation": 38.3,
+      "openDefecation": 20.8,
+      "childMortality": 118.7,
+      "populationMillions": 185.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "waterAccess": 68.1,
+      "basicSanitation": 39.2,
+      "openDefecation": 20.5,
+      "childMortality": 117.8,
+      "populationMillions": 190.67
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "waterAccess": 69.7,
+      "basicSanitation": 40.2,
+      "openDefecation": 20.2,
+      "childMortality": 117.4,
+      "populationMillions": 195.44
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "waterAccess": 71.4,
+      "basicSanitation": 41.2,
+      "openDefecation": 19.9,
+      "childMortality": 117.2,
+      "populationMillions": 200.25
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "waterAccess": 73,
+      "basicSanitation": 42.2,
+      "openDefecation": 19.6,
+      "childMortality": 117.2,
+      "populationMillions": 204.94
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "waterAccess": 74.6,
+      "basicSanitation": 43.3,
+      "openDefecation": 19.3,
+      "childMortality": 117.4,
+      "populationMillions": 209.49
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "waterAccess": 76.2,
+      "basicSanitation": 44.4,
+      "openDefecation": 19,
+      "childMortality": 117.4,
+      "populationMillions": 214
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "waterAccess": 77.8,
+      "basicSanitation": 45.4,
+      "openDefecation": 18.7,
+      "childMortality": 117.6,
+      "populationMillions": 218.53
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "waterAccess": 79.5,
+      "basicSanitation": 46.6,
+      "openDefecation": 18.4,
+      "childMortality": 117.5,
+      "populationMillions": 223.15
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "waterAccess": 81.1,
+      "basicSanitation": 47.7,
+      "openDefecation": 18.1,
+      "childMortality": 116.8,
+      "populationMillions": 227.88
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "waterAccess": 82.2,
+      "basicSanitation": 47.9,
+      "openDefecation": 18,
+      "childMortality": 115.6,
+      "populationMillions": 232.68
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "waterAccess": 71.7,
+      "basicSanitation": 47.4,
+      "openDefecation": 16.6,
+      "childMortality": 62.8,
+      "populationMillions": 12.64
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "waterAccess": 72.9,
+      "basicSanitation": 48.5,
+      "openDefecation": 15.8,
+      "childMortality": 60,
+      "populationMillions": 12.96
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "waterAccess": 74.1,
+      "basicSanitation": 49.6,
+      "openDefecation": 15,
+      "childMortality": 57.6,
+      "populationMillions": 13.31
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "waterAccess": 75.3,
+      "basicSanitation": 50.7,
+      "openDefecation": 14.2,
+      "childMortality": 55.5,
+      "populationMillions": 13.71
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "waterAccess": 76.5,
+      "basicSanitation": 51.8,
+      "openDefecation": 13.4,
+      "childMortality": 53.7,
+      "populationMillions": 14.15
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "waterAccess": 77.6,
+      "basicSanitation": 52.9,
+      "openDefecation": 12.7,
+      "childMortality": 52.2,
+      "populationMillions": 14.59
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "waterAccess": 78.8,
+      "basicSanitation": 54,
+      "openDefecation": 11.9,
+      "childMortality": 50.8,
+      "populationMillions": 15.03
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "waterAccess": 80,
+      "basicSanitation": 55.1,
+      "openDefecation": 11.2,
+      "childMortality": 49.4,
+      "populationMillions": 15.48
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "waterAccess": 81.2,
+      "basicSanitation": 56.1,
+      "openDefecation": 10.4,
+      "childMortality": 47.9,
+      "populationMillions": 15.91
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "waterAccess": 82.3,
+      "basicSanitation": 57.2,
+      "openDefecation": 9.7,
+      "childMortality": 46.2,
+      "populationMillions": 16.35
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "waterAccess": 83.5,
+      "basicSanitation": 58.3,
+      "openDefecation": 9,
+      "childMortality": 44.2,
+      "populationMillions": 16.79
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "waterAccess": 84.6,
+      "basicSanitation": 59.3,
+      "openDefecation": 8.2,
+      "childMortality": 42.2,
+      "populationMillions": 17.22
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "waterAccess": 85.8,
+      "basicSanitation": 60.4,
+      "openDefecation": 7.5,
+      "childMortality": 40.1,
+      "populationMillions": 17.65
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "waterAccess": 86.9,
+      "basicSanitation": 61.5,
+      "openDefecation": 6.8,
+      "childMortality": 38.2,
+      "populationMillions": 18.08
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "waterAccess": 88,
+      "basicSanitation": 62.5,
+      "openDefecation": 6.1,
+      "childMortality": 36.5,
+      "populationMillions": 18.5
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "waterAccess": 51.7,
+      "basicSanitation": 12.8,
+      "openDefecation": 21.3,
+      "childMortality": 157.9,
+      "populationMillions": 6.22
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "waterAccess": 52.9,
+      "basicSanitation": 13.6,
+      "openDefecation": 20.8,
+      "childMortality": 150.8,
+      "populationMillions": 6.39
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "waterAccess": 54.1,
+      "basicSanitation": 14.3,
+      "openDefecation": 20.4,
+      "childMortality": 144.1,
+      "populationMillions": 6.55
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "waterAccess": 55.2,
+      "basicSanitation": 15.1,
+      "openDefecation": 20,
+      "childMortality": 137.9,
+      "populationMillions": 6.71
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "waterAccess": 56.4,
+      "basicSanitation": 15.9,
+      "openDefecation": 19.5,
+      "childMortality": 135.9,
+      "populationMillions": 6.88
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "waterAccess": 57.6,
+      "basicSanitation": 16.7,
+      "openDefecation": 19.1,
+      "childMortality": 136.8,
+      "populationMillions": 7.04
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "waterAccess": 58.7,
+      "basicSanitation": 17.5,
+      "openDefecation": 18.7,
+      "childMortality": 121.8,
+      "populationMillions": 7.21
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "waterAccess": 59.9,
+      "basicSanitation": 18.3,
+      "openDefecation": 18.3,
+      "childMortality": 117,
+      "populationMillions": 7.38
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "waterAccess": 61.1,
+      "basicSanitation": 19.2,
+      "openDefecation": 17.9,
+      "childMortality": 112.4,
+      "populationMillions": 7.55
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "waterAccess": 62.2,
+      "basicSanitation": 20.1,
+      "openDefecation": 17.4,
+      "childMortality": 108.3,
+      "populationMillions": 7.73
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "waterAccess": 63.4,
+      "basicSanitation": 21,
+      "openDefecation": 17,
+      "childMortality": 104.4,
+      "populationMillions": 7.91
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "waterAccess": 64.6,
+      "basicSanitation": 22,
+      "openDefecation": 16.6,
+      "childMortality": 100.6,
+      "populationMillions": 8.09
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "waterAccess": 65.7,
+      "basicSanitation": 22.9,
+      "openDefecation": 16.2,
+      "childMortality": 97.1,
+      "populationMillions": 8.28
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "waterAccess": 66.9,
+      "basicSanitation": 23.9,
+      "openDefecation": 15.8,
+      "childMortality": 93.8,
+      "populationMillions": 8.46
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "waterAccess": 68.1,
+      "basicSanitation": 24.9,
+      "openDefecation": 15.3,
+      "childMortality": 90.5,
+      "populationMillions": 8.64
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "waterAccess": 44.6,
+      "basicSanitation": 10.6,
+      "openDefecation": 67.7,
+      "childMortality": 146.7,
+      "populationMillions": 12.31
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "waterAccess": 45.2,
+      "basicSanitation": 10.8,
+      "openDefecation": 67.3,
+      "childMortality": 142.9,
+      "populationMillions": 12.75
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "waterAccess": 45.8,
+      "basicSanitation": 10.9,
+      "openDefecation": 66.9,
+      "childMortality": 139.3,
+      "populationMillions": 13.21
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "waterAccess": 46.5,
+      "basicSanitation": 11.1,
+      "openDefecation": 66.5,
+      "childMortality": 135.8,
+      "populationMillions": 13.69
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "waterAccess": 47.1,
+      "basicSanitation": 11.2,
+      "openDefecation": 66.1,
+      "childMortality": 132.3,
+      "populationMillions": 14.19
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "waterAccess": 47.8,
+      "basicSanitation": 11.4,
+      "openDefecation": 65.6,
+      "childMortality": 128.7,
+      "populationMillions": 14.65
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "waterAccess": 48.4,
+      "basicSanitation": 11.6,
+      "openDefecation": 65.2,
+      "childMortality": 125,
+      "populationMillions": 15.11
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "waterAccess": 49.1,
+      "basicSanitation": 11.8,
+      "openDefecation": 64.7,
+      "childMortality": 121.4,
+      "populationMillions": 15.62
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "waterAccess": 49.8,
+      "basicSanitation": 12.1,
+      "openDefecation": 64.3,
+      "childMortality": 117.6,
+      "populationMillions": 16.16
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "waterAccess": 50.5,
+      "basicSanitation": 12.3,
+      "openDefecation": 63.8,
+      "childMortality": 114,
+      "populationMillions": 16.69
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "waterAccess": 51.2,
+      "basicSanitation": 12.6,
+      "openDefecation": 63.3,
+      "childMortality": 110.6,
+      "populationMillions": 17.22
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "waterAccess": 51.9,
+      "basicSanitation": 12.8,
+      "openDefecation": 62.8,
+      "childMortality": 107.3,
+      "populationMillions": 17.83
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "waterAccess": 52,
+      "basicSanitation": 12.9,
+      "openDefecation": 62.6,
+      "childMortality": 103.9,
+      "populationMillions": 18.46
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "waterAccess": 52.1,
+      "basicSanitation": 13,
+      "openDefecation": 62.4,
+      "childMortality": 100.6,
+      "populationMillions": 19.32
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "waterAccess": 52.2,
+      "basicSanitation": 13.1,
+      "openDefecation": 62.2,
+      "childMortality": 97.3,
+      "populationMillions": 20.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "waterAccess": 56.1,
+      "basicSanitation": 13.3,
+      "openDefecation": 51.1,
+      "childMortality": 88.3,
+      "populationMillions": 6.73
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "waterAccess": 56.9,
+      "basicSanitation": 14.1,
+      "openDefecation": 49.7,
+      "childMortality": 85.6,
+      "populationMillions": 6.92
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "waterAccess": 57.6,
+      "basicSanitation": 15,
+      "openDefecation": 48.3,
+      "childMortality": 82.9,
+      "populationMillions": 7.1
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "waterAccess": 58.3,
+      "basicSanitation": 15.8,
+      "openDefecation": 46.9,
+      "childMortality": 80.2,
+      "populationMillions": 7.29
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "waterAccess": 58.9,
+      "basicSanitation": 16.7,
+      "openDefecation": 45.5,
+      "childMortality": 77.7,
+      "populationMillions": 7.47
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "waterAccess": 59.5,
+      "basicSanitation": 17.7,
+      "openDefecation": 44.2,
+      "childMortality": 75.2,
+      "populationMillions": 7.66
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "waterAccess": 60.1,
+      "basicSanitation": 18.6,
+      "openDefecation": 42.8,
+      "childMortality": 72.8,
+      "populationMillions": 7.86
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "waterAccess": 60.6,
+      "basicSanitation": 19.6,
+      "openDefecation": 41.5,
+      "childMortality": 70.4,
+      "populationMillions": 8.06
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "waterAccess": 61.1,
+      "basicSanitation": 20.6,
+      "openDefecation": 40.1,
+      "childMortality": 68.1,
+      "populationMillions": 8.26
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "waterAccess": 61.6,
+      "basicSanitation": 21.6,
+      "openDefecation": 38.8,
+      "childMortality": 66,
+      "populationMillions": 8.46
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "waterAccess": 62,
+      "basicSanitation": 22.7,
+      "openDefecation": 37.4,
+      "childMortality": 63.9,
+      "populationMillions": 8.67
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "waterAccess": 62.4,
+      "basicSanitation": 23.8,
+      "openDefecation": 36.1,
+      "childMortality": 62,
+      "populationMillions": 8.88
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "waterAccess": 62.8,
+      "basicSanitation": 24.9,
+      "openDefecation": 34.8,
+      "childMortality": 60,
+      "populationMillions": 9.09
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "waterAccess": 63.8,
+      "basicSanitation": 25,
+      "openDefecation": 33.5,
+      "childMortality": 58.1,
+      "populationMillions": 9.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "waterAccess": 64.8,
+      "basicSanitation": 25.2,
+      "openDefecation": 32.2,
+      "childMortality": 56.1,
+      "populationMillions": 9.52
+    }
+  ],
+  "indicators": [
+    {
+      "key": "waterAccess",
+      "code": "SH.H2O.BASW.ZS",
+      "label": "Accès à l'eau potable de base",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "basicSanitation",
+      "code": "SH.STA.BASS.ZS",
+      "label": "Accès à l'assainissement de base",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "openDefecation",
+      "code": "SH.STA.ODFC.ZS",
+      "label": "Défécation à l'air libre",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "childMortality",
+      "code": "SH.DYN.MORT",
+      "label": "Mortalité des moins de 5 ans",
+      "unit": "pour 1 000 naissances vivantes",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "populationMillions",
+      "code": "SP.POP.TOTL",
+      "label": "Population totale",
+      "unit": "millions d'habitants",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

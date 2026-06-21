@@ -1,0 +1,2227 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "co2PerCapita": 0.52,
+      "forestArea": 32.2,
+      "renewableWaterPerCapita": 1051,
+      "pm25Exposure": 44.8,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "co2PerCapita": 0.49,
+      "forestArea": 31.8,
+      "renewableWaterPerCapita": 1020,
+      "pm25Exposure": 47.4,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "co2PerCapita": 0.45,
+      "forestArea": 31.4,
+      "renewableWaterPerCapita": 991,
+      "pm25Exposure": 51.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "co2PerCapita": 0.46,
+      "forestArea": 30.9,
+      "renewableWaterPerCapita": 962,
+      "pm25Exposure": 42.1,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "co2PerCapita": 0.49,
+      "forestArea": 30.5,
+      "renewableWaterPerCapita": 934,
+      "pm25Exposure": 42,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "co2PerCapita": 0.51,
+      "forestArea": 30,
+      "renewableWaterPerCapita": 907,
+      "pm25Exposure": 66.7,
+      "protectedAreas": 28.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "co2PerCapita": 0.61,
+      "forestArea": 29.6,
+      "renewableWaterPerCapita": 881,
+      "pm25Exposure": 59.5,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "co2PerCapita": 0.6,
+      "forestArea": 29.1,
+      "renewableWaterPerCapita": 855,
+      "pm25Exposure": 58.4,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "co2PerCapita": 0.67,
+      "forestArea": 28.7,
+      "renewableWaterPerCapita": 832,
+      "pm25Exposure": 54.1,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "co2PerCapita": 0.64,
+      "forestArea": 28.2,
+      "renewableWaterPerCapita": 809,
+      "pm25Exposure": 46.6,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "co2PerCapita": 0.67,
+      "forestArea": 27.8,
+      "renewableWaterPerCapita": 788,
+      "pm25Exposure": 51,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "co2PerCapita": 0.5,
+      "forestArea": 27.4,
+      "renewableWaterPerCapita": 768,
+      "pm25Exposure": null,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "co2PerCapita": 0.51,
+      "forestArea": 26.9,
+      "renewableWaterPerCapita": 749,
+      "pm25Exposure": null,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "co2PerCapita": 0.49,
+      "forestArea": 26.5,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 29.6
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "co2PerCapita": 0.49,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 29.7
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "co2PerCapita": 0.12,
+      "forestArea": 24.5,
+      "renewableWaterPerCapita": 773,
+      "pm25Exposure": 58.9,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "co2PerCapita": 0.13,
+      "forestArea": 24.4,
+      "renewableWaterPerCapita": 750,
+      "pm25Exposure": 55.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "co2PerCapita": 0.15,
+      "forestArea": 24.2,
+      "renewableWaterPerCapita": 728,
+      "pm25Exposure": 61.8,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "co2PerCapita": 0.17,
+      "forestArea": 24,
+      "renewableWaterPerCapita": 706,
+      "pm25Exposure": 48.6,
+      "protectedAreas": 15.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "co2PerCapita": 0.15,
+      "forestArea": 23.8,
+      "renewableWaterPerCapita": 686,
+      "pm25Exposure": 49.9,
+      "protectedAreas": 15.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "co2PerCapita": 0.21,
+      "forestArea": 23.6,
+      "renewableWaterPerCapita": 666,
+      "pm25Exposure": 71.9,
+      "protectedAreas": 15.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "co2PerCapita": 0.2,
+      "forestArea": 23.5,
+      "renewableWaterPerCapita": 647,
+      "pm25Exposure": 66.1,
+      "protectedAreas": 15.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "co2PerCapita": 0.23,
+      "forestArea": 23.3,
+      "renewableWaterPerCapita": 628,
+      "pm25Exposure": 60.3,
+      "protectedAreas": 14.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "co2PerCapita": 0.26,
+      "forestArea": 23.1,
+      "renewableWaterPerCapita": 612,
+      "pm25Exposure": 58.1,
+      "protectedAreas": 14.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "co2PerCapita": 0.27,
+      "forestArea": 22.9,
+      "renewableWaterPerCapita": 596,
+      "pm25Exposure": 50.7,
+      "protectedAreas": 14.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "co2PerCapita": 0.27,
+      "forestArea": 22.7,
+      "renewableWaterPerCapita": 582,
+      "pm25Exposure": 58.5,
+      "protectedAreas": 16.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "co2PerCapita": 0.29,
+      "forestArea": 22.5,
+      "renewableWaterPerCapita": 568,
+      "pm25Exposure": null,
+      "protectedAreas": 16.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "co2PerCapita": 0.29,
+      "forestArea": 22.4,
+      "renewableWaterPerCapita": 555,
+      "pm25Exposure": null,
+      "protectedAreas": 16.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "co2PerCapita": 0.27,
+      "forestArea": 22.2,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 16.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "co2PerCapita": 0.27,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 16.5
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "co2PerCapita": 0.33,
+      "forestArea": 12.5,
+      "renewableWaterPerCapita": 3417,
+      "pm25Exposure": 41.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "co2PerCapita": 0.31,
+      "forestArea": 12.1,
+      "renewableWaterPerCapita": 3343,
+      "pm25Exposure": 49.5,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "co2PerCapita": 0.38,
+      "forestArea": 11.8,
+      "renewableWaterPerCapita": 3274,
+      "pm25Exposure": 51.4,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "co2PerCapita": 0.41,
+      "forestArea": 11.4,
+      "renewableWaterPerCapita": 3210,
+      "pm25Exposure": 40.1,
+      "protectedAreas": 22.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "co2PerCapita": 0.43,
+      "forestArea": 11.1,
+      "renewableWaterPerCapita": 3133,
+      "pm25Exposure": 38.9,
+      "protectedAreas": 22.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "co2PerCapita": 0.45,
+      "forestArea": 10.7,
+      "renewableWaterPerCapita": 3044,
+      "pm25Exposure": 62,
+      "protectedAreas": 22.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "co2PerCapita": 0.44,
+      "forestArea": 10.3,
+      "renewableWaterPerCapita": 2957,
+      "pm25Exposure": 55.7,
+      "protectedAreas": 22.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "co2PerCapita": 0.46,
+      "forestArea": 10,
+      "renewableWaterPerCapita": 2874,
+      "pm25Exposure": 50.7,
+      "protectedAreas": 22.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "co2PerCapita": 0.45,
+      "forestArea": 9.6,
+      "renewableWaterPerCapita": 2798,
+      "pm25Exposure": 50.9,
+      "protectedAreas": 22.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "co2PerCapita": 0.47,
+      "forestArea": 9.3,
+      "renewableWaterPerCapita": 2725,
+      "pm25Exposure": 44.3,
+      "protectedAreas": 23
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "co2PerCapita": 0.46,
+      "forestArea": 8.9,
+      "renewableWaterPerCapita": 2657,
+      "pm25Exposure": 49.5,
+      "protectedAreas": 23
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "co2PerCapita": 0.58,
+      "forestArea": 8.6,
+      "renewableWaterPerCapita": 2592,
+      "pm25Exposure": null,
+      "protectedAreas": 23
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "co2PerCapita": 0.61,
+      "forestArea": 8.2,
+      "renewableWaterPerCapita": 2528,
+      "pm25Exposure": null,
+      "protectedAreas": 23
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "co2PerCapita": 0.58,
+      "forestArea": 7.9,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 23
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "co2PerCapita": 0.59,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 22.8
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "co2PerCapita": 0.4,
+      "forestArea": 44.2,
+      "renewableWaterPerCapita": 13880,
+      "pm25Exposure": 39,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "co2PerCapita": 0.37,
+      "forestArea": 44.1,
+      "renewableWaterPerCapita": 13493,
+      "pm25Exposure": 38.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "co2PerCapita": 0.36,
+      "forestArea": 44,
+      "renewableWaterPerCapita": 13119,
+      "pm25Exposure": 41.9,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "co2PerCapita": 0.38,
+      "forestArea": 43.9,
+      "renewableWaterPerCapita": 12756,
+      "pm25Exposure": 37.1,
+      "protectedAreas": 11
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "co2PerCapita": 0.4,
+      "forestArea": 43.7,
+      "renewableWaterPerCapita": 12375,
+      "pm25Exposure": 37,
+      "protectedAreas": 11
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "co2PerCapita": 0.4,
+      "forestArea": 43.6,
+      "renewableWaterPerCapita": 11993,
+      "pm25Exposure": 51.9,
+      "protectedAreas": 10.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "co2PerCapita": 0.41,
+      "forestArea": 43.5,
+      "renewableWaterPerCapita": 11640,
+      "pm25Exposure": 44.8,
+      "protectedAreas": 10.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "co2PerCapita": 0.41,
+      "forestArea": 43.4,
+      "renewableWaterPerCapita": 11314,
+      "pm25Exposure": 43.2,
+      "protectedAreas": 10.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "co2PerCapita": 0.43,
+      "forestArea": 43.3,
+      "renewableWaterPerCapita": 11005,
+      "pm25Exposure": 40.9,
+      "protectedAreas": 10.6
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "co2PerCapita": 0.4,
+      "forestArea": 43.1,
+      "renewableWaterPerCapita": 10703,
+      "pm25Exposure": 40.7,
+      "protectedAreas": 10.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "co2PerCapita": 0.4,
+      "forestArea": 43,
+      "renewableWaterPerCapita": 10416,
+      "pm25Exposure": 39.8,
+      "protectedAreas": 10.9
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "co2PerCapita": 0.38,
+      "forestArea": 42.9,
+      "renewableWaterPerCapita": 10143,
+      "pm25Exposure": null,
+      "protectedAreas": 11
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "co2PerCapita": 0.38,
+      "forestArea": 42.8,
+      "renewableWaterPerCapita": 9880,
+      "pm25Exposure": null,
+      "protectedAreas": 11
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "co2PerCapita": 0.36,
+      "forestArea": 42.7,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 11
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "co2PerCapita": 0.35,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 11
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "co2PerCapita": 0.04,
+      "forestArea": 60.5,
+      "renewableWaterPerCapita": 13127,
+      "pm25Exposure": 26,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "co2PerCapita": 0.05,
+      "forestArea": 60,
+      "renewableWaterPerCapita": 12703,
+      "pm25Exposure": 26.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "co2PerCapita": 0.04,
+      "forestArea": 59.5,
+      "renewableWaterPerCapita": 12286,
+      "pm25Exposure": 26.7,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "co2PerCapita": 0.04,
+      "forestArea": 59,
+      "renewableWaterPerCapita": 11875,
+      "pm25Exposure": 26.1,
+      "protectedAreas": 12.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "co2PerCapita": 0.05,
+      "forestArea": 58.6,
+      "renewableWaterPerCapita": 11479,
+      "pm25Exposure": 26.9,
+      "protectedAreas": 12.7
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "co2PerCapita": 0.04,
+      "forestArea": 58.1,
+      "renewableWaterPerCapita": 11106,
+      "pm25Exposure": 28.5,
+      "protectedAreas": 12.7
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "co2PerCapita": 0.04,
+      "forestArea": 57.6,
+      "renewableWaterPerCapita": 10720,
+      "pm25Exposure": 26.8,
+      "protectedAreas": 12.7
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "co2PerCapita": 0.04,
+      "forestArea": 57.1,
+      "renewableWaterPerCapita": 10335,
+      "pm25Exposure": 26.8,
+      "protectedAreas": 13.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "co2PerCapita": 0.05,
+      "forestArea": 56.6,
+      "renewableWaterPerCapita": 9995,
+      "pm25Exposure": 26.7,
+      "protectedAreas": 13.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "co2PerCapita": 0.05,
+      "forestArea": 56.1,
+      "renewableWaterPerCapita": 9683,
+      "pm25Exposure": 26.3,
+      "protectedAreas": 13.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "co2PerCapita": 0.05,
+      "forestArea": 55.6,
+      "renewableWaterPerCapita": 9376,
+      "pm25Exposure": 26.6,
+      "protectedAreas": 13.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "co2PerCapita": 0.05,
+      "forestArea": 55.2,
+      "renewableWaterPerCapita": 9077,
+      "pm25Exposure": null,
+      "protectedAreas": 13.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "co2PerCapita": 0.06,
+      "forestArea": 54.7,
+      "renewableWaterPerCapita": 8789,
+      "pm25Exposure": null,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "co2PerCapita": 0.06,
+      "forestArea": 54.2,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "co2PerCapita": 0.06,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 14.9
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "co2PerCapita": 0.44,
+      "forestArea": 34.9,
+      "renewableWaterPerCapita": 1189,
+      "pm25Exposure": 47.8,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "co2PerCapita": 0.46,
+      "forestArea": 34.9,
+      "renewableWaterPerCapita": 1161,
+      "pm25Exposure": 52.8,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "co2PerCapita": 0.54,
+      "forestArea": 34.8,
+      "renewableWaterPerCapita": 1133,
+      "pm25Exposure": 57,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "co2PerCapita": 0.56,
+      "forestArea": 34.7,
+      "renewableWaterPerCapita": 1106,
+      "pm25Exposure": 44.7,
+      "protectedAreas": 15.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "co2PerCapita": 0.53,
+      "forestArea": 34.7,
+      "renewableWaterPerCapita": 1081,
+      "pm25Exposure": 44,
+      "protectedAreas": 15.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "co2PerCapita": 0.54,
+      "forestArea": 34.6,
+      "renewableWaterPerCapita": 1056,
+      "pm25Exposure": 68,
+      "protectedAreas": 15.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "co2PerCapita": 0.55,
+      "forestArea": 34.8,
+      "renewableWaterPerCapita": 1032,
+      "pm25Exposure": 62.9,
+      "protectedAreas": 15.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "co2PerCapita": 0.58,
+      "forestArea": 35,
+      "renewableWaterPerCapita": 1010,
+      "pm25Exposure": 60.4,
+      "protectedAreas": 15.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "co2PerCapita": 0.62,
+      "forestArea": 35,
+      "renewableWaterPerCapita": 989,
+      "pm25Exposure": 56,
+      "protectedAreas": 15
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "co2PerCapita": 0.65,
+      "forestArea": 35.1,
+      "renewableWaterPerCapita": 969,
+      "pm25Exposure": 49.7,
+      "protectedAreas": 15
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "co2PerCapita": 0.72,
+      "forestArea": 35.1,
+      "renewableWaterPerCapita": 950,
+      "pm25Exposure": 54.2,
+      "protectedAreas": 14.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "co2PerCapita": 0.75,
+      "forestArea": 35.1,
+      "renewableWaterPerCapita": 932,
+      "pm25Exposure": null,
+      "protectedAreas": 14.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "co2PerCapita": 0.72,
+      "forestArea": 35.2,
+      "renewableWaterPerCapita": 914,
+      "pm25Exposure": null,
+      "protectedAreas": 14.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "co2PerCapita": 0.69,
+      "forestArea": 35.2,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 14.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "co2PerCapita": 0.7,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 14.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "co2PerCapita": 0.24,
+      "forestArea": 26.7,
+      "renewableWaterPerCapita": 21739,
+      "pm25Exposure": 43.9,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "co2PerCapita": 0.25,
+      "forestArea": 26.6,
+      "renewableWaterPerCapita": 21207,
+      "pm25Exposure": 45.7,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "co2PerCapita": 0.23,
+      "forestArea": 26.4,
+      "renewableWaterPerCapita": 20693,
+      "pm25Exposure": 47.8,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "co2PerCapita": 0.2,
+      "forestArea": 26.3,
+      "renewableWaterPerCapita": 20193,
+      "pm25Exposure": 37.4,
+      "protectedAreas": 30.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "co2PerCapita": 0.21,
+      "forestArea": 26.1,
+      "renewableWaterPerCapita": 19699,
+      "pm25Exposure": 39.8,
+      "protectedAreas": 30.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "co2PerCapita": 0.24,
+      "forestArea": 26,
+      "renewableWaterPerCapita": 19206,
+      "pm25Exposure": 54.3,
+      "protectedAreas": 30.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "co2PerCapita": 0.27,
+      "forestArea": 25.8,
+      "renewableWaterPerCapita": 18719,
+      "pm25Exposure": 49.6,
+      "protectedAreas": 30.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "co2PerCapita": 0.26,
+      "forestArea": 25.7,
+      "renewableWaterPerCapita": 18247,
+      "pm25Exposure": 49.7,
+      "protectedAreas": 35.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "co2PerCapita": 0.29,
+      "forestArea": 25.5,
+      "renewableWaterPerCapita": 17789,
+      "pm25Exposure": 48.4,
+      "protectedAreas": 35.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "co2PerCapita": 0.37,
+      "forestArea": 25.3,
+      "renewableWaterPerCapita": 17339,
+      "pm25Exposure": 42.9,
+      "protectedAreas": 35.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "co2PerCapita": 0.4,
+      "forestArea": 25.2,
+      "renewableWaterPerCapita": 16902,
+      "pm25Exposure": 43.8,
+      "protectedAreas": 35.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "co2PerCapita": 0.37,
+      "forestArea": 25,
+      "renewableWaterPerCapita": 16484,
+      "pm25Exposure": null,
+      "protectedAreas": 37.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "co2PerCapita": 0.37,
+      "forestArea": 24.9,
+      "renewableWaterPerCapita": 16080,
+      "pm25Exposure": null,
+      "protectedAreas": 37.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "co2PerCapita": 0.35,
+      "forestArea": 24.7,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 37.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "co2PerCapita": 0.35,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 37.6
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "co2PerCapita": 0.2,
+      "forestArea": 82.2,
+      "renewableWaterPerCapita": 49275,
+      "pm25Exposure": 33.7,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "co2PerCapita": 0.21,
+      "forestArea": 81.9,
+      "renewableWaterPerCapita": 47380,
+      "pm25Exposure": 43.1,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "co2PerCapita": 0.22,
+      "forestArea": 81.6,
+      "renewableWaterPerCapita": 45735,
+      "pm25Exposure": 41,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "co2PerCapita": 0.2,
+      "forestArea": 81.3,
+      "renewableWaterPerCapita": 44740,
+      "pm25Exposure": 33.8,
+      "protectedAreas": 2.5
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "co2PerCapita": 0.26,
+      "forestArea": 81,
+      "renewableWaterPerCapita": 43818,
+      "pm25Exposure": 34.3,
+      "protectedAreas": 2.5
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "co2PerCapita": 0.26,
+      "forestArea": 80.7,
+      "renewableWaterPerCapita": 42924,
+      "pm25Exposure": 51.1,
+      "protectedAreas": 2.5
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "co2PerCapita": 0.29,
+      "forestArea": 80.3,
+      "renewableWaterPerCapita": 42056,
+      "pm25Exposure": 48.3,
+      "protectedAreas": 2.5
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "co2PerCapita": 0.25,
+      "forestArea": 80,
+      "renewableWaterPerCapita": 41246,
+      "pm25Exposure": 41.5,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "co2PerCapita": 0.13,
+      "forestArea": 79.7,
+      "renewableWaterPerCapita": 40447,
+      "pm25Exposure": 42,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "co2PerCapita": 0.2,
+      "forestArea": 79.4,
+      "renewableWaterPerCapita": 39653,
+      "pm25Exposure": 37.2,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "co2PerCapita": 0.16,
+      "forestArea": 79.1,
+      "renewableWaterPerCapita": 38839,
+      "pm25Exposure": 42.4,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "co2PerCapita": 0.16,
+      "forestArea": 78.8,
+      "renewableWaterPerCapita": 38028,
+      "pm25Exposure": null,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "co2PerCapita": 0.16,
+      "forestArea": 78.5,
+      "renewableWaterPerCapita": 37221,
+      "pm25Exposure": null,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "co2PerCapita": 0.15,
+      "forestArea": 78.1,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 4.1
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "co2PerCapita": 0.15,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "co2PerCapita": 0.12,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3763,
+      "pm25Exposure": 67.7,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "co2PerCapita": 0.13,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3643,
+      "pm25Exposure": 62.5,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "co2PerCapita": 0.13,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3538,
+      "pm25Exposure": 69.9,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "co2PerCapita": 0.16,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3437,
+      "pm25Exposure": 51.3,
+      "protectedAreas": 9.1
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "co2PerCapita": 0.16,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3330,
+      "pm25Exposure": 56.5,
+      "protectedAreas": 8.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "co2PerCapita": 0.19,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3227,
+      "pm25Exposure": 74.1,
+      "protectedAreas": 8.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "co2PerCapita": 0.24,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3126,
+      "pm25Exposure": 66.2,
+      "protectedAreas": 8.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "co2PerCapita": 0.26,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 3028,
+      "pm25Exposure": 66.8,
+      "protectedAreas": 8.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "co2PerCapita": 0.28,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 2935,
+      "pm25Exposure": 63.7,
+      "protectedAreas": 8.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "co2PerCapita": 0.29,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 2848,
+      "pm25Exposure": 57.4,
+      "protectedAreas": 8.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "co2PerCapita": 0.32,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 2763,
+      "pm25Exposure": 56.8,
+      "protectedAreas": 7.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "co2PerCapita": 0.33,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 2680,
+      "pm25Exposure": null,
+      "protectedAreas": 7.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "co2PerCapita": 0.32,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": 2600,
+      "pm25Exposure": null,
+      "protectedAreas": 7.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "co2PerCapita": 0.3,
+      "forestArea": 10.9,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 7.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "co2PerCapita": 0.3,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 7.5
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "co2PerCapita": 0.62,
+      "forestArea": 0.4,
+      "renewableWaterPerCapita": 118,
+      "pm25Exposure": 72.9,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "co2PerCapita": 0.65,
+      "forestArea": 0.4,
+      "renewableWaterPerCapita": 114,
+      "pm25Exposure": 73,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "co2PerCapita": 0.7,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 111,
+      "pm25Exposure": 83,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "co2PerCapita": 0.62,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 107,
+      "pm25Exposure": 64.5,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "co2PerCapita": 0.7,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 104,
+      "pm25Exposure": 64.2,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "co2PerCapita": 0.7,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 101,
+      "pm25Exposure": 83,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "co2PerCapita": 0.64,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 98,
+      "pm25Exposure": 76.5,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "co2PerCapita": 0.9,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 95,
+      "pm25Exposure": 80,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "co2PerCapita": 1.02,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 92,
+      "pm25Exposure": 75.8,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "co2PerCapita": 1,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 90,
+      "pm25Exposure": 72.2,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "co2PerCapita": 1.01,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 87,
+      "pm25Exposure": 70.8,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "co2PerCapita": 0.93,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 84,
+      "pm25Exposure": null,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "co2PerCapita": 1.03,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": 82,
+      "pm25Exposure": null,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "co2PerCapita": 0.96,
+      "forestArea": 0.3,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "co2PerCapita": 0.97,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 0.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "co2PerCapita": 0.09,
+      "forestArea": 1,
+      "renewableWaterPerCapita": 211,
+      "pm25Exposure": 88,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "co2PerCapita": 0.09,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 204,
+      "pm25Exposure": 91,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "co2PerCapita": 0.12,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 196,
+      "pm25Exposure": 88.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "co2PerCapita": 0.11,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 189,
+      "pm25Exposure": 74.6,
+      "protectedAreas": 16.7
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "co2PerCapita": 0.11,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 182,
+      "pm25Exposure": 71.7,
+      "protectedAreas": 17.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "co2PerCapita": 0.11,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 176,
+      "pm25Exposure": 107.1,
+      "protectedAreas": 17.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "co2PerCapita": 0.1,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 169,
+      "pm25Exposure": 104.9,
+      "protectedAreas": 17.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "co2PerCapita": 0.09,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 163,
+      "pm25Exposure": 88.8,
+      "protectedAreas": 17.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "co2PerCapita": 0.09,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 158,
+      "pm25Exposure": 86,
+      "protectedAreas": 17.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "co2PerCapita": 0.1,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 153,
+      "pm25Exposure": 72.5,
+      "protectedAreas": 17.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "co2PerCapita": 0.1,
+      "forestArea": 0.9,
+      "renewableWaterPerCapita": 148,
+      "pm25Exposure": 85.1,
+      "protectedAreas": 18.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "co2PerCapita": 0.12,
+      "forestArea": 0.8,
+      "renewableWaterPerCapita": 143,
+      "pm25Exposure": null,
+      "protectedAreas": 18.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "co2PerCapita": 0.13,
+      "forestArea": 0.8,
+      "renewableWaterPerCapita": 138,
+      "pm25Exposure": null,
+      "protectedAreas": 18.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "co2PerCapita": 0.12,
+      "forestArea": 0.8,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 18.2
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "co2PerCapita": 0.12,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 18.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "co2PerCapita": 0.57,
+      "forestArea": 25.5,
+      "renewableWaterPerCapita": 1326,
+      "pm25Exposure": 49.5,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "co2PerCapita": 0.61,
+      "forestArea": 25.4,
+      "renewableWaterPerCapita": 1290,
+      "pm25Exposure": 55.1,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "co2PerCapita": 0.58,
+      "forestArea": 25.2,
+      "renewableWaterPerCapita": 1254,
+      "pm25Exposure": 59.3,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "co2PerCapita": 0.63,
+      "forestArea": 25,
+      "renewableWaterPerCapita": 1221,
+      "pm25Exposure": 48.1,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "co2PerCapita": 0.66,
+      "forestArea": 24.8,
+      "renewableWaterPerCapita": 1189,
+      "pm25Exposure": 48.2,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "co2PerCapita": 0.62,
+      "forestArea": 24.6,
+      "renewableWaterPerCapita": 1159,
+      "pm25Exposure": 77.1,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "co2PerCapita": 0.63,
+      "forestArea": 24.5,
+      "renewableWaterPerCapita": 1131,
+      "pm25Exposure": 65.4,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "co2PerCapita": 0.58,
+      "forestArea": 24.3,
+      "renewableWaterPerCapita": 1104,
+      "pm25Exposure": 63.2,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "co2PerCapita": 0.59,
+      "forestArea": 24.1,
+      "renewableWaterPerCapita": 1078,
+      "pm25Exposure": 57,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "co2PerCapita": 0.6,
+      "forestArea": 23.9,
+      "renewableWaterPerCapita": 1055,
+      "pm25Exposure": 51.7,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "co2PerCapita": 0.56,
+      "forestArea": 23.7,
+      "renewableWaterPerCapita": 1033,
+      "pm25Exposure": 56.5,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "co2PerCapita": 0.6,
+      "forestArea": 23.6,
+      "renewableWaterPerCapita": 1011,
+      "pm25Exposure": null,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "co2PerCapita": 0.58,
+      "forestArea": 23.4,
+      "renewableWaterPerCapita": 990,
+      "pm25Exposure": null,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "co2PerCapita": 0.55,
+      "forestArea": 23.2,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "co2PerCapita": 0.57,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 13.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "co2PerCapita": 0.55,
+      "forestArea": 44,
+      "renewableWaterPerCapita": 2042,
+      "pm25Exposure": 57,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "co2PerCapita": 0.58,
+      "forestArea": 43.8,
+      "renewableWaterPerCapita": 1991,
+      "pm25Exposure": 59.1,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "co2PerCapita": 0.55,
+      "forestArea": 43.6,
+      "renewableWaterPerCapita": 1938,
+      "pm25Exposure": 72,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "co2PerCapita": 0.57,
+      "forestArea": 43.4,
+      "renewableWaterPerCapita": 1882,
+      "pm25Exposure": 50.8,
+      "protectedAreas": 25.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "co2PerCapita": 0.59,
+      "forestArea": 43.2,
+      "renewableWaterPerCapita": 1823,
+      "pm25Exposure": 54.9,
+      "protectedAreas": 25.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "co2PerCapita": 0.63,
+      "forestArea": 42.9,
+      "renewableWaterPerCapita": 1768,
+      "pm25Exposure": 70.7,
+      "protectedAreas": 25.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "co2PerCapita": 0.68,
+      "forestArea": 42.7,
+      "renewableWaterPerCapita": 1716,
+      "pm25Exposure": 62.2,
+      "protectedAreas": 25.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "co2PerCapita": 0.66,
+      "forestArea": 42.5,
+      "renewableWaterPerCapita": 1667,
+      "pm25Exposure": 69,
+      "protectedAreas": 25.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "co2PerCapita": 0.67,
+      "forestArea": 42.3,
+      "renewableWaterPerCapita": 1621,
+      "pm25Exposure": 61.8,
+      "protectedAreas": 25.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "co2PerCapita": 0.67,
+      "forestArea": 42.1,
+      "renewableWaterPerCapita": 1578,
+      "pm25Exposure": 60.3,
+      "protectedAreas": 25.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "co2PerCapita": 0.64,
+      "forestArea": 41.9,
+      "renewableWaterPerCapita": 1537,
+      "pm25Exposure": 63.7,
+      "protectedAreas": 25.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "co2PerCapita": 0.76,
+      "forestArea": 41.7,
+      "renewableWaterPerCapita": 1498,
+      "pm25Exposure": null,
+      "protectedAreas": 26.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "co2PerCapita": 0.82,
+      "forestArea": 41.5,
+      "renewableWaterPerCapita": 1462,
+      "pm25Exposure": null,
+      "protectedAreas": 26.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "co2PerCapita": 0.76,
+      "forestArea": 41.3,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 26.4
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "co2PerCapita": 0.77,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 26.3
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "co2PerCapita": 0.11,
+      "forestArea": 37.9,
+      "renewableWaterPerCapita": 25712,
+      "pm25Exposure": 36.9,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "co2PerCapita": 0.14,
+      "forestArea": 37.6,
+      "renewableWaterPerCapita": 25050,
+      "pm25Exposure": 43.1,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "co2PerCapita": 0.15,
+      "forestArea": 37.3,
+      "renewableWaterPerCapita": 24423,
+      "pm25Exposure": 42.4,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "co2PerCapita": 0.17,
+      "forestArea": 37,
+      "renewableWaterPerCapita": 23831,
+      "pm25Exposure": 34.4,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "co2PerCapita": 0.18,
+      "forestArea": 36.8,
+      "renewableWaterPerCapita": 23268,
+      "pm25Exposure": 36.2,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "co2PerCapita": 0.15,
+      "forestArea": 36.5,
+      "renewableWaterPerCapita": 22735,
+      "pm25Exposure": 51.8,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "co2PerCapita": 0.15,
+      "forestArea": 36.2,
+      "renewableWaterPerCapita": 22206,
+      "pm25Exposure": 48.7,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "co2PerCapita": 0.14,
+      "forestArea": 35.9,
+      "renewableWaterPerCapita": 21682,
+      "pm25Exposure": 44.7,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "co2PerCapita": 0.16,
+      "forestArea": 35.7,
+      "renewableWaterPerCapita": 21179,
+      "pm25Exposure": 44.3,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "co2PerCapita": 0.16,
+      "forestArea": 35.4,
+      "renewableWaterPerCapita": 20693,
+      "pm25Exposure": 38.6,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "co2PerCapita": 0.16,
+      "forestArea": 35.1,
+      "renewableWaterPerCapita": 20221,
+      "pm25Exposure": 43.2,
+      "protectedAreas": 9.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "co2PerCapita": 0.18,
+      "forestArea": 34.8,
+      "renewableWaterPerCapita": 19766,
+      "pm25Exposure": null,
+      "protectedAreas": 12.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "co2PerCapita": 0.18,
+      "forestArea": 34.6,
+      "renewableWaterPerCapita": 19331,
+      "pm25Exposure": null,
+      "protectedAreas": 12.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "co2PerCapita": 0.17,
+      "forestArea": 34.3,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 12.7
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "co2PerCapita": 0.17,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 12.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "co2PerCapita": 0.04,
+      "forestArea": 4.4,
+      "renewableWaterPerCapita": 1218,
+      "pm25Exposure": 52.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "co2PerCapita": 0.05,
+      "forestArea": 4.3,
+      "renewableWaterPerCapita": 1176,
+      "pm25Exposure": 54.2,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "co2PerCapita": 0.09,
+      "forestArea": 4.2,
+      "renewableWaterPerCapita": 1135,
+      "pm25Exposure": 57.1,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "co2PerCapita": 0.1,
+      "forestArea": 4.1,
+      "renewableWaterPerCapita": 1096,
+      "pm25Exposure": 50.2,
+      "protectedAreas": 18.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "co2PerCapita": 0.1,
+      "forestArea": 4,
+      "renewableWaterPerCapita": 1057,
+      "pm25Exposure": 46.8,
+      "protectedAreas": 18.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "co2PerCapita": 0.11,
+      "forestArea": 3.9,
+      "renewableWaterPerCapita": 1024,
+      "pm25Exposure": 64.4,
+      "protectedAreas": 18.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "co2PerCapita": 0.11,
+      "forestArea": 3.8,
+      "renewableWaterPerCapita": 992,
+      "pm25Exposure": 58.4,
+      "protectedAreas": 20.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "co2PerCapita": 0.14,
+      "forestArea": 3.7,
+      "renewableWaterPerCapita": 960,
+      "pm25Exposure": 56.3,
+      "protectedAreas": 20.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "co2PerCapita": 0.15,
+      "forestArea": 3.6,
+      "renewableWaterPerCapita": 928,
+      "pm25Exposure": 54.4,
+      "protectedAreas": 20.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "co2PerCapita": 0.14,
+      "forestArea": 3.5,
+      "renewableWaterPerCapita": 899,
+      "pm25Exposure": 51.9,
+      "protectedAreas": 20.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "co2PerCapita": 0.14,
+      "forestArea": 3.4,
+      "renewableWaterPerCapita": 871,
+      "pm25Exposure": 49.1,
+      "protectedAreas": 21
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "co2PerCapita": 0.15,
+      "forestArea": 3.3,
+      "renewableWaterPerCapita": 841,
+      "pm25Exposure": null,
+      "protectedAreas": 21
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "co2PerCapita": 0.16,
+      "forestArea": 3.2,
+      "renewableWaterPerCapita": 813,
+      "pm25Exposure": null,
+      "protectedAreas": 21
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "co2PerCapita": 0.15,
+      "forestArea": 3.2,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 21
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "co2PerCapita": 0.14,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 21
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "co2PerCapita": 0.38,
+      "forestArea": 22.8,
+      "renewableWaterPerCapita": 1708,
+      "pm25Exposure": 47.1,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "co2PerCapita": 0.34,
+      "forestArea": 22.7,
+      "renewableWaterPerCapita": 1663,
+      "pm25Exposure": 48.3,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "co2PerCapita": 0.32,
+      "forestArea": 22.7,
+      "renewableWaterPerCapita": 1620,
+      "pm25Exposure": 53.6,
+      "protectedAreas": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "co2PerCapita": 0.27,
+      "forestArea": 22.6,
+      "renewableWaterPerCapita": 1578,
+      "pm25Exposure": 43,
+      "protectedAreas": 27.8
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "co2PerCapita": 0.23,
+      "forestArea": 22.6,
+      "renewableWaterPerCapita": 1539,
+      "pm25Exposure": 43.1,
+      "protectedAreas": 27.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "co2PerCapita": 0.2,
+      "forestArea": 22.5,
+      "renewableWaterPerCapita": 1501,
+      "pm25Exposure": 67.3,
+      "protectedAreas": 27.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "co2PerCapita": 0.27,
+      "forestArea": 22.5,
+      "renewableWaterPerCapita": 1463,
+      "pm25Exposure": 60.3,
+      "protectedAreas": 27.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "co2PerCapita": 0.21,
+      "forestArea": 22.4,
+      "renewableWaterPerCapita": 1427,
+      "pm25Exposure": 58.2,
+      "protectedAreas": 27.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "co2PerCapita": 0.23,
+      "forestArea": 22.3,
+      "renewableWaterPerCapita": 1392,
+      "pm25Exposure": 55.1,
+      "protectedAreas": 27.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "co2PerCapita": 0.25,
+      "forestArea": 22.3,
+      "renewableWaterPerCapita": 1359,
+      "pm25Exposure": 47.6,
+      "protectedAreas": 27.6
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "co2PerCapita": 0.28,
+      "forestArea": 22.2,
+      "renewableWaterPerCapita": 1326,
+      "pm25Exposure": 51.7,
+      "protectedAreas": 28
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "co2PerCapita": 0.29,
+      "forestArea": 22.2,
+      "renewableWaterPerCapita": 1295,
+      "pm25Exposure": null,
+      "protectedAreas": 28
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "co2PerCapita": 0.29,
+      "forestArea": 22.1,
+      "renewableWaterPerCapita": 1265,
+      "pm25Exposure": null,
+      "protectedAreas": 28
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "co2PerCapita": 0.27,
+      "forestArea": 22.1,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 28
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "co2PerCapita": 0.28,
+      "forestArea": null,
+      "renewableWaterPerCapita": null,
+      "pm25Exposure": null,
+      "protectedAreas": 28.1
+    }
+  ],
+  "indicators": [
+    {
+      "key": "co2PerCapita",
+      "code": "EN.GHG.CO2.PC.CE.AR5",
+      "label": "Émissions de CO₂ par habitant",
+      "unit": "tonnes/habitant",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "forestArea",
+      "code": "AG.LND.FRST.ZS",
+      "label": "Couvert forestier",
+      "unit": "% de la surface du territoire",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "renewableWaterPerCapita",
+      "code": "ER.H2O.INTR.PC",
+      "label": "Ressources en eau douce renouvelables par habitant",
+      "unit": "m³/habitant",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2022
+      ]
+    },
+    {
+      "key": "pm25Exposure",
+      "code": "EN.ATM.PM25.MC.M3",
+      "label": "Exposition aux particules fines (PM2.5)",
+      "unit": "µg/m³",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2020
+      ]
+    },
+    {
+      "key": "protectedAreas",
+      "code": "ER.LND.PTLD.ZS",
+      "label": "Aires terrestres protégées",
+      "unit": "% de la surface du territoire",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2013,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

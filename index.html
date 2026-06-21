@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Franck-Aubin GBADAMASSI - Senior Business Analytics & Insights</title>
+    <meta
+      name="description"
+      content="Senior Business Analytics & Insights à Dakar : parcours, expérience et portfolio de projets de data analytics en santé publique et développement en Afrique de l'Ouest et Centrale."
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      Formulaire statique miroir, requis pour que Netlify détecte le formulaire "contact"
+      au moment du build (les formulaires rendus uniquement par React ne sont pas visibles
+      par l'analyseur HTML de Netlify). Les champs doivent correspondre exactement à ceux
+      du composant src/components/ContactForm.tsx. Jamais affiché côté utilisateur.
+    -->
+    <form name="contact" data-netlify="true" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

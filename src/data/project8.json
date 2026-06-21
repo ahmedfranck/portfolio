@@ -1,0 +1,2227 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "agricultureValueAdded": 25.8,
+      "cerealYield": 1201,
+      "foodProductionIndex": 80.5,
+      "undernourishment": 9.1,
+      "arableLand": 22.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "agricultureValueAdded": 25.8,
+      "cerealYield": 1518,
+      "foodProductionIndex": 85,
+      "undernourishment": 9.6,
+      "arableLand": 22.2
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "agricultureValueAdded": 25.8,
+      "cerealYield": 1373,
+      "foodProductionIndex": 91.7,
+      "undernourishment": 9.4,
+      "arableLand": 23.1
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "agricultureValueAdded": 25.3,
+      "cerealYield": 1480,
+      "foodProductionIndex": 99.2,
+      "undernourishment": 9.2,
+      "arableLand": 23.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "agricultureValueAdded": 25.6,
+      "cerealYield": 1460,
+      "foodProductionIndex": 103.1,
+      "undernourishment": 9.2,
+      "arableLand": 23.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "agricultureValueAdded": 26.4,
+      "cerealYield": 1337,
+      "foodProductionIndex": 94.9,
+      "undernourishment": 9.1,
+      "arableLand": 23.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "agricultureValueAdded": 27.8,
+      "cerealYield": 1456,
+      "foodProductionIndex": 102.1,
+      "undernourishment": 9.7,
+      "arableLand": 24.8
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "agricultureValueAdded": 28.5,
+      "cerealYield": 1405,
+      "foodProductionIndex": 104.6,
+      "undernourishment": 10.5,
+      "arableLand": 26.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "agricultureValueAdded": 28.1,
+      "cerealYield": 1429,
+      "foodProductionIndex": 109.5,
+      "undernourishment": 11.4,
+      "arableLand": 30.3
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "agricultureValueAdded": 26.9,
+      "cerealYield": 1238,
+      "foodProductionIndex": 117.3,
+      "undernourishment": 11.8,
+      "arableLand": 31.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "agricultureValueAdded": 27.1,
+      "cerealYield": 1433,
+      "foodProductionIndex": 113.9,
+      "undernourishment": 11.7,
+      "arableLand": 29.5
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "agricultureValueAdded": 28.5,
+      "cerealYield": 1409,
+      "foodProductionIndex": 121.8,
+      "undernourishment": 12.5,
+      "arableLand": 30.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "agricultureValueAdded": 26.9,
+      "cerealYield": 1362,
+      "foodProductionIndex": 126.3,
+      "undernourishment": 13.3,
+      "arableLand": 31.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "agricultureValueAdded": 25.4,
+      "cerealYield": 1127,
+      "foodProductionIndex": null,
+      "undernourishment": 14.3,
+      "arableLand": 31.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "agricultureValueAdded": 24.2,
+      "cerealYield": 1356,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "agricultureValueAdded": 24.1,
+      "cerealYield": 1063,
+      "foodProductionIndex": 81.8,
+      "undernourishment": 15,
+      "arableLand": 23.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "agricultureValueAdded": 23,
+      "cerealYield": 995,
+      "foodProductionIndex": 78.4,
+      "undernourishment": 14.6,
+      "arableLand": 23.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "agricultureValueAdded": 23.8,
+      "cerealYield": 1203,
+      "foodProductionIndex": 85.4,
+      "undernourishment": 14.1,
+      "arableLand": 24.3
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "agricultureValueAdded": 23.6,
+      "cerealYield": 1157,
+      "foodProductionIndex": 96,
+      "undernourishment": 13.5,
+      "arableLand": 24.8
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "agricultureValueAdded": 23.7,
+      "cerealYield": 1226,
+      "foodProductionIndex": 98.9,
+      "undernourishment": 13.4,
+      "arableLand": 25.2
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "agricultureValueAdded": 22.6,
+      "cerealYield": 1169,
+      "foodProductionIndex": 99.8,
+      "undernourishment": 13.6,
+      "arableLand": 25.7
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "agricultureValueAdded": 21.7,
+      "cerealYield": 1137,
+      "foodProductionIndex": 101.4,
+      "undernourishment": 14,
+      "arableLand": 26.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "agricultureValueAdded": 20.6,
+      "cerealYield": 1009,
+      "foodProductionIndex": 95.8,
+      "undernourishment": 14,
+      "arableLand": 26.6
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "agricultureValueAdded": 21,
+      "cerealYield": 1152,
+      "foodProductionIndex": 112.1,
+      "undernourishment": 14.5,
+      "arableLand": 27.1
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "agricultureValueAdded": 18.2,
+      "cerealYield": 1156,
+      "foodProductionIndex": 119.3,
+      "undernourishment": 14.3,
+      "arableLand": 27.5
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "agricultureValueAdded": 17.9,
+      "cerealYield": 1262,
+      "foodProductionIndex": 117.7,
+      "undernourishment": 14.9,
+      "arableLand": 28
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "agricultureValueAdded": 17.3,
+      "cerealYield": 1096,
+      "foodProductionIndex": 109.3,
+      "undernourishment": 14.3,
+      "arableLand": 28.4
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "agricultureValueAdded": 20.6,
+      "cerealYield": 1204,
+      "foodProductionIndex": 118.8,
+      "undernourishment": 13.9,
+      "arableLand": 28.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "agricultureValueAdded": 19,
+      "cerealYield": 1221,
+      "foodProductionIndex": null,
+      "undernourishment": 13.1,
+      "arableLand": 28.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "agricultureValueAdded": 20.9,
+      "cerealYield": 1198,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "agricultureValueAdded": 17.5,
+      "cerealYield": 2271,
+      "foodProductionIndex": 76,
+      "undernourishment": 16.9,
+      "arableLand": 9.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "agricultureValueAdded": 18.5,
+      "cerealYield": 1883,
+      "foodProductionIndex": 77.7,
+      "undernourishment": 16,
+      "arableLand": 9.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "agricultureValueAdded": 16.4,
+      "cerealYield": 2080,
+      "foodProductionIndex": 84,
+      "undernourishment": 15.1,
+      "arableLand": 9.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "agricultureValueAdded": 15.3,
+      "cerealYield": 2177,
+      "foodProductionIndex": 86.3,
+      "undernourishment": 15.5,
+      "arableLand": 11
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "agricultureValueAdded": 15.2,
+      "cerealYield": 2207,
+      "foodProductionIndex": 94.7,
+      "undernourishment": 14.6,
+      "arableLand": 11
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "agricultureValueAdded": 18.4,
+      "cerealYield": 2200,
+      "foodProductionIndex": 104.4,
+      "undernourishment": 13.5,
+      "arableLand": 12.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "agricultureValueAdded": 17.4,
+      "cerealYield": 2220,
+      "foodProductionIndex": 100.9,
+      "undernourishment": 11.5,
+      "arableLand": 11.9
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "agricultureValueAdded": 16.9,
+      "cerealYield": 2247,
+      "foodProductionIndex": 109.4,
+      "undernourishment": 10.6,
+      "arableLand": 12.5
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "agricultureValueAdded": 17.9,
+      "cerealYield": 2254,
+      "foodProductionIndex": 114.6,
+      "undernourishment": 9.8,
+      "arableLand": 12.8
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "agricultureValueAdded": 15.7,
+      "cerealYield": 2234,
+      "foodProductionIndex": 116.8,
+      "undernourishment": 9.4,
+      "arableLand": 13.6
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "agricultureValueAdded": 16.9,
+      "cerealYield": 2249,
+      "foodProductionIndex": 119.2,
+      "undernourishment": 9.2,
+      "arableLand": 13.6
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "agricultureValueAdded": 16.2,
+      "cerealYield": 2255,
+      "foodProductionIndex": 120,
+      "undernourishment": 9.7,
+      "arableLand": 13.8
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "agricultureValueAdded": 16.6,
+      "cerealYield": 2327,
+      "foodProductionIndex": 121.9,
+      "undernourishment": 10.4,
+      "arableLand": 14.2
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "agricultureValueAdded": 15.9,
+      "cerealYield": 2398,
+      "foodProductionIndex": null,
+      "undernourishment": 11.1,
+      "arableLand": 15.1
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "agricultureValueAdded": 15.9,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "agricultureValueAdded": 17.3,
+      "cerealYield": 1649,
+      "foodProductionIndex": 81.3,
+      "undernourishment": 4.9,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "agricultureValueAdded": 16.7,
+      "cerealYield": 1710,
+      "foodProductionIndex": 83.1,
+      "undernourishment": 4.3,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "agricultureValueAdded": 16.7,
+      "cerealYield": 1592,
+      "foodProductionIndex": 88.1,
+      "undernourishment": 4.1,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "agricultureValueAdded": 16.7,
+      "cerealYield": 1676,
+      "foodProductionIndex": 91.2,
+      "undernourishment": 4.2,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "agricultureValueAdded": 16.8,
+      "cerealYield": 1630,
+      "foodProductionIndex": 95.6,
+      "undernourishment": 4.5,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "agricultureValueAdded": 17.2,
+      "cerealYield": 1615,
+      "foodProductionIndex": 101.1,
+      "undernourishment": 4.8,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "agricultureValueAdded": 17.2,
+      "cerealYield": 1578,
+      "foodProductionIndex": 103.3,
+      "undernourishment": 5.4,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "agricultureValueAdded": 16.7,
+      "cerealYield": 1711,
+      "foodProductionIndex": 103.2,
+      "undernourishment": 6,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "agricultureValueAdded": 16.5,
+      "cerealYield": 1826,
+      "foodProductionIndex": 107.4,
+      "undernourishment": 6.2,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "agricultureValueAdded": 16.8,
+      "cerealYield": 1850,
+      "foodProductionIndex": 104.2,
+      "undernourishment": 6.1,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "agricultureValueAdded": 17.5,
+      "cerealYield": 1671,
+      "foodProductionIndex": 103.5,
+      "undernourishment": 5.9,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "agricultureValueAdded": 17,
+      "cerealYield": 1727,
+      "foodProductionIndex": 104.4,
+      "undernourishment": 5.5,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "agricultureValueAdded": 16.5,
+      "cerealYield": 1694,
+      "foodProductionIndex": 107.8,
+      "undernourishment": 5.1,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "agricultureValueAdded": 17.1,
+      "cerealYield": 1770,
+      "foodProductionIndex": null,
+      "undernourishment": 4.8,
+      "arableLand": 13.1
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "agricultureValueAdded": 18.5,
+      "cerealYield": 1770,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "agricultureValueAdded": 28.9,
+      "cerealYield": 785,
+      "foodProductionIndex": 82.4,
+      "undernourishment": 28.7,
+      "arableLand": 4
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "agricultureValueAdded": 15.7,
+      "cerealYield": 771,
+      "foodProductionIndex": 86,
+      "undernourishment": 29.6,
+      "arableLand": 4.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "agricultureValueAdded": 15.3,
+      "cerealYield": 772,
+      "foodProductionIndex": 87.5,
+      "undernourishment": 30.5,
+      "arableLand": 5.1
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "agricultureValueAdded": 13.7,
+      "cerealYield": 772,
+      "foodProductionIndex": 92.5,
+      "undernourishment": 30.8,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "agricultureValueAdded": 12.5,
+      "cerealYield": 769,
+      "foodProductionIndex": 98.7,
+      "undernourishment": 31.1,
+      "arableLand": 5.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "agricultureValueAdded": 12.5,
+      "cerealYield": 769,
+      "foodProductionIndex": 99.3,
+      "undernourishment": 31.7,
+      "arableLand": 5.5
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "agricultureValueAdded": 12.3,
+      "cerealYield": 786,
+      "foodProductionIndex": 102,
+      "undernourishment": 32.3,
+      "arableLand": 5.6
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "agricultureValueAdded": 12.3,
+      "cerealYield": 794,
+      "foodProductionIndex": 103.9,
+      "undernourishment": 32.7,
+      "arableLand": 5.8
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "agricultureValueAdded": 12.3,
+      "cerealYield": 812,
+      "foodProductionIndex": 106.3,
+      "undernourishment": 32.5,
+      "arableLand": 6
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "agricultureValueAdded": 13.2,
+      "cerealYield": 836,
+      "foodProductionIndex": 108.5,
+      "undernourishment": 34.1,
+      "arableLand": 6
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "agricultureValueAdded": 13.7,
+      "cerealYield": 877,
+      "foodProductionIndex": 113.2,
+      "undernourishment": 35.2,
+      "arableLand": 6
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "agricultureValueAdded": 11.3,
+      "cerealYield": 897,
+      "foodProductionIndex": 118,
+      "undernourishment": 36.6,
+      "arableLand": 6
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "agricultureValueAdded": 10.3,
+      "cerealYield": 850,
+      "foodProductionIndex": 122.8,
+      "undernourishment": 37.3,
+      "arableLand": 6.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "agricultureValueAdded": 10.4,
+      "cerealYield": 863,
+      "foodProductionIndex": null,
+      "undernourishment": 38.5,
+      "arableLand": 6.6
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "agricultureValueAdded": 9.6,
+      "cerealYield": 872,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "agricultureValueAdded": 28,
+      "cerealYield": 1814,
+      "foodProductionIndex": 83.9,
+      "undernourishment": 6.9,
+      "arableLand": 18.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "agricultureValueAdded": 23.7,
+      "cerealYield": 1594,
+      "foodProductionIndex": 87.3,
+      "undernourishment": 7.3,
+      "arableLand": 18.8
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "agricultureValueAdded": 22.1,
+      "cerealYield": 1768,
+      "foodProductionIndex": 92.2,
+      "undernourishment": 7.7,
+      "arableLand": 19
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "agricultureValueAdded": 20.4,
+      "cerealYield": 1689,
+      "foodProductionIndex": 94.8,
+      "undernourishment": 8,
+      "arableLand": 19.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "agricultureValueAdded": 19.6,
+      "cerealYield": 1703,
+      "foodProductionIndex": 99.1,
+      "undernourishment": 8.7,
+      "arableLand": 19.4
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "agricultureValueAdded": 20,
+      "cerealYield": 1830,
+      "foodProductionIndex": 99.7,
+      "undernourishment": 9.4,
+      "arableLand": 19.6
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "agricultureValueAdded": 20.8,
+      "cerealYield": 1842,
+      "foodProductionIndex": 101.2,
+      "undernourishment": 9.5,
+      "arableLand": 19.9
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "agricultureValueAdded": 19.6,
+      "cerealYield": 1931,
+      "foodProductionIndex": 107.9,
+      "undernourishment": 8.8,
+      "arableLand": 20.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "agricultureValueAdded": 18.1,
+      "cerealYield": 2173,
+      "foodProductionIndex": 113,
+      "undernourishment": 7.5,
+      "arableLand": 20.3
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "agricultureValueAdded": 17.3,
+      "cerealYield": 2346,
+      "foodProductionIndex": 119.4,
+      "undernourishment": 6.6,
+      "arableLand": 20.5
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "agricultureValueAdded": 18.9,
+      "cerealYield": 2411,
+      "foodProductionIndex": 122.4,
+      "undernourishment": 5.7,
+      "arableLand": 20.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "agricultureValueAdded": 19.7,
+      "cerealYield": 2361,
+      "foodProductionIndex": 130.5,
+      "undernourishment": 5.6,
+      "arableLand": 20.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "agricultureValueAdded": 19.5,
+      "cerealYield": 2434,
+      "foodProductionIndex": 135.5,
+      "undernourishment": 5.9,
+      "arableLand": 20.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "agricultureValueAdded": 20.9,
+      "cerealYield": 2688,
+      "foodProductionIndex": null,
+      "undernourishment": 6.3,
+      "arableLand": 20.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "agricultureValueAdded": 20.9,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "agricultureValueAdded": 17.5,
+      "cerealYield": 1185,
+      "foodProductionIndex": 81.9,
+      "undernourishment": 18.1,
+      "arableLand": 14.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "agricultureValueAdded": 16.1,
+      "cerealYield": 1226,
+      "foodProductionIndex": 86.4,
+      "undernourishment": 17.2,
+      "arableLand": 14.9
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "agricultureValueAdded": 16.8,
+      "cerealYield": 1152,
+      "foodProductionIndex": 88.7,
+      "undernourishment": 15.5,
+      "arableLand": 16.9
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "agricultureValueAdded": 17.5,
+      "cerealYield": 1190,
+      "foodProductionIndex": 92.4,
+      "undernourishment": 14.2,
+      "arableLand": 17.3
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "agricultureValueAdded": 17.5,
+      "cerealYield": 1123,
+      "foodProductionIndex": 95.5,
+      "undernourishment": 13.6,
+      "arableLand": 18.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "agricultureValueAdded": 18.5,
+      "cerealYield": 1122,
+      "foodProductionIndex": 99.9,
+      "undernourishment": 13.6,
+      "arableLand": 19.5
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "agricultureValueAdded": 17.6,
+      "cerealYield": 1156,
+      "foodProductionIndex": 104.6,
+      "undernourishment": 14,
+      "arableLand": 19.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "agricultureValueAdded": 20.5,
+      "cerealYield": 1165,
+      "foodProductionIndex": 110.7,
+      "undernourishment": 14,
+      "arableLand": 20.5
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "agricultureValueAdded": 22.9,
+      "cerealYield": 1187,
+      "foodProductionIndex": 115.6,
+      "undernourishment": 13.4,
+      "arableLand": 21.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "agricultureValueAdded": 26.4,
+      "cerealYield": 1258,
+      "foodProductionIndex": 124.5,
+      "undernourishment": 12.5,
+      "arableLand": 20
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "agricultureValueAdded": 26.3,
+      "cerealYield": 1324,
+      "foodProductionIndex": 131.3,
+      "undernourishment": 11.1,
+      "arableLand": 20.2
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "agricultureValueAdded": 27.1,
+      "cerealYield": 1357,
+      "foodProductionIndex": 138.2,
+      "undernourishment": 10.4,
+      "arableLand": 21.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "agricultureValueAdded": 28.4,
+      "cerealYield": 1370,
+      "foodProductionIndex": 144.8,
+      "undernourishment": 10.4,
+      "arableLand": 22.6
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "agricultureValueAdded": 29.5,
+      "cerealYield": 1370,
+      "foodProductionIndex": null,
+      "undernourishment": 11.4,
+      "arableLand": 24.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "agricultureValueAdded": 31,
+      "cerealYield": 1351,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1179,
+      "foodProductionIndex": 88.5,
+      "undernourishment": 35.2,
+      "arableLand": 5
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1173,
+      "foodProductionIndex": 91.4,
+      "undernourishment": 35.6,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1285,
+      "foodProductionIndex": 93.8,
+      "undernourishment": 36.5,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1250,
+      "foodProductionIndex": 90.4,
+      "undernourishment": 36.4,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1172,
+      "foodProductionIndex": 92.5,
+      "undernourishment": 36.6,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1129,
+      "foodProductionIndex": 96.6,
+      "undernourishment": 35.7,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1073,
+      "foodProductionIndex": 110.9,
+      "undernourishment": 35.1,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "agricultureValueAdded": 35.9,
+      "cerealYield": 1060,
+      "foodProductionIndex": 92.6,
+      "undernourishment": 34.9,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "agricultureValueAdded": 35.5,
+      "cerealYield": 1084,
+      "foodProductionIndex": 94.5,
+      "undernourishment": 35.3,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "agricultureValueAdded": 36.4,
+      "cerealYield": 1128,
+      "foodProductionIndex": 97.5,
+      "undernourishment": 36.6,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "agricultureValueAdded": 39.3,
+      "cerealYield": 1148,
+      "foodProductionIndex": 100.6,
+      "undernourishment": 37.5,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "agricultureValueAdded": 37.4,
+      "cerealYield": 1052,
+      "foodProductionIndex": 100.2,
+      "undernourishment": 37.7,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "agricultureValueAdded": 36.2,
+      "cerealYield": 1121,
+      "foodProductionIndex": 102.7,
+      "undernourishment": 37,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "agricultureValueAdded": 34.6,
+      "cerealYield": 1068,
+      "foodProductionIndex": null,
+      "undernourishment": 35.5,
+      "arableLand": 5.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "agricultureValueAdded": 33.8,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "agricultureValueAdded": 26,
+      "cerealYield": 1453,
+      "foodProductionIndex": 80.2,
+      "undernourishment": 6.2,
+      "arableLand": 5.1
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "agricultureValueAdded": 27.6,
+      "cerealYield": 1047,
+      "foodProductionIndex": 88,
+      "undernourishment": 5.8,
+      "arableLand": 5.3
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "agricultureValueAdded": 30.8,
+      "cerealYield": 1507,
+      "foodProductionIndex": 87.3,
+      "undernourishment": 5.4,
+      "arableLand": 5.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "agricultureValueAdded": 28.5,
+      "cerealYield": 1512,
+      "foodProductionIndex": 90.9,
+      "undernourishment": 5.2,
+      "arableLand": 5.6
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "agricultureValueAdded": 29.3,
+      "cerealYield": 1551,
+      "foodProductionIndex": 89,
+      "undernourishment": 5,
+      "arableLand": 5.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "agricultureValueAdded": 30.5,
+      "cerealYield": 1576,
+      "foodProductionIndex": 98.1,
+      "undernourishment": 4.9,
+      "arableLand": 5.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "agricultureValueAdded": 31,
+      "cerealYield": 1608,
+      "foodProductionIndex": 112.9,
+      "undernourishment": 4.5,
+      "arableLand": 6.1
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "agricultureValueAdded": 31.4,
+      "cerealYield": 1602,
+      "foodProductionIndex": 113.2,
+      "undernourishment": 4.6,
+      "arableLand": 6.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "agricultureValueAdded": 32.5,
+      "cerealYield": 1729,
+      "foodProductionIndex": 123.7,
+      "undernourishment": 4.6,
+      "arableLand": 6.4
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "agricultureValueAdded": 32.3,
+      "cerealYield": 1768,
+      "foodProductionIndex": 127.6,
+      "undernourishment": 4.8,
+      "arableLand": 6.5
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "agricultureValueAdded": 32.3,
+      "cerealYield": 1686,
+      "foodProductionIndex": 136.9,
+      "undernourishment": 4.7,
+      "arableLand": 6.7
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "agricultureValueAdded": 32,
+      "cerealYield": 1441,
+      "foodProductionIndex": 126.5,
+      "undernourishment": 7.3,
+      "arableLand": 6.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "agricultureValueAdded": 32.7,
+      "cerealYield": 1671,
+      "foodProductionIndex": 136,
+      "undernourishment": 9.9,
+      "arableLand": 6.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "agricultureValueAdded": 32.2,
+      "cerealYield": 1588,
+      "foodProductionIndex": null,
+      "undernourishment": 12.3,
+      "arableLand": 6.8
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "agricultureValueAdded": 33.3,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "agricultureValueAdded": 16.7,
+      "cerealYield": 955,
+      "foodProductionIndex": 86.4,
+      "undernourishment": 7,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "agricultureValueAdded": 14.5,
+      "cerealYield": 1375,
+      "foodProductionIndex": 86.6,
+      "undernourishment": 6.5,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "agricultureValueAdded": 16.1,
+      "cerealYield": 1034,
+      "foodProductionIndex": 93.2,
+      "undernourishment": 6.2,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "agricultureValueAdded": 16.3,
+      "cerealYield": 1197,
+      "foodProductionIndex": 94.9,
+      "undernourishment": 6.1,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "agricultureValueAdded": 18.8,
+      "cerealYield": 1679,
+      "foodProductionIndex": 98.3,
+      "undernourishment": 6.3,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "agricultureValueAdded": 20.6,
+      "cerealYield": 1263,
+      "foodProductionIndex": 100.3,
+      "undernourishment": 6.5,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "agricultureValueAdded": 21.7,
+      "cerealYield": 1232,
+      "foodProductionIndex": 101.4,
+      "undernourishment": 6.7,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "agricultureValueAdded": 22.7,
+      "cerealYield": 1911,
+      "foodProductionIndex": 103.3,
+      "undernourishment": 6.6,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "agricultureValueAdded": 23.7,
+      "cerealYield": 1506,
+      "foodProductionIndex": 106.8,
+      "undernourishment": 6.5,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "agricultureValueAdded": 20,
+      "cerealYield": 1391,
+      "foodProductionIndex": 105.1,
+      "undernourishment": 6.6,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "agricultureValueAdded": 19.2,
+      "cerealYield": 1322,
+      "foodProductionIndex": 108.4,
+      "undernourishment": 7,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "agricultureValueAdded": 19.1,
+      "cerealYield": 2036,
+      "foodProductionIndex": 114.4,
+      "undernourishment": 7.8,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "agricultureValueAdded": 21.2,
+      "cerealYield": 1499,
+      "foodProductionIndex": 116.5,
+      "undernourishment": 8.6,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "agricultureValueAdded": 19.2,
+      "cerealYield": 1817,
+      "foodProductionIndex": null,
+      "undernourishment": 8.7,
+      "arableLand": 0.4
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "agricultureValueAdded": 19.3,
+      "cerealYield": 1537,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "agricultureValueAdded": 35.8,
+      "cerealYield": 495,
+      "foodProductionIndex": 85.4,
+      "undernourishment": 14.6,
+      "arableLand": 11.9
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "agricultureValueAdded": 33.6,
+      "cerealYield": 363,
+      "foodProductionIndex": 74.9,
+      "undernourishment": 14.8,
+      "arableLand": 12.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "agricultureValueAdded": 33.7,
+      "cerealYield": 520,
+      "foodProductionIndex": 84.7,
+      "undernourishment": 15,
+      "arableLand": 12.6
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "agricultureValueAdded": 32.2,
+      "cerealYield": 408,
+      "foodProductionIndex": 84.2,
+      "undernourishment": 14.5,
+      "arableLand": 13.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "agricultureValueAdded": 33.4,
+      "cerealYield": 447,
+      "foodProductionIndex": 89.9,
+      "undernourishment": 13.7,
+      "arableLand": 13.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "agricultureValueAdded": 32.4,
+      "cerealYield": 551,
+      "foodProductionIndex": 101.2,
+      "undernourishment": 12.7,
+      "arableLand": 13.3
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "agricultureValueAdded": 35.3,
+      "cerealYield": 537,
+      "foodProductionIndex": 109,
+      "undernourishment": 12,
+      "arableLand": 13.8
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "agricultureValueAdded": 35.8,
+      "cerealYield": 542,
+      "foodProductionIndex": 110.5,
+      "undernourishment": 11.1,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "agricultureValueAdded": 37.6,
+      "cerealYield": 555,
+      "foodProductionIndex": 119.8,
+      "undernourishment": 10.9,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "agricultureValueAdded": 37,
+      "cerealYield": 502,
+      "foodProductionIndex": 119,
+      "undernourishment": 10.1,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "agricultureValueAdded": 38.4,
+      "cerealYield": 552,
+      "foodProductionIndex": 128.3,
+      "undernourishment": 10.9,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "agricultureValueAdded": 36.5,
+      "cerealYield": 361,
+      "foodProductionIndex": 107.3,
+      "undernourishment": 11.4,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "agricultureValueAdded": 41.4,
+      "cerealYield": 560,
+      "foodProductionIndex": 132.6,
+      "undernourishment": 12.7,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "agricultureValueAdded": 32.5,
+      "cerealYield": 489,
+      "foodProductionIndex": null,
+      "undernourishment": 12.9,
+      "arableLand": 14
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "agricultureValueAdded": 34.5,
+      "cerealYield": 577,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "agricultureValueAdded": 23.9,
+      "cerealYield": 1528,
+      "foodProductionIndex": 85.2,
+      "undernourishment": 10.4,
+      "arableLand": 39.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "agricultureValueAdded": 22.2,
+      "cerealYield": 1334,
+      "foodProductionIndex": 78.9,
+      "undernourishment": 11.1,
+      "arableLand": 39.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "agricultureValueAdded": 21.9,
+      "cerealYield": 1399,
+      "foodProductionIndex": 87,
+      "undernourishment": 11.7,
+      "arableLand": 39.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "agricultureValueAdded": 20.8,
+      "cerealYield": 1297,
+      "foodProductionIndex": 84.7,
+      "undernourishment": 11.4,
+      "arableLand": 39.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "agricultureValueAdded": 20,
+      "cerealYield": 1555,
+      "foodProductionIndex": 95.5,
+      "undernourishment": 11.1,
+      "arableLand": 39.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "agricultureValueAdded": 20.6,
+      "cerealYield": 1527,
+      "foodProductionIndex": 97.7,
+      "undernourishment": 10.7,
+      "arableLand": 39.6
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "agricultureValueAdded": 21,
+      "cerealYield": 1597,
+      "foodProductionIndex": 106.8,
+      "undernourishment": 10.8,
+      "arableLand": 39.7
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "agricultureValueAdded": 20.8,
+      "cerealYield": 1506,
+      "foodProductionIndex": 109.1,
+      "undernourishment": 11.5,
+      "arableLand": 39.7
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "agricultureValueAdded": 21.2,
+      "cerealYield": 1549,
+      "foodProductionIndex": 114.1,
+      "undernourishment": 12.1,
+      "arableLand": 40
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "agricultureValueAdded": 25.7,
+      "cerealYield": 1630,
+      "foodProductionIndex": 109.8,
+      "undernourishment": 14.3,
+      "arableLand": 40.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "agricultureValueAdded": 28.3,
+      "cerealYield": 1620,
+      "foodProductionIndex": 112.6,
+      "undernourishment": 15.8,
+      "arableLand": 40.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "agricultureValueAdded": 29.4,
+      "cerealYield": 1622,
+      "foodProductionIndex": 117.3,
+      "undernourishment": 17.6,
+      "arableLand": 40.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "agricultureValueAdded": 28.6,
+      "cerealYield": 1660,
+      "foodProductionIndex": 119.9,
+      "undernourishment": 18.7,
+      "arableLand": 40.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "agricultureValueAdded": 27.7,
+      "cerealYield": 1549,
+      "foodProductionIndex": null,
+      "undernourishment": 19.9,
+      "arableLand": 40.5
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "agricultureValueAdded": 25.9,
+      "cerealYield": 1558,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "agricultureValueAdded": 15.9,
+      "cerealYield": 1197,
+      "foodProductionIndex": 97.3,
+      "undernourishment": 10.9,
+      "arableLand": 18.8
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "agricultureValueAdded": 12.9,
+      "cerealYield": 967,
+      "foodProductionIndex": 68.5,
+      "undernourishment": 11.1,
+      "arableLand": 17.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "agricultureValueAdded": 14.1,
+      "cerealYield": 1221,
+      "foodProductionIndex": 82.3,
+      "undernourishment": 11.3,
+      "arableLand": 17.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "agricultureValueAdded": 13.7,
+      "cerealYield": 1124,
+      "foodProductionIndex": 82.4,
+      "undernourishment": 11.2,
+      "arableLand": 17.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "agricultureValueAdded": 13.4,
+      "cerealYield": 1112,
+      "foodProductionIndex": 84.5,
+      "undernourishment": 11.1,
+      "arableLand": 17.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "agricultureValueAdded": 14.3,
+      "cerealYield": 1376,
+      "foodProductionIndex": 110.2,
+      "undernourishment": 10,
+      "arableLand": 19
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "agricultureValueAdded": 14.4,
+      "cerealYield": 1351,
+      "foodProductionIndex": 105.3,
+      "undernourishment": 8.9,
+      "arableLand": 18.8
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "agricultureValueAdded": 15,
+      "cerealYield": 1476,
+      "foodProductionIndex": 134.3,
+      "undernourishment": 8,
+      "arableLand": 18.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "agricultureValueAdded": 15,
+      "cerealYield": 1644,
+      "foodProductionIndex": 152.9,
+      "undernourishment": 7.1,
+      "arableLand": 19.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "agricultureValueAdded": 14.9,
+      "cerealYield": 1601,
+      "foodProductionIndex": 153.6,
+      "undernourishment": 6.2,
+      "arableLand": 19.3
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "agricultureValueAdded": 16.1,
+      "cerealYield": 1822,
+      "foodProductionIndex": 183.5,
+      "undernourishment": 5.3,
+      "arableLand": 19.5
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "agricultureValueAdded": 15.6,
+      "cerealYield": 1855,
+      "foodProductionIndex": 179.9,
+      "undernourishment": 5.2,
+      "arableLand": 19.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "agricultureValueAdded": 16.3,
+      "cerealYield": 1932,
+      "foodProductionIndex": 177.5,
+      "undernourishment": 5.1,
+      "arableLand": 19.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "agricultureValueAdded": 17.4,
+      "cerealYield": 2192,
+      "foodProductionIndex": null,
+      "undernourishment": 5.1,
+      "arableLand": 19.9
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "agricultureValueAdded": 16.6,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "agricultureValueAdded": 30.5,
+      "cerealYield": 1747,
+      "foodProductionIndex": 101.5,
+      "undernourishment": 22.5,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "agricultureValueAdded": 31.6,
+      "cerealYield": 1751,
+      "foodProductionIndex": 108.5,
+      "undernourishment": 21.6,
+      "arableLand": 22.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "agricultureValueAdded": 30.7,
+      "cerealYield": 1539,
+      "foodProductionIndex": 112,
+      "undernourishment": 21.9,
+      "arableLand": 20.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "agricultureValueAdded": 30.1,
+      "cerealYield": 1778,
+      "foodProductionIndex": 117.5,
+      "undernourishment": 23.2,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "agricultureValueAdded": 31.9,
+      "cerealYield": 1520,
+      "foodProductionIndex": 110.1,
+      "undernourishment": 23.2,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "agricultureValueAdded": 34.3,
+      "cerealYield": 1340,
+      "foodProductionIndex": 96.4,
+      "undernourishment": 24.1,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "agricultureValueAdded": 32.6,
+      "cerealYield": 1092,
+      "foodProductionIndex": 93.6,
+      "undernourishment": 24.5,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "agricultureValueAdded": 33.3,
+      "cerealYield": 1142,
+      "foodProductionIndex": 84.5,
+      "undernourishment": 26,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "agricultureValueAdded": 35,
+      "cerealYield": 813,
+      "foodProductionIndex": 88.7,
+      "undernourishment": 27,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "agricultureValueAdded": 34.5,
+      "cerealYield": 1523,
+      "foodProductionIndex": 78.3,
+      "undernourishment": 27.8,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "agricultureValueAdded": 35.1,
+      "cerealYield": 1636,
+      "foodProductionIndex": 91.5,
+      "undernourishment": 27.5,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "agricultureValueAdded": 33.6,
+      "cerealYield": 1968,
+      "foodProductionIndex": 130.6,
+      "undernourishment": 26.3,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "agricultureValueAdded": 33.8,
+      "cerealYield": 1963,
+      "foodProductionIndex": 104.7,
+      "undernourishment": 25.2,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "agricultureValueAdded": 29.1,
+      "cerealYield": 1470,
+      "foodProductionIndex": null,
+      "undernourishment": 24.1,
+      "arableLand": 21.9
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "agricultureValueAdded": 29.2,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "agricultureValueAdded": 33.3,
+      "cerealYield": 763,
+      "foodProductionIndex": 90.1,
+      "undernourishment": 24.1,
+      "arableLand": 3.3
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "agricultureValueAdded": 27.2,
+      "cerealYield": 632,
+      "foodProductionIndex": 75.2,
+      "undernourishment": 24,
+      "arableLand": 3.4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "agricultureValueAdded": 27.1,
+      "cerealYield": 935,
+      "foodProductionIndex": 99.6,
+      "undernourishment": 23.5,
+      "arableLand": 3.7
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "agricultureValueAdded": 31.7,
+      "cerealYield": 823,
+      "foodProductionIndex": 94.5,
+      "undernourishment": 23.8,
+      "arableLand": 4
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "agricultureValueAdded": 31.2,
+      "cerealYield": 856,
+      "foodProductionIndex": 97.5,
+      "undernourishment": 25.2,
+      "arableLand": 4.1
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "agricultureValueAdded": 33.6,
+      "cerealYield": 802,
+      "foodProductionIndex": 97,
+      "undernourishment": 25.9,
+      "arableLand": 4.1
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "agricultureValueAdded": 39.4,
+      "cerealYield": 845,
+      "foodProductionIndex": 105.5,
+      "undernourishment": 26.1,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "agricultureValueAdded": 38.4,
+      "cerealYield": 825,
+      "foodProductionIndex": 108.6,
+      "undernourishment": 26.7,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "agricultureValueAdded": 37.6,
+      "cerealYield": 893,
+      "foodProductionIndex": 114.5,
+      "undernourishment": 28.1,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "agricultureValueAdded": 37.6,
+      "cerealYield": 886,
+      "foodProductionIndex": 118.4,
+      "undernourishment": 29.8,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "agricultureValueAdded": 40.7,
+      "cerealYield": 867,
+      "foodProductionIndex": 121.3,
+      "undernourishment": 30.1,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "agricultureValueAdded": 37.4,
+      "cerealYield": 814,
+      "foodProductionIndex": 122.9,
+      "undernourishment": 30.1,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "agricultureValueAdded": 35.2,
+      "cerealYield": 846,
+      "foodProductionIndex": 130.3,
+      "undernourishment": 30.5,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "agricultureValueAdded": 35.2,
+      "cerealYield": 819,
+      "foodProductionIndex": null,
+      "undernourishment": 32,
+      "arableLand": 4.2
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "agricultureValueAdded": 37.7,
+      "cerealYield": 827,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "agricultureValueAdded": 21.1,
+      "cerealYield": 1187,
+      "foodProductionIndex": 94.7,
+      "undernourishment": 19.6,
+      "arableLand": 45.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "agricultureValueAdded": 19.9,
+      "cerealYield": 1226,
+      "foodProductionIndex": 102.5,
+      "undernourishment": 20.1,
+      "arableLand": 45.2
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "agricultureValueAdded": 21,
+      "cerealYield": 1112,
+      "foodProductionIndex": 98.8,
+      "undernourishment": 19.9,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "agricultureValueAdded": 19.1,
+      "cerealYield": 1013,
+      "foodProductionIndex": 92.8,
+      "undernourishment": 19.6,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "agricultureValueAdded": 19.3,
+      "cerealYield": 1153,
+      "foodProductionIndex": 100.8,
+      "undernourishment": 20,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "agricultureValueAdded": 18.9,
+      "cerealYield": 1236,
+      "foodProductionIndex": 98.5,
+      "undernourishment": 20.1,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "agricultureValueAdded": 20.4,
+      "cerealYield": 1131,
+      "foodProductionIndex": 100.7,
+      "undernourishment": 20.6,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "agricultureValueAdded": 20.3,
+      "cerealYield": 1137,
+      "foodProductionIndex": 105.9,
+      "undernourishment": 20.4,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "agricultureValueAdded": 19.6,
+      "cerealYield": 1145,
+      "foodProductionIndex": 110.3,
+      "undernourishment": 19.7,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "agricultureValueAdded": 19.5,
+      "cerealYield": 1143,
+      "foodProductionIndex": 114.1,
+      "undernourishment": 18.2,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "agricultureValueAdded": 19.2,
+      "cerealYield": 1150,
+      "foodProductionIndex": 116.4,
+      "undernourishment": 15.9,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "agricultureValueAdded": 20.6,
+      "cerealYield": 1150,
+      "foodProductionIndex": 122,
+      "undernourishment": 13.7,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "agricultureValueAdded": 21.2,
+      "cerealYield": 1168,
+      "foodProductionIndex": 128.2,
+      "undernourishment": 11.1,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "agricultureValueAdded": 21.3,
+      "cerealYield": 1173,
+      "foodProductionIndex": null,
+      "undernourishment": 9.1,
+      "arableLand": 48.7
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "agricultureValueAdded": 21.3,
+      "cerealYield": null,
+      "foodProductionIndex": null,
+      "undernourishment": null,
+      "arableLand": null
+    }
+  ],
+  "indicators": [
+    {
+      "key": "agricultureValueAdded",
+      "code": "NV.AGR.TOTL.ZS",
+      "label": "Valeur ajoutée agricole",
+      "unit": "% du PIB",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "cerealYield",
+      "code": "AG.YLD.CREL.KG",
+      "label": "Rendement céréalier",
+      "unit": "kg/hectare",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "foodProductionIndex",
+      "code": "AG.PRD.FOOD.XD",
+      "label": "Indice de production alimentaire",
+      "unit": "indice (2014-2016=100)",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2022
+      ]
+    },
+    {
+      "key": "undernourishment",
+      "code": "SN.ITK.DEFC.ZS",
+      "label": "Prévalence de la sous-alimentation",
+      "unit": "% de la population",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "arableLand",
+      "code": "AG.LND.ARBL.ZS",
+      "label": "Terres arables",
+      "unit": "% de la surface du territoire",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}
