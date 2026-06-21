@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "refugees": 7136,
+      "refugeesOrigin": 438,
+      "idp": null,
+      "populationMillions": 9.8
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "refugees": 7213,
+      "refugeesOrigin": 460,
+      "idp": null,
+      "populationMillions": 10.09
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "refugees": 4960,
+      "refugeesOrigin": 451,
+      "idp": null,
+      "populationMillions": 10.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "refugees": 190,
+      "refugeesOrigin": 294,
+      "idp": null,
+      "populationMillions": 10.71
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "refugees": 414,
+      "refugeesOrigin": 330,
+      "idp": null,
+      "populationMillions": 11.03
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "refugees": 526,
+      "refugeesOrigin": 400,
+      "idp": null,
+      "populationMillions": 11.36
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "refugees": 804,
+      "refugeesOrigin": 479,
+      "idp": null,
+      "populationMillions": 11.7
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "refugees": 1056,
+      "refugeesOrigin": 572,
+      "idp": null,
+      "populationMillions": 12.04
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "refugees": 1167,
+      "refugeesOrigin": 659,
+      "idp": 3500,
+      "populationMillions": 12.38
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "refugees": 1238,
+      "refugeesOrigin": 721,
+      "idp": 3500,
+      "populationMillions": 12.73
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "refugees": 1396,
+      "refugeesOrigin": 606,
+      "idp": 3500,
+      "populationMillions": 13.07
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "refugees": 1736,
+      "refugeesOrigin": 730,
+      "idp": 2700,
+      "populationMillions": 13.41
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "refugees": 1779,
+      "refugeesOrigin": 811,
+      "idp": 1200,
+      "populationMillions": 13.76
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "refugees": 2825,
+      "refugeesOrigin": 905,
+      "idp": 8800,
+      "populationMillions": 14.11
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "refugees": 16232,
+      "refugeesOrigin": 1064,
+      "idp": 13000,
+      "populationMillions": 14.46
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "refugees": 530,
+      "refugeesOrigin": 1141,
+      "idp": null,
+      "populationMillions": 16.18
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "refugees": 549,
+      "refugeesOrigin": 1262,
+      "idp": null,
+      "populationMillions": 16.66
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "refugees": 39304,
+      "refugeesOrigin": 1458,
+      "idp": null,
+      "populationMillions": 17.17
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "refugees": 29233,
+      "refugeesOrigin": 1578,
+      "idp": null,
+      "populationMillions": 17.7
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "refugees": 31894,
+      "refugeesOrigin": 1853,
+      "idp": null,
+      "populationMillions": 18.23
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "refugees": 34017,
+      "refugeesOrigin": 2147,
+      "idp": null,
+      "populationMillions": 18.78
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "refugees": 32551,
+      "refugeesOrigin": 2352,
+      "idp": 700,
+      "populationMillions": 19.33
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "refugees": 24152,
+      "refugeesOrigin": 2694,
+      "idp": 4900,
+      "populationMillions": 19.89
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "refugees": 25120,
+      "refugeesOrigin": 11447,
+      "idp": 47000,
+      "populationMillions": 20.44
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "refugees": 25869,
+      "refugeesOrigin": 11733,
+      "idp": 560000,
+      "populationMillions": 20.96
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "refugees": 20252,
+      "refugeesOrigin": 15694,
+      "idp": 1075000,
+      "populationMillions": 21.48
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "refugees": 25010,
+      "refugeesOrigin": 20209,
+      "idp": 1580000,
+      "populationMillions": 22
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "refugees": 34375,
+      "refugeesOrigin": 29914,
+      "idp": 1882000,
+      "populationMillions": 22.51
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "refugees": 37735,
+      "refugeesOrigin": 54869,
+      "idp": 2063000,
+      "populationMillions": 23.03
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "refugees": 39915,
+      "refugeesOrigin": 150081,
+      "idp": 2063000,
+      "populationMillions": 23.55
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "refugees": 26213,
+      "refugeesOrigin": 41747,
+      "idp": 522000,
+      "populationMillions": 22.49
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "refugees": 24212,
+      "refugeesOrigin": 154818,
+      "idp": 247000,
+      "populationMillions": 22.98
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "refugees": 3972,
+      "refugeesOrigin": 100709,
+      "idp": 80000,
+      "populationMillions": 23.47
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "refugees": 2970,
+      "refugeesOrigin": 85650,
+      "idp": 80000,
+      "populationMillions": 23.94
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "refugees": 1918,
+      "refugeesOrigin": 71956,
+      "idp": 301000,
+      "populationMillions": 24.53
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "refugees": 1972,
+      "refugeesOrigin": 71107,
+      "idp": 303000,
+      "populationMillions": 25.25
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "refugees": 1397,
+      "refugeesOrigin": 46811,
+      "idp": 301000,
+      "populationMillions": 25.99
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "refugees": 1559,
+      "refugeesOrigin": 40009,
+      "idp": 302000,
+      "populationMillions": 26.73
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "refugees": 1808,
+      "refugeesOrigin": 38316,
+      "idp": 302000,
+      "populationMillions": 27.46
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "refugees": 2020,
+      "refugeesOrigin": 39351,
+      "idp": 302000,
+      "populationMillions": 28.19
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "refugees": 2086,
+      "refugeesOrigin": 37525,
+      "idp": 308000,
+      "populationMillions": 28.92
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "refugees": 4349,
+      "refugeesOrigin": 39940,
+      "idp": 302000,
+      "populationMillions": 29.64
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "refugees": 2251,
+      "refugeesOrigin": 25148,
+      "idp": 302000,
+      "populationMillions": 30.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "refugees": 2370,
+      "refugeesOrigin": 25994,
+      "idp": null,
+      "populationMillions": 31.17
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "refugees": 2377,
+      "refugeesOrigin": 29442,
+      "idp": null,
+      "populationMillions": 31.93
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "refugees": 104269,
+      "refugeesOrigin": 14952,
+      "idp": null,
+      "populationMillions": 19.67
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "refugees": 100368,
+      "refugeesOrigin": 15149,
+      "idp": null,
+      "populationMillions": 20.23
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "refugees": 98961,
+      "refugeesOrigin": 13360,
+      "idp": null,
+      "populationMillions": 20.81
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "refugees": 114744,
+      "refugeesOrigin": 11410,
+      "idp": null,
+      "populationMillions": 21.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "refugees": 264122,
+      "refugeesOrigin": 10739,
+      "idp": 40000,
+      "populationMillions": 22.06
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "refugees": 342970,
+      "refugeesOrigin": 10565,
+      "idp": 124000,
+      "populationMillions": 22.76
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "refugees": 375413,
+      "refugeesOrigin": 10344,
+      "idp": 177000,
+      "populationMillions": 23.45
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "refugees": 337382,
+      "refugeesOrigin": 11032,
+      "idp": 239000,
+      "populationMillions": 24.13
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "refugees": 380327,
+      "refugeesOrigin": 45118,
+      "idp": 668000,
+      "populationMillions": 24.81
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "refugees": 406259,
+      "refugeesOrigin": 66241,
+      "idp": 969000,
+      "populationMillions": 25.51
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "refugees": 436396,
+      "refugeesOrigin": 78481,
+      "idp": 1003000,
+      "populationMillions": 26.21
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "refugees": 457269,
+      "refugeesOrigin": 125477,
+      "idp": 909000,
+      "populationMillions": 26.92
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "refugees": 473887,
+      "refugeesOrigin": 147352,
+      "idp": 987000,
+      "populationMillions": 27.63
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "refugees": 485285,
+      "refugeesOrigin": 110715,
+      "idp": 1044000,
+      "populationMillions": 28.37
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "refugees": 427706,
+      "refugeesOrigin": 109879,
+      "idp": 1029000,
+      "populationMillions": 29.12
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "refugees": 166333,
+      "refugeesOrigin": 476691,
+      "idp": 1700000,
+      "populationMillions": 68.56
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "refugees": 152748,
+      "refugeesOrigin": 491470,
+      "idp": 1710000,
+      "populationMillions": 70.85
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "refugees": 65106,
+      "refugeesOrigin": 509275,
+      "idp": 2700000,
+      "populationMillions": 73.25
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "refugees": 113357,
+      "refugeesOrigin": 499551,
+      "idp": 2964000,
+      "populationMillions": 75.79
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "refugees": 119752,
+      "refugeesOrigin": 516765,
+      "idp": 2757000,
+      "populationMillions": 78.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "refugees": 383095,
+      "refugeesOrigin": 541487,
+      "idp": 1500000,
+      "populationMillions": 81.04
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "refugees": 451957,
+      "refugeesOrigin": 537474,
+      "idp": 2230000,
+      "populationMillions": 83.96
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "refugees": 537089,
+      "refugeesOrigin": 620805,
+      "idp": 4480000,
+      "populationMillions": 87.08
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "refugees": 529065,
+      "refugeesOrigin": 720302,
+      "idp": 3081000,
+      "populationMillions": 90.05
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "refugees": 523733,
+      "refugeesOrigin": 802974,
+      "idp": 5512000,
+      "populationMillions": 92.95
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "refugees": 490243,
+      "refugeesOrigin": 840392,
+      "idp": 5268000,
+      "populationMillions": 95.99
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "refugees": 524148,
+      "refugeesOrigin": 908401,
+      "idp": 5339000,
+      "populationMillions": 99.15
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "refugees": 520544,
+      "refugeesOrigin": 932680,
+      "idp": 5686000,
+      "populationMillions": 102.4
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "refugees": 523392,
+      "refugeesOrigin": 978209,
+      "idp": 6737000,
+      "populationMillions": 105.79
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "refugees": 517404,
+      "refugeesOrigin": 1060086,
+      "idp": 6215000,
+      "populationMillions": 109.28
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "refugees": 13828,
+      "refugeesOrigin": 20175,
+      "idp": null,
+      "populationMillions": 25.47
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "refugees": 13588,
+      "refugeesOrigin": 20333,
+      "idp": null,
+      "populationMillions": 26.1
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "refugees": 16012,
+      "refugeesOrigin": 24269,
+      "idp": null,
+      "populationMillions": 26.73
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "refugees": 18681,
+      "refugeesOrigin": 21048,
+      "idp": null,
+      "populationMillions": 27.39
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "refugees": 18448,
+      "refugeesOrigin": 22116,
+      "idp": null,
+      "populationMillions": 28.04
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "refugees": 17404,
+      "refugeesOrigin": 22962,
+      "idp": null,
+      "populationMillions": 28.7
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "refugees": 11866,
+      "refugeesOrigin": 15527,
+      "idp": null,
+      "populationMillions": 29.36
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "refugees": 12153,
+      "refugeesOrigin": 16959,
+      "idp": null,
+      "populationMillions": 30.01
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "refugees": 11896,
+      "refugeesOrigin": 18071,
+      "idp": 5000,
+      "populationMillions": 30.64
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "refugees": 11946,
+      "refugeesOrigin": 18432,
+      "idp": null,
+      "populationMillions": 31.26
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "refugees": 12406,
+      "refugeesOrigin": 13844,
+      "idp": null,
+      "populationMillions": 31.89
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "refugees": 11894,
+      "refugeesOrigin": 14251,
+      "idp": null,
+      "populationMillions": 32.52
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "refugees": 8531,
+      "refugeesOrigin": 14949,
+      "idp": null,
+      "populationMillions": 33.15
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "refugees": 7057,
+      "refugeesOrigin": 13870,
+      "idp": 3800,
+      "populationMillions": 33.79
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "refugees": 7479,
+      "refugeesOrigin": 15078,
+      "idp": 3200,
+      "populationMillions": 34.43
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "refugees": 14110,
+      "refugeesOrigin": 11978,
+      "idp": null,
+      "populationMillions": 10.4
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "refugees": 16606,
+      "refugeesOrigin": 13164,
+      "idp": null,
+      "populationMillions": 10.66
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "refugees": 10369,
+      "refugeesOrigin": 14062,
+      "idp": null,
+      "populationMillions": 10.92
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "refugees": 8554,
+      "refugeesOrigin": 14559,
+      "idp": null,
+      "populationMillions": 11.19
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "refugees": 8763,
+      "refugeesOrigin": 15247,
+      "idp": null,
+      "populationMillions": 11.47
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "refugees": 8835,
+      "refugeesOrigin": 16995,
+      "idp": null,
+      "populationMillions": 11.77
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "refugees": 5067,
+      "refugeesOrigin": 17536,
+      "idp": null,
+      "populationMillions": 12.07
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "refugees": 5156,
+      "refugeesOrigin": 20333,
+      "idp": null,
+      "populationMillions": 12.39
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "refugees": 4294,
+      "refugeesOrigin": 23493,
+      "idp": null,
+      "populationMillions": 12.7
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "refugees": 4964,
+      "refugeesOrigin": 26857,
+      "idp": null,
+      "populationMillions": 13.03
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "refugees": 6029,
+      "refugeesOrigin": 26792,
+      "idp": null,
+      "populationMillions": 13.37
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "refugees": 5741,
+      "refugeesOrigin": 34403,
+      "idp": null,
+      "populationMillions": 13.71
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "refugees": 2199,
+      "refugeesOrigin": 35244,
+      "idp": null,
+      "populationMillions": 14.06
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "refugees": 2191,
+      "refugeesOrigin": 38585,
+      "idp": null,
+      "populationMillions": 14.41
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "refugees": 2171,
+      "refugeesOrigin": 42096,
+      "idp": null,
+      "populationMillions": 14.75
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "refugees": 24735,
+      "refugeesOrigin": 70133,
+      "idp": 23000,
+      "populationMillions": 4.06
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "refugees": 128283,
+      "refugeesOrigin": 66779,
+      "idp": 23000,
+      "populationMillions": 4.22
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "refugees": 65899,
+      "refugeesOrigin": 23428,
+      "idp": 23000,
+      "populationMillions": 4.37
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "refugees": 53243,
+      "refugeesOrigin": 17548,
+      "idp": 23000,
+      "populationMillions": 4.47
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "refugees": 38586,
+      "refugeesOrigin": 13561,
+      "idp": 23000,
+      "populationMillions": 4.56
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "refugees": 36495,
+      "refugeesOrigin": 9972,
+      "idp": null,
+      "populationMillions": 4.66
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "refugees": 18978,
+      "refugeesOrigin": 6558,
+      "idp": null,
+      "populationMillions": 4.76
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "refugees": 11109,
+      "refugeesOrigin": 6039,
+      "idp": null,
+      "populationMillions": 4.85
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "refugees": 9103,
+      "refugeesOrigin": 5508,
+      "idp": null,
+      "populationMillions": 4.94
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "refugees": 8225,
+      "refugeesOrigin": 5365,
+      "idp": null,
+      "populationMillions": 5.04
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "refugees": 8213,
+      "refugeesOrigin": 5195,
+      "idp": null,
+      "populationMillions": 5.15
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "refugees": 8169,
+      "refugeesOrigin": 5384,
+      "idp": null,
+      "populationMillions": 5.26
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "refugees": 620,
+      "refugeesOrigin": 5156,
+      "idp": null,
+      "populationMillions": 5.37
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "refugees": 1164,
+      "refugeesOrigin": 4838,
+      "idp": null,
+      "populationMillions": 5.49
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "refugees": 1167,
+      "refugeesOrigin": 5086,
+      "idp": null,
+      "populationMillions": 5.61
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "refugees": 13552,
+      "refugeesOrigin": 3659,
+      "idp": null,
+      "populationMillions": 15.95
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "refugees": 15618,
+      "refugeesOrigin": 4289,
+      "idp": null,
+      "populationMillions": 16.47
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "refugees": 13930,
+      "refugeesOrigin": 149930,
+      "idp": 230000,
+      "populationMillions": 16.96
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "refugees": 14317,
+      "refugeesOrigin": 152812,
+      "idp": 218000,
+      "populationMillions": 17.46
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "refugees": 15193,
+      "refugeesOrigin": 139249,
+      "idp": 62000,
+      "populationMillions": 18.02
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "refugees": 15913,
+      "refugeesOrigin": 154202,
+      "idp": 50000,
+      "populationMillions": 18.59
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "refugees": 17510,
+      "refugeesOrigin": 156415,
+      "idp": 37000,
+      "populationMillions": 19.19
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "refugees": 17036,
+      "refugeesOrigin": 150305,
+      "idp": 38000,
+      "populationMillions": 19.81
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "refugees": 26538,
+      "refugeesOrigin": 158267,
+      "idp": 120000,
+      "populationMillions": 20.44
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "refugees": 26672,
+      "refugeesOrigin": 164466,
+      "idp": 208000,
+      "populationMillions": 21.07
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "refugees": 47380,
+      "refugeesOrigin": 164588,
+      "idp": 326000,
+      "populationMillions": 21.71
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "refugees": 49975,
+      "refugeesOrigin": 183392,
+      "idp": 326000,
+      "populationMillions": 22.39
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "refugees": 60637,
+      "refugeesOrigin": 225726,
+      "idp": 380000,
+      "populationMillions": 23.07
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "refugees": 66443,
+      "refugeesOrigin": 249046,
+      "idp": 344000,
+      "populationMillions": 23.77
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "refugees": 135533,
+      "refugeesOrigin": 354075,
+      "idp": 361000,
+      "populationMillions": 24.48
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "refugees": 26709,
+      "refugeesOrigin": 37721,
+      "idp": null,
+      "populationMillions": 3.39
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "refugees": 26535,
+      "refugeesOrigin": 39919,
+      "idp": null,
+      "populationMillions": 3.5
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "refugees": 80500,
+      "refugeesOrigin": 33747,
+      "idp": null,
+      "populationMillions": 3.62
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "refugees": 92766,
+      "refugeesOrigin": 34239,
+      "idp": null,
+      "populationMillions": 3.73
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "refugees": 75628,
+      "refugeesOrigin": 34103,
+      "idp": null,
+      "populationMillions": 3.85
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "refugees": 77390,
+      "refugeesOrigin": 34656,
+      "idp": null,
+      "populationMillions": 3.97
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "refugees": 74146,
+      "refugeesOrigin": 36263,
+      "idp": null,
+      "populationMillions": 4.09
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "refugees": 77424,
+      "refugeesOrigin": 36525,
+      "idp": null,
+      "populationMillions": 4.21
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "refugees": 83183,
+      "refugeesOrigin": 37050,
+      "idp": null,
+      "populationMillions": 4.34
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "refugees": 84900,
+      "refugeesOrigin": 37423,
+      "idp": null,
+      "populationMillions": 4.47
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "refugees": 93607,
+      "refugeesOrigin": 37931,
+      "idp": null,
+      "populationMillions": 4.6
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "refugees": 101942,
+      "refugeesOrigin": 39279,
+      "idp": null,
+      "populationMillions": 4.73
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "refugees": 100981,
+      "refugeesOrigin": 36928,
+      "idp": null,
+      "populationMillions": 4.88
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "refugees": 112549,
+      "refugeesOrigin": 37532,
+      "idp": null,
+      "populationMillions": 5.02
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "refugees": 155193,
+      "refugeesOrigin": 38111,
+      "idp": null,
+      "populationMillions": 5.17
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "refugees": 315,
+      "refugeesOrigin": 794,
+      "idp": 11000,
+      "populationMillions": 16.55
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "refugees": 301,
+      "refugeesOrigin": 805,
+      "idp": 11000,
+      "populationMillions": 17.18
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "refugees": 50509,
+      "refugeesOrigin": 824,
+      "idp": 11000,
+      "populationMillions": 17.84
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "refugees": 57657,
+      "refugeesOrigin": 674,
+      "idp": 11000,
+      "populationMillions": 18.52
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "refugees": 77826,
+      "refugeesOrigin": 728,
+      "idp": 11000,
+      "populationMillions": 19.22
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "refugees": 124717,
+      "refugeesOrigin": 1383,
+      "idp": 153000,
+      "populationMillions": 19.94
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "refugees": 166089,
+      "refugeesOrigin": 1230,
+      "idp": 136000,
+      "populationMillions": 20.69
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "refugees": 165729,
+      "refugeesOrigin": 1363,
+      "idp": 144000,
+      "populationMillions": 21.44
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "refugees": 175413,
+      "refugeesOrigin": 2715,
+      "idp": 156000,
+      "populationMillions": 22.19
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "refugees": 179997,
+      "refugeesOrigin": 3063,
+      "idp": 195000,
+      "populationMillions": 22.95
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "refugees": 233293,
+      "refugeesOrigin": 18853,
+      "idp": 257000,
+      "populationMillions": 23.72
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "refugees": 249945,
+      "refugeesOrigin": 21901,
+      "idp": 224000,
+      "populationMillions": 24.5
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "refugees": 255307,
+      "refugeesOrigin": 21946,
+      "idp": 372000,
+      "populationMillions": 25.31
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "refugees": 269996,
+      "refugeesOrigin": 24794,
+      "idp": 347000,
+      "populationMillions": 26.16
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "refugees": 369836,
+      "refugeesOrigin": 44119,
+      "idp": 412000,
+      "populationMillions": 27.03
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "refugees": 8744,
+      "refugeesOrigin": 15645,
+      "idp": null,
+      "populationMillions": 166.64
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "refugees": 8803,
+      "refugeesOrigin": 17140,
+      "idp": null,
+      "populationMillions": 171.38
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "refugees": 3151,
+      "refugeesOrigin": 18017,
+      "idp": null,
+      "populationMillions": 176.2
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "refugees": 1688,
+      "refugeesOrigin": 31173,
+      "idp": 3300000,
+      "populationMillions": 181.05
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "refugees": 1237,
+      "refugeesOrigin": 90936,
+      "idp": 1075000,
+      "populationMillions": 185.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "refugees": 1387,
+      "refugeesOrigin": 167973,
+      "idp": 2096000,
+      "populationMillions": 190.67
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "refugees": 1357,
+      "refugeesOrigin": 229290,
+      "idp": 1955000,
+      "populationMillions": 195.44
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "refugees": 1910,
+      "refugeesOrigin": 238977,
+      "idp": 1702000,
+      "populationMillions": 200.25
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "refugees": 34727,
+      "refugeesOrigin": 276834,
+      "idp": 2243000,
+      "populationMillions": 204.94
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "refugees": 54157,
+      "refugeesOrigin": 295578,
+      "idp": 2583000,
+      "populationMillions": 209.49
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "refugees": 66056,
+      "refugeesOrigin": 352960,
+      "idp": 2730000,
+      "populationMillions": 214
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "refugees": 77132,
+      "refugeesOrigin": 383660,
+      "idp": 3228000,
+      "populationMillions": 218.53
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "refugees": 91275,
+      "refugeesOrigin": 391120,
+      "idp": 3646000,
+      "populationMillions": 223.15
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "refugees": 69940,
+      "refugeesOrigin": 410308,
+      "idp": 3340000,
+      "populationMillions": 227.88
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "refugees": 96387,
+      "refugeesOrigin": 467605,
+      "idp": 3359000,
+      "populationMillions": 232.68
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "refugees": 20670,
+      "refugeesOrigin": 16255,
+      "idp": 24000,
+      "populationMillions": 12.64
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "refugees": 20640,
+      "refugeesOrigin": 17710,
+      "idp": 24000,
+      "populationMillions": 12.96
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "refugees": 14229,
+      "refugeesOrigin": 18717,
+      "idp": 22000,
+      "populationMillions": 13.31
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "refugees": 14241,
+      "refugeesOrigin": 19815,
+      "idp": 24000,
+      "populationMillions": 13.71
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "refugees": 14267,
+      "refugeesOrigin": 23110,
+      "idp": 24000,
+      "populationMillions": 14.15
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "refugees": 14383,
+      "refugeesOrigin": 21267,
+      "idp": 24000,
+      "populationMillions": 14.59
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "refugees": 14575,
+      "refugeesOrigin": 23054,
+      "idp": 24000,
+      "populationMillions": 15.03
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "refugees": 14646,
+      "refugeesOrigin": 26584,
+      "idp": 22000,
+      "populationMillions": 15.48
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "refugees": 14359,
+      "refugeesOrigin": 18208,
+      "idp": 18000,
+      "populationMillions": 15.91
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "refugees": 14467,
+      "refugeesOrigin": 17208,
+      "idp": 8400,
+      "populationMillions": 16.35
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "refugees": 14361,
+      "refugeesOrigin": 13986,
+      "idp": 8400,
+      "populationMillions": 16.79
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "refugees": 14479,
+      "refugeesOrigin": 15129,
+      "idp": 8400,
+      "populationMillions": 17.22
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "refugees": 11802,
+      "refugeesOrigin": 13108,
+      "idp": 8400,
+      "populationMillions": 17.65
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "refugees": 11856,
+      "refugeesOrigin": 11924,
+      "idp": 8400,
+      "populationMillions": 18.08
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "refugees": 11836,
+      "refugeesOrigin": 12947,
+      "idp": 5900,
+      "populationMillions": 18.5
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "refugees": 8362,
+      "refugeesOrigin": 11261,
+      "idp": null,
+      "populationMillions": 6.22
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "refugees": 8091,
+      "refugeesOrigin": 7985,
+      "idp": null,
+      "populationMillions": 6.39
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "refugees": 4203,
+      "refugeesOrigin": 6191,
+      "idp": null,
+      "populationMillions": 6.55
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "refugees": 2816,
+      "refugeesOrigin": 5305,
+      "idp": null,
+      "populationMillions": 6.71
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "refugees": 1371,
+      "refugeesOrigin": 4988,
+      "idp": null,
+      "populationMillions": 6.88
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "refugees": 760,
+      "refugeesOrigin": 4900,
+      "idp": null,
+      "populationMillions": 7.04
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "refugees": 683,
+      "refugeesOrigin": 4678,
+      "idp": null,
+      "populationMillions": 7.21
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "refugees": 678,
+      "refugeesOrigin": 4496,
+      "idp": null,
+      "populationMillions": 7.38
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "refugees": 591,
+      "refugeesOrigin": 4846,
+      "idp": 3000,
+      "populationMillions": 7.55
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "refugees": 441,
+      "refugeesOrigin": 5288,
+      "idp": 5500,
+      "populationMillions": 7.73
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "refugees": 342,
+      "refugeesOrigin": 5734,
+      "idp": 2500,
+      "populationMillions": 7.91
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "refugees": 345,
+      "refugeesOrigin": 6615,
+      "idp": 2500,
+      "populationMillions": 8.09
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "refugees": 0,
+      "refugeesOrigin": 6939,
+      "idp": null,
+      "populationMillions": 8.28
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "refugees": 0,
+      "refugeesOrigin": 7445,
+      "idp": null,
+      "populationMillions": 8.46
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "refugees": 0,
+      "refugeesOrigin": 8042,
+      "idp": null,
+      "populationMillions": 8.64
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "refugees": 347931,
+      "refugeesOrigin": 53713,
+      "idp": 171000,
+      "populationMillions": 12.31
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "refugees": 366491,
+      "refugeesOrigin": 42619,
+      "idp": 126000,
+      "populationMillions": 12.75
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "refugees": 373690,
+      "refugeesOrigin": 39674,
+      "idp": 90000,
+      "populationMillions": 13.21
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "refugees": 434476,
+      "refugeesOrigin": 48618,
+      "idp": 90000,
+      "populationMillions": 13.69
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "refugees": 452897,
+      "refugeesOrigin": 48236,
+      "idp": 71000,
+      "populationMillions": 14.19
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "refugees": 369538,
+      "refugeesOrigin": 14921,
+      "idp": 107000,
+      "populationMillions": 14.65
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "refugees": 391235,
+      "refugeesOrigin": 14176,
+      "idp": 108000,
+      "populationMillions": 15.11
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "refugees": 411475,
+      "refugeesOrigin": 16325,
+      "idp": 158000,
+      "populationMillions": 15.62
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "refugees": 451203,
+      "refugeesOrigin": 10895,
+      "idp": 90000,
+      "populationMillions": 16.16
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "refugees": 442670,
+      "refugeesOrigin": 11163,
+      "idp": 176000,
+      "populationMillions": 16.69
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "refugees": 478649,
+      "refugeesOrigin": 10388,
+      "idp": 342000,
+      "populationMillions": 17.22
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "refugees": 555782,
+      "refugeesOrigin": 11771,
+      "idp": 397000,
+      "populationMillions": 17.83
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "refugees": 592764,
+      "refugeesOrigin": 12811,
+      "idp": 300000,
+      "populationMillions": 18.46
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "refugees": 1100921,
+      "refugeesOrigin": 10196,
+      "idp": 452000,
+      "populationMillions": 19.32
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "refugees": 1278866,
+      "refugeesOrigin": 14617,
+      "idp": 383000,
+      "populationMillions": 20.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "refugees": 14051,
+      "refugeesOrigin": 18308,
+      "idp": 10000,
+      "populationMillions": 6.73
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "refugees": 19271,
+      "refugeesOrigin": 17853,
+      "idp": 10000,
+      "populationMillions": 6.92
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "refugees": 23539,
+      "refugeesOrigin": 15683,
+      "idp": 10000,
+      "populationMillions": 7.1
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "refugees": 20613,
+      "refugeesOrigin": 10301,
+      "idp": 10000,
+      "populationMillions": 7.29
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "refugees": 21773,
+      "refugeesOrigin": 9271,
+      "idp": 10000,
+      "populationMillions": 7.47
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "refugees": 21949,
+      "refugeesOrigin": 8774,
+      "idp": 3000,
+      "populationMillions": 7.66
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "refugees": 12486,
+      "refugeesOrigin": 8296,
+      "idp": 1500,
+      "populationMillions": 7.86
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "refugees": 12425,
+      "refugeesOrigin": 8115,
+      "idp": null,
+      "populationMillions": 8.06
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "refugees": 12335,
+      "refugeesOrigin": 8029,
+      "idp": null,
+      "populationMillions": 8.26
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "refugees": 11964,
+      "refugeesOrigin": 8034,
+      "idp": null,
+      "populationMillions": 8.46
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "refugees": 10798,
+      "refugeesOrigin": 7704,
+      "idp": null,
+      "populationMillions": 8.67
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "refugees": 10683,
+      "refugeesOrigin": 7985,
+      "idp": null,
+      "populationMillions": 8.88
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "refugees": 9300,
+      "refugeesOrigin": 7871,
+      "idp": 2300,
+      "populationMillions": 9.09
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "refugees": 28240,
+      "refugeesOrigin": 7955,
+      "idp": 18000,
+      "populationMillions": 9.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "refugees": 47494,
+      "refugeesOrigin": 12685,
+      "idp": 18000,
+      "populationMillions": 9.52
+    }
+  ],
+  "indicators": [
+    {
+      "key": "refugees",
+      "code": "SM.POP.RHCR.EA",
+      "label": "Réfugiés sous mandat HCR (pays d'asile)",
+      "unit": "personnes",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "refugeesOrigin",
+      "code": "SM.POP.RHCR.EO",
+      "label": "Réfugiés sous mandat HCR (pays d'origine)",
+      "unit": "personnes",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "idp",
+      "code": "SM.POP.IDPC",
+      "label": "Déplacés internes (pays d'asile/origine)",
+      "unit": "personnes",
+      "countriesWithData": 14,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "populationMillions",
+      "code": "SP.POP.TOTL",
+      "label": "Population totale",
+      "unit": "millions d'habitants",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "electricityAccess": 34.2,
+      "cleanCookingAccess": 4.5,
+      "renewableShare": 47.2,
+      "electricityConsumption": 86
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "electricityAccess": 36.9,
+      "cleanCookingAccess": 4.7,
+      "renewableShare": 48.7,
+      "electricityConsumption": 87
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "electricityAccess": 38.4,
+      "cleanCookingAccess": 4.9,
+      "renewableShare": 50.3,
+      "electricityConsumption": 86
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "electricityAccess": 34.7,
+      "cleanCookingAccess": 5,
+      "renewableShare": 52,
+      "electricityConsumption": 92
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "electricityAccess": 34.1,
+      "cleanCookingAccess": 5.1,
+      "renewableShare": 51,
+      "electricityConsumption": 104
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "electricityAccess": 29.6,
+      "cleanCookingAccess": 5.2,
+      "renewableShare": 49.9,
+      "electricityConsumption": 97
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "electricityAccess": 37,
+      "cleanCookingAccess": 5.2,
+      "renewableShare": 45.4,
+      "electricityConsumption": 92
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "electricityAccess": 34.5,
+      "cleanCookingAccess": 5.4,
+      "renewableShare": 45.4,
+      "electricityConsumption": 95
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "electricityAccess": 39,
+      "cleanCookingAccess": 5.4,
+      "renewableShare": 44,
+      "electricityConsumption": 97
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "electricityAccess": 40,
+      "cleanCookingAccess": 5.5,
+      "renewableShare": 46.5,
+      "electricityConsumption": 99
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "electricityAccess": 41,
+      "cleanCookingAccess": 5.7,
+      "renewableShare": 46.2,
+      "electricityConsumption": 98
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "electricityAccess": 42,
+      "cleanCookingAccess": 5.8,
+      "renewableShare": 54.5,
+      "electricityConsumption": 113
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "electricityAccess": 56.5,
+      "cleanCookingAccess": 5.9,
+      "renewableShare": null,
+      "electricityConsumption": 105
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "electricityAccess": 57,
+      "cleanCookingAccess": 6,
+      "renewableShare": null,
+      "electricityConsumption": 115
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "electricityAccess": 13.1,
+      "cleanCookingAccess": 5.8,
+      "renewableShare": 82.1,
+      "electricityConsumption": 68
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "electricityAccess": 14.8,
+      "cleanCookingAccess": 6.4,
+      "renewableShare": 81.4,
+      "electricityConsumption": 76
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "electricityAccess": 15.1,
+      "cleanCookingAccess": 7.1,
+      "renewableShare": 79.2,
+      "electricityConsumption": 86
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "electricityAccess": 15.4,
+      "cleanCookingAccess": 7.6,
+      "renewableShare": 78.7,
+      "electricityConsumption": 92
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "electricityAccess": 19.2,
+      "cleanCookingAccess": 8.3,
+      "renewableShare": 78.9,
+      "electricityConsumption": 98
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "electricityAccess": 16.2,
+      "cleanCookingAccess": 9,
+      "renewableShare": 78.8,
+      "electricityConsumption": 113
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "electricityAccess": 16.6,
+      "cleanCookingAccess": 9.8,
+      "renewableShare": 77.1,
+      "electricityConsumption": 109
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "electricityAccess": 17,
+      "cleanCookingAccess": 10.6,
+      "renewableShare": 74.6,
+      "electricityConsumption": 112
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "electricityAccess": 14.4,
+      "cleanCookingAccess": 11.7,
+      "renewableShare": 73.7,
+      "electricityConsumption": 119
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "electricityAccess": 17.6,
+      "cleanCookingAccess": 12.5,
+      "renewableShare": 72.7,
+      "electricityConsumption": 124
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "electricityAccess": 18.5,
+      "cleanCookingAccess": 13.5,
+      "renewableShare": 73.1,
+      "electricityConsumption": 132
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "electricityAccess": 19,
+      "cleanCookingAccess": 14.6,
+      "renewableShare": 71.2,
+      "electricityConsumption": 126
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "electricityAccess": 19.5,
+      "cleanCookingAccess": 15.9,
+      "renewableShare": 71.4,
+      "electricityConsumption": 127
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "electricityAccess": 21.7,
+      "cleanCookingAccess": 17,
+      "renewableShare": null,
+      "electricityConsumption": 133
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "electricityAccess": 58.4,
+      "cleanCookingAccess": 18.7,
+      "renewableShare": 75.4,
+      "electricityConsumption": 196
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "electricityAccess": 55.8,
+      "cleanCookingAccess": 19.4,
+      "renewableShare": 79.1,
+      "electricityConsumption": 180
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "electricityAccess": 55.8,
+      "cleanCookingAccess": 20.9,
+      "renewableShare": 74.9,
+      "electricityConsumption": 216
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "electricityAccess": 61.5,
+      "cleanCookingAccess": 22.4,
+      "renewableShare": 72.2,
+      "electricityConsumption": 215
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "electricityAccess": 61.9,
+      "cleanCookingAccess": 24,
+      "renewableShare": 71.9,
+      "electricityConsumption": 254
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "electricityAccess": 62.6,
+      "cleanCookingAccess": 25.9,
+      "renewableShare": 64.5,
+      "electricityConsumption": 242
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "electricityAccess": 64.3,
+      "cleanCookingAccess": 28,
+      "renewableShare": 64,
+      "electricityConsumption": 240
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "electricityAccess": 65.6,
+      "cleanCookingAccess": 30.2,
+      "renewableShare": 62.5,
+      "electricityConsumption": 273
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "electricityAccess": 67.1,
+      "cleanCookingAccess": 32.3,
+      "renewableShare": 60.5,
+      "electricityConsumption": 260
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "electricityAccess": 68.6,
+      "cleanCookingAccess": 34.7,
+      "renewableShare": 61.1,
+      "electricityConsumption": 279
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "electricityAccess": 69.9,
+      "cleanCookingAccess": 36.9,
+      "renewableShare": 61.8,
+      "electricityConsumption": 291
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "electricityAccess": 71.1,
+      "cleanCookingAccess": 39.4,
+      "renewableShare": 58.2,
+      "electricityConsumption": 308
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "electricityAccess": 72,
+      "cleanCookingAccess": 41.7,
+      "renewableShare": null,
+      "electricityConsumption": 330
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "electricityAccess": 72.4,
+      "cleanCookingAccess": 44.1,
+      "renewableShare": null,
+      "electricityConsumption": 354
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "electricityAccess": 52.8,
+      "cleanCookingAccess": 19.2,
+      "renewableShare": 78.7,
+      "electricityConsumption": 270
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "electricityAccess": 53.7,
+      "cleanCookingAccess": 20,
+      "renewableShare": 78.6,
+      "electricityConsumption": 239
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "electricityAccess": 55.2,
+      "cleanCookingAccess": 20.8,
+      "renewableShare": 78.6,
+      "electricityConsumption": 241
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "electricityAccess": 56.3,
+      "cleanCookingAccess": 21.4,
+      "renewableShare": 77.7,
+      "electricityConsumption": 245
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "electricityAccess": 56.8,
+      "cleanCookingAccess": 22.1,
+      "renewableShare": 76.9,
+      "electricityConsumption": 250
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "electricityAccess": 58.6,
+      "cleanCookingAccess": 22.8,
+      "renewableShare": 78.1,
+      "electricityConsumption": 279
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "electricityAccess": 59.8,
+      "cleanCookingAccess": 23.6,
+      "renewableShare": 78.8,
+      "electricityConsumption": 251
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "electricityAccess": 60.9,
+      "cleanCookingAccess": 24.4,
+      "renewableShare": 79.2,
+      "electricityConsumption": 264
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "electricityAccess": 62.2,
+      "cleanCookingAccess": 25.3,
+      "renewableShare": 78.7,
+      "electricityConsumption": 275
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "electricityAccess": 63.2,
+      "cleanCookingAccess": 26.3,
+      "renewableShare": 78.9,
+      "electricityConsumption": 262
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "electricityAccess": 64.3,
+      "cleanCookingAccess": 27.4,
+      "renewableShare": 78.9,
+      "electricityConsumption": 260
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "electricityAccess": 65.4,
+      "cleanCookingAccess": 28.4,
+      "renewableShare": 79.2,
+      "electricityConsumption": 242
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "electricityAccess": 71,
+      "cleanCookingAccess": 29.4,
+      "renewableShare": null,
+      "electricityConsumption": 223
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "electricityAccess": 72,
+      "cleanCookingAccess": 30.7,
+      "renewableShare": null,
+      "electricityConsumption": 226
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "electricityAccess": 13,
+      "cleanCookingAccess": 3.1,
+      "renewableShare": 96.8,
+      "electricityConsumption": 99
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "electricityAccess": 13.7,
+      "cleanCookingAccess": 3.3,
+      "renewableShare": 96.2,
+      "electricityConsumption": 102
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "electricityAccess": 15.4,
+      "cleanCookingAccess": 3.4,
+      "renewableShare": 95.5,
+      "electricityConsumption": 106
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "electricityAccess": 15.2,
+      "cleanCookingAccess": 3.6,
+      "renewableShare": 93.9,
+      "electricityConsumption": 111
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "electricityAccess": 13.5,
+      "cleanCookingAccess": 3.8,
+      "renewableShare": 92.9,
+      "electricityConsumption": 117
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "electricityAccess": 16.6,
+      "cleanCookingAccess": 3.9,
+      "renewableShare": 95.8,
+      "electricityConsumption": 112
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "electricityAccess": 17.3,
+      "cleanCookingAccess": 4,
+      "renewableShare": 97,
+      "electricityConsumption": 107
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "electricityAccess": 18,
+      "cleanCookingAccess": 4.1,
+      "renewableShare": 96.7,
+      "electricityConsumption": 110
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "electricityAccess": 18.7,
+      "cleanCookingAccess": 4.2,
+      "renewableShare": 96.4,
+      "electricityConsumption": 121
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "electricityAccess": 19.1,
+      "cleanCookingAccess": 4.4,
+      "renewableShare": 96.3,
+      "electricityConsumption": 126
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "electricityAccess": 20.1,
+      "cleanCookingAccess": 4.4,
+      "renewableShare": 96.2,
+      "electricityConsumption": 130
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "electricityAccess": 20.8,
+      "cleanCookingAccess": 4.6,
+      "renewableShare": 96.3,
+      "electricityConsumption": 134
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "electricityAccess": 21.5,
+      "cleanCookingAccess": 4.8,
+      "renewableShare": null,
+      "electricityConsumption": 131
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "electricityAccess": 22.1,
+      "cleanCookingAccess": 5,
+      "renewableShare": null,
+      "electricityConsumption": 129
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "electricityAccess": 64.2,
+      "cleanCookingAccess": 15.3,
+      "renewableShare": 51.9,
+      "electricityConsumption": 272
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "electricityAccess": 64.1,
+      "cleanCookingAccess": 16.3,
+      "renewableShare": 50.1,
+      "electricityConsumption": 306
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "electricityAccess": 56.5,
+      "cleanCookingAccess": 17.5,
+      "renewableShare": 46.5,
+      "electricityConsumption": 337
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "electricityAccess": 70.7,
+      "cleanCookingAccess": 18.8,
+      "renewableShare": 46.2,
+      "electricityConsumption": 352
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "electricityAccess": 78.3,
+      "cleanCookingAccess": 19.9,
+      "renewableShare": 47.7,
+      "electricityConsumption": 342
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "electricityAccess": 74,
+      "cleanCookingAccess": 21.4,
+      "renewableShare": 44,
+      "electricityConsumption": 306
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "electricityAccess": 79.3,
+      "cleanCookingAccess": 22.7,
+      "renewableShare": 45.2,
+      "electricityConsumption": 358
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "electricityAccess": 79,
+      "cleanCookingAccess": 23.9,
+      "renewableShare": 45.3,
+      "electricityConsumption": 409
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "electricityAccess": 80.4,
+      "cleanCookingAccess": 25.3,
+      "renewableShare": 42.1,
+      "electricityConsumption": 444
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "electricityAccess": 83.5,
+      "cleanCookingAccess": 26.9,
+      "renewableShare": 42.6,
+      "electricityConsumption": 470
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "electricityAccess": 85.4,
+      "cleanCookingAccess": 28.3,
+      "renewableShare": 40,
+      "electricityConsumption": 504
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "electricityAccess": 86.3,
+      "cleanCookingAccess": 29.9,
+      "renewableShare": 39,
+      "electricityConsumption": 542
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "electricityAccess": 85.1,
+      "cleanCookingAccess": 31.5,
+      "renewableShare": null,
+      "electricityConsumption": 553
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "electricityAccess": 89.5,
+      "cleanCookingAccess": 32.8,
+      "renewableShare": null,
+      "electricityConsumption": 565
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "electricityAccess": 28.1,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 75.7,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "electricityAccess": 29.5,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 74.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "electricityAccess": 26.2,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 76.4,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "electricityAccess": 32.2,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 78.5,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "electricityAccess": 33.5,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 78.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "electricityAccess": 34.9,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 76.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "electricityAccess": 33.5,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 75.3,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "electricityAccess": 35.4,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 72,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "electricityAccess": 45,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 73.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "electricityAccess": 42.2,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 68.3,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "electricityAccess": 44.7,
+      "cleanCookingAccess": 1,
+      "renewableShare": 65.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "electricityAccess": 46.8,
+      "cleanCookingAccess": 1,
+      "renewableShare": 66.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "electricityAccess": 47.7,
+      "cleanCookingAccess": 1,
+      "renewableShare": 66.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "electricityAccess": 51.1,
+      "cleanCookingAccess": 1,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "electricityAccess": 5.3,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 88.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "electricityAccess": 4.1,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 87.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "electricityAccess": 9.3,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 86.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "electricityAccess": 9.8,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 87.5,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "electricityAccess": 9.4,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 91.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "electricityAccess": 15.2,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 91.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "electricityAccess": 17.7,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 92.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "electricityAccess": 24.2,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 93.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "electricityAccess": 22.8,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 94.4,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "electricityAccess": 23.1,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 89.7,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "electricityAccess": 27.6,
+      "cleanCookingAccess": 0.6,
+      "renewableShare": 93,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "electricityAccess": 29.8,
+      "cleanCookingAccess": 0.7,
+      "renewableShare": 93.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "electricityAccess": 31.8,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 92.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "electricityAccess": 32.5,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "electricityAccess": 27,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 84,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "electricityAccess": 28.8,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 83.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "electricityAccess": 25.6,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 81.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "electricityAccess": 32.4,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": 84.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "electricityAccess": 34.2,
+      "cleanCookingAccess": 1,
+      "renewableShare": 84.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "electricityAccess": 37.6,
+      "cleanCookingAccess": 1,
+      "renewableShare": 81.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "electricityAccess": 38.8,
+      "cleanCookingAccess": 1,
+      "renewableShare": 77.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "electricityAccess": 34.8,
+      "cleanCookingAccess": 1,
+      "renewableShare": 77,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "electricityAccess": 50.9,
+      "cleanCookingAccess": 1,
+      "renewableShare": 77.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "electricityAccess": 47.9,
+      "cleanCookingAccess": 1.1,
+      "renewableShare": 74.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "electricityAccess": 50.6,
+      "cleanCookingAccess": 1.2,
+      "renewableShare": 72.8,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "electricityAccess": 53.4,
+      "cleanCookingAccess": 1.2,
+      "renewableShare": 71.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "electricityAccess": 53,
+      "cleanCookingAccess": 1.3,
+      "renewableShare": 71.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "electricityAccess": 54.5,
+      "cleanCookingAccess": 1.3,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "electricityAccess": 34.2,
+      "cleanCookingAccess": 41.1,
+      "renewableShare": 34,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "electricityAccess": 35.3,
+      "cleanCookingAccess": 41.8,
+      "renewableShare": 33.3,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "electricityAccess": 36.4,
+      "cleanCookingAccess": 42.6,
+      "renewableShare": 31.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "electricityAccess": 37.6,
+      "cleanCookingAccess": 42.9,
+      "renewableShare": 35.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "electricityAccess": 38.8,
+      "cleanCookingAccess": 43.8,
+      "renewableShare": 31,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "electricityAccess": 39.5,
+      "cleanCookingAccess": 44.4,
+      "renewableShare": 28.3,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "electricityAccess": 41.2,
+      "cleanCookingAccess": 44.9,
+      "renewableShare": 31.7,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "electricityAccess": 42.9,
+      "cleanCookingAccess": 45.5,
+      "renewableShare": 25.5,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "electricityAccess": 43.6,
+      "cleanCookingAccess": 46.1,
+      "renewableShare": 21.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "electricityAccess": 44.9,
+      "cleanCookingAccess": 46.8,
+      "renewableShare": 21.2,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "electricityAccess": 45.4,
+      "cleanCookingAccess": 47.5,
+      "renewableShare": 20.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "electricityAccess": 47.7,
+      "cleanCookingAccess": 48.1,
+      "renewableShare": 22.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "electricityAccess": 49,
+      "cleanCookingAccess": 48.9,
+      "renewableShare": 19.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "electricityAccess": 50.3,
+      "cleanCookingAccess": 49.4,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "electricityAccess": 13.6,
+      "cleanCookingAccess": 1.4,
+      "renewableShare": 80.7,
+      "electricityConsumption": 44
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "electricityAccess": 14.3,
+      "cleanCookingAccess": 1.5,
+      "renewableShare": 77.2,
+      "electricityConsumption": 47
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "electricityAccess": 14.4,
+      "cleanCookingAccess": 1.6,
+      "renewableShare": 72.7,
+      "electricityConsumption": 49
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "electricityAccess": 15.2,
+      "cleanCookingAccess": 1.7,
+      "renewableShare": 78.7,
+      "electricityConsumption": 48
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "electricityAccess": 15.7,
+      "cleanCookingAccess": 1.9,
+      "renewableShare": 78.1,
+      "electricityConsumption": 51
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "electricityAccess": 16.6,
+      "cleanCookingAccess": 2.2,
+      "renewableShare": 78.9,
+      "electricityConsumption": 55
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "electricityAccess": 17,
+      "cleanCookingAccess": 2.3,
+      "renewableShare": 80.2,
+      "electricityConsumption": 65
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "electricityAccess": 17.6,
+      "cleanCookingAccess": 2.6,
+      "renewableShare": 82,
+      "electricityConsumption": 56
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "electricityAccess": 17.6,
+      "cleanCookingAccess": 3,
+      "renewableShare": 82,
+      "electricityConsumption": 56
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "electricityAccess": 18.5,
+      "cleanCookingAccess": 3.4,
+      "renewableShare": 80.7,
+      "electricityConsumption": 62
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "electricityAccess": 18.7,
+      "cleanCookingAccess": 3.8,
+      "renewableShare": 81.9,
+      "electricityConsumption": 61
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "electricityAccess": 18.6,
+      "cleanCookingAccess": 4.1,
+      "renewableShare": 79.6,
+      "electricityConsumption": 56
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "electricityAccess": 19.5,
+      "cleanCookingAccess": 4.5,
+      "renewableShare": null,
+      "electricityConsumption": 60
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "electricityAccess": 20.1,
+      "cleanCookingAccess": 5.1,
+      "renewableShare": null,
+      "electricityConsumption": 68
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "electricityAccess": 48,
+      "cleanCookingAccess": 1.8,
+      "renewableShare": 86,
+      "electricityConsumption": 141
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "electricityAccess": 55.9,
+      "cleanCookingAccess": 2.2,
+      "renewableShare": 84.1,
+      "electricityConsumption": 143
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "electricityAccess": 53,
+      "cleanCookingAccess": 2.7,
+      "renewableShare": 83.9,
+      "electricityConsumption": 150
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "electricityAccess": 55.6,
+      "cleanCookingAccess": 3.4,
+      "renewableShare": 81.4,
+      "electricityConsumption": 160
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "electricityAccess": 54.2,
+      "cleanCookingAccess": 4.3,
+      "renewableShare": 79.9,
+      "electricityConsumption": 188
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "electricityAccess": 52.5,
+      "cleanCookingAccess": 5.7,
+      "renewableShare": 81.3,
+      "electricityConsumption": 201
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "electricityAccess": 59.3,
+      "cleanCookingAccess": 7.4,
+      "renewableShare": 81.1,
+      "electricityConsumption": 219
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "electricityAccess": 54.4,
+      "cleanCookingAccess": 9.7,
+      "renewableShare": 81.6,
+      "electricityConsumption": 138
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "electricityAccess": 56.5,
+      "cleanCookingAccess": 12.5,
+      "renewableShare": 80.8,
+      "electricityConsumption": 139
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "electricityAccess": 55.4,
+      "cleanCookingAccess": 15.7,
+      "renewableShare": 80.1,
+      "electricityConsumption": 138
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "electricityAccess": 55.4,
+      "cleanCookingAccess": 18.9,
+      "renewableShare": 81.8,
+      "electricityConsumption": 145
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "electricityAccess": 59.5,
+      "cleanCookingAccess": 21.9,
+      "renewableShare": 80.3,
+      "electricityConsumption": 151
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "electricityAccess": 60.5,
+      "cleanCookingAccess": 24.4,
+      "renewableShare": null,
+      "electricityConsumption": 139
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "electricityAccess": 61.2,
+      "cleanCookingAccess": 26.2,
+      "renewableShare": null,
+      "electricityConsumption": 144
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "electricityAccess": 56.5,
+      "cleanCookingAccess": 33.3,
+      "renewableShare": 49.5,
+      "electricityConsumption": 224
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "electricityAccess": 56.5,
+      "cleanCookingAccess": 32.1,
+      "renewableShare": 48,
+      "electricityConsumption": 225
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "electricityAccess": 56.5,
+      "cleanCookingAccess": 31.1,
+      "renewableShare": 49.6,
+      "electricityConsumption": 239
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "electricityAccess": 57,
+      "cleanCookingAccess": 30.1,
+      "renewableShare": 42.7,
+      "electricityConsumption": 239
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "electricityAccess": 61,
+      "cleanCookingAccess": 29.2,
+      "renewableShare": 42.5,
+      "electricityConsumption": 255
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "electricityAccess": 60.5,
+      "cleanCookingAccess": 28.5,
+      "renewableShare": 39.1,
+      "electricityConsumption": 264
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "electricityAccess": 64.5,
+      "cleanCookingAccess": 28.3,
+      "renewableShare": 36.7,
+      "electricityConsumption": 276
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "electricityAccess": 61.7,
+      "cleanCookingAccess": 28.4,
+      "renewableShare": 36.8,
+      "electricityConsumption": 263
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "electricityAccess": 66,
+      "cleanCookingAccess": 28.8,
+      "renewableShare": 34.2,
+      "electricityConsumption": 272
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "electricityAccess": 70.4,
+      "cleanCookingAccess": 29.7,
+      "renewableShare": 36.2,
+      "electricityConsumption": 311
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "electricityAccess": 64.3,
+      "cleanCookingAccess": 30.7,
+      "renewableShare": 38.7,
+      "electricityConsumption": 312
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "electricityAccess": 68,
+      "cleanCookingAccess": 32.1,
+      "renewableShare": 35.4,
+      "electricityConsumption": 330
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "electricityAccess": 67.9,
+      "cleanCookingAccess": 33.5,
+      "renewableShare": null,
+      "electricityConsumption": 400
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "electricityAccess": 74.2,
+      "cleanCookingAccess": 34.8,
+      "renewableShare": null,
+      "electricityConsumption": 410
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "electricityAccess": 11.5,
+      "cleanCookingAccess": 0.4,
+      "renewableShare": 84.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "electricityAccess": 14.2,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 81,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "electricityAccess": 17.2,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 79.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "electricityAccess": 13.5,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 74.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "electricityAccess": 18.8,
+      "cleanCookingAccess": 0.5,
+      "renewableShare": 73,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "electricityAccess": 19.7,
+      "cleanCookingAccess": 0.6,
+      "renewableShare": 74,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "electricityAccess": 20.3,
+      "cleanCookingAccess": 0.6,
+      "renewableShare": 73.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "electricityAccess": 23.4,
+      "cleanCookingAccess": 0.7,
+      "renewableShare": 74.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "electricityAccess": 26.1,
+      "cleanCookingAccess": 0.7,
+      "renewableShare": 75.9,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "electricityAccess": 22.7,
+      "cleanCookingAccess": 0.7,
+      "renewableShare": 75.4,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "electricityAccess": 26.3,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 75.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "electricityAccess": 27.5,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 71.1,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "electricityAccess": 29.4,
+      "cleanCookingAccess": 0.8,
+      "renewableShare": 71.6,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "electricityAccess": 35.5,
+      "cleanCookingAccess": 0.9,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "electricityAccess": 6.4,
+      "cleanCookingAccess": 2.7,
+      "renewableShare": 79.2,
+      "electricityConsumption": 5
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "electricityAccess": 9,
+      "cleanCookingAccess": 2.9,
+      "renewableShare": 80.7,
+      "electricityConsumption": 11
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "electricityAccess": 7.8,
+      "cleanCookingAccess": 3.1,
+      "renewableShare": 76.1,
+      "electricityConsumption": 12
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "electricityAccess": 8.1,
+      "cleanCookingAccess": 3.5,
+      "renewableShare": 72.6,
+      "electricityConsumption": 13
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "electricityAccess": 8.4,
+      "cleanCookingAccess": 3.8,
+      "renewableShare": 72.5,
+      "electricityConsumption": 14
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "electricityAccess": 7.7,
+      "cleanCookingAccess": 4.3,
+      "renewableShare": 72.7,
+      "electricityConsumption": 13
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "electricityAccess": 9.2,
+      "cleanCookingAccess": 4.7,
+      "renewableShare": 72.7,
+      "electricityConsumption": 13
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "electricityAccess": 10.9,
+      "cleanCookingAccess": 5.2,
+      "renewableShare": 72.8,
+      "electricityConsumption": 13
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "electricityAccess": 10.1,
+      "cleanCookingAccess": 5.9,
+      "renewableShare": 73.1,
+      "electricityConsumption": 14
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "electricityAccess": 8.4,
+      "cleanCookingAccess": 6.6,
+      "renewableShare": 72.8,
+      "electricityConsumption": 15
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "electricityAccess": 10.9,
+      "cleanCookingAccess": 7.4,
+      "renewableShare": 71.9,
+      "electricityConsumption": 14
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "electricityAccess": 11.3,
+      "cleanCookingAccess": 8,
+      "renewableShare": 69.9,
+      "electricityConsumption": 17
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "electricityAccess": 11.7,
+      "cleanCookingAccess": 8.8,
+      "renewableShare": 70,
+      "electricityConsumption": 16
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "electricityAccess": 12,
+      "cleanCookingAccess": 9.7,
+      "renewableShare": null,
+      "electricityConsumption": 14
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "electricityAccess": 30.8,
+      "cleanCookingAccess": 3.4,
+      "renewableShare": 65.8,
+      "electricityConsumption": 118
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "electricityAccess": 39.7,
+      "cleanCookingAccess": 3.9,
+      "renewableShare": 69.1,
+      "electricityConsumption": 129
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "electricityAccess": 39.1,
+      "cleanCookingAccess": 4.7,
+      "renewableShare": 72.7,
+      "electricityConsumption": 147
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "electricityAccess": 41,
+      "cleanCookingAccess": 5.2,
+      "renewableShare": 76.2,
+      "electricityConsumption": 87
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "electricityAccess": 45.7,
+      "cleanCookingAccess": 6,
+      "renewableShare": 81.4,
+      "electricityConsumption": 173
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "electricityAccess": 44.7,
+      "cleanCookingAccess": 6.8,
+      "renewableShare": 81,
+      "electricityConsumption": 91
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "electricityAccess": 46.8,
+      "cleanCookingAccess": 7.5,
+      "renewableShare": 80.7,
+      "electricityConsumption": 126
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "electricityAccess": 48,
+      "cleanCookingAccess": 8.1,
+      "renewableShare": 78.4,
+      "electricityConsumption": 170
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "electricityAccess": 50,
+      "cleanCookingAccess": 9,
+      "renewableShare": 76.7,
+      "electricityConsumption": 126
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "electricityAccess": 52.5,
+      "cleanCookingAccess": 9.7,
+      "renewableShare": 78.6,
+      "electricityConsumption": 167
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "electricityAccess": 54.1,
+      "cleanCookingAccess": 10.6,
+      "renewableShare": 76.2,
+      "electricityConsumption": 162
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "electricityAccess": 55.7,
+      "cleanCookingAccess": 11.4,
+      "renewableShare": 75.1,
+      "electricityConsumption": 162
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "electricityAccess": 57.2,
+      "cleanCookingAccess": 12.3,
+      "renewableShare": null,
+      "electricityConsumption": 193
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "electricityAccess": 59.2,
+      "cleanCookingAccess": 13.2,
+      "renewableShare": null,
+      "electricityConsumption": 217
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "electricityAccess": null,
+      "cleanCookingAccess": null,
+      "renewableShare": null,
+      "electricityConsumption": null
+    }
+  ],
+  "indicators": [
+    {
+      "key": "electricityAccess",
+      "code": "EG.ELC.ACCS.ZS",
+      "label": "Accès à l'électricité",
+      "unit": "% de la population",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "cleanCookingAccess",
+      "code": "EG.CFT.ACCS.ZS",
+      "label": "Accès à des combustibles de cuisson propres",
+      "unit": "% de la population",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "renewableShare",
+      "code": "EG.FEC.RNEW.ZS",
+      "label": "Part des énergies renouvelables",
+      "unit": "% de la consommation finale",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2022
+      ]
+    },
+    {
+      "key": "electricityConsumption",
+      "code": "EG.USE.ELEC.KH.PC",
+      "label": "Consommation d'électricité par habitant",
+      "unit": "kWh/habitant",
+      "countriesWithData": 11,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

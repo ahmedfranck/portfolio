@@ -1,0 +1,2479 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 973
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 1059
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 74,
+      "gdpPerCapita": 1072
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 1169
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "stunting": 34,
+      "wasting": 4.5,
+      "underweight": 18,
+      "dtp3Coverage": 74,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 1204
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 74,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 1002
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 78,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 1011
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 1055
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "stunting": 32.2,
+      "wasting": 5,
+      "underweight": 16.8,
+      "dtp3Coverage": 74,
+      "measlesCoverage": 61,
+      "gdpPerCapita": 1152
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 72,
+      "measlesCoverage": 58,
+      "gdpPerCapita": 1131
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 54,
+      "gdpPerCapita": 1200
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "stunting": 34.1,
+      "wasting": 8.3,
+      "underweight": 19.6,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 53,
+      "gdpPerCapita": 1319
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 69,
+      "measlesCoverage": 52,
+      "gdpPerCapita": 1266
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 69,
+      "measlesCoverage": 52,
+      "gdpPerCapita": 1394
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 63,
+      "measlesCoverage": 44,
+      "gdpPerCapita": 1485
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "stunting": 34.9,
+      "wasting": 10.9,
+      "underweight": 25.2,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 92,
+      "gdpPerCapita": 625
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "stunting": 34.6,
+      "wasting": 10.4,
+      "underweight": 25.1,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 89,
+      "gdpPerCapita": 725
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "stunting": 32.8,
+      "wasting": 10.7,
+      "underweight": 24.3,
+      "dtp3Coverage": 90,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 731
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "stunting": 31.3,
+      "wasting": 8.1,
+      "underweight": 20.9,
+      "dtp3Coverage": 88,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 760
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "stunting": 29,
+      "wasting": 8.5,
+      "underweight": 20,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 765
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "stunting": 30.1,
+      "wasting": 10.2,
+      "underweight": 22.8,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 630
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "stunting": 26.8,
+      "wasting": 7.5,
+      "underweight": 18.9,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 664
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "stunting": 21.1,
+      "wasting": 8.6,
+      "underweight": 16.2,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 709
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "stunting": 24.9,
+      "wasting": 8.4,
+      "underweight": 17.7,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 777
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "stunting": 23.8,
+      "wasting": 8.1,
+      "underweight": 16.4,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 765
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "stunting": 17.5,
+      "wasting": 8.8,
+      "underweight": 12.7,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 825
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "stunting": 21.1,
+      "wasting": 9.3,
+      "underweight": 16.9,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 896
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 827
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 873
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 982
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 78,
+      "measlesCoverage": 64,
+      "gdpPerCapita": 1554
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "stunting": 27.2,
+      "wasting": 5.3,
+      "underweight": 15.5,
+      "dtp3Coverage": 61,
+      "measlesCoverage": 49,
+      "gdpPerCapita": 1597
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "stunting": 29.9,
+      "wasting": 7.6,
+      "underweight": 15.7,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 74,
+      "gdpPerCapita": 1547
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 1786
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 59,
+      "gdpPerCapita": 1991
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 79,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 1815
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "stunting": 21.6,
+      "wasting": 6.1,
+      "underweight": 12.8,
+      "dtp3Coverage": 87,
+      "measlesCoverage": 73,
+      "gdpPerCapita": 1863
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 1964
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 74,
+      "gdpPerCapita": 2131
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 79,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 2142
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 72,
+      "measlesCoverage": 63,
+      "gdpPerCapita": 2180
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "stunting": 23.4,
+      "wasting": 8.1,
+      "underweight": 13.6,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 2456
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 62,
+      "gdpPerCapita": 2333
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 79,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 2592
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 2728
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 79,
+      "gdpPerCapita": 1399
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "stunting": 32.6,
+      "wasting": 5.7,
+      "underweight": 15.2,
+      "dtp3Coverage": 81,
+      "measlesCoverage": 76,
+      "gdpPerCapita": 1514
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 79,
+      "measlesCoverage": 74,
+      "gdpPerCapita": 1449
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 1576
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "stunting": 31.7,
+      "wasting": 5.2,
+      "underweight": 14.8,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 1649
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 1415
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 78,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 1442
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 74,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 1496
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "stunting": 28.9,
+      "wasting": 4.3,
+      "underweight": 11,
+      "dtp3Coverage": 68,
+      "measlesCoverage": 61,
+      "gdpPerCapita": 1611
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 67,
+      "measlesCoverage": 61,
+      "gdpPerCapita": 1555
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 68,
+      "measlesCoverage": 63,
+      "gdpPerCapita": 1556
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 1672
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 1605
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 1720
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 1830
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "stunting": 43.4,
+      "wasting": 8.5,
+      "underweight": 24.2,
+      "dtp3Coverage": 60,
+      "measlesCoverage": 66,
+      "gdpPerCapita": 352
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 66,
+      "gdpPerCapita": 373
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 69,
+      "gdpPerCapita": 410
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "stunting": 42.7,
+      "wasting": 8.1,
+      "underweight": 23.4,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 460
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 69,
+      "gdpPerCapita": 489
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 496
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 63,
+      "gdpPerCapita": 460
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "stunting": 41.8,
+      "wasting": 6.4,
+      "underweight": 23.1,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 431
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 64,
+      "gdpPerCapita": 518
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 504
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 62,
+      "gdpPerCapita": 486
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 65,
+      "measlesCoverage": 55,
+      "gdpPerCapita": 596
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 65,
+      "measlesCoverage": 56,
+      "gdpPerCapita": 688
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "stunting": 44.7,
+      "wasting": 7.2,
+      "underweight": 25,
+      "dtp3Coverage": 60,
+      "measlesCoverage": 52,
+      "gdpPerCapita": 660
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 65,
+      "measlesCoverage": 55,
+      "gdpPerCapita": 649
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 94,
+      "measlesCoverage": 93,
+      "gdpPerCapita": 1264
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "stunting": 22.8,
+      "wasting": 6.2,
+      "underweight": 13.4,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 91,
+      "gdpPerCapita": 1507
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 89,
+      "gdpPerCapita": 1544
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 90,
+      "measlesCoverage": 89,
+      "gdpPerCapita": 2295
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "stunting": 18.8,
+      "wasting": 4.7,
+      "underweight": 11.2,
+      "dtp3Coverage": 98,
+      "measlesCoverage": 92,
+      "gdpPerCapita": 1950
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 89,
+      "measlesCoverage": 89,
+      "gdpPerCapita": 1723
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 93,
+      "measlesCoverage": 89,
+      "gdpPerCapita": 1912
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "stunting": 17.5,
+      "wasting": 6.8,
+      "underweight": 12.6,
+      "dtp3Coverage": 99,
+      "measlesCoverage": 95,
+      "gdpPerCapita": 2012
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 97,
+      "measlesCoverage": 92,
+      "gdpPerCapita": 2195
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 97,
+      "measlesCoverage": 92,
+      "gdpPerCapita": 2187
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 94,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 2195
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 98,
+      "measlesCoverage": 94,
+      "gdpPerCapita": 2445
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "stunting": 17.4,
+      "wasting": 5.8,
+      "underweight": 12,
+      "dtp3Coverage": 99,
+      "measlesCoverage": 95,
+      "gdpPerCapita": 2230
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 95,
+      "measlesCoverage": 90,
+      "gdpPerCapita": 2384
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 95,
+      "measlesCoverage": 90,
+      "gdpPerCapita": 2391
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 64,
+      "measlesCoverage": 58,
+      "gdpPerCapita": 659
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 63,
+      "measlesCoverage": 62,
+      "gdpPerCapita": 637
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "stunting": 31.1,
+      "wasting": 10,
+      "underweight": 18.8,
+      "dtp3Coverage": 59,
+      "measlesCoverage": 58,
+      "gdpPerCapita": 699
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 56,
+      "measlesCoverage": 55,
+      "gdpPerCapita": 748
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 52,
+      "measlesCoverage": 51,
+      "gdpPerCapita": 765
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 48,
+      "measlesCoverage": 47,
+      "gdpPerCapita": 747
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "stunting": 32.4,
+      "wasting": 8.1,
+      "underweight": 18.3,
+      "dtp3Coverage": 47,
+      "measlesCoverage": 48,
+      "gdpPerCapita": 712
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 49,
+      "measlesCoverage": 48,
+      "gdpPerCapita": 834
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "stunting": 30.3,
+      "wasting": 9.2,
+      "underweight": 16.3,
+      "dtp3Coverage": 51,
+      "measlesCoverage": 49,
+      "gdpPerCapita": 933
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 53,
+      "measlesCoverage": 50,
+      "gdpPerCapita": 1031
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 54,
+      "measlesCoverage": 50,
+      "gdpPerCapita": 1054
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 56,
+      "measlesCoverage": 51,
+      "gdpPerCapita": 1245
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "stunting": 26.1,
+      "wasting": 6.4,
+      "underweight": 15,
+      "dtp3Coverage": 58,
+      "measlesCoverage": 51,
+      "gdpPerCapita": 1417
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 60,
+      "measlesCoverage": 52,
+      "gdpPerCapita": 1555
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 63,
+      "measlesCoverage": 60,
+      "gdpPerCapita": 1695
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "stunting": 39,
+      "wasting": 4,
+      "underweight": 16.6,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 492
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 568
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 638
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "stunting": 32.1,
+      "wasting": 5.6,
+      "underweight": 15.3,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 74,
+      "gdpPerCapita": 711
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 63,
+      "measlesCoverage": 58,
+      "gdpPerCapita": 707
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 65,
+      "measlesCoverage": 64,
+      "gdpPerCapita": 693
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "stunting": 30.1,
+      "wasting": 4.3,
+      "underweight": 13.6,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 715
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 699
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 81,
+      "measlesCoverage": 74,
+      "gdpPerCapita": 692
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "stunting": 29.8,
+      "wasting": 3.4,
+      "underweight": 10.9,
+      "dtp3Coverage": 71,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 658
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 66,
+      "measlesCoverage": 61,
+      "gdpPerCapita": 617
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 67,
+      "measlesCoverage": 58,
+      "gdpPerCapita": 668
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 79,
+      "measlesCoverage": 79,
+      "gdpPerCapita": 745
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 799
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 851
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "stunting": 27.8,
+      "wasting": 8.9,
+      "underweight": 18.9,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 78,
+      "gdpPerCapita": 797
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "stunting": 27.9,
+      "wasting": 10.4,
+      "underweight": 20,
+      "dtp3Coverage": 66,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 938
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 65,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 873
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 64,
+      "measlesCoverage": 62,
+      "gdpPerCapita": 902
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "stunting": 28.1,
+      "wasting": 13.1,
+      "underweight": 24.1,
+      "dtp3Coverage": 66,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 948
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "stunting": 30.4,
+      "wasting": 13.5,
+      "underweight": 25,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 838
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "stunting": 26.4,
+      "wasting": 10.6,
+      "underweight": 20.2,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 872
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "stunting": 24.6,
+      "wasting": 10.5,
+      "underweight": 17.1,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 924
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "stunting": 26.9,
+      "wasting": 9,
+      "underweight": 18.6,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 996
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "stunting": 26.4,
+      "wasting": 13,
+      "underweight": 18.5,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 71,
+      "gdpPerCapita": 972
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "stunting": 23,
+      "wasting": 7.2,
+      "underweight": 14.9,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 62,
+      "gdpPerCapita": 953
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "stunting": 22.1,
+      "wasting": 9.3,
+      "underweight": 17.5,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 1027
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "stunting": 21.8,
+      "wasting": 10.6,
+      "underweight": 18.5,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 69,
+      "gdpPerCapita": 977
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 1044
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "stunting": 25.1,
+      "wasting": 5.4,
+      "underweight": 15,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 1095
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 64,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 1660
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "stunting": 29.7,
+      "wasting": 13.9,
+      "underweight": 24.4,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 1931
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "stunting": 23.2,
+      "wasting": 11.7,
+      "underweight": 20.4,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 1859
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 1934
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 81,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 1713
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "stunting": 27.9,
+      "wasting": 14.8,
+      "underweight": 24.9,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 70,
+      "gdpPerCapita": 1555
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 74,
+      "measlesCoverage": 73,
+      "gdpPerCapita": 1566
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 76,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 1615
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "stunting": 22.8,
+      "wasting": 11.5,
+      "underweight": 19.2,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 78,
+      "gdpPerCapita": 1723
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "stunting": 19.4,
+      "wasting": 11.1,
+      "underweight": 17.3,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 1767
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "stunting": 25.8,
+      "wasting": 6.4,
+      "underweight": 16.8,
+      "dtp3Coverage": 81,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 1796
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "stunting": 17.4,
+      "wasting": 10.1,
+      "underweight": 14.8,
+      "dtp3Coverage": 77,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 1948
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "stunting": 25.1,
+      "wasting": 13.6,
+      "underweight": 22.4,
+      "dtp3Coverage": 85,
+      "measlesCoverage": 84,
+      "gdpPerCapita": 1960
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 90,
+      "measlesCoverage": 92,
+      "gdpPerCapita": 2136
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 86,
+      "measlesCoverage": 93,
+      "gdpPerCapita": 2110
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "stunting": 47.4,
+      "wasting": 15.8,
+      "underweight": 40,
+      "dtp3Coverage": 70,
+      "measlesCoverage": 67,
+      "gdpPerCapita": 474
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "stunting": 50.9,
+      "wasting": 12.4,
+      "underweight": 36.2,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 69,
+      "gdpPerCapita": 511
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "stunting": 39.9,
+      "wasting": 13.4,
+      "underweight": 32.1,
+      "dtp3Coverage": 73,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 529
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "stunting": 42.5,
+      "wasting": 12.4,
+      "underweight": 33.1,
+      "dtp3Coverage": 75,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 552
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "stunting": 42.2,
+      "wasting": 14.2,
+      "underweight": 34.6,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 565
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "stunting": 46.4,
+      "wasting": 13.6,
+      "underweight": 35.8,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 85,
+      "gdpPerCapita": 486
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "stunting": 41.3,
+      "wasting": 10.4,
+      "underweight": 32,
+      "dtp3Coverage": 80,
+      "measlesCoverage": 76,
+      "gdpPerCapita": 503
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 85,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 522
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "stunting": 48.5,
+      "wasting": 14.1,
+      "underweight": 37.5,
+      "dtp3Coverage": 79,
+      "measlesCoverage": 77,
+      "gdpPerCapita": 579
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "stunting": 47.1,
+      "wasting": 9.8,
+      "underweight": 31.3,
+      "dtp3Coverage": 81,
+      "measlesCoverage": 79,
+      "gdpPerCapita": 562
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "stunting": 45.3,
+      "wasting": 12,
+      "underweight": 33.4,
+      "dtp3Coverage": 81,
+      "measlesCoverage": 79,
+      "gdpPerCapita": 580
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "stunting": 44.4,
+      "wasting": 11.5,
+      "underweight": 33.2,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 609
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "stunting": 47.7,
+      "wasting": 10.9,
+      "underweight": 34.6,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 65,
+      "gdpPerCapita": 610
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 85,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 638
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 86,
+      "measlesCoverage": 81,
+      "gdpPerCapita": 735
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 56,
+      "measlesCoverage": 56,
+      "gdpPerCapita": 2202
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "stunting": 35.8,
+      "wasting": 10.2,
+      "underweight": 24.2,
+      "dtp3Coverage": 53,
+      "measlesCoverage": 53,
+      "gdpPerCapita": 2418
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 36,
+      "measlesCoverage": 41,
+      "gdpPerCapita": 2633
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 39,
+      "measlesCoverage": 42,
+      "gdpPerCapita": 2873
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "stunting": 33.6,
+      "wasting": 7.9,
+      "underweight": 20.6,
+      "dtp3Coverage": 43,
+      "measlesCoverage": 42,
+      "gdpPerCapita": 3089
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "stunting": 33,
+      "wasting": 7.3,
+      "underweight": 19.5,
+      "dtp3Coverage": 42,
+      "measlesCoverage": 42,
+      "gdpPerCapita": 2586
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "stunting": 43.6,
+      "wasting": 10.8,
+      "underweight": 31.5,
+      "dtp3Coverage": 53,
+      "measlesCoverage": 48,
+      "gdpPerCapita": 2070
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 55,
+      "measlesCoverage": 54,
+      "gdpPerCapita": 1876
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "stunting": 36.8,
+      "wasting": 6.8,
+      "underweight": 21.8,
+      "dtp3Coverage": 61,
+      "measlesCoverage": 56,
+      "gdpPerCapita": 2058
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 66,
+      "measlesCoverage": 58,
+      "gdpPerCapita": 3190
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "stunting": 31.5,
+      "wasting": 6.5,
+      "underweight": 18.4,
+      "dtp3Coverage": 62,
+      "measlesCoverage": 60,
+      "gdpPerCapita": 2797
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "stunting": 33.8,
+      "wasting": 11.6,
+      "underweight": 24.4,
+      "dtp3Coverage": 61,
+      "measlesCoverage": 56,
+      "gdpPerCapita": 2787
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 59,
+      "measlesCoverage": 51,
+      "gdpPerCapita": 2899
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 67,
+      "measlesCoverage": 54,
+      "gdpPerCapita": 2139
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 67,
+      "measlesCoverage": 57,
+      "gdpPerCapita": 1084
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 89,
+      "measlesCoverage": 81,
+      "gdpPerCapita": 1276
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "stunting": 26.7,
+      "wasting": 9.8,
+      "underweight": 18.4,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 84,
+      "gdpPerCapita": 1375
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "stunting": 15.5,
+      "wasting": 8.7,
+      "underweight": 14.4,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 83,
+      "gdpPerCapita": 1327
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "stunting": 16.5,
+      "wasting": 9,
+      "underweight": 14.8,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 84,
+      "gdpPerCapita": 1380
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "stunting": 14.2,
+      "wasting": 8,
+      "underweight": 12.8,
+      "dtp3Coverage": 89,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 1399
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "stunting": 17.5,
+      "wasting": 8.9,
+      "underweight": 14,
+      "dtp3Coverage": 89,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 1218
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "stunting": 17.1,
+      "wasting": 7.1,
+      "underweight": 13.8,
+      "dtp3Coverage": 93,
+      "measlesCoverage": 93,
+      "gdpPerCapita": 1266
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "stunting": 16.5,
+      "wasting": 9,
+      "underweight": 14.4,
+      "dtp3Coverage": 93,
+      "measlesCoverage": 90,
+      "gdpPerCapita": 1357
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "stunting": 18.8,
+      "wasting": 7.8,
+      "underweight": 15.1,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 86,
+      "gdpPerCapita": 1453
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "stunting": 17.9,
+      "wasting": 8.1,
+      "underweight": 14.4,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 86,
+      "gdpPerCapita": 1431
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 1461
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 85,
+      "measlesCoverage": 88,
+      "gdpPerCapita": 1598
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 93,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 1574
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "stunting": 17.5,
+      "wasting": 10.2,
+      "underweight": 16.2,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 1698
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 1773
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "stunting": 32.7,
+      "wasting": 7.5,
+      "underweight": 18.5,
+      "dtp3Coverage": 86,
+      "measlesCoverage": 82,
+      "gdpPerCapita": 685
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 89,
+      "measlesCoverage": 84,
+      "gdpPerCapita": 761
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 86,
+      "gdpPerCapita": 938
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 85,
+      "gdpPerCapita": 1117
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "stunting": 29.1,
+      "wasting": 4.6,
+      "underweight": 13,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 1118
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 86,
+      "measlesCoverage": 78,
+      "gdpPerCapita": 965
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 85,
+      "gdpPerCapita": 844
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "stunting": 31,
+      "wasting": 6.8,
+      "underweight": 15.6,
+      "dtp3Coverage": 90,
+      "measlesCoverage": 80,
+      "gdpPerCapita": 779
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 93,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 846
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "stunting": 29.5,
+      "wasting": 5.4,
+      "underweight": 13.5,
+      "dtp3Coverage": 95,
+      "measlesCoverage": 93,
+      "gdpPerCapita": 844
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 845
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "stunting": 26.3,
+      "wasting": 6.3,
+      "underweight": 12,
+      "dtp3Coverage": 92,
+      "measlesCoverage": 87,
+      "gdpPerCapita": 885
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 90,
+      "gdpPerCapita": 860
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 90,
+      "gdpPerCapita": 758
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 91,
+      "measlesCoverage": 90,
+      "gdpPerCapita": 807
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "stunting": 38.7,
+      "wasting": 16.3,
+      "underweight": 30.3,
+      "dtp3Coverage": 40,
+      "measlesCoverage": 46,
+      "gdpPerCapita": 1142
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 33,
+      "measlesCoverage": 54,
+      "gdpPerCapita": 1308
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 40,
+      "measlesCoverage": 63,
+      "gdpPerCapita": 1354
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 39,
+      "measlesCoverage": 57,
+      "gdpPerCapita": 1305
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 36,
+      "measlesCoverage": 45,
+      "gdpPerCapita": 1279
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "stunting": 31.9,
+      "wasting": 12.5,
+      "underweight": 25,
+      "dtp3Coverage": 42,
+      "measlesCoverage": 46,
+      "gdpPerCapita": 994
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 41,
+      "measlesCoverage": 37,
+      "gdpPerCapita": 862
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "stunting": 32.1,
+      "wasting": 13.5,
+      "underweight": 24.3,
+      "dtp3Coverage": 41,
+      "measlesCoverage": 37,
+      "gdpPerCapita": 854
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "stunting": 31.9,
+      "wasting": 13.6,
+      "underweight": 24.7,
+      "dtp3Coverage": 47,
+      "measlesCoverage": 41,
+      "gdpPerCapita": 949
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "stunting": 37.8,
+      "wasting": 13.9,
+      "underweight": 29.2,
+      "dtp3Coverage": 53,
+      "measlesCoverage": 40,
+      "gdpPerCapita": 893
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "stunting": 30.5,
+      "wasting": 9.5,
+      "underweight": 18.9,
+      "dtp3Coverage": 55,
+      "measlesCoverage": 45,
+      "gdpPerCapita": 867
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "stunting": 31.1,
+      "wasting": 10.2,
+      "underweight": 21.4,
+      "dtp3Coverage": 62,
+      "measlesCoverage": 53,
+      "gdpPerCapita": 946
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "stunting": 31.9,
+      "wasting": 7.8,
+      "underweight": 18.2,
+      "dtp3Coverage": 66,
+      "measlesCoverage": 54,
+      "gdpPerCapita": 966
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 67,
+      "measlesCoverage": 63,
+      "gdpPerCapita": 949
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 68,
+      "measlesCoverage": 66,
+      "gdpPerCapita": 962
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "stunting": 27,
+      "wasting": 4.7,
+      "underweight": 15.1,
+      "dtp3Coverage": 83,
+      "measlesCoverage": 68,
+      "gdpPerCapita": 705
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 85,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 784
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "stunting": 26.2,
+      "wasting": 5.5,
+      "underweight": 16.5,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 762
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 72,
+      "gdpPerCapita": 827
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "stunting": 27.6,
+      "wasting": 6.6,
+      "underweight": 16.1,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 77,
+      "gdpPerCapita": 856
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 751
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 73,
+      "gdpPerCapita": 773
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "stunting": 23.8,
+      "wasting": 5.7,
+      "underweight": 15.2,
+      "dtp3Coverage": 84,
+      "measlesCoverage": 78,
+      "gdpPerCapita": 793
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 82,
+      "measlesCoverage": 73,
+      "gdpPerCapita": 851
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 86,
+      "measlesCoverage": 78,
+      "gdpPerCapita": 826
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 85,
+      "measlesCoverage": 75,
+      "gdpPerCapita": 863
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 87,
+      "measlesCoverage": 77,
+      "gdpPerCapita": 962
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 86,
+      "measlesCoverage": 79,
+      "gdpPerCapita": 951
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 90,
+      "measlesCoverage": 81,
+      "gdpPerCapita": 1055
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "stunting": null,
+      "wasting": null,
+      "underweight": null,
+      "dtp3Coverage": 90,
+      "measlesCoverage": 81,
+      "gdpPerCapita": 1119
+    }
+  ],
+  "indicators": [
+    {
+      "key": "stunting",
+      "code": "SH.STA.STNT.ZS",
+      "label": "Retard de croissance (stunting)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "wasting",
+      "code": "SH.STA.WAST.ZS",
+      "label": "Émaciation (wasting)",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "underweight",
+      "code": "SH.STA.MALN.ZS",
+      "label": "Insuffisance pondérale",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "dtp3Coverage",
+      "code": "SH.IMM.IDPT",
+      "label": "Couverture vaccinale DTC3",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "measlesCoverage",
+      "code": "SH.IMM.MEAS",
+      "label": "Couverture vaccinale rougeole",
+      "unit": "%",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "gdpPerCapita",
+      "code": "NY.GDP.PCAP.CD",
+      "label": "PIB par habitant",
+      "unit": "USD courants",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}

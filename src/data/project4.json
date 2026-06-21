@@ -1,0 +1,1975 @@
+{
+  "rows": [
+    {
+      "iso3": "BEN",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.45,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.44,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2012,
+      "mcpr": 12.9,
+      "mcprModern": 7.9,
+      "tfr": 5.43,
+      "demandSatisfied": 17.4
+    },
+    {
+      "iso3": "BEN",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.41,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2014,
+      "mcpr": 17.9,
+      "mcprModern": 12.4,
+      "tfr": 5.37,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.32,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.25,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.16,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2018,
+      "mcpr": 15.5,
+      "mcprModern": 12.4,
+      "tfr": 5.03,
+      "demandSatisfied": 25.9
+    },
+    {
+      "iso3": "BEN",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.9,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.8,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.71,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2022,
+      "mcpr": 22.4,
+      "mcprModern": 16.9,
+      "tfr": 4.63,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.56,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BEN",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.48,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2010,
+      "mcpr": 16.2,
+      "mcprModern": 15,
+      "tfr": 5.94,
+      "demandSatisfied": 36.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.87,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.79,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.7,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2014,
+      "mcpr": 18.4,
+      "mcprModern": 18.4,
+      "tfr": 5.6,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2015,
+      "mcpr": 21.2,
+      "mcprModern": 20.6,
+      "tfr": 5.48,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2016,
+      "mcpr": 25.4,
+      "mcprModern": 24.2,
+      "tfr": 5.33,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2017,
+      "mcpr": 25.7,
+      "mcprModern": 24.7,
+      "tfr": 5.17,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.92,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2019,
+      "mcpr": 32.5,
+      "mcprModern": 30.5,
+      "tfr": 4.68,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2020,
+      "mcpr": 29.6,
+      "mcprModern": 27.7,
+      "tfr": 4.44,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2021,
+      "mcpr": 33.8,
+      "mcprModern": 31.5,
+      "tfr": 4.36,
+      "demandSatisfied": 63.9
+    },
+    {
+      "iso3": "BFA",
+      "year": 2022,
+      "mcpr": 34,
+      "mcprModern": 31.3,
+      "tfr": 4.28,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.19,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "BFA",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.11,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.29,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.24,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2012,
+      "mcpr": 18.2,
+      "mcprModern": 12.5,
+      "tfr": 5.19,
+      "demandSatisfied": 27.5
+    },
+    {
+      "iso3": "CIV",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.14,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.07,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.97,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2016,
+      "mcpr": 15.5,
+      "mcprModern": 14.3,
+      "tfr": 4.87,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2017,
+      "mcpr": 22.3,
+      "mcprModern": 18.1,
+      "tfr": 4.76,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2018,
+      "mcpr": 21.5,
+      "mcprModern": 17.8,
+      "tfr": 4.6,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.52,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2020,
+      "mcpr": 25.5,
+      "mcprModern": 19.6,
+      "tfr": 4.46,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2021,
+      "mcpr": 21,
+      "mcprModern": 17.9,
+      "tfr": 4.41,
+      "demandSatisfied": 41.4
+    },
+    {
+      "iso3": "CIV",
+      "year": 2022,
+      "mcpr": 32,
+      "mcprModern": 25.2,
+      "tfr": 4.35,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.28,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CIV",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.23,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.15,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2011,
+      "mcpr": 23.4,
+      "mcprModern": 14.4,
+      "tfr": 5.05,
+      "demandSatisfied": 30.8
+    },
+    {
+      "iso3": "CMR",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.98,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.91,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2014,
+      "mcpr": 34.3,
+      "mcprModern": 19.9,
+      "tfr": 4.84,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.84,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.84,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.8,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2018,
+      "mcpr": 19.3,
+      "mcprModern": 15.4,
+      "tfr": 4.74,
+      "demandSatisfied": 36.4
+    },
+    {
+      "iso3": "CMR",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.65,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.56,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.47,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.4,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.32,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "CMR",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.26,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2010,
+      "mcpr": 17.7,
+      "mcprModern": 6.6,
+      "tfr": 6.59,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.58,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.56,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.53,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2014,
+      "mcpr": 20.4,
+      "mcprModern": 7.8,
+      "tfr": 6.48,
+      "demandSatisfied": 16.3
+    },
+    {
+      "iso3": "COD",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.44,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.39,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.35,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2018,
+      "mcpr": 28.1,
+      "mcprModern": 17.6,
+      "tfr": 6.3,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.25,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.21,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.16,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.11,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.05,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "COD",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.98,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.18,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2011,
+      "mcpr": 34.7,
+      "mcprModern": 24.8,
+      "tfr": 4.18,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.15,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2013,
+      "mcpr": 19.6,
+      "mcprModern": 18.2,
+      "tfr": 4.11,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2014,
+      "mcpr": 26.7,
+      "mcprModern": 22.2,
+      "tfr": 4.03,
+      "demandSatisfied": 39.2
+    },
+    {
+      "iso3": "GHA",
+      "year": 2015,
+      "mcpr": 32.9,
+      "mcprModern": 28.2,
+      "tfr": 3.98,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2016,
+      "mcpr": 28.2,
+      "mcprModern": 23.7,
+      "tfr": 3.87,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2017,
+      "mcpr": 30.8,
+      "mcprModern": 25,
+      "tfr": 3.72,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2018,
+      "mcpr": 27.2,
+      "mcprModern": 24.3,
+      "tfr": 3.65,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.59,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.54,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.49,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2022,
+      "mcpr": 36.3,
+      "mcprModern": 27.8,
+      "tfr": 3.43,
+      "demandSatisfied": 46.5
+    },
+    {
+      "iso3": "GHA",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.4,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GHA",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.34,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.44,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.34,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2012,
+      "mcpr": 5.6,
+      "mcprModern": 4.6,
+      "tfr": 5.23,
+      "demandSatisfied": 15.8
+    },
+    {
+      "iso3": "GIN",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.15,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.07,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2016,
+      "mcpr": 8.6,
+      "mcprModern": 7.8,
+      "tfr": 4.92,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.79,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2018,
+      "mcpr": 10.9,
+      "mcprModern": 10.6,
+      "tfr": 4.67,
+      "demandSatisfied": 32.1
+    },
+    {
+      "iso3": "GIN",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.58,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.49,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.4,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.3,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.22,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "GIN",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.13,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.06,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.97,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.88,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2013,
+      "mcpr": 20.2,
+      "mcprModern": 19.1,
+      "tfr": 4.75,
+      "demandSatisfied": 37.2
+    },
+    {
+      "iso3": "LBR",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.62,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.52,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.46,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.4,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.34,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.26,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2020,
+      "mcpr": 24.9,
+      "mcprModern": 23.9,
+      "tfr": 4.17,
+      "demandSatisfied": 40.9
+    },
+    {
+      "iso3": "LBR",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.09,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.02,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.95,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "LBR",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.86,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2010,
+      "mcpr": 9.8,
+      "mcprModern": 9,
+      "tfr": 6.58,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.55,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.52,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2013,
+      "mcpr": 10.3,
+      "mcprModern": 9.9,
+      "tfr": 6.49,
+      "demandSatisfied": 27.2
+    },
+    {
+      "iso3": "MLI",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.44,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2015,
+      "mcpr": 15.6,
+      "mcprModern": 15.1,
+      "tfr": 6.39,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.32,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.25,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2018,
+      "mcpr": 17.2,
+      "mcprModern": 16.4,
+      "tfr": 6.12,
+      "demandSatisfied": 39.9
+    },
+    {
+      "iso3": "MLI",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.89,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.85,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.78,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.69,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.61,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MLI",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.51,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.38,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2011,
+      "mcpr": 11.4,
+      "mcprModern": 10,
+      "tfr": 5.38,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.35,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.32,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.26,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2015,
+      "mcpr": 17.8,
+      "mcprModern": 15.6,
+      "tfr": 5.21,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.16,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.11,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.04,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.98,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.91,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2021,
+      "mcpr": 14.3,
+      "mcprModern": 12.8,
+      "tfr": 4.85,
+      "demandSatisfied": 28.2
+    },
+    {
+      "iso3": "MRT",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.77,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.7,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "MRT",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.63,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 7.64,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 7.59,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2012,
+      "mcpr": 13.9,
+      "mcprModern": 12.2,
+      "tfr": 7.53,
+      "demandSatisfied": 40.8
+    },
+    {
+      "iso3": "NER",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 7.45,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 7.34,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2015,
+      "mcpr": 14.7,
+      "mcprModern": 13.2,
+      "tfr": 7.22,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2016,
+      "mcpr": 17,
+      "mcprModern": 14.8,
+      "tfr": 7.04,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2017,
+      "mcpr": 11.1,
+      "mcprModern": 10.5,
+      "tfr": 6.87,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.71,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.54,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.37,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2021,
+      "mcpr": 11,
+      "mcprModern": 10,
+      "tfr": 6.2,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2022,
+      "mcpr": 14.6,
+      "mcprModern": 13.3,
+      "tfr": 6.14,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2023,
+      "mcpr": 15.3,
+      "mcprModern": 13.9,
+      "tfr": 6.06,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NER",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.94,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.95,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2011,
+      "mcpr": 17.5,
+      "mcprModern": 11.5,
+      "tfr": 5.89,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2012,
+      "mcpr": 13.5,
+      "mcprModern": 10.7,
+      "tfr": 5.8,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2013,
+      "mcpr": 15.1,
+      "mcprModern": 9.8,
+      "tfr": 5.69,
+      "demandSatisfied": 31.3
+    },
+    {
+      "iso3": "NGA",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.62,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.5,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2016,
+      "mcpr": 22.1,
+      "mcprModern": 16.4,
+      "tfr": 5.34,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2017,
+      "mcpr": 13.4,
+      "mcprModern": 10.7,
+      "tfr": 5.18,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2018,
+      "mcpr": 16.6,
+      "mcprModern": 12,
+      "tfr": 5.02,
+      "demandSatisfied": 33.9
+    },
+    {
+      "iso3": "NGA",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.86,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.7,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2021,
+      "mcpr": 21.6,
+      "mcprModern": 18.2,
+      "tfr": 4.64,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.55,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.48,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "NGA",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.38,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2010,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.06,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2011,
+      "mcpr": 13.1,
+      "mcprModern": 12.1,
+      "tfr": 5.1,
+      "demandSatisfied": 28
+    },
+    {
+      "iso3": "SEN",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.13,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2013,
+      "mcpr": 17.8,
+      "mcprModern": 16.1,
+      "tfr": 5.05,
+      "demandSatisfied": 34.2
+    },
+    {
+      "iso3": "SEN",
+      "year": 2014,
+      "mcpr": 22.2,
+      "mcprModern": 20.3,
+      "tfr": 4.88,
+      "demandSatisfied": 42.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2015,
+      "mcpr": 23.3,
+      "mcprModern": 21.2,
+      "tfr": 4.75,
+      "demandSatisfied": 43.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2016,
+      "mcpr": 25.1,
+      "mcprModern": 23.1,
+      "tfr": 4.65,
+      "demandSatisfied": 47.3
+    },
+    {
+      "iso3": "SEN",
+      "year": 2017,
+      "mcpr": 27.8,
+      "mcprModern": 26.3,
+      "tfr": 4.49,
+      "demandSatisfied": 53
+    },
+    {
+      "iso3": "SEN",
+      "year": 2018,
+      "mcpr": 27.1,
+      "mcprModern": 25.4,
+      "tfr": 4.29,
+      "demandSatisfied": 53.3
+    },
+    {
+      "iso3": "SEN",
+      "year": 2019,
+      "mcpr": 26.9,
+      "mcprModern": 25.5,
+      "tfr": 4.1,
+      "demandSatisfied": 52.6
+    },
+    {
+      "iso3": "SEN",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.94,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.86,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SEN",
+      "year": 2023,
+      "mcpr": 26.5,
+      "mcprModern": 25.6,
+      "tfr": 3.82,
+      "demandSatisfied": 56.1
+    },
+    {
+      "iso3": "SEN",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.77,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2010,
+      "mcpr": 11,
+      "mcprModern": 10.2,
+      "tfr": 5.33,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.21,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 5.06,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2013,
+      "mcpr": 16.6,
+      "mcprModern": 15.6,
+      "tfr": 4.87,
+      "demandSatisfied": 37.5
+    },
+    {
+      "iso3": "SLE",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.7,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.55,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.47,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2017,
+      "mcpr": 22.5,
+      "mcprModern": 21.9,
+      "tfr": 4.39,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.29,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2019,
+      "mcpr": 21.2,
+      "mcprModern": 20.9,
+      "tfr": 4.19,
+      "demandSatisfied": 45.4
+    },
+    {
+      "iso3": "SLE",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.08,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.98,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.88,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.79,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "SLE",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 3.7,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2010,
+      "mcpr": 4.8,
+      "mcprModern": 4.4,
+      "tfr": 6.99,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.95,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.91,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.84,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2014,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.78,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2015,
+      "mcpr": 5.7,
+      "mcprModern": 5,
+      "tfr": 6.71,
+      "demandSatisfied": 17.6
+    },
+    {
+      "iso3": "TCD",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.62,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2017,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.54,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.46,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2019,
+      "mcpr": 8.1,
+      "mcprModern": 6.7,
+      "tfr": 6.41,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.35,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.26,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.22,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.12,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TCD",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 6.03,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2010,
+      "mcpr": 15.2,
+      "mcprModern": 13.5,
+      "tfr": 5.09,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2011,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.98,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2012,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.85,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2013,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.75,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2014,
+      "mcpr": 19.9,
+      "mcprModern": 17.3,
+      "tfr": 4.7,
+      "demandSatisfied": 32.3
+    },
+    {
+      "iso3": "TGO",
+      "year": 2015,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.66,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2016,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.63,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2017,
+      "mcpr": 23.8,
+      "mcprModern": 21.4,
+      "tfr": 4.58,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2018,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.51,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2019,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.45,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2020,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.39,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2021,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.32,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2022,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.25,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2023,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.19,
+      "demandSatisfied": null
+    },
+    {
+      "iso3": "TGO",
+      "year": 2024,
+      "mcpr": null,
+      "mcprModern": null,
+      "tfr": 4.12,
+      "demandSatisfied": null
+    }
+  ],
+  "indicators": [
+    {
+      "key": "mcpr",
+      "code": "SP.DYN.CONU.ZS",
+      "label": "Prévalence contraceptive, toutes méthodes",
+      "unit": "% des femmes mariées 15-49 ans",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "mcprModern",
+      "code": "SP.DYN.CONM.ZS",
+      "label": "Prévalence contraceptive, méthodes modernes",
+      "unit": "% des femmes mariées 15-49 ans",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    },
+    {
+      "key": "tfr",
+      "code": "SP.DYN.TFRT.IN",
+      "label": "Indice synthétique de fécondité",
+      "unit": "naissances par femme",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2024
+      ]
+    },
+    {
+      "key": "demandSatisfied",
+      "code": "SH.FPL.SATM.ZS",
+      "label": "Demande satisfaite par méthodes modernes",
+      "unit": "% des femmes mariées avec demande",
+      "countriesWithData": 16,
+      "totalCountries": 16,
+      "yearRange": [
+        2010,
+        2023
+      ]
+    }
+  ],
+  "fetchedAt": "2026-06-21"
+}
