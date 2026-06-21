@@ -42,6 +42,7 @@ import {
   WEB_DEV,
 } from "../config/content";
 import { useScrollToHash } from "../lib/useScrollToHash";
+import { getProjectImage, getProjectImageAlt } from "../lib/projectImages";
 import profilePhoto from "../assets/profile.jpg";
 
 function ProfileImage() {
@@ -399,19 +400,34 @@ export default function Home() {
                   to={`/projets/${project.slug}`}
                   className="group block overflow-hidden rounded-card border border-line bg-white transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover"
                 >
-                  <div className="aspect-video overflow-hidden bg-surface">
-                    <div
-                      className="flex h-full items-end p-4 transition-transform duration-300 group-hover:scale-[1.03]"
-                      style={{
-                        background:
-                          index % 3 === 0
-                            ? "linear-gradient(135deg, #5B4BE3 0%, #0EA5A4 100%)"
-                            : index % 3 === 1
-                              ? "linear-gradient(135deg, #3F32B5 0%, #F59E0B 100%)"
-                              : "linear-gradient(135deg, #0EA5A4 0%, #64748B 100%)",
-                      }}
-                    >
-                      <span className="rounded-full bg-white/95 px-3 py-1 text-xs font-medium text-ink">{project.domain}</span>
+                  <div className="relative aspect-video overflow-hidden bg-surface">
+                    {getProjectImage(project.slug) ? (
+                      <img
+                        src={getProjectImage(project.slug)}
+                        alt={getProjectImageAlt(project.slug, project.title)}
+                        loading="lazy"
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div
+                        className="h-full w-full transition-transform duration-300 group-hover:scale-105"
+                        style={{
+                          background:
+                            index % 3 === 0
+                              ? "linear-gradient(135deg, #5B4BE3 0%, #0EA5A4 100%)"
+                              : index % 3 === 1
+                                ? "linear-gradient(135deg, #3F32B5 0%, #F59E0B 100%)"
+                                : "linear-gradient(135deg, #0EA5A4 0%, #64748B 100%)",
+                        }}
+                        aria-hidden="true"
+                      />
+                    )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[rgba(20,22,27,.60)] via-[rgba(20,22,27,.18)] to-transparent" aria-hidden="true" />
+                    <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4">
+                      <span className="rounded-full bg-white/95 px-3 py-1 text-xs font-medium text-ink shadow-sm">{project.domain}</span>
+                      <span className="line-clamp-2 text-right font-display text-sm font-semibold leading-5 text-white drop-shadow">
+                        {project.shortTitle}
+                      </span>
                     </div>
                   </div>
                   <div className="p-4">

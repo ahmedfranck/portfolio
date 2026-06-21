@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-data": "node scripts/fetch_data.mjs"
+    "fetch-data": "node scripts/fetch_data.mjs",
+    "fetch-images": "node scripts/fetch_images.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",
