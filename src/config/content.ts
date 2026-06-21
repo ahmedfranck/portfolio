@@ -15,7 +15,7 @@ export const PROFILE = {
 
 export const HIGHLIGHTS = [
   { value: "8+ ans", label: "d'expérience data & performance" },
-  { value: "3 pays · 100 000+", label: "clients pilotés (reporting COMEX)" },
+  { value: "3 pays · 350 000+", label: "clients pilotés (reporting COMEX)" },
   { value: "-50 %", label: "de temps de reporting (automatisation ETL)" },
   { value: "+15 % / +20 %", label: "de revenus / d'efficacité (analyses d'impact)" },
 ];
@@ -39,7 +39,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     logo: "myagro.svg",
     points: [
       "Conception et pilotage des KPIs stratégiques pour le reporting COMEX : performance par pays (Sénégal, Mali, Côte d'Ivoire), division, client et produit.",
-      "Analyses de performance multi-pays pour 100 000+ clients : opportunités commerciales, clients dormants, potentiel de conversion, pipeline.",
+      "Analyses de performance multi-pays pour 350 000+ clients : opportunités commerciales, clients dormants, potentiel de conversion, pipeline.",
       "Analyses prédictives (scoring, forecasting) pour anticiper les comportements clients et optimiser l'allocation des ressources terrain.",
       "Analyse des causes racines des écarts de performance ; recommandations factuelles aux directions ; formation à la culture data-driven.",
     ],
@@ -124,7 +124,7 @@ export interface EducationItem {
 }
 
 export const EDUCATION: EducationItem[] = [
-  { title: "MBA - Administration & Gestion d'entreprise", org: "CESAG, Sénégal", period: "2024 - Présent" },
+  { title: "MBA - Administration & Gestion d'entreprise", org: "CESAG, Sénégal", period: "2026 - Présent" },
   { title: "BSc Business Administration", org: "University of the People (Californie, USA)", period: "2022 - 2026" },
   { title: "DUT Logistique & Transport", org: "Université Adama Sanogo, Côte d'Ivoire", period: "2013 - 2015" },
 ];
