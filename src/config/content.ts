@@ -8,7 +8,7 @@ export const PROFILE = {
   linkedin: "https://www.linkedin.com/in/afag/",
   photo: "/src/assets/profile.jpg",
   pitch:
-    "Je transforme des données en insights stratégiques et actionnables : performance commerciale, optimisation des opérations et aide à la décision.",
+    "Consultant senior, je cumule plus de 8 ans d'expérience dans le traitement, l'analyse et la visualisation de données décisionnelles, avec une spécialisation sur les projets de santé publique, de suivi-évaluation et de développement en Afrique de l'Ouest. Ma double compétence data et web me permet de conduire un projet de bout en bout : cadrage fonctionnel, architecture des données, sélection et documentation des indicateurs, maquettes UX/UI, développement de tableaux de bord, intégration CMS, formation et support post-lancement.",
   bio:
     "Référent analytique avec 8+ ans d'expérience en Business Analytics, Business Intelligence et pilotage de la performance dans des environnements multi-pays en Afrique de l'Ouest. J'accompagne les directions métiers et le COMEX dans la transformation de la donnée en décisions, de la modélisation à la restitution. Maîtrise avancée de SQL (PostgreSQL), Power BI, Tableau, Dataiku, Excel avancé et Python. Bilingue français-anglais, basé à Dakar.",
 };
