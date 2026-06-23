@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { ArrowLeft, ArrowRight, ChevronRight } from "lucide-react";
-import Layout from "../components/Layout";
 import Badge from "../components/Badge";
 import Reveal from "../components/Reveal";
 import { PROJECTS } from "../projects";
@@ -19,7 +18,7 @@ export default function ProjectPage() {
   const index = PROJECTS.findIndex((p) => p.slug === slug);
 
   if (index === -1) {
-    return <Navigate to="/" replace />;
+    return <Navigate to="/portfolio" replace />;
   }
 
   const project = PROJECTS[index];
@@ -28,15 +27,19 @@ export default function ProjectPage() {
   const Body = project.Body;
 
   return (
-    <Layout>
+    <div className="bg-surface">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-        <nav aria-label="Fil d'Ariane" className="mb-4 flex items-center gap-1.5 text-sm text-text-2">
-          <Link to="/" className="hover:text-brand">
-            Accueil
-          </Link>
-          <ChevronRight size={14} aria-hidden="true" />
-          <span className="text-ink">{project.shortTitle}</span>
-        </nav>
+      <nav aria-label="Fil d'Ariane" className="mb-4 flex flex-wrap items-center gap-1.5 text-sm text-text-2">
+        <Link to="/" className="transition-colors duration-200 hover:text-brand">
+          Accueil
+        </Link>
+        <ChevronRight size={14} aria-hidden="true" />
+        <Link to="/portfolio" className="transition-colors duration-200 hover:text-brand">
+          Portfolio
+        </Link>
+        <ChevronRight size={14} aria-hidden="true" />
+        <span className="text-ink">{project.shortTitle}</span>
+      </nav>
 
         <Reveal className="mb-8 flex flex-col gap-3">
           <div className="flex flex-wrap items-center gap-2">
@@ -67,14 +70,14 @@ export default function ProjectPage() {
 
         <div className="mt-10 flex flex-col gap-3 border-t border-line pt-6 sm:flex-row sm:justify-between">
           <Link
-            to={`/projets/${prev.slug}`}
+            to={`/portfolio/${prev.slug}`}
             className="flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
           >
             <ArrowLeft size={16} aria-hidden="true" />
             <span>Projet précédent : {prev.shortTitle}</span>
           </Link>
           <Link
-            to={`/projets/${next.slug}`}
+            to={`/portfolio/${next.slug}`}
             className="flex items-center justify-end gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
           >
             <span>Projet suivant : {next.shortTitle}</span>
@@ -82,6 +85,6 @@ export default function ProjectPage() {
           </Link>
         </div>
       </div>
-    </Layout>
+    </div>
   );
 }
