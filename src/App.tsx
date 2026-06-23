@@ -10,6 +10,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import ParcoursPage from "./pages/ParcoursPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ProjectPage from "./pages/ProjectPage";
+import StreamlitAppPage from "./pages/StreamlitAppPage";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -45,6 +46,7 @@ function AnimatedRoutes() {
           <Route path="/parcours" element={<ParcoursPage />} />
           <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/portfolio/app/:slug" element={<StreamlitAppPage />} />
           <Route path="/portfolio/:slug" element={<ProjectPage />} />
           <Route path="/projets/:slug" element={<LegacyProjectRedirect />} />
           <Route path="/contact" element={<ContactPage />} />

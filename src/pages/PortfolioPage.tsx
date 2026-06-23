@@ -1,22 +1,25 @@
 import { useState } from "react";
 import { LayoutGrid } from "lucide-react";
-import Reveal, { RevealGroup } from "../components/Reveal";
+import Reveal, { RevealGroup, RevealItem } from "../components/Reveal";
+import StreamlitProjectCard from "../components/StreamlitProjectCard";
+import { STREAMLIT_PROJECTS } from "../config/content";
 import { PROJECTS } from "../projects";
-import type { ProjectFamily } from "../projects/types";
-import { FAMILIES } from "./pageData";
+import { FAMILIES, type PortfolioFamily } from "./pageData";
 import { PageIntro, ProjectCard } from "./pageShared";
 
 export default function PortfolioPage() {
-  const [family, setFamily] = useState<ProjectFamily>("sante-developpement-humain");
-  const familyProjects = PROJECTS.filter((project) => project.family === family);
+  const [family, setFamily] = useState<PortfolioFamily>("sante-developpement-humain");
+  const isStreamlitFamily = family === "applications-data-science";
+  const familyProjects = isStreamlitFamily ? [] : PROJECTS.filter((project) => project.family === family);
+  const visibleCount = isStreamlitFamily ? STREAMLIT_PROJECTS.length : familyProjects.length;
 
   return (
     <div className="bg-white">
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:py-16">
         <PageIntro
           eyebrow="Portfolio"
-          title="12 tableaux de bord interactifs"
-          description="Deux familles de projets : santé & développement humain, puis économie, société & environnement."
+          title="Dashboards interactifs & applications data"
+          description="Les 12 tableaux de bord restent organisés par domaine, avec une nouvelle famille dédiée aux applications Streamlit et data science."
         />
 
         <Reveal delay={0.05} className="mt-6 flex flex-wrap gap-2">
@@ -40,13 +43,19 @@ export default function PortfolioPage() {
 
         <Reveal className="mt-8 flex items-center gap-2 text-sm font-medium text-text-2">
           <LayoutGrid size={16} aria-hidden="true" className="text-brand" />
-          {familyProjects.length} projets affichés
+          {visibleCount} projets affichés
         </Reveal>
 
         <RevealGroup key={family} className="mt-5 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {familyProjects.map((project, index) => (
-            <ProjectCard key={project.slug} slug={project.slug} index={index} />
-          ))}
+          {isStreamlitFamily
+            ? STREAMLIT_PROJECTS.map((project) => (
+                <RevealItem key={project.slug}>
+                  <StreamlitProjectCard project={project} />
+                </RevealItem>
+              ))
+            : familyProjects.map((project, index) => (
+                <ProjectCard key={project.slug} slug={project.slug} index={index} />
+              ))}
         </RevealGroup>
       </section>
     </div>

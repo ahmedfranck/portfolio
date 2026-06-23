@@ -13,6 +13,8 @@ import {
 import { MONITORING, WEB_DEV } from "../config/content";
 import type { ProjectFamily } from "../projects/types";
 
+export type PortfolioFamily = ProjectFamily | "applications-data-science";
+
 export const EXPERTISE: { icon: LucideIcon; title: string; description: string }[] = [
   {
     icon: Database,
@@ -67,9 +69,10 @@ export const APPROACH: { icon: LucideIcon; title: string; description: string }[
   },
 ];
 
-export const FAMILIES: { id: ProjectFamily; label: string }[] = [
+export const FAMILIES: { id: PortfolioFamily; label: string }[] = [
   { id: "sante-developpement-humain", label: "Santé & développement humain" },
   { id: "economie-societe-environnement", label: "Économie, société & environnement" },
+  { id: "applications-data-science", label: "Applications & data science (Streamlit)" },
 ];
 
 export const FEATURE_POINTS: { icon: LucideIcon; title: string; description: string }[] = [

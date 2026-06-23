@@ -209,3 +209,54 @@ export const MONITORING = {
     },
   ],
 };
+
+export const STREAMLIT_PROJECTS = [
+  {
+    slug: "fintech-cockpit",
+    title: "Fintech Performance Cockpit",
+    blurb:
+      "Cockpit décisionnel unifié : Ventes, Opérations, Risque, Finance, Succès client et vue Conseil — une source de vérité unique.",
+    tags: ["BI", "Finance", "KPI"],
+    tech: ["Streamlit", "Python", "Plotly", "pandas"],
+    data: "démo",
+    liveUrl: "",
+    repoUrl: "",
+    thumb: "streamlit/fintech-cockpit.png",
+  },
+  {
+    slug: "transport-ops",
+    title: "Transport Operational Dashboard",
+    blurb:
+      "Pilotage opérationnel du transport : ponctualité, revenus/coûts, carte GPS, détection d'anomalies (IsolationForest) et prévision (Holt-Winters).",
+    tags: ["Opérations", "Machine Learning", "Prévision"],
+    tech: ["Streamlit", "scikit-learn", "statsmodels", "Plotly", "pydeck"],
+    data: "démo",
+    liveUrl: "",
+    repoUrl: "",
+    thumb: "streamlit/transport-ops.png",
+  },
+  {
+    slug: "customer-segmentation",
+    title: "Customer Segmentation Dashboard",
+    blurb:
+      "Segmentation client par K-Means : clusters, valeur vie client (CLV) et préférences produit, avec contrôle du nombre de segments.",
+    tags: ["Marketing", "Machine Learning", "Clustering"],
+    tech: ["Streamlit", "scikit-learn", "Altair", "pandas"],
+    data: "démo",
+    liveUrl: "",
+    repoUrl: "",
+    thumb: "streamlit/customer-segmentation.png",
+  },
+  {
+    slug: "chess-intelligence",
+    title: "Chess Intelligence Dashboard",
+    blurb:
+      "Analyse de la performance d'un joueur d'échecs : historique Elo, ouvertures et heatmap, alimentés en temps réel via API.",
+    tags: ["API", "Analytics", "Sport"],
+    tech: ["Streamlit", "Plotly", "requests", "API échecs"],
+    data: "réelle (API)",
+    liveUrl: "",
+    repoUrl: "",
+    thumb: "streamlit/chess-intelligence.png",
+  },
+] as const;
