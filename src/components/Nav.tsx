@@ -11,7 +11,6 @@ const NAV_LINKS = [
   { path: "/parcours", label: "Parcours" },
   { path: "/experience", label: "Expérience" },
   { path: "/portfolio", label: "Portfolio" },
-  { path: "/contact", label: "Contact" },
 ];
 
 function isActivePath(currentPath: string, path: string) {
