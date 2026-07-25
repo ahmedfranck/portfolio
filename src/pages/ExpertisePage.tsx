@@ -74,12 +74,14 @@ export default function ExpertisePage() {
           </span>
           <h2 className="mt-4 font-display text-lg font-semibold text-ink">{MONITORING.title}</h2>
           <div className="mt-4 grid grid-cols-1 gap-3">
-            {MONITORING.groups.map((group) => (
+            {MONITORING.groups
+              .filter((group) => group.h !== WEB_DEV.title)
+              .map((group) => (
               <div key={group.h} className="rounded-lg bg-surface p-3">
                 <h3 className="text-sm font-medium text-ink">{group.h}</h3>
                 <p className="mt-1 text-sm leading-6 text-text-2">{group.items[0]}</p>
               </div>
-            ))}
+              ))}
           </div>
         </Reveal>
       </section>

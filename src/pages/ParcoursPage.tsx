@@ -1,6 +1,6 @@
 import { Award, GraduationCap, Languages as LanguagesIcon, Route } from "lucide-react";
 import Reveal from "../components/Reveal";
-import { CERTIFICATIONS, EDUCATION, LANGUAGES, MONITORING, PROFILE, SKILLS, WEB_DEV } from "../config/content";
+import { CERTIFICATIONS, EDUCATION, LANGUAGES, MONITORING, PROFILE, SKILLS } from "../config/content";
 import { PageIntro } from "./pageShared";
 
 export default function ParcoursPage() {
@@ -37,15 +37,6 @@ export default function ParcoursPage() {
               {SKILLS.map((skill) => (
                 <li key={skill} className="rounded-lg bg-surface px-3 py-2 text-sm text-ink">
                   {skill}
-                </li>
-              ))}
-            </ul>
-
-            <h3 className="mt-6 font-mono text-xs font-semibold uppercase tracking-wide text-text-2">{WEB_DEV.title}</h3>
-            <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
-              {WEB_DEV.items.map((item) => (
-                <li key={item} className="rounded-lg bg-surface px-3 py-2 text-sm text-ink">
-                  {item}
                 </li>
               ))}
             </ul>

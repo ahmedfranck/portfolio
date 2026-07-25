@@ -41,7 +41,7 @@ export default function StreamlitProjectCard({ project }: { project: StreamlitPr
             aria-hidden="true"
           />
           <div className="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1 text-xs font-medium text-ink shadow-sm">
-            Applications & data science
+            Projet d'études
           </div>
           <div className="absolute bottom-4 right-4 rounded-full bg-brand-soft px-3 py-1 text-xs font-medium text-brand-deep">
             Données {project.data}

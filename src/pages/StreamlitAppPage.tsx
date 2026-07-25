@@ -8,6 +8,7 @@ import {
   getStreamlitThumbnail,
   hasUsableUrl,
 } from "../lib/streamlitProjects";
+import { ProjectContactCta } from "./pageShared";
 
 export default function StreamlitAppPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -30,7 +31,7 @@ export default function StreamlitAppPage() {
             Accueil
           </Link>
           <ChevronRight size={14} aria-hidden="true" />
-          <Link to="/portfolio" className="transition-colors duration-200 hover:text-brand">
+          <Link to="/portfolio?category=etudes" className="transition-colors duration-200 hover:text-brand">
             Portfolio
           </Link>
           <ChevronRight size={14} aria-hidden="true" />
@@ -39,7 +40,10 @@ export default function StreamlitAppPage() {
 
         <Reveal className="mb-8">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge tone="brand">Applications & data science</Badge>
+            <Badge tone="brand">Projet d'études</Badge>
+            <span className="rounded-full bg-brand-soft px-3 py-1 text-xs font-medium text-brand-deep">
+              Applications & data science
+            </span>
             <span className="rounded-full bg-white px-3 py-1 text-xs font-medium text-text-2">
               Données {project.data}
             </span>
@@ -62,7 +66,7 @@ export default function StreamlitAppPage() {
 
           <div className="mt-6 flex flex-wrap gap-2">
             <Link
-              to="/portfolio"
+              to="/portfolio?category=etudes"
               className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-ink transition-colors duration-200 hover:border-brand hover:text-brand"
             >
               <ArrowLeft size={16} aria-hidden="true" /> Retour portfolio
@@ -119,6 +123,11 @@ export default function StreamlitAppPage() {
             )}
           </Reveal>
         )}
+
+        <ProjectContactCta
+          title="Une application data ou un prototype à développer ?"
+          description="Échangeons sur le cas d'usage, les données disponibles et le niveau d'interactivité attendu."
+        />
       </div>
     </div>
   );

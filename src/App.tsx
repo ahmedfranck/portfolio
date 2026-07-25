@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import Layout from "./components/Layout";
+import SeoManager from "./components/SeoManager";
 import ContactPage from "./pages/ContactPage";
 import ExperiencePage from "./pages/ExperiencePage";
 import ExpertisePage from "./pages/ExpertisePage";
@@ -60,6 +61,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <Layout>
+      <SeoManager />
       <ScrollToTop />
       <AnimatedRoutes />
     </Layout>

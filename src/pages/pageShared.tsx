@@ -122,3 +122,26 @@ export function ProjectCard({ slug, index = 0 }: { slug: string; index?: number 
     </RevealItem>
   );
 }
+
+export function ProjectContactCta({
+  title = "Vous avez un besoin similaire ?",
+  description = "Parlons de vos indicateurs, de vos données et du format de restitution le plus adapté à votre projet.",
+}: {
+  title?: string;
+  description?: string;
+}) {
+  return (
+    <Reveal className="mt-10 flex flex-col gap-5 border-y border-line py-8 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h2 className="font-display text-xl font-semibold text-ink">{title}</h2>
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-text-2">{description}</p>
+      </div>
+      <Link
+        to="/contact"
+        className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
+      >
+        Échanger sur votre projet <ArrowRight size={16} aria-hidden="true" />
+      </Link>
+    </Reveal>
+  );
+}

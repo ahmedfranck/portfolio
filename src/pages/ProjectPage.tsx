@@ -4,6 +4,8 @@ import { ArrowLeft, ArrowRight, ChevronRight } from "lucide-react";
 import Badge from "../components/Badge";
 import Reveal from "../components/Reveal";
 import { PROJECTS } from "../projects";
+import { getDashboardPortfolioCategory, getPortfolioCategory } from "./pageData";
+import { ProjectContactCta } from "./pageShared";
 
 function BodyFallback() {
   return (
@@ -15,15 +17,19 @@ function BodyFallback() {
 
 export default function ProjectPage() {
   const { slug } = useParams<{ slug: string }>();
-  const index = PROJECTS.findIndex((p) => p.slug === slug);
+  const projectIndex = PROJECTS.findIndex((p) => p.slug === slug);
 
-  if (index === -1) {
+  if (projectIndex === -1) {
     return <Navigate to="/portfolio" replace />;
   }
 
-  const project = PROJECTS[index];
-  const prev = PROJECTS[(index - 1 + PROJECTS.length) % PROJECTS.length];
-  const next = PROJECTS[(index + 1) % PROJECTS.length];
+  const project = PROJECTS[projectIndex];
+  const category = getDashboardPortfolioCategory(project.slug);
+  const categoryMeta = getPortfolioCategory(category);
+  const categoryProjects = PROJECTS.filter((item) => getDashboardPortfolioCategory(item.slug) === category);
+  const categoryIndex = categoryProjects.findIndex((item) => item.slug === project.slug);
+  const prev = categoryProjects[(categoryIndex - 1 + categoryProjects.length) % categoryProjects.length];
+  const next = categoryProjects[(categoryIndex + 1) % categoryProjects.length];
   const Body = project.Body;
 
   return (
@@ -34,7 +40,10 @@ export default function ProjectPage() {
           Accueil
         </Link>
         <ChevronRight size={14} aria-hidden="true" />
-        <Link to="/portfolio" className="transition-colors duration-200 hover:text-brand">
+        <Link
+          to={`/portfolio?category=${category}`}
+          className="transition-colors duration-200 hover:text-brand"
+        >
           Portfolio
         </Link>
         <ChevronRight size={14} aria-hidden="true" />
@@ -44,6 +53,9 @@ export default function ProjectPage() {
         <Reveal className="mb-8 flex flex-col gap-3">
           <div className="flex flex-wrap items-center gap-2">
             <Badge tone="brand">{project.domain}</Badge>
+            <span className="rounded-full bg-white px-3 py-1 text-xs font-medium text-text-2">
+              {categoryMeta.shortLabel}
+            </span>
           </div>
           <h1 className="font-display text-2xl font-bold text-ink sm:text-3xl">{project.title}</h1>
           <p className="max-w-3xl text-base text-text-2">{project.pitch}</p>
@@ -68,22 +80,36 @@ export default function ProjectPage() {
           </Reveal>
         </div>
 
-        <div className="mt-10 flex flex-col gap-3 border-t border-line pt-6 sm:flex-row sm:justify-between">
-          <Link
-            to={`/portfolio/${prev.slug}`}
-            className="flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
-          >
-            <ArrowLeft size={16} aria-hidden="true" />
-            <span>Projet précédent : {prev.shortTitle}</span>
-          </Link>
-          <Link
-            to={`/portfolio/${next.slug}`}
-            className="flex items-center justify-end gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
-          >
-            <span>Projet suivant : {next.shortTitle}</span>
-            <ArrowRight size={16} aria-hidden="true" />
-          </Link>
-        </div>
+        <ProjectContactCta />
+
+        {categoryProjects.length > 1 ? (
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-between">
+            <Link
+              to={`/portfolio/${prev.slug}`}
+              className="flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
+            >
+              <ArrowLeft size={16} aria-hidden="true" />
+              <span>Projet précédent : {prev.shortTitle}</span>
+            </Link>
+            <Link
+              to={`/portfolio/${next.slug}`}
+              className="flex items-center justify-end gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
+            >
+              <span>Projet suivant : {next.shortTitle}</span>
+              <ArrowRight size={16} aria-hidden="true" />
+            </Link>
+          </div>
+        ) : (
+          <div className="mt-8">
+            <Link
+              to={`/portfolio?category=${category}`}
+              className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
+            >
+              <ArrowLeft size={16} aria-hidden="true" />
+              Retour aux projets en consultance
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

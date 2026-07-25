@@ -1,8 +1,11 @@
 import {
   Activity,
   BadgeCheck,
+  BriefcaseBusiness,
   Code2,
   Database,
+  FileCheck2,
+  GraduationCap,
   Handshake,
   LayoutDashboard,
   Presentation,
@@ -11,9 +14,49 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { MONITORING, WEB_DEV } from "../config/content";
-import type { ProjectFamily } from "../projects/types";
 
-export type PortfolioFamily = ProjectFamily | "applications-data-science";
+export type PortfolioCategory = "consultance" | "etudes" | "appels-offres";
+
+export const PORTFOLIO_CATEGORIES: {
+  id: PortfolioCategory;
+  label: string;
+  shortLabel: string;
+  description: string;
+  icon: LucideIcon;
+}[] = [
+  {
+    id: "consultance",
+    label: "Projets réalisés en consultance",
+    shortLabel: "Consultance",
+    description:
+      "Mission de conseil mobilisant cadrage, analyse économique et restitution décisionnelle pour répondre à un besoin métier.",
+    icon: BriefcaseBusiness,
+  },
+  {
+    id: "etudes",
+    label: "Projets d'études",
+    shortLabel: "Projet d'études",
+    description:
+      "Applications Streamlit développées dans un cadre d'apprentissage appliqué, de data science et de prototypage.",
+    icon: GraduationCap,
+  },
+  {
+    id: "appels-offres",
+    label: "Projets réalisés dans le cadre d'appels d'offres",
+    shortLabel: "Appel d'offres",
+    description:
+      "Dashboards thématiques réalisés dans le cadre d'appels d'offres pour répondre à des besoins de suivi, d'analyse et de visualisation.",
+    icon: FileCheck2,
+  },
+];
+
+export function getDashboardPortfolioCategory(slug: string): PortfolioCategory {
+  return slug === "economie-croissance" ? "consultance" : "appels-offres";
+}
+
+export function getPortfolioCategory(category: PortfolioCategory) {
+  return PORTFOLIO_CATEGORIES.find((item) => item.id === category)!;
+}
 
 export const EXPERTISE: { icon: LucideIcon; title: string; description: string }[] = [
   {
@@ -67,12 +110,6 @@ export const APPROACH: { icon: LucideIcon; title: string; description: string }[
     title: "Formation & accompagnement",
     description: "Formation des utilisateurs et accompagnement post-lancement pour ancrer la culture data.",
   },
-];
-
-export const FAMILIES: { id: PortfolioFamily; label: string }[] = [
-  { id: "sante-developpement-humain", label: "Santé & développement humain" },
-  { id: "economie-societe-environnement", label: "Économie, société & environnement" },
-  { id: "applications-data-science", label: "Applications & data science (Streamlit)" },
 ];
 
 export const FEATURE_POINTS: { icon: LucideIcon; title: string; description: string }[] = [

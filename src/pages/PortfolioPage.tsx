@@ -1,17 +1,35 @@
-import { useState } from "react";
+import { motion, useReducedMotion } from "framer-motion";
 import { LayoutGrid } from "lucide-react";
+import { useSearchParams } from "react-router-dom";
 import Reveal, { RevealGroup, RevealItem } from "../components/Reveal";
 import StreamlitProjectCard from "../components/StreamlitProjectCard";
 import { STREAMLIT_PROJECTS } from "../config/content";
 import { PROJECTS } from "../projects";
-import { FAMILIES, type PortfolioFamily } from "./pageData";
+import {
+  getDashboardPortfolioCategory,
+  getPortfolioCategory,
+  PORTFOLIO_CATEGORIES,
+  type PortfolioCategory,
+} from "./pageData";
 import { PageIntro, ProjectCard } from "./pageShared";
 
+const CATEGORY_IDS = new Set<PortfolioCategory>(PORTFOLIO_CATEGORIES.map((category) => category.id));
+
 export default function PortfolioPage() {
-  const [family, setFamily] = useState<PortfolioFamily>("sante-developpement-humain");
-  const isStreamlitFamily = family === "applications-data-science";
-  const familyProjects = isStreamlitFamily ? [] : PROJECTS.filter((project) => project.family === family);
-  const visibleCount = isStreamlitFamily ? STREAMLIT_PROJECTS.length : familyProjects.length;
+  const [searchParams, setSearchParams] = useSearchParams();
+  const reduceMotion = useReducedMotion();
+  const requestedCategory = searchParams.get("category") as PortfolioCategory | null;
+  const category = requestedCategory && CATEGORY_IDS.has(requestedCategory) ? requestedCategory : "consultance";
+  const isStudyCategory = category === "etudes";
+  const dashboardProjects = isStudyCategory
+    ? []
+    : PROJECTS.filter((project) => getDashboardPortfolioCategory(project.slug) === category);
+  const visibleCount = isStudyCategory ? STREAMLIT_PROJECTS.length : dashboardProjects.length;
+  const activeCategory = getPortfolioCategory(category);
+
+  function selectCategory(nextCategory: PortfolioCategory) {
+    setSearchParams({ category: nextCategory });
+  }
 
   return (
     <div className="bg-white">
@@ -19,41 +37,58 @@ export default function PortfolioPage() {
         <PageIntro
           eyebrow="Portfolio"
           title="Dashboards interactifs & applications data"
-          description="Les 12 tableaux de bord restent organisés par domaine, avec une nouvelle famille dédiée aux applications Streamlit et data science."
+          description="Seize projets organisés selon leur contexte de réalisation : consultance, études et réponses à des appels d'offres."
         />
 
-        <Reveal delay={0.05} className="mt-6 flex flex-wrap gap-2">
-          {FAMILIES.map((f) => {
-            const isActive = f.id === family;
+        <Reveal delay={0.05} className="mt-7 grid grid-cols-1 gap-2 lg:grid-cols-3">
+          {PORTFOLIO_CATEGORIES.map((item) => {
+            const isActive = item.id === category;
+            const Icon = item.icon;
             return (
               <button
-                key={f.id}
+                key={item.id}
                 type="button"
-                onClick={() => setFamily(f.id)}
+                onClick={() => selectCategory(item.id)}
                 aria-pressed={isActive}
-                className={`cursor-pointer rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${
-                  isActive ? "bg-brand text-white" : "bg-surface text-text-2 hover:scale-[1.02] hover:bg-brand-soft hover:text-brand"
+                className={`group relative flex min-h-12 cursor-pointer items-center gap-2 overflow-hidden rounded-card px-4 py-3 text-left text-sm font-medium transition-colors duration-200 ${
+                  isActive ? "text-brand-deep" : "bg-surface text-text-2 hover:text-brand"
                 }`}
               >
-                {f.label}
+                {isActive && (
+                  <motion.span
+                    layoutId="portfolioCategoryIndicator"
+                    className="absolute inset-0 border border-brand/20 bg-brand-soft"
+                    transition={reduceMotion ? { duration: 0 } : { type: "spring", stiffness: 380, damping: 32 }}
+                  />
+                )}
+                <Icon size={18} aria-hidden="true" className="relative z-10 shrink-0" />
+                <span className="relative z-10">{item.label}</span>
               </button>
             );
           })}
         </Reveal>
 
-        <Reveal className="mt-8 flex items-center gap-2 text-sm font-medium text-text-2">
-          <LayoutGrid size={16} aria-hidden="true" className="text-brand" />
-          {visibleCount} projets affichés
+        <Reveal className="mt-8 border-y border-line py-5" key={`${category}-summary`}>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <h2 className="font-display text-xl font-semibold text-ink">{activeCategory.label}</h2>
+              <p className="mt-1 max-w-3xl text-sm leading-6 text-text-2">{activeCategory.description}</p>
+            </div>
+            <span className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-surface px-3 py-1.5 text-sm font-medium text-text-2">
+              <LayoutGrid size={16} aria-hidden="true" className="text-brand" />
+              {visibleCount} {visibleCount > 1 ? "projets" : "projet"}
+            </span>
+          </div>
         </Reveal>
 
-        <RevealGroup key={family} className="mt-5 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {isStreamlitFamily
+        <RevealGroup key={category} className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {isStudyCategory
             ? STREAMLIT_PROJECTS.map((project) => (
                 <RevealItem key={project.slug}>
                   <StreamlitProjectCard project={project} />
                 </RevealItem>
               ))
-            : familyProjects.map((project, index) => (
+            : dashboardProjects.map((project, index) => (
                 <ProjectCard key={project.slug} slug={project.slug} index={index} />
               ))}
         </RevealGroup>

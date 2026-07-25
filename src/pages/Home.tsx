@@ -77,14 +77,14 @@ export default function Home() {
             <div>
               <h2 className="font-display text-2xl font-bold tracking-tight text-ink">Aperçu portfolio</h2>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-text-2">
-                Trois tableaux de bord représentatifs avant d'accéder aux 12 projets interactifs.
+                Trois réalisations représentatives avant d'accéder aux 16 projets interactifs.
               </p>
             </div>
             <Link
               to="/portfolio"
               className="inline-flex w-fit items-center gap-2 rounded-full bg-brand px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
             >
-              Voir les 12 projets <ArrowRight size={16} aria-hidden="true" />
+              Voir tous les projets <ArrowRight size={16} aria-hidden="true" />
             </Link>
           </Reveal>
           <RevealGroup className="mt-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
