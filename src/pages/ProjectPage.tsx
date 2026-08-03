@@ -3,6 +3,7 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import { ArrowLeft, ArrowRight, ChevronRight } from "lucide-react";
 import Badge from "../components/Badge";
 import Reveal from "../components/Reveal";
+import { getPortfolioOrganizationByProject } from "../config/portfolioOrganizations";
 import { PROJECTS } from "../projects";
 import { getDashboardPortfolioCategory, getPortfolioCategory } from "./pageData";
 import { ProjectContactCta } from "./pageShared";
@@ -26,6 +27,7 @@ export default function ProjectPage() {
   const project = PROJECTS[projectIndex];
   const category = getDashboardPortfolioCategory(project.slug);
   const categoryMeta = getPortfolioCategory(category);
+  const organization = getPortfolioOrganizationByProject(project.slug);
   const categoryProjects = PROJECTS.filter((item) => getDashboardPortfolioCategory(item.slug) === category);
   const categoryIndex = categoryProjects.findIndex((item) => item.slug === project.slug);
   const prev = categoryProjects[(categoryIndex - 1 + categoryProjects.length) % categoryProjects.length];
@@ -56,6 +58,14 @@ export default function ProjectPage() {
             <span className="rounded-full bg-white px-3 py-1 text-xs font-medium text-text-2">
               {categoryMeta.shortLabel}
             </span>
+            {organization && (
+              <span
+                className="rounded-full px-3 py-1 text-xs font-medium"
+                style={{ color: organization.accent, backgroundColor: organization.soft }}
+              >
+                {organization.acronym} · organisme de référence
+              </span>
+            )}
           </div>
           <h1 className="font-display text-2xl font-bold text-ink sm:text-3xl">{project.title}</h1>
           <p className="max-w-3xl text-base text-text-2">{project.pitch}</p>
