@@ -33,20 +33,20 @@ export const PORTFOLIO_CATEGORIES: {
     icon: BriefcaseBusiness,
   },
   {
-    id: "etudes",
-    label: "Projets d'études",
-    shortLabel: "Projet d'études",
-    description:
-      "Dashboard de démonstration et applications Streamlit développés dans un cadre d'apprentissage appliqué, de data science et de prototypage.",
-    icon: GraduationCap,
-  },
-  {
     id: "appels-offres",
     label: "Projets réalisés dans le cadre d'appels d'offres",
     shortLabel: "Appel d'offres",
     description:
       "Dashboards thématiques réalisés dans le cadre d'appels d'offres pour répondre à des besoins de suivi, d'analyse et de visualisation.",
     icon: FileCheck2,
+  },
+  {
+    id: "etudes",
+    label: "Projets d'études",
+    shortLabel: "Projet d'études",
+    description:
+      "Dashboard de démonstration et applications Streamlit développés dans un cadre d'apprentissage appliqué, de data science et de prototypage.",
+    icon: GraduationCap,
   },
 ];
 
