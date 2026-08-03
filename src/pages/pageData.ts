@@ -29,7 +29,7 @@ export const PORTFOLIO_CATEGORIES: {
     label: "Projets réalisés en consultance",
     shortLabel: "Consultance",
     description:
-      "Mission de conseil mobilisant cadrage, analyse économique et restitution décisionnelle pour répondre à un besoin métier.",
+      "Missions de conseil en data & BI pour des organisations : conception de tableaux de bord décisionnels, analyse de la performance et restitution.",
     icon: BriefcaseBusiness,
   },
   {
@@ -37,7 +37,7 @@ export const PORTFOLIO_CATEGORIES: {
     label: "Projets d'études",
     shortLabel: "Projet d'études",
     description:
-      "Applications Streamlit développées dans un cadre d'apprentissage appliqué, de data science et de prototypage.",
+      "Dashboard de démonstration et applications Streamlit développés dans un cadre d'apprentissage appliqué, de data science et de prototypage.",
     icon: GraduationCap,
   },
   {
@@ -51,7 +51,7 @@ export const PORTFOLIO_CATEGORIES: {
 ];
 
 export function getDashboardPortfolioCategory(slug: string): PortfolioCategory {
-  return slug === "economie-croissance" ? "consultance" : "appels-offres";
+  return slug === "economie-croissance" ? "etudes" : "appels-offres";
 }
 
 export function getPortfolioCategory(category: PortfolioCategory) {

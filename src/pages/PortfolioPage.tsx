@@ -1,10 +1,11 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { LayoutGrid } from "lucide-react";
 import { useSearchParams } from "react-router-dom";
+import ConsultingPortfolio from "../components/ConsultingPortfolio";
 import OrganizationProjectSection from "../components/OrganizationProjectSection";
 import Reveal, { RevealGroup, RevealItem } from "../components/Reveal";
 import StreamlitProjectCard from "../components/StreamlitProjectCard";
-import { STREAMLIT_PROJECTS } from "../config/content";
+import { CONSULTING_CLIENTS, STREAMLIT_PROJECTS } from "../config/content";
 import { CALL_FOR_OFFERS_ORGANIZATIONS } from "../config/portfolioOrganizations";
 import { PROJECTS } from "../projects";
 import {
@@ -22,16 +23,22 @@ export default function PortfolioPage() {
   const reduceMotion = useReducedMotion();
   const requestedCategory = searchParams.get("category") as PortfolioCategory | null;
   const category = requestedCategory && CATEGORY_IDS.has(requestedCategory) ? requestedCategory : "consultance";
+  const isConsultingCategory = category === "consultance";
   const isStudyCategory = category === "etudes";
   const isCallForOffersCategory = category === "appels-offres";
-  const dashboardProjects = isStudyCategory
-    ? []
-    : PROJECTS.filter((project) => getDashboardPortfolioCategory(project.slug) === category);
-  const visibleCount = isStudyCategory
-    ? STREAMLIT_PROJECTS.length
-    : isCallForOffersCategory
-      ? CALL_FOR_OFFERS_ORGANIZATIONS.reduce((total, organization) => total + organization.projectSlugs.length, 0)
-      : dashboardProjects.length;
+  const dashboardProjects = PROJECTS.filter((project) => getDashboardPortfolioCategory(project.slug) === category);
+  const consultingReportCount = CONSULTING_CLIENTS.reduce((total, client) => total + client.reports.length, 0);
+  const visibleCount = isConsultingCategory
+    ? CONSULTING_CLIENTS.length
+    : isStudyCategory
+      ? STREAMLIT_PROJECTS.length + dashboardProjects.length
+      : CALL_FOR_OFFERS_ORGANIZATIONS.reduce(
+          (total, organization) => total + organization.projectSlugs.length,
+          0,
+        );
+  const countLabel = isConsultingCategory
+    ? `${visibleCount} clients · ${consultingReportCount} rapports`
+    : `${visibleCount} ${visibleCount > 1 ? "projets" : "projet"}`;
   const activeCategory = getPortfolioCategory(category);
 
   function selectCategory(nextCategory: PortfolioCategory) {
@@ -44,7 +51,7 @@ export default function PortfolioPage() {
         <PageIntro
           eyebrow="Portfolio"
           title="Dashboards interactifs & applications data"
-          description="Seize projets organisés selon leur contexte de réalisation : consultance, études et réponses à des appels d'offres."
+          description="Projets organisés selon leur contexte de réalisation : consultance, études et réponses à des appels d'offres."
         />
 
         <Reveal delay={0.05} className="mt-7 grid grid-cols-1 gap-2 lg:grid-cols-3">
@@ -83,12 +90,14 @@ export default function PortfolioPage() {
             </div>
             <span className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-surface px-3 py-1.5 text-sm font-medium text-text-2">
               <LayoutGrid size={16} aria-hidden="true" className="text-brand" />
-              {visibleCount} {visibleCount > 1 ? "projets" : "projet"}
+              {countLabel}
             </span>
           </div>
         </Reveal>
 
-        {isCallForOffersCategory ? (
+        {isConsultingCategory ? (
+          <ConsultingPortfolio key={category} />
+        ) : isCallForOffersCategory ? (
           <div key={category} className="mt-8 space-y-12">
             {CALL_FOR_OFFERS_ORGANIZATIONS.map((organization) => (
               <OrganizationProjectSection key={organization.id} organization={organization} />
@@ -96,15 +105,15 @@ export default function PortfolioPage() {
           </div>
         ) : (
           <RevealGroup key={category} className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {isStudyCategory
-              ? STREAMLIT_PROJECTS.map((project) => (
-                  <RevealItem key={project.slug}>
-                    <StreamlitProjectCard project={project} />
-                  </RevealItem>
-                ))
-              : dashboardProjects.map((project, index) => (
-                  <ProjectCard key={project.slug} slug={project.slug} index={index} />
-                ))}
+            {dashboardProjects.map((project, index) => (
+              <ProjectCard key={project.slug} slug={project.slug} index={index} />
+            ))}
+            {isStudyCategory &&
+              STREAMLIT_PROJECTS.map((project) => (
+                <RevealItem key={project.slug}>
+                  <StreamlitProjectCard project={project} />
+                </RevealItem>
+              ))}
           </RevealGroup>
         )}
       </section>

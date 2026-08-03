@@ -256,3 +256,66 @@ export const STREAMLIT_PROJECTS = [
     thumb: "streamlit/chess-intelligence.png",
   },
 ];
+
+export const CONSULTING_DISCLAIMER =
+  "Confidentialité & anonymisation — Par respect pour la confidentialité des organisations avec lesquelles j'ai collaboré, l'ensemble des données présentées dans ces tableaux de bord a été anonymisé et agrégé : aucune information nominative, confidentielle ou propriétaire n'y figure. Ces réalisations illustrent uniquement ma démarche analytique et mes choix de conception ; les analyses et interprétations n'engagent que moi.";
+
+export interface ConsultingReport {
+  title: string;
+  src: string;
+}
+
+export interface ConsultingClient {
+  name: string;
+  slug: string;
+  logo: string;
+  reports: ConsultingReport[];
+}
+
+export const CONSULTING_CLIENTS: ConsultingClient[] = [
+  {
+    name: "Foundever Sénégal",
+    slug: "foundever",
+    logo: "foundever.svg",
+    reports: [
+      {
+        title: "Performance tracking",
+        src: "https://app.powerbi.com/view?r=eyJrIjoiNDExNjE4ZjUtZmZjOC00Zjc2LTkzYzktYzQ5NTEwYjczOWNmIiwidCI6IjdiMTA4OWQzLWE2MjktNGU1ZS1iNDg0LTAzYTUzMzdiY2NiNiJ9",
+      },
+      {
+        title: "Agents Performance",
+        src: "https://app.powerbi.com/view?r=eyJrIjoiYWIzMTFlZjgtNDc0OC00M2ZhLTk2MWYtZjE1N2JjYWE4N2JjIiwidCI6IjdiMTA4OWQzLWE2MjktNGU1ZS1iNDg0LTAzYTUzMzdiY2NiNiJ9",
+      },
+    ],
+  },
+  {
+    name: "Konecta",
+    slug: "konecta",
+    logo: "konecta.png",
+    reports: [
+      {
+        title: "Sales Teams Quarterly Performance",
+        src: "https://app.powerbi.com/view?r=eyJrIjoiNjQyZDA3MjctNGQyZC00ODc2LTkyMzMtZGI1OWQwZTc2ZTNhIiwidCI6IjdiMTA4OWQzLWE2MjktNGU1ZS1iNDg0LTAzYTUzMzdiY2NiNiJ9",
+      },
+      {
+        title: "Performance analysis dashboard",
+        src: "https://app.powerbi.com/view?r=eyJrIjoiMzlmMWFhNzEtMzIwOS00NmVjLTlmNjgtMzk3ZWM2ZTRmZmQ3IiwidCI6IjdiMTA4OWQzLWE2MjktNGU1ZS1iNDg0LTAzYTUzMzdiY2NiNiJ9",
+      },
+    ],
+  },
+  {
+    name: "Yewwu",
+    slug: "yewwu",
+    logo: "yewwu.png",
+    reports: [
+      {
+        title: "Root Cause Analysis",
+        src: "https://app.powerbi.com/view?r=eyJrIjoiN2Q3YWFiY2ItMDZjYy00Zjc2LWE5NzItOGRhM2Q4MGJjMmI0IiwidCI6IjdiMTA4OWQzLWE2MjktNGU1ZS1iNDg0LTAzYTUzMzdiY2NiNiJ9",
+      },
+      {
+        title: "Ecommerce Conversion",
+        src: "https://app.powerbi.com/view?r=eyJrIjoiMWFiMDM0ZmItOTg2Ni00NWRlLWFkNjEtZjYwNjIwZGFiY2RlIiwidCI6IjdiMTA4OWQzLWE2MjktNGU1ZS1iNDg0LTAzYTUzMzdiY2NiNiJ9",
+      },
+    ],
+  },
+];

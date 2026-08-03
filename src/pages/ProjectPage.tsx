@@ -116,7 +116,7 @@ export default function ProjectPage() {
               className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-brand hover:text-brand"
             >
               <ArrowLeft size={16} aria-hidden="true" />
-              Retour aux projets en consultance
+              Retour aux projets d'études
             </Link>
           </div>
         )}
