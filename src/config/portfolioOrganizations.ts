@@ -24,10 +24,10 @@ export const CALL_FOR_OFFERS_ORGANIZATIONS: PortfolioOrganization[] = [
     soft: "#fbf7e9",
     logo: partenariatOuagadougouLogo,
     projectSlugs: [
+      "sante-reproductive-fecondite",
       "sante-maternelle-neonatale",
       "education-filles-genre",
       "nutrition-survie-enfant",
-      "sante-reproductive-fecondite",
     ],
   },
   {
