@@ -1,17 +1,9 @@
-import { Building2, Droplets, Landmark, Leaf, type LucideIcon } from "lucide-react";
 import type { PortfolioOrganization } from "../config/portfolioOrganizations";
 import Reveal, { RevealGroup } from "./Reveal";
 import { ProjectCard } from "../pages/pageShared";
 
-const ORGANIZATION_ICONS: Record<PortfolioOrganization["id"], LucideIcon> = {
-  ucpo: Building2,
-  bad: Landmark,
-  unicef: Droplets,
-  pnue: Leaf,
-};
-
 function OrganizationIdentity({ organization }: { organization: PortfolioOrganization }) {
-  if (organization.logo) {
+  if (organization.id === "ucpo") {
     return (
       <div className="relative h-20 w-full max-w-[520px] overflow-hidden sm:h-28" aria-label={organization.name}>
         <img
@@ -23,19 +15,21 @@ function OrganizationIdentity({ organization }: { organization: PortfolioOrganiz
     );
   }
 
-  const Icon = ORGANIZATION_ICONS[organization.id];
+  const isUnicef = organization.id === "unicef";
+  const isUnep = organization.id === "pnue";
+
   return (
-    <div className="flex min-w-0 items-center gap-3">
-      <span
-        className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white shadow-sm"
-        style={{ color: organization.accent }}
-      >
-        <Icon size={24} aria-hidden="true" />
-      </span>
-      <div className="min-w-0">
-        <p className="font-display text-xl font-bold text-ink">{organization.acronym}</p>
-        <p className="text-sm font-medium text-text-2">{organization.name}</p>
-      </div>
+    <div
+      className={`flex w-full items-center ${
+        isUnep ? "h-28 max-w-[180px]" : "h-20 max-w-[520px] sm:h-24"
+      } ${isUnicef ? "bg-[#1cabe2] px-4 sm:px-5" : ""}`}
+      aria-label={organization.name}
+    >
+      <img
+        src={organization.logo}
+        alt={`Logo ${organization.name}`}
+        className={`block h-auto max-w-full object-contain ${isUnep ? "max-h-28" : "max-h-20 sm:max-h-24"}`}
+      />
     </div>
   );
 }

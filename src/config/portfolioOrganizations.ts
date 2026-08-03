@@ -1,4 +1,7 @@
+import afdbLogo from "../assets/organizations/afdb.webp";
 import partenariatOuagadougouLogo from "../assets/organizations/partenariat-ouagadougou.png";
+import unepLogo from "../assets/organizations/unep.svg";
+import unicefLogo from "../assets/organizations/unicef.webp";
 
 export interface PortfolioOrganization {
   id: "ucpo" | "bad" | "unicef" | "pnue";
@@ -34,6 +37,7 @@ export const CALL_FOR_OFFERS_ORGANIZATIONS: PortfolioOrganization[] = [
     focus: "Agriculture, accès à l'énergie, inclusion numérique et financière, emploi et autonomisation des jeunes.",
     accent: "#27784a",
     soft: "#edf7f1",
+    logo: afdbLogo,
     projectSlugs: [
       "agriculture-securite-alimentaire",
       "energie-acces-electricite",
@@ -48,6 +52,7 @@ export const CALL_FOR_OFFERS_ORGANIZATIONS: PortfolioOrganization[] = [
     focus: "Eau, assainissement et hygiène, services essentiels et protection des populations vulnérables.",
     accent: "#1cabe2",
     soft: "#edf9fd",
+    logo: unicefLogo,
     projectSlugs: ["wash-eau-assainissement", "populations-deplacees"],
   },
   {
@@ -57,6 +62,7 @@ export const CALL_FOR_OFFERS_ORGANIZATIONS: PortfolioOrganization[] = [
     focus: "Action climatique, protection des écosystèmes, biodiversité et suivi des pressions environnementales.",
     accent: "#167d69",
     soft: "#edf8f5",
+    logo: unepLogo,
     projectSlugs: ["climat-environnement"],
   },
 ];
