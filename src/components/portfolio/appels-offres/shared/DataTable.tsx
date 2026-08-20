@@ -1,4 +1,4 @@
-import { useMemo, useState, type CSSProperties, type Key } from "react";
+import { useMemo, useState, type CSSProperties, type Key, type ReactNode } from "react";
 import { ArrowDown, ArrowUp, Download, Search } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 import { AoDataBadges } from "./badges";
@@ -7,7 +7,7 @@ export interface AoDataTableColumn<T> {
   readonly id: string;
   readonly header: string;
   readonly accessor: (row: T) => unknown;
-  readonly render?: (value: unknown, row: T) => string;
+  readonly render?: (value: unknown, row: T) => ReactNode;
   readonly align?: "left" | "center" | "right";
 }
 

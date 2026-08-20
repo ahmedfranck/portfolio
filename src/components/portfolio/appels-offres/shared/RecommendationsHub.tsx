@@ -4,7 +4,7 @@ import Note, { type NoteVariant } from "./Note";
 
 export interface RecommendationItem {
   readonly id: string;
-  readonly title: string;
+  readonly title: ReactNode;
   readonly body: ReactNode;
   readonly variant?: NoteVariant;
 }
