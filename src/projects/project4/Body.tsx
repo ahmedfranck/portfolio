@@ -66,7 +66,27 @@ function OverviewSection() {
     <div className="space-y-4">
       <div className="grid gap-4 xl:grid-cols-[minmax(0,1.5fr)_minmax(270px,.75fr)]">
         <Panel title="mCPR moderne — dernière observation réelle" subtitle="Périmètre strict des neuf pays membres du Partenariat de Ouagadougou.">
-          <MapChoropleth values={realMcpr} years={realYears} countries={UCPO_COUNTRY_CODES} suffix=" %" source={UCPO_DATASETS.wdiCore.source} ariaLabel="Prévalence contraceptive moderne dans les neuf pays UCPO" />
+          <MapChoropleth
+            values={realMcpr}
+            years={realYears}
+            countries={UCPO_COUNTRY_CODES}
+            suffix=" %"
+            height={390}
+            source={UCPO_DATASETS.wdiCore.source}
+            ariaLabel="Prévalence contraceptive moderne dans les neuf pays du Partenariat de Ouagadougou"
+            legendTitle="mCPR moderne (%) — Banque mondiale WDI, dernière observation disponible"
+            scopeLabel="Périmètre PO (rampe crème → navy)"
+            outsideScopeLabel="Hors périmètre PO"
+            noDataLabel="Pas de donnée disponible"
+            discreteSteps={5}
+            rampStart="#D7B85A"
+            outsideFill="#E8E4DC"
+            outsidePatternId="hors-po"
+            scopeStroke="#C3911F"
+            scopeStrokeWidth={1}
+            projectionCenter={[-2, 14]}
+            projectionScale={840}
+          />
         </Panel>
         <Panel title="Repères pays" subtitle="Classement selon la dernière observation WDI disponible.">
           <RankList items={ranking} source={UCPO_DATASETS.wdiCore.source} />
