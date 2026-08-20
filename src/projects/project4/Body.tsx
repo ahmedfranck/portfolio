@@ -17,6 +17,7 @@ import {
   DataTable,
   CountryComparator,
   type CountryComparatorEntity,
+  DashboardFilterBar,
   CountryFlag,
   CountryLabel,
   FilterChips,
@@ -46,9 +47,11 @@ const SECTIONS: readonly UcpoSection[] = [
   { id: "sources", label: "Sources & méthode", shortLabel: "Sources & méthode", description: "Traçabilité des datasets", group: "Capitalisation" },
 ] as const;
 
-function latestReal(iso3: string, field: "mcprModern" | "tfr") {
+type YearRange = readonly [number, number];
+
+function latestReal(iso3: string, field: "mcprModern" | "tfr", yearRange: YearRange = [2010, 2024]) {
   const observations = ROWS
-    .filter((row) => row.iso3 === iso3 && row[field] != null)
+    .filter((row) => row.iso3 === iso3 && row[field] != null && row.year >= yearRange[0] && row.year <= yearRange[1])
     .sort((a, b) => b.year - a.year);
   const row = observations[0];
   return row ? { value: row[field] as number, year: row.year } : null;
@@ -58,15 +61,17 @@ function average(values: readonly number[]) {
   return values.reduce((sum, value) => sum + value, 0) / Math.max(1, values.length);
 }
 
-function OverviewSection() {
-  const realMcpr = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern")?.value ?? null]));
-  const realYears = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern")?.year ?? null]));
-  const ranking = UCPO_COUNTRIES.flatMap((country) => {
-    const observation = latestReal(country.iso3, "mcprModern");
+function OverviewSection({ countries, yearRange }: { readonly countries: readonly UcpoCountryCode[]; readonly yearRange: YearRange }) {
+  const realMcpr = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern", yearRange)?.value ?? null]));
+  const realYears = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern", yearRange)?.year ?? null]));
+  const visibleCountries = UCPO_COUNTRIES.filter((country) => countries.includes(country.iso3));
+  const ranking = visibleCountries.flatMap((country) => {
+    const observation = latestReal(country.iso3, "mcprModern", yearRange);
     return observation ? [{ id: country.iso3, iso3: country.iso3, name: country.name, value: observation.value, year: observation.year }] : [];
   });
-  const trajectorySeries = UCPO_COUNTRIES.map((country) => ({ dataKey: country.iso3, name: country.shortName, unit: " %" }));
-  const riskPoints = UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, x: country.informRisk, y: country.currentMcpr, z: Math.max(20, country.displacedThousands), group: country.informRisk >= 7 ? "Risque élevé" : "Risque modéré" }));
+  const trajectorySeries = visibleCountries.map((country) => ({ dataKey: country.iso3, name: country.shortName, unit: " %" }));
+  const trajectoryData = UCPO_MCPR_SERIES.filter((row) => row.year >= yearRange[0] && row.year <= yearRange[1]);
+  const riskPoints = visibleCountries.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, x: country.informRisk, y: country.currentMcpr, z: Math.max(20, country.displacedThousands), group: country.informRisk >= 7 ? "Risque élevé" : "Risque modéré" }));
 
   return (
     <div className="space-y-4">
@@ -76,6 +81,7 @@ function OverviewSection() {
             values={realMcpr}
             years={realYears}
             countries={UCPO_COUNTRY_CODES}
+            activeCountries={countries}
             suffix=" %"
             height={390}
             source={UCPO_DATASETS.wdiCore.source}
@@ -108,7 +114,7 @@ function OverviewSection() {
       </div>
       <div className="grid gap-4 xl:grid-cols-2">
         <Panel title="Trajectoires mCPR comparées" subtitle="Apport analytique : la pente compare la vitesse de progression modélisée entre pays, au-delà du seul niveau le plus récent.">
-          <LineTrend data={UCPO_MCPR_SERIES} xKey="year" xLabel="Année" series={trajectorySeries} yLabel="mCPR (%)" height={310} ariaLabel="Trajectoires mCPR illustratives comparées des neuf pays du Partenariat de Ouagadougou" source={UCPO_DATASETS.trajectory.source} illustrative formatValue={(value) => `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`} />
+          <LineTrend data={trajectoryData} xKey="year" xLabel="Année" series={trajectorySeries} yLabel="mCPR (%)" height={310} ariaLabel="Trajectoires mCPR illustratives comparées pour les pays filtrés" source={UCPO_DATASETS.trajectory.source} illustrative formatValue={(value) => `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`} />
         </Panel>
         <Panel title="Risque opérationnel × mCPR" subtitle="Apport analytique : ce croisement identifie les pays où une progression contraceptive reste exposée à un environnement opérationnel fragile.">
           <BubbleScatter data={riskPoints} xLabel="Indice INFORM" yLabel="mCPR 2024" zLabel="PDI" yUnit=" %" zUnit=" k" height={310} ariaLabel="Relation illustrative entre risque INFORM et mCPR dans les pays PO" source={`${UCPO_DATASETS.trajectory.source} + ${UCPO_DATASETS.crisis.source}`} illustrative />
@@ -118,8 +124,9 @@ function OverviewSection() {
   );
 }
 
-function FinancingSection() {
-  const rows = UCPO_COUNTRIES.map((country) => ({
+function FinancingSection({ countries }: { readonly countries: readonly UcpoCountryCode[] }) {
+  const visibleCountries = UCPO_COUNTRIES.filter((country) => countries.includes(country.iso3));
+  const rows = visibleCountries.map((country) => ({
     iso3: country.iso3,
     country: country.shortName,
     domestic: Number((country.financingUsdMillions * country.domesticShare / 100).toFixed(1)),
@@ -130,8 +137,8 @@ function FinancingSection() {
   const usaid = rows.reduce((sum, row) => sum + row.usaid, 0);
   const others = rows.reduce((sum, row) => sum + row.others, 0);
   const total = domestic + usaid + others;
-  const exposureRanking = UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, value: country.usaidExposure }));
-  const resiliencePoints = UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, x: country.costPerUserUsd, y: country.domesticShare, z: country.financingUsdMillions, group: country.domesticShare >= 25 ? "Effort domestique renforcé" : "Effort domestique limité" }));
+  const exposureRanking = visibleCountries.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, value: country.usaidExposure }));
+  const resiliencePoints = visibleCountries.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, x: country.costPerUserUsd, y: country.domesticShare, z: country.financingUsdMillions, group: country.domesticShare >= 25 ? "Effort domestique renforcé" : "Effort domestique limité" }));
 
   return (
     <div className="space-y-4">
@@ -161,18 +168,19 @@ function FinancingSection() {
   );
 }
 
-function CountriesSection() {
-  const [selected, setSelected] = useState<UcpoCountryCode>("SEN");
+function CountriesSection({ countries, yearRange }: { readonly countries: readonly UcpoCountryCode[]; readonly yearRange: YearRange }) {
+  const [countrySelection, setCountrySelection] = useState<UcpoCountryCode>("SEN");
+  const selected = countries.includes(countrySelection) ? countrySelection : countries[0];
   const country = UCPO_COUNTRIES.find((item) => item.iso3 === selected)!;
-  const mcpr = latestReal(selected, "mcprModern");
-  const tfr = latestReal(selected, "tfr");
+  const mcpr = latestReal(selected, "mcprModern", yearRange);
+  const tfr = latestReal(selected, "tfr", yearRange);
 
   return (
     <div className="space-y-4">
       <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles analytiques et des comparaisons régionales contextualisées.">
-        <FilterChips label="Pays PO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: <CountryLabel iso3={item.iso3} name={item.shortName} /> }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
+        <FilterChips label="Pays actifs" options={UCPO_COUNTRIES.filter((item) => countries.includes(item.iso3)).map((item) => ({ value: item.iso3, label: <CountryLabel iso3={item.iso3} name={item.shortName} /> }))} value={[selected]} onChange={(values) => setCountrySelection(values[0] as UcpoCountryCode)} multiple={false} />
       </Panel>
-      <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} />
+      <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} yearRange={yearRange} />
     </div>
   );
 }
@@ -204,12 +212,22 @@ const COMPARISON_ENTITIES: readonly CountryComparatorEntity[] = UCPO_COUNTRIES.m
   mix: country.methods.map((method) => ({ label: method.name, value: method.value })),
 }));
 
-function ComparisonSection({ selected, onChange }: { readonly selected: readonly string[]; readonly onChange: (ids: string[]) => void }) {
+function ComparisonSection({ countries, selected, onChange }: { readonly countries: readonly UcpoCountryCode[]; readonly selected: readonly string[]; readonly onChange: (ids: string[]) => void }) {
+  const entities = COMPARISON_ENTITIES.filter((entity) => countries.includes(entity.id as UcpoCountryCode));
+  const retained = selected.filter((id) => countries.includes(id as UcpoCountryCode));
+  const effectiveSelection = [...retained, ...countries.filter((id) => !retained.includes(id))].slice(0, Math.min(4, Math.max(2, retained.length)));
+  if (entities.length < 2) {
+    return (
+      <Panel title="Comparaison par pays" subtitle="Deux pays au minimum sont nécessaires pour ouvrir la vue comparative.">
+        <p className="text-[10px] leading-relaxed text-slate-500">Le filtre global ne conserve actuellement qu’un pays. Réactivez au moins un second pays dans la barre de filtres.</p>
+      </Panel>
+    );
+  }
   return (
     <CountryComparator
-      entities={COMPARISON_ENTITIES}
+      entities={entities}
       metrics={COMPARISON_METRICS}
-      selectedIds={selected}
+      selectedIds={effectiveSelection}
       onChange={onChange}
       subtitle="Les mêmes indicateurs sont alignés pour comparer performance, financement, exposition et résilience sans scroll horizontal."
       source={`${UCPO_DATASETS.trajectory.source} · ${UCPO_DATASETS.financing.source} · ${UCPO_DATASETS.crisis.source} · ${UCPO_DATASETS.impact.source}`}
@@ -222,7 +240,7 @@ function SourcesSection() {
   const datasets = Object.values(UCPO_DATASETS) as UcpoDatasetMeta[];
   return (
     <div className="space-y-4">
-      <Panel title="Registre de provenance" subtitle="Un flag explicite distingue chaque dataset démonstratif des données publiques réelles.">
+      <Panel title="Registre de provenance" subtitle="Vue complète non filtrée : un flag explicite distingue chaque dataset démonstratif des données publiques réelles.">
         <DataTable
           rows={datasets}
           rowKey={(row) => row.id}
@@ -247,22 +265,29 @@ function SourcesSection() {
 export default function Body() {
   const { theme } = useAoTheme();
   const [section, setSection] = useState("overview");
+  const [selectedCountries, setSelectedCountries] = useState<UcpoCountryCode[]>([...UCPO_COUNTRY_CODES]);
+  const [yearRange, setYearRange] = useState<[number, number]>([2010, 2024]);
   const [comparisonCountries, setComparisonCountries] = useState<string[]>(["BFA", "MLI", "SEN"]);
-  const financingTotal = UCPO_COUNTRIES.reduce((sum, country) => sum + country.financingUsdMillions, 0);
-  const modernUsers = UCPO_COUNTRIES.reduce((sum, country) => sum + country.modernUsersMillions, 0);
-  const currentMcprAverage = average(UCPO_COUNTRIES.map((country) => country.currentMcpr));
-  const highRiskCountries = UCPO_COUNTRIES.filter((country) => country.informRisk >= 7).length;
+  const selectedProfiles = UCPO_COUNTRIES.filter((country) => selectedCountries.includes(country.iso3));
+  const financingTotal = selectedProfiles.reduce((sum, country) => sum + country.financingUsdMillions, 0);
+  const modernUsers = selectedProfiles.reduce((sum, country) => sum + country.modernUsersMillions, 0);
+  const mcprRow = [...UCPO_MCPR_SERIES].reverse().find((row) => row.year >= yearRange[0] && row.year <= yearRange[1]);
+  const currentMcprAverage = mcprRow ? average(selectedProfiles.map((country) => Number(mcprRow[country.iso3]))) : null;
+  const highRiskCountries = selectedProfiles.filter((country) => country.informRisk >= 7).length;
   const activeLabel = SECTIONS.find((item) => item.id === section)?.label ?? "Observatoire";
+  const unfilteredSection = section === "recommendations" || section === "sources";
+  const fixedYearSection = section === "financing" || section === "crisis" || section === "comparison";
+  const activeFilterLabel = unfilteredSection ? "Vue complète · filtres non appliqués" : fixedYearSection ? `${selectedCountries.length} pays · données 2024` : `${selectedCountries.length} pays · ${yearRange[0]}–${yearRange[1]}`;
 
   const content = useMemo(() => {
-    if (section === "financing") return <FinancingSection />;
-    if (section === "countries") return <CountriesSection />;
-    if (section === "comparison") return <ComparisonSection selected={comparisonCountries} onChange={setComparisonCountries} />;
-    if (section === "crisis") return <CrisisModule />;
+    if (section === "financing") return <FinancingSection countries={selectedCountries} />;
+    if (section === "countries") return <CountriesSection countries={selectedCountries} yearRange={yearRange} />;
+    if (section === "comparison") return <ComparisonSection countries={selectedCountries} selected={comparisonCountries} onChange={setComparisonCountries} />;
+    if (section === "crisis") return <CrisisModule countries={selectedCountries} />;
     if (section === "recommendations") return <UcpoRecommendations />;
     if (section === "sources") return <SourcesSection />;
-    return <OverviewSection />;
-  }, [comparisonCountries, section]);
+    return <OverviewSection countries={selectedCountries} yearRange={yearRange} />;
+  }, [comparisonCountries, section, selectedCountries, yearRange]);
 
   return (
     <div className="space-y-5" style={{ fontFamily: theme.typography.body }}>
@@ -270,14 +295,25 @@ export default function Body() {
         eyebrow="Observatoire régional de la planification familiale"
         title="Neuf pays, une lecture commune de la performance et de la résilience"
         subtitle="Observatoire régional des neuf pays du Partenariat de Ouagadougou réalisé dans le cadre de l'appel d'offres de l'UCPO."
-        badge="9 pays PO"
+        badge={`${selectedCountries.length} pays PO`}
         illustrativeNotice="Données illustratives"
         stats={[
-          { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.trajectory.source },
+          { label: mcprRow ? `mCPR ${mcprRow.year}` : "mCPR", value: currentMcprAverage == null ? "n.d." : currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: currentMcprAverage == null ? undefined : "%", source: UCPO_DATASETS.trajectory.source },
           { label: "Utilisatrices", value: modernUsers.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "M", source: UCPO_DATASETS.impact.source },
           { label: "Financement", value: financingTotal.toLocaleString("fr-FR", { maximumFractionDigits: 0 }), unit: "M USD", source: UCPO_DATASETS.financing.source },
           { label: "Risque élevé", value: highRiskCountries, unit: "pays", source: UCPO_DATASETS.crisis.source },
         ]}
+      />
+
+      <DashboardFilterBar
+        countryOptions={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, label: <CountryLabel iso3={country.iso3} name={country.shortName} /> }))}
+        selectedCountries={selectedCountries}
+        onCountriesChange={(countries) => setSelectedCountries(countries as UcpoCountryCode[])}
+        yearRange={yearRange}
+        onYearRangeChange={setYearRange}
+        minYear={2010}
+        maxYear={2024}
+        minSelectedCountries={1}
       />
 
       <div className="grid items-stretch gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">
@@ -288,7 +324,7 @@ export default function Body() {
               <p className="text-[8px] font-bold uppercase tracking-[0.16em]" style={{ color: theme.colors.accent }}>Observatoire PF</p>
               <h2 className="mt-1 text-xl" style={{ color: theme.colors.primary, fontFamily: theme.typography.heading }}>{activeLabel}</h2>
             </div>
-            <span className="hidden rounded-full px-3 py-1 text-[8px] font-bold uppercase tracking-[0.08em] sm:inline" style={{ color: theme.colors.primary, background: theme.colors.soft }}>9 pays PO</span>
+            <span className="hidden rounded-full px-3 py-1 text-[8px] font-bold uppercase tracking-[0.08em] sm:inline" style={{ color: theme.colors.primary, background: theme.colors.soft }}>{activeFilterLabel}</span>
           </div>
           {content}
         </main>

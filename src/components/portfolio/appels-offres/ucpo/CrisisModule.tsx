@@ -1,4 +1,4 @@
-import { UCPO_COUNTRIES, UCPO_DATASETS } from "../../../../data/projects/ao-ucpo-observatoire";
+import { UCPO_COUNTRIES, UCPO_DATASETS, type UcpoCountryCode } from "../../../../data/projects/ao-ucpo-observatoire";
 import { BubbleScatter } from "../charts";
 import { CountryLabel, DataTable, Panel, RankList } from "../shared";
 
@@ -12,13 +12,15 @@ const crisisPoints = UCPO_COUNTRIES.map((country) => ({
   group: country.informRisk >= 7 ? "Risque élevé" : country.informRisk >= 5 ? "Risque moyen" : "Risque contenu",
 }));
 
-export default function CrisisModule() {
+export default function CrisisModule({ countries }: { readonly countries?: readonly UcpoCountryCode[] }) {
+  const visibleCountries = countries ? UCPO_COUNTRIES.filter((country) => countries.includes(country.iso3)) : UCPO_COUNTRIES;
+  const visiblePoints = crisisPoints.filter((point) => !countries || countries.includes(point.iso3));
   return (
     <div className="space-y-4">
       <div className="grid gap-4 xl:grid-cols-[minmax(0,1.5fr)_minmax(270px,.8fr)]">
         <Panel title="Pression de crise sur la continuité contraceptive" subtitle="Taille des bulles : personnes déplacées internes (milliers).">
           <BubbleScatter
-            data={crisisPoints}
+            data={visiblePoints}
             xLabel="Indice INFORM"
             yLabel="Ruptures de stock"
             zLabel="PDI"
@@ -31,7 +33,7 @@ export default function CrisisModule() {
         </Panel>
         <Panel title="Pays à surveiller" subtitle="Classement composite par niveau de risque INFORM.">
           <RankList
-            items={UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, label: country.name, value: country.informRisk, displayValue: country.informRisk.toFixed(1), detail: `${country.stockoutRate} % ruptures` }))}
+            items={visibleCountries.map((country) => ({ id: country.iso3, iso3: country.iso3, label: country.name, value: country.informRisk, displayValue: country.informRisk.toFixed(1), detail: `${country.stockoutRate} % ruptures` }))}
             source={UCPO_DATASETS.crisis.source}
             illustrative
           />
@@ -40,7 +42,7 @@ export default function CrisisModule() {
 
       <Panel title="Registre de continuité des services" subtitle="Priorisation opérationnelle par pays.">
         <DataTable
-          rows={UCPO_COUNTRIES}
+          rows={visibleCountries}
           rowKey={(row) => row.iso3}
           columns={[
             { id: "country", header: "Pays", accessor: (row) => row.name, render: (value, row) => <CountryLabel iso3={row.iso3} name={String(value)} /> },

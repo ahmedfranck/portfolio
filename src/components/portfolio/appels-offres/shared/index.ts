@@ -19,3 +19,5 @@ export type { RecommendationGroup, RecommendationItem } from "./RecommendationsH
 export { default as CountryFlag, CountryLabel } from "./CountryFlag";
 export { default as CountryComparator } from "./CountryComparator";
 export type { CountryComparatorEntity, CountryComparatorMetric, CountryComparatorMixItem } from "./CountryComparator";
+export { default as DashboardFilterBar } from "./DashboardFilterBar";
+export type { DashboardFilterOption } from "./DashboardFilterBar";
