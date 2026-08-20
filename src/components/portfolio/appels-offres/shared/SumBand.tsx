@@ -14,10 +14,12 @@ interface SumBandProps {
   readonly eyebrow?: string;
   readonly title: string;
   readonly subtitle?: string;
+  readonly badge?: string;
+  readonly illustrativeNotice?: string;
   readonly stats: readonly SumBandStat[];
 }
 
-export default function SumBand({ eyebrow, title, subtitle, stats }: SumBandProps) {
+export default function SumBand({ eyebrow, title, subtitle, badge, illustrativeNotice, stats }: SumBandProps) {
   const { theme } = useAoTheme();
 
   return (
@@ -34,21 +36,27 @@ export default function SumBand({ eyebrow, title, subtitle, stats }: SumBandProp
         style={{ background: `${theme.colors.accent}18` }}
         aria-hidden="true"
       />
-      <div className="relative grid gap-5 xl:grid-cols-[minmax(0,1fr)_auto] xl:items-center">
-        <div>
+      <div className="relative space-y-5">
+        <div className="min-w-[320px]">
           {eyebrow && (
             <p className="text-[9px] font-bold uppercase tracking-[0.18em] text-white/55">{eyebrow}</p>
           )}
-          <h2 className="mt-1 text-xl leading-tight sm:text-2xl" style={{ fontFamily: theme.typography.heading }}>
-            {title}
-          </h2>
-          {subtitle && <p className="mt-2 max-w-2xl text-[11px] leading-relaxed text-white/55">{subtitle}</p>}
+          <div className="mt-1 flex flex-wrap items-start justify-between gap-3">
+            <h2 className="max-w-[720px] text-xl leading-tight sm:text-2xl" style={{ fontFamily: theme.typography.heading }}>{title}</h2>
+            {badge && <span className="shrink-0 rounded-full border px-3 py-1 text-[8px] font-bold uppercase tracking-[0.09em]" style={{ borderColor: `${theme.colors.accentLight}66`, color: theme.colors.accentLight, background: `${theme.colors.accent}18` }}>{badge}</span>}
+          </div>
+          {subtitle && <p className="mt-2 max-w-[720px] text-[11px] leading-relaxed text-white/55">{subtitle}</p>}
         </div>
-        <dl className="grid grid-cols-2 gap-x-2 gap-y-4 sm:grid-cols-3 xl:flex xl:items-stretch">
-          {stats.slice(0, 5).map((stat, index) => (
+        {illustrativeNotice && (
+          <p className="inline-flex max-w-full items-center rounded-full px-3 py-1.5 text-[8px] font-bold" style={{ color: theme.colors.warning, background: "#FEF0E0" }}>
+            ⚠ {illustrativeNotice}
+          </p>
+        )}
+        <dl className="grid grid-cols-2 gap-x-2 gap-y-4 lg:grid-cols-4">
+          {stats.slice(0, 4).map((stat, index) => (
             <div
               key={`${stat.label}-${index}`}
-              className="min-w-0 px-3 first:pl-0 xl:min-w-28 xl:border-l xl:border-white/10 xl:first:border-0"
+              className="min-w-0 border-l border-white/10 px-3 first:border-0 first:pl-0"
             >
               <dd className="flex items-baseline gap-1 text-lg" style={{ color: theme.colors.accentLight, fontFamily: theme.typography.heading }}>
                 {stat.value}
@@ -57,7 +65,7 @@ export default function SumBand({ eyebrow, title, subtitle, stats }: SumBandProp
               <dt className="mt-1 text-[8px] font-bold uppercase tracking-[0.08em] text-white/40">{stat.label}</dt>
               {(stat.source || stat.illustrative) && (
                 <span className="mt-2 block">
-                  <AoDataBadges source={stat.source} illustrative={stat.illustrative} />
+                  <AoDataBadges source={stat.source} illustrative={stat.illustrative} compactSource />
                 </span>
               )}
             </div>

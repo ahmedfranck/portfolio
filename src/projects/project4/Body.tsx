@@ -212,13 +212,14 @@ export default function Body() {
       <SumBand
         eyebrow="Observatoire régional de la planification familiale"
         title="Neuf pays, une lecture commune de la performance et de la résilience"
-        subtitle="Prototype de référence UCPO · données réelles et illustratives explicitement séparées."
+        subtitle="Périmètre : 9 pays du Partenariat de Ouagadougou. Prototype de référence UCPO avec séparation explicite des données réelles et illustratives."
+        badge="9 pays PO"
+        illustrativeNotice="Les 4 KPI ci-dessous sont des scénarios illustratifs UCPO — voir Sources & méthode"
         stats={[
-          { label: "Pays UCPO", value: 9, source: "Périmètre du Partenariat de Ouagadougou" },
-          { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.motion.source, illustrative: true },
-          { label: "Utilisatrices", value: modernUsers.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "M", source: UCPO_DATASETS.impact.source, illustrative: true },
-          { label: "Financement", value: financingTotal.toLocaleString("fr-FR", { maximumFractionDigits: 0 }), unit: "M USD", source: UCPO_DATASETS.financing.source, illustrative: true },
-          { label: "Risque élevé", value: highRiskCountries, unit: "pays", source: UCPO_DATASETS.crisis.source, illustrative: true },
+          { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.motion.source },
+          { label: "Utilisatrices", value: modernUsers.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "M", source: UCPO_DATASETS.impact.source },
+          { label: "Financement", value: financingTotal.toLocaleString("fr-FR", { maximumFractionDigits: 0 }), unit: "M USD", source: UCPO_DATASETS.financing.source },
+          { label: "Risque élevé", value: highRiskCountries, unit: "pays", source: UCPO_DATASETS.crisis.source },
         ]}
       />
 
