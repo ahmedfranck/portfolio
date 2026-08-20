@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { UCPO_DATASETS, type UcpoCountryProfile, type UcpoCountryTab } from "../../../../data/projects/ao-ucpo-observatoire";
 import { BarStack, DoughnutMix } from "../charts";
-import { FilterChips, KpiCard, Note, Panel } from "../shared";
+import { FilterChips, KpiCard, Panel } from "../shared";
 
 interface UcpoCountryFicheProps {
   readonly country: UcpoCountryProfile;
@@ -19,19 +19,6 @@ const COUNTRY_TABS: readonly { readonly value: UcpoCountryTab; readonly label: s
   { value: "impact", label: "Impact" },
   { value: "crisis", label: "Crise" },
 ];
-
-function Callouts({ tab, country }: { readonly tab: UcpoCountryTab; readonly country: UcpoCountryProfile }) {
-  const messages: Record<UcpoCountryTab, readonly [string, string, string]> = {
-    overview: ["La progression de la mCPR doit être lue avec l’évolution de la demande satisfaite.", "Les écarts annuels relèvent ici d’un scénario et non d’une série FPET validée.", "La fiche combine données publiques réelles et modules démonstratifs clairement signalés."],
-    financing: [`La dépendance illustrée à USAID atteint ${country.usaidExposure} % de l’enveloppe.`, "La part domestique indique la résilience potentielle, pas la qualité d’exécution budgétaire.", "Les montants doivent être rapprochés des comptes nationaux de santé et décaissements bailleurs."],
-    demography: ["L’ISF donne le contexte démographique mais ne mesure pas à lui seul la performance du programme.", "La population des femmes de 15–49 ans sert de dénominateur de planification dans ce prototype.", "Comparer les dates d’observation avant toute lecture causale entre mCPR et fécondité."],
-    methods: ["Un mix diversifié réduit la dépendance à une seule chaîne d’approvisionnement.", "La part d’implants et d’injectables éclaire les besoins de formation et de logistique.", "La répartition présentée est illustrative et doit être remplacée par les enquêtes DHS/MICS validées."],
-    impact: ["Les grossesses évitées sont un résultat modélisé, pas un décompte administratif.", "Le coût par utilisatrice facilite la comparaison, sans remplacer une analyse coût-efficacité complète.", "Les décès maternels évités exigent des hypothèses documentées et une validation technique."],
-    crisis: ["La continuité des services doit être priorisée dans les zones à déplacement prolongé.", "Les ruptures nationales peuvent masquer de fortes disparités infranationales.", "Le croisement INFORM–IDMC–ACLED doit utiliser des périodes d’observation alignées."],
-  };
-  const variants = ["default", "warning", "info"] as const;
-  return <div className="grid gap-3 md:grid-cols-3">{messages[tab].map((message, index) => <Note key={message} title={`Lecture ${index + 1}`} variant={variants[index]}>{message}</Note>)}</div>;
-}
 
 export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, realTfr, realTfrYear }: UcpoCountryFicheProps) {
   const [tab, setTab] = useState<UcpoCountryTab>("overview");
@@ -86,7 +73,6 @@ export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, real
         </div>
       )}
 
-      <Callouts tab={tab} country={country} />
     </div>
   );
 }

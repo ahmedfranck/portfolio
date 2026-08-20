@@ -17,7 +17,6 @@ import {
   FilterChips,
   KpiCard,
   MapChoropleth,
-  Note,
   Panel,
   SumBand,
   Timeline,
@@ -25,6 +24,7 @@ import {
 import {
   CrisisModule,
   UcpoCountryFiche,
+  UcpoRecommendations,
   UcpoSidebar,
   type UcpoSection,
 } from "../../components/portfolio/appels-offres/ucpo";
@@ -36,6 +36,7 @@ const SECTIONS: readonly UcpoSection[] = [
   { id: "financing", label: "Financement", shortLabel: "Financement", description: "Mix bailleurs et exposition" },
   { id: "countries", label: "Fiches pays", shortLabel: "9 fiches pays", description: "6 angles d’analyse par pays" },
   { id: "crisis", label: "Contexte de crise", shortLabel: "Contexte de crise", description: "INFORM, PDI et ruptures" },
+  { id: "recommendations", label: "Lecture & recommandations", shortLabel: "Recommandations", description: "Interprétation et pilotage" },
   { id: "sources", label: "Sources & méthode", shortLabel: "Sources & méthode", description: "Traçabilité des datasets" },
 ] as const;
 
@@ -96,11 +97,6 @@ function OverviewSection() {
           />
         </Panel>
       </div>
-      <div className="grid gap-3 md:grid-cols-3">
-        <Note title="Périmètre confirmé">La vue régionale exclut tout pays hors des neuf membres du Partenariat de Ouagadougou.</Note>
-        <Note title="Dates hétérogènes" variant="warning">Le millésime affiché varie selon le pays; comparer une valeur exige de vérifier son année d’observation.</Note>
-        <Note title="Lecture responsable" variant="info">Les indicateurs illustratifs sont explicitement séparés des observations WDI réelles et signalés par un badge dédié.</Note>
-      </div>
     </div>
   );
 }
@@ -132,11 +128,6 @@ function FinancingSection() {
         <Panel title="Mix régional" subtitle="Part de l’enveloppe illustrative.">
           <DoughnutMix data={[{ id: "domestic", name: "Domestique", value: domestic }, { id: "usaid", name: "USAID", value: usaid }, { id: "others", name: "Autres partenaires", value: others }]} valueLabel="M USD" unit=" M" ariaLabel="Mix régional illustratif du financement" source={UCPO_DATASETS.financing.source} illustrative />
         </Panel>
-      </div>
-      <div className="grid gap-3 md:grid-cols-3">
-        <Note title="Exposition bailleur" variant="warning">Une part USAID élevée signale un besoin de scénario de continuité, sans préjuger des décaissements réels.</Note>
-        <Note title="Effort domestique">La part nationale sert d’indicateur de résilience financière et doit être rapprochée de l’exécution budgétaire.</Note>
-        <Note title="Validation finale" variant="info">Les montants seront remplacés par les comptes nationaux, rapports FPSA et données bailleurs validés.</Note>
       </div>
     </div>
   );
@@ -180,11 +171,6 @@ function SourcesSection() {
       <Panel title="Chronologie programmatique" subtitle="Jalons éditoriaux du prototype.">
         <Timeline entries={UCPO_TIMELINE} />
       </Panel>
-      <div className="grid gap-3 md:grid-cols-3">
-        <Note title="Principe de priorité">Une donnée publique gratuite et sans clé remplace le scénario dès qu’elle est disponible et documentée.</Note>
-        <Note title="Accès restreint" variant="warning">ACLED requiert un compte; aucune valeur ACLED n’est présentée comme observation réelle dans cette version.</Note>
-        <Note title="Reproductibilité" variant="info">Le manifeste centralise statut, URL, source et règle d’usage pour faciliter le remplacement dataset par dataset.</Note>
-      </div>
     </div>
   );
 }
@@ -202,6 +188,7 @@ export default function Body() {
     if (section === "financing") return <FinancingSection />;
     if (section === "countries") return <CountriesSection />;
     if (section === "crisis") return <CrisisModule />;
+    if (section === "recommendations") return <UcpoRecommendations />;
     if (section === "sources") return <SourcesSection />;
     return <OverviewSection />;
   }, [section]);
