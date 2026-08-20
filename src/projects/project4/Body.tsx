@@ -209,7 +209,7 @@ export default function Body() {
         ]}
       />
 
-      <div className="grid items-start gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">
+      <div className="grid items-stretch gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">
         <UcpoSidebar sections={SECTIONS} active={section} onChange={setSection} />
         <main className="min-w-0" aria-label={activeLabel}>
           <div className="mb-4 flex items-end justify-between gap-3 border-b pb-3" style={{ borderColor: theme.colors.border }}>
