@@ -56,16 +56,14 @@ export default function SumBand({ eyebrow, title, subtitle, badge, illustrativeN
               key={`${stat.label}-${index}`}
               className="min-w-0 border-l border-white/10 px-3 first:border-0 first:pl-0"
             >
-              <dd className="flex items-baseline gap-1 text-lg" style={{ color: theme.colors.accentLight, fontFamily: theme.typography.heading }}>
+              <dd className="flex items-baseline gap-1 text-[clamp(2rem,4vw,3rem)] leading-none" style={{ color: theme.colors.accentLight, fontFamily: theme.typography.heading }}>
                 {stat.value}
-                {stat.unit && <span className="text-[10px] text-white/50">{stat.unit}</span>}
+                {stat.unit && <span className="text-[11px] font-semibold text-white/55">{stat.unit}</span>}
               </dd>
-              <dt className="mt-1 text-[8px] font-bold uppercase tracking-[0.08em] text-white/40">{stat.label}</dt>
-              {(stat.source || stat.illustrative) && (
-                <span className="mt-2 block">
-                  <AoDataBadges source={stat.source} illustrative={stat.illustrative} compactSource sourceDisplay="disclosure" />
-                </span>
-              )}
+              <dt className="mt-2 flex items-center gap-1.5 text-[8px] font-bold uppercase tracking-[0.08em] text-white/45">
+                <span>{stat.label}</span>
+                {stat.source && <AoDataBadges source={stat.source} sourceDisplay="icon" />}
+              </dt>
             </div>
           ))}
         </dl>

@@ -1,12 +1,12 @@
 import { useId } from "react";
-import { AlertTriangle, Database } from "lucide-react";
+import { AlertTriangle, Database, Info } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 
 interface AoDataBadgesProps {
   readonly source?: string;
   readonly illustrative?: boolean;
   readonly compactSource?: boolean;
-  readonly sourceDisplay?: "inline" | "disclosure";
+  readonly sourceDisplay?: "inline" | "disclosure" | "icon";
 }
 
 function compactSourceLabel(source: string) {
@@ -46,6 +46,26 @@ export function AoDataBadges({ source, illustrative = false, compactSource = fal
             id={tooltipId}
             role="tooltip"
             className="invisible absolute bottom-[calc(100%+.4rem)] left-0 z-40 w-max max-w-64 rounded-md border bg-white px-2.5 py-2 text-left text-[9px] font-medium leading-relaxed opacity-0 shadow-lg transition group-hover/source:visible group-hover/source:opacity-100 group-focus-within/source:visible group-focus-within/source:opacity-100"
+            style={{ borderColor: theme.colors.border, color: theme.colors.text }}
+          >
+            {source}
+          </span>
+        </span>
+      )}
+      {source && sourceDisplay === "icon" && (
+        <span className="group/source relative inline-flex align-middle">
+          <button
+            type="button"
+            aria-label="Afficher la source"
+            aria-describedby={tooltipId}
+            className="inline-flex h-5 w-5 items-center justify-center rounded-full border border-white/20 text-white/55 transition hover:border-white/40 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            <Info size={11} aria-hidden="true" />
+          </button>
+          <span
+            id={tooltipId}
+            role="tooltip"
+            className="invisible absolute bottom-[calc(100%+.4rem)] left-1/2 z-40 w-max max-w-64 -translate-x-1/2 rounded-md border bg-white px-2.5 py-2 text-left text-[9px] font-medium normal-case leading-relaxed tracking-normal opacity-0 shadow-lg transition group-hover/source:visible group-hover/source:opacity-100 group-focus-within/source:visible group-focus-within/source:opacity-100"
             style={{ borderColor: theme.colors.border, color: theme.colors.text }}
           >
             {source}

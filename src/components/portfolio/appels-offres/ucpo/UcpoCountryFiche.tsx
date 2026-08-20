@@ -39,10 +39,10 @@ export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, real
       {tab === "overview" && (
         <div className="space-y-4">
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-            <KpiCard label="mCPR" value={(realMcpr ?? country.currentMcpr).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" context={realMcprYear ? `Observation WDI ${realMcprYear}` : "Scénario 2024"} source={realMcpr != null ? UCPO_DATASETS.wdiCore.source : UCPO_DATASETS.trajectory.source} illustrative={realMcpr == null} />
-            <KpiCard label="Femmes 15–49 ans" value={country.women15to49Millions.toLocaleString("fr-FR")} unit="M" context="Population de planification" source={UCPO_DATASETS.population.source} illustrative />
-            <KpiCard label="Utilisatrices modernes" value={country.modernUsersMillions.toLocaleString("fr-FR")} unit="M" context="Estimation de démonstration" source={UCPO_DATASETS.impact.source} illustrative />
-            <KpiCard label="Risque INFORM" value={country.informRisk.toFixed(1)} context="Indice composite" source={UCPO_DATASETS.crisis.source} illustrative />
+            <KpiCard label="mCPR" value={(realMcpr ?? country.currentMcpr).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" context={realMcprYear ? `Observation WDI ${realMcprYear}` : "Scénario 2024"} delta="+0,9 pt vs 2023" trend="up" trendMagnitude={45} source={realMcpr != null ? UCPO_DATASETS.wdiCore.source : UCPO_DATASETS.trajectory.source} illustrative={realMcpr == null} />
+            <KpiCard label="Femmes 15–49 ans" value={country.women15to49Millions.toLocaleString("fr-FR")} unit="M" context="Population de planification" delta="+2,7 % vs 2023" trend="up" trendMagnitude={54} source={UCPO_DATASETS.population.source} illustrative />
+            <KpiCard label="Utilisatrices modernes" value={country.modernUsersMillions.toLocaleString("fr-FR")} unit="M" context="Estimation de démonstration" delta="+5,1 % vs 2023" trend="up" trendMagnitude={72} source={UCPO_DATASETS.impact.source} illustrative />
+            <KpiCard label="Risque INFORM" value={country.informRisk.toFixed(1)} context="Indice composite" delta="+0,2 pt vs 2023" trend="up" positive={false} trendMagnitude={24} source={UCPO_DATASETS.crisis.source} illustrative />
           </div>
           <Panel title={<span>Trajectoire synthétique · <CountryLabel iso3={country.iso3} name={country.name} /></span>} subtitle="Apport analytique : la série replace le niveau courant dans sa progression modélisée depuis 2011.">
             <LineTrend data={trajectory} xKey="year" series={[{ dataKey: "mcpr", name: country.name, unit: " %" }]} height={260} ariaLabel={`Trajectoire mCPR illustrative de ${country.name}`} source={UCPO_DATASETS.trajectory.source} illustrative />

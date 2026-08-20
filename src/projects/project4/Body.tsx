@@ -133,10 +133,10 @@ function FinancingSection() {
   return (
     <div className="space-y-4">
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        <KpiCard label="Enveloppe régionale" value={total.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="M USD" source={UCPO_DATASETS.financing.source} illustrative />
-        <KpiCard label="Ressources domestiques" value={(domestic / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" source={UCPO_DATASETS.financing.source} illustrative />
-        <KpiCard label="Exposition USAID" value={(usaid / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" source={UCPO_DATASETS.financing.source} illustrative />
-        <KpiCard label="Autres partenaires" value={(others / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Enveloppe régionale" value={total.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="M USD" delta="+6,2 % vs 2023" trend="up" trendMagnitude={62} source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Ressources domestiques" value={(domestic / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" delta="+1,8 pt vs 2023" trend="up" trendMagnitude={36} source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Exposition USAID" value={(usaid / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" delta="−2,4 pt vs 2023" trend="down" positive trendMagnitude={48} source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Autres partenaires" value={(others / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" delta="+0,6 pt vs 2023" trend="up" trendMagnitude={22} source={UCPO_DATASETS.financing.source} illustrative />
       </div>
       <div className="grid gap-4 xl:grid-cols-[minmax(0,1.5fr)_minmax(280px,.75fr)]">
         <Panel title="Ventilation par pays" subtitle="Millions USD — scénario de portefeuille.">
@@ -223,7 +223,7 @@ export default function Body() {
       <SumBand
         eyebrow="Observatoire régional de la planification familiale"
         title="Neuf pays, une lecture commune de la performance et de la résilience"
-        subtitle="Prévalence moderne, financement, impact et continuité des services dans les neuf pays du Partenariat de Ouagadougou."
+        subtitle="Observatoire régional des neuf pays du Partenariat de Ouagadougou réalisé dans le cadre de l'appel d'offres de l'UCPO."
         badge="9 pays PO"
         illustrativeNotice="Données illustratives"
         stats={[
