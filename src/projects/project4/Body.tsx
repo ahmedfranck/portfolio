@@ -24,7 +24,6 @@ import {
 } from "../../components/portfolio/appels-offres/shared";
 import {
   CrisisModule,
-  MotionTracker,
   UcpoCountryFiche,
   UcpoSidebar,
   type UcpoSection,
@@ -34,7 +33,6 @@ const ROWS = rawData.rows as ReproductiveHealthRow[];
 
 const SECTIONS: readonly UcpoSection[] = [
   { id: "overview", label: "Vue régionale", shortLabel: "Vue régionale", description: "9 pays, KPIs et carte" },
-  { id: "motion", label: "Motion Tracker", shortLabel: "Motion Tracker", description: "Trajectoires mCPR 2011–2024" },
   { id: "financing", label: "Financement", shortLabel: "Financement", description: "Mix bailleurs et exposition" },
   { id: "countries", label: "Fiches pays", shortLabel: "9 fiches pays", description: "6 angles d’analyse par pays" },
   { id: "crisis", label: "Contexte de crise", shortLabel: "Contexte de crise", description: "INFORM, PDI et ruptures" },
@@ -102,30 +100,6 @@ function OverviewSection() {
         <Note title="Périmètre confirmé">La vue régionale exclut tout pays hors des neuf membres du Partenariat de Ouagadougou.</Note>
         <Note title="Dates hétérogènes" variant="warning">Le millésime affiché varie selon le pays; comparer une valeur exige de vérifier son année d’observation.</Note>
         <Note title="Lecture responsable" variant="info">Les indicateurs illustratifs sont explicitement séparés des observations WDI réelles et signalés par un badge dédié.</Note>
-      </div>
-    </div>
-  );
-}
-
-function MotionSection() {
-  const [countries, setCountries] = useState<UcpoCountryCode[]>([...UCPO_COUNTRY_CODES]);
-  return (
-    <div className="space-y-4">
-      <Panel title="Motion Tracker régional" subtitle="Filtrer les trajectoires sans perdre la traçabilité du scénario.">
-        <div className="mb-4">
-          <FilterChips
-            label="Pays"
-            options={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, label: country.shortName }))}
-            value={countries}
-            onChange={(values) => values.length > 0 && setCountries(values as UcpoCountryCode[])}
-          />
-        </div>
-        <MotionTracker countries={countries} />
-      </Panel>
-      <div className="grid gap-3 md:grid-cols-3">
-        <Note title="Courbe monotone">Le rendu Recharts reprend la tension visuelle du prototype UCPO via une interpolation monotone.</Note>
-        <Note title="Série démonstrative" variant="warning">Les points annuels sont interpolés pour le prototype et ne doivent pas être cités comme estimations FPET.</Note>
-        <Note title="Substitution finale" variant="info">La livraison finale doit charger les séries pays validées par Track20/FP2030 et conserver leurs intervalles d’incertitude.</Note>
       </div>
     </div>
   );
@@ -225,7 +199,6 @@ export default function Body() {
   const activeLabel = SECTIONS.find((item) => item.id === section)?.label ?? "Observatoire";
 
   const content = useMemo(() => {
-    if (section === "motion") return <MotionSection />;
     if (section === "financing") return <FinancingSection />;
     if (section === "countries") return <CountriesSection />;
     if (section === "crisis") return <CrisisModule />;
@@ -242,7 +215,7 @@ export default function Body() {
         badge="9 pays PO"
         illustrativeNotice="Les 4 KPI ci-dessous sont des scénarios illustratifs UCPO — voir Sources & méthode"
         stats={[
-          { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.motion.source },
+          { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.trajectory.source },
           { label: "Utilisatrices", value: modernUsers.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "M", source: UCPO_DATASETS.impact.source },
           { label: "Financement", value: financingTotal.toLocaleString("fr-FR", { maximumFractionDigits: 0 }), unit: "M USD", source: UCPO_DATASETS.financing.source },
           { label: "Risque élevé", value: highRiskCountries, unit: "pays", source: UCPO_DATASETS.crisis.source },
