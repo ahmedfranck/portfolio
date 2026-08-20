@@ -198,9 +198,9 @@ export default function Body() {
       <SumBand
         eyebrow="Observatoire régional de la planification familiale"
         title="Neuf pays, une lecture commune de la performance et de la résilience"
-        subtitle="Périmètre : 9 pays du Partenariat de Ouagadougou. Prototype de référence UCPO avec séparation explicite des données réelles et illustratives."
+        subtitle="Prévalence moderne, financement, impact et continuité des services dans les neuf pays du Partenariat de Ouagadougou."
         badge="9 pays PO"
-        illustrativeNotice="Les 4 KPI ci-dessous sont des scénarios illustratifs UCPO — voir Sources & méthode"
+        illustrativeNotice="Données illustratives"
         stats={[
           { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.trajectory.source },
           { label: "Utilisatrices", value: modernUsers.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "M", source: UCPO_DATASETS.impact.source },

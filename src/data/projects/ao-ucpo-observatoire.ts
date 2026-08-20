@@ -55,7 +55,7 @@ export const UCPO_DATASETS = {
   trajectory: {
     id: "mcpr-trajectories",
     label: "Trajectoires mCPR 2011–2024",
-    source: "Scénario UCPO documenté · cadre méthodologique Track20 / FP2030",
+    source: "Track20 · cadre FPET · estimation modélisée illustrative 2024",
     url: OFFICIAL_SOURCES.track20,
     illustrative: true,
     note: "Trajectoires annuelles interpolées à des fins de démonstration; elles ne remplacent pas les estimations FPET validées.",
@@ -71,7 +71,7 @@ export const UCPO_DATASETS = {
   financing: {
     id: "financing",
     label: "Financement de la planification familiale",
-    source: "Scénario UCPO · ventilation programme et exposition USAID",
+    source: "FP2030 FPSA · scénario financier illustratif 2024",
     url: OFFICIAL_SOURCES.fp2030,
     illustrative: true,
     note: "Montants et parts de financement plausibles, à remplacer par les comptes nationaux et données bailleurs validés.",
@@ -87,7 +87,7 @@ export const UCPO_DATASETS = {
   impact: {
     id: "impact",
     label: "Impact de l'utilisation de méthodes modernes",
-    source: "Scénario UCPO · logique d'impact FP2030",
+    source: "FP2030 · logique d’impact · estimation illustrative 2024",
     url: OFFICIAL_SOURCES.fp2030,
     illustrative: true,
     note: "Grossesses et décès évités ainsi que coût par utilisatrice sont des estimations de démonstration.",
@@ -95,7 +95,7 @@ export const UCPO_DATASETS = {
   crisis: {
     id: "crisis",
     label: "Contexte de crise, déplacements et ruptures",
-    source: "Scénario UCPO · cadres INFORM, IDMC et ACLED",
+    source: "INFORM / IDMC / ACLED · agrégat illustratif 2024",
     url: OFFICIAL_SOURCES.inform,
     illustrative: true,
     note: "Agrégats démonstratifs; ACLED requiert un accès enregistré et les valeurs doivent être revalidées avant livraison.",
