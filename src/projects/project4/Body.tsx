@@ -15,6 +15,8 @@ import { useAoTheme } from "../../hooks/useAoTheme";
 import { BarStack, BubbleScatter, DoughnutMix, HorizontalRankBars, LineTrend } from "../../components/portfolio/appels-offres/charts";
 import {
   DataTable,
+  CountryComparator,
+  type CountryComparatorEntity,
   CountryFlag,
   CountryLabel,
   FilterChips,
@@ -38,6 +40,7 @@ const SECTIONS: readonly UcpoSection[] = [
   { id: "overview", label: "Vue régionale", shortLabel: "Vue régionale", description: "9 pays, KPIs et carte", group: "Pilotage" },
   { id: "financing", label: "Financement", shortLabel: "Financement", description: "Mix bailleurs et exposition", group: "Pilotage" },
   { id: "countries", label: "Fiches pays", shortLabel: "Fiches pays", description: "6 angles d’analyse par pays", group: "Pays & résilience", badge: "9" },
+  { id: "comparison", label: "Comparaison par pays", shortLabel: "Comparaison", description: "2 à 4 pays côte à côte", group: "Pays & résilience", badge: "2–4" },
   { id: "crisis", label: "Contexte de crise", shortLabel: "Contexte de crise", description: "INFORM, PDI et ruptures", group: "Pays & résilience" },
   { id: "recommendations", label: "Lecture & recommandations", shortLabel: "Recommandations", description: "Interprétation et pilotage", group: "Capitalisation", badge: "30" },
   { id: "sources", label: "Sources & méthode", shortLabel: "Sources & méthode", description: "Traçabilité des datasets", group: "Capitalisation" },
@@ -174,6 +177,47 @@ function CountriesSection() {
   );
 }
 
+const COMPARISON_METRICS = [
+  { id: "mcpr", label: "mCPR" },
+  { id: "users", label: "Utilisatrices" },
+  { id: "financing", label: "Financement" },
+  { id: "usaid", label: "Exposition USAID" },
+  { id: "inform", label: "Risque INFORM" },
+  { id: "pregnancies", label: "Grossesses évitées" },
+  { id: "deaths", label: "Décès maternels évités" },
+] as const;
+
+const COMPARISON_ENTITIES: readonly CountryComparatorEntity[] = UCPO_COUNTRIES.map((country) => ({
+  id: country.iso3,
+  iso3: country.iso3,
+  name: country.name,
+  shortName: country.shortName,
+  values: {
+    mcpr: `${country.currentMcpr.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`,
+    users: `${country.modernUsersMillions.toLocaleString("fr-FR", { maximumFractionDigits: 2 })} M`,
+    financing: `${country.financingUsdMillions.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} M USD`,
+    usaid: `${country.usaidExposure.toLocaleString("fr-FR")} %`,
+    inform: country.informRisk.toLocaleString("fr-FR", { maximumFractionDigits: 1 }),
+    pregnancies: `${country.pregnanciesAvoidedThousands.toLocaleString("fr-FR")} k`,
+    deaths: country.deathsAvoided.toLocaleString("fr-FR"),
+  },
+  mix: country.methods.map((method) => ({ label: method.name, value: method.value })),
+}));
+
+function ComparisonSection({ selected, onChange }: { readonly selected: readonly string[]; readonly onChange: (ids: string[]) => void }) {
+  return (
+    <CountryComparator
+      entities={COMPARISON_ENTITIES}
+      metrics={COMPARISON_METRICS}
+      selectedIds={selected}
+      onChange={onChange}
+      subtitle="Les mêmes indicateurs sont alignés pour comparer performance, financement, exposition et résilience sans scroll horizontal."
+      source={`${UCPO_DATASETS.trajectory.source} · ${UCPO_DATASETS.financing.source} · ${UCPO_DATASETS.crisis.source} · ${UCPO_DATASETS.impact.source}`}
+      illustrative
+    />
+  );
+}
+
 function SourcesSection() {
   const datasets = Object.values(UCPO_DATASETS) as UcpoDatasetMeta[];
   return (
@@ -203,6 +247,7 @@ function SourcesSection() {
 export default function Body() {
   const { theme } = useAoTheme();
   const [section, setSection] = useState("overview");
+  const [comparisonCountries, setComparisonCountries] = useState<string[]>(["BFA", "MLI", "SEN"]);
   const financingTotal = UCPO_COUNTRIES.reduce((sum, country) => sum + country.financingUsdMillions, 0);
   const modernUsers = UCPO_COUNTRIES.reduce((sum, country) => sum + country.modernUsersMillions, 0);
   const currentMcprAverage = average(UCPO_COUNTRIES.map((country) => country.currentMcpr));
@@ -212,11 +257,12 @@ export default function Body() {
   const content = useMemo(() => {
     if (section === "financing") return <FinancingSection />;
     if (section === "countries") return <CountriesSection />;
+    if (section === "comparison") return <ComparisonSection selected={comparisonCountries} onChange={setComparisonCountries} />;
     if (section === "crisis") return <CrisisModule />;
     if (section === "recommendations") return <UcpoRecommendations />;
     if (section === "sources") return <SourcesSection />;
     return <OverviewSection />;
-  }, [section]);
+  }, [comparisonCountries, section]);
 
   return (
     <div className="space-y-5" style={{ fontFamily: theme.typography.body }}>

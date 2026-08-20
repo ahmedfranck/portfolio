@@ -17,3 +17,5 @@ export type { RankListItem } from "./RankList";
 export { default as RecommendationsHub } from "./RecommendationsHub";
 export type { RecommendationGroup, RecommendationItem } from "./RecommendationsHub";
 export { default as CountryFlag, CountryLabel } from "./CountryFlag";
+export { default as CountryComparator } from "./CountryComparator";
+export type { CountryComparatorEntity, CountryComparatorMetric, CountryComparatorMixItem } from "./CountryComparator";
