@@ -7,7 +7,6 @@ import {
   UCPO_DATASETS,
   UCPO_MCPR_SERIES,
   UCPO_OBSERVATOIRE_MANIFEST,
-  UCPO_TIMELINE,
   type UcpoCountryCode,
   type UcpoDatasetMeta,
 } from "../../data/projects/ao-ucpo-observatoire";
@@ -25,7 +24,6 @@ import {
   MapChoropleth,
   Panel,
   SumBand,
-  Timeline,
 } from "../../components/portfolio/appels-offres/shared";
 import {
   CrisisModule,
@@ -239,26 +237,19 @@ function ComparisonSection({ countries, selected, onChange }: { readonly countri
 function SourcesSection() {
   const datasets = Object.values(UCPO_DATASETS) as UcpoDatasetMeta[];
   return (
-    <div className="space-y-4">
-      <Panel title="Registre de provenance" subtitle="Vue complète non filtrée : un flag explicite distingue chaque dataset démonstratif des données publiques réelles.">
-        <DataTable
-          rows={datasets}
-          rowKey={(row) => row.id}
-          columns={[
-            { id: "dataset", header: "Dataset", accessor: (row) => row.label },
-            { id: "status", header: "Statut", accessor: (row) => row.illustrative ? "Illustratif" : "Réel" },
-            { id: "source", header: "Source / cadre", accessor: (row) => row.source },
-            { id: "note", header: "Règle d’usage", accessor: (row) => row.note },
-          ]}
-          source="Manifeste UCPO du projet"
-          illustrative={datasets.some((dataset) => dataset.illustrative)}
-          exportFilename="ucpo-registre-sources"
-        />
-      </Panel>
-      <Panel title="Chronologie programmatique" subtitle="Jalons éditoriaux du prototype.">
-        <Timeline entries={UCPO_TIMELINE} />
-      </Panel>
-    </div>
+    <Panel title="Registre de provenance" subtitle="Vue complète non filtrée : un flag explicite distingue chaque dataset démonstratif des données publiques réelles.">
+      <DataTable
+        rows={datasets}
+        rowKey={(row) => row.id}
+        columns={[
+          { id: "dataset", header: "Dataset", accessor: (row) => row.label },
+          { id: "status", header: "Statut", accessor: (row) => row.illustrative ? "Illustratif" : "Réel" },
+          { id: "source", header: "Source / cadre", accessor: (row) => row.source },
+          { id: "note", header: "Règle d’usage", accessor: (row) => row.note },
+        ]}
+        exportFilename="ucpo-registre-sources"
+      />
+    </Panel>
   );
 }
 
