@@ -74,8 +74,6 @@ export default function MapChoropleth({
   suffix = "",
   height = 430,
   polarity = "positive",
-  source,
-  illustrative = false,
   ariaLabel = "Carte choroplèthe interactive",
   legendTitle,
   scopeLabel = "Périmètre couvert",
@@ -210,22 +208,20 @@ export default function MapChoropleth({
         </div>
       )}
 
-      <div className="mt-3 space-y-3">
-        <div>
-          {legendTitle && <p className="mb-2 text-[9px] font-bold" style={{ color: theme.colors.primary }}>{legendTitle}</p>}
-          <div className="flex min-w-52 items-center gap-2 text-[9px]" style={{ color: theme.colors.muted }}>
-            <span>{formatValue(min)}{suffix}</span>
-            <span className="grid h-3 flex-1 overflow-hidden rounded-sm" style={{ gridTemplateColumns: `repeat(${stepCount}, minmax(0, 1fr))` }} aria-label={`${scopeLabel}, ${stepCount} classes`}>
-              {rampColors.map((color, index) => <span key={`${color}-${index}`} style={{ background: color }} />)}
-            </span>
-            <span>{formatValue(max)}{suffix}</span>
-          </div>
-          <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-[8px]" style={{ color: theme.colors.muted }}>
-            <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `linear-gradient(90deg, ${startColor}, ${endColor})`, border: `1px solid ${scopeStroke ?? theme.colors.accent}` }} />{scopeLabel}</span>
-            <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${startColor} 0 3px, ${theme.colors.accent} 3px 4px)` }} />{noDataLabel}</span>
-            {active.size < allowed.size && <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm opacity-25" style={{ background: endColor, border: `1px solid ${scopeStroke ?? theme.colors.accent}` }} />{inactiveScopeLabel}</span>}
-            <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${resolvedOutsideFill} 0 3px, #C9C3B8 3px 4px)` }} />{outsideScopeLabel}</span>
-          </div>
+      <div className="mt-3">
+        {legendTitle && <p className="mb-2 text-[9px] font-bold" style={{ color: theme.colors.primary }}>{legendTitle}</p>}
+        <div className="flex min-w-52 items-center gap-2 text-[9px]" style={{ color: theme.colors.muted }}>
+          <span>{formatValue(min)}{suffix}</span>
+          <span className="grid h-3 flex-1 overflow-hidden rounded-sm" style={{ gridTemplateColumns: `repeat(${stepCount}, minmax(0, 1fr))` }} aria-label={`${scopeLabel}, ${stepCount} classes`}>
+            {rampColors.map((color, index) => <span key={`${color}-${index}`} style={{ background: color }} />)}
+          </span>
+          <span>{formatValue(max)}{suffix}</span>
+        </div>
+        <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-[8px]" style={{ color: theme.colors.muted }}>
+          <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `linear-gradient(90deg, ${startColor}, ${endColor})`, border: `1px solid ${scopeStroke ?? theme.colors.accent}` }} />{scopeLabel}</span>
+          <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${startColor} 0 3px, ${theme.colors.accent} 3px 4px)` }} />{noDataLabel}</span>
+          {active.size < allowed.size && <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm opacity-25" style={{ background: endColor, border: `1px solid ${scopeStroke ?? theme.colors.accent}` }} />{inactiveScopeLabel}</span>}
+          <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${resolvedOutsideFill} 0 3px, #C9C3B8 3px 4px)` }} />{outsideScopeLabel}</span>
         </div>
       </div>
     </div>

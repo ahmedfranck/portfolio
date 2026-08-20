@@ -49,8 +49,6 @@ export default function CountryComparator({
   min = 2,
   max = 4,
   mixLabel = "Mix méthodes",
-  source,
-  illustrative = false,
 }: CountryComparatorProps) {
   const { theme } = useAoTheme();
   const selected = entities.filter((entity) => selectedIds.includes(entity.id)).slice(0, max);

@@ -38,8 +38,6 @@ export default function DataTable<T extends object>({
   columns,
   rowKey,
   searchPlaceholder = "Filtrer le tableau…",
-  source,
-  illustrative = false,
   exportFilename,
   emptyLabel = "Aucune donnée pour les filtres sélectionnés.",
 }: DataTableProps<T>) {

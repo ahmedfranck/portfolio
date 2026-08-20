@@ -24,8 +24,6 @@ interface ChartScaffoldProps {
 export default function ChartScaffold({
   children,
   ariaLabel,
-  source,
-  illustrative = false,
   tableColumns,
   tableRows,
 }: ChartScaffoldProps) {
