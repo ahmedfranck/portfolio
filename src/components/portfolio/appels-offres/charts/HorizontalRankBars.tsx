@@ -1,5 +1,6 @@
 import { Bar, BarChart, CartesianGrid, Cell, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import CountryFlag, { CountryLabel } from "../shared/CountryFlag";
 import ChartScaffold, { type ChartTableRow } from "./ChartScaffold";
 
 export interface HorizontalRankDatum {
@@ -7,6 +8,7 @@ export interface HorizontalRankDatum {
   readonly name: string;
   readonly value: number;
   readonly year?: number;
+  readonly iso3?: string;
 }
 
 interface HorizontalRankBarsProps {
@@ -56,8 +58,9 @@ export default function HorizontalRankBars({
   const endColor = rampEnd ?? theme.colors.primary;
   const sorted = [...data].sort((a, b) => b.value - a.value);
   const ticks = Array.from({ length: Math.floor(axisMax / 5) + 1 }, (_, index) => index * 5);
-  const tableRows: ChartTableRow[] = sorted.map((item) => ({ country: item.name, value: item.value, year: item.year }));
+  const tableRows: ChartTableRow[] = sorted.map((item) => ({ country: item.name, iso3: item.iso3, value: item.value, year: item.year }));
   const yearByName = new Map(sorted.map((item) => [item.name, item.year]));
+  const isoByName = new Map(sorted.map((item) => [item.name, item.iso3]));
 
   function yearColors(year?: number) {
     if (year == null) return { background: theme.colors.canvas, color: theme.colors.muted };
@@ -70,12 +73,14 @@ export default function HorizontalRankBars({
   function YearTick({ x = 0, y = 0, payload }: YearTickProps) {
     const name = payload?.value ?? "";
     const year = yearByName.get(name);
+    const iso3 = isoByName.get(name);
     const colors = yearColors(year);
     const resolvedX = Number(x) || 0;
     const resolvedY = Number(y) || 0;
     return (
       <g transform={`translate(${resolvedX},${resolvedY})`}>
-        <text x={-46} y={3} textAnchor="end" fill={theme.colors.primary} fontSize={9} fontWeight={600} fontFamily={theme.typography.body}>{name}</text>
+        {iso3 && <foreignObject x={-174} y={-7} width={20} height={14}><CountryFlag iso3={iso3} size="sm" /></foreignObject>}
+        <text x={-150} y={3} textAnchor="start" fill={theme.colors.primary} fontSize={9} fontWeight={600} fontFamily={theme.typography.body}>{name}</text>
         <rect x={-40} y={-8} width={34} height={16} rx={8} fill={colors.background} />
         <text x={-23} y={3} textAnchor="middle" fill={colors.color} fontSize={9} fontWeight={700} fontFamily={theme.typography.body}>{year ?? "n.d."}</text>
       </g>
@@ -89,7 +94,7 @@ export default function HorizontalRankBars({
       illustrative={illustrative}
       tableRows={tableRows}
       tableColumns={[
-        { key: "country", label: "Pays" },
+        { key: "country", label: "Pays", render: (value, row) => row.iso3 ? <CountryLabel iso3={String(row.iso3)} name={String(value)} /> : String(value) },
         { key: "value", label: "mCPR moderne", format: (value) => typeof value === "number" ? `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}${unit}` : "n.d." },
         { key: "year", label: "Millésime" },
       ]}
@@ -115,15 +120,16 @@ export default function HorizontalRankBars({
           <YAxis
             type="category"
             dataKey="name"
-            width={148}
+            width={182}
             tick={YearTick}
             tickLine={false}
             axisLine={false}
           />
-          <Tooltip
-            formatter={(value: unknown) => [typeof value === "number" ? `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}${unit}` : String(value), "mCPR moderne"]}
-            contentStyle={{ borderRadius: 8, border: `1px solid ${theme.colors.border}`, fontSize: 10, fontFamily: theme.typography.body }}
-          />
+          <Tooltip content={({ active, payload }) => {
+            const item = payload?.[0]?.payload as HorizontalRankDatum | undefined;
+            if (!active || !item) return null;
+            return <div className="rounded-md border bg-white px-3 py-2 text-[10px] shadow-lg" style={{ borderColor: theme.colors.border, fontFamily: theme.typography.body }}><strong style={{ color: theme.colors.primary }}>{item.iso3 ? <CountryLabel iso3={item.iso3} name={item.name} /> : item.name}</strong><p style={{ color: theme.colors.muted }}>mCPR moderne : {item.value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}{unit} · {item.year ?? "n.d."}</p></div>;
+          }} />
           <Bar dataKey="value" radius={[0, 4, 4, 0]} maxBarSize={18} isAnimationActive>
             {sorted.map((item) => <Cell key={item.id} fill={mixHex(rampStart, endColor, Math.max(0, Math.min(1, item.value / axisMax)))} />)}
             <LabelList dataKey="value" position="right" formatter={(value: unknown) => typeof value === "number" ? `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}${unit}` : ""} style={{ fill: theme.colors.text, fontSize: 9, fontWeight: 700 }} />

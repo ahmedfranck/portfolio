@@ -4,20 +4,20 @@ import Note, { type NoteVariant } from "./Note";
 
 export interface RecommendationItem {
   readonly id: string;
-  readonly title: ReactNode;
+  readonly title: string;
   readonly body: ReactNode;
   readonly variant?: NoteVariant;
 }
 
 export interface RecommendationGroup {
   readonly id: string;
-  readonly title: string;
+  readonly title: ReactNode;
   readonly description?: string;
   readonly items: readonly RecommendationItem[];
 }
 
 interface RecommendationsHubProps {
-  readonly title: string;
+  readonly title: ReactNode;
   readonly subtitle?: string;
   readonly groups: readonly RecommendationGroup[];
   readonly controls?: ReactNode;

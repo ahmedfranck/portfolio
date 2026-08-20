@@ -14,6 +14,8 @@ import { useAoTheme } from "../../hooks/useAoTheme";
 import { BarStack, DoughnutMix, HorizontalRankBars } from "../../components/portfolio/appels-offres/charts";
 import {
   DataTable,
+  CountryFlag,
+  CountryLabel,
   FilterChips,
   KpiCard,
   MapChoropleth,
@@ -57,7 +59,7 @@ function OverviewSection() {
   const realYears = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern")?.year ?? null]));
   const ranking = UCPO_COUNTRIES.flatMap((country) => {
     const observation = latestReal(country.iso3, "mcprModern");
-    return observation ? [{ id: country.iso3, name: country.name, value: observation.value, year: observation.year }] : [];
+    return observation ? [{ id: country.iso3, iso3: country.iso3, name: country.name, value: observation.value, year: observation.year }] : [];
   });
 
   return (
@@ -84,6 +86,7 @@ function OverviewSection() {
             scopeStrokeWidth={1}
             projectionCenter={[-2, 14]}
             projectionScale={840}
+            countryAdornment={(iso3) => <CountryFlag iso3={iso3} size="sm" />}
           />
         </Panel>
         <Panel title="Repères pays" subtitle="Classement selon la dernière observation WDI disponible.">
@@ -103,6 +106,7 @@ function OverviewSection() {
 
 function FinancingSection() {
   const rows = UCPO_COUNTRIES.map((country) => ({
+    iso3: country.iso3,
     country: country.shortName,
     domestic: Number((country.financingUsdMillions * country.domesticShare / 100).toFixed(1)),
     usaid: Number((country.financingUsdMillions * country.usaidExposure / 100).toFixed(1)),
@@ -123,7 +127,7 @@ function FinancingSection() {
       </div>
       <div className="grid gap-4 xl:grid-cols-[minmax(0,1.5fr)_minmax(280px,.75fr)]">
         <Panel title="Ventilation par pays" subtitle="Millions USD — scénario de portefeuille.">
-          <BarStack data={rows} xKey="country" series={[{ dataKey: "domestic", name: "Domestique", unit: " M USD" }, { dataKey: "usaid", name: "USAID", unit: " M USD" }, { dataKey: "others", name: "Autres", unit: " M USD" }]} height={350} ariaLabel="Financement illustratif de la planification familiale par pays" source={UCPO_DATASETS.financing.source} illustrative />
+          <BarStack data={rows} xKey="country" countryCodeKey="iso3" series={[{ dataKey: "domestic", name: "Domestique", unit: " M USD" }, { dataKey: "usaid", name: "USAID", unit: " M USD" }, { dataKey: "others", name: "Autres", unit: " M USD" }]} height={350} ariaLabel="Financement illustratif de la planification familiale par pays" source={UCPO_DATASETS.financing.source} illustrative />
         </Panel>
         <Panel title="Mix régional" subtitle="Part de l’enveloppe illustrative.">
           <DoughnutMix data={[{ id: "domestic", name: "Domestique", value: domestic }, { id: "usaid", name: "USAID", value: usaid }, { id: "others", name: "Autres partenaires", value: others }]} valueLabel="M USD" unit=" M" ariaLabel="Mix régional illustratif du financement" source={UCPO_DATASETS.financing.source} illustrative />
@@ -142,7 +146,7 @@ function CountriesSection() {
   return (
     <div className="space-y-4">
       <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles et trois callouts d’interprétation.">
-        <FilterChips label="Pays PO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: item.shortName }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
+        <FilterChips label="Pays PO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: <CountryLabel iso3={item.iso3} name={item.shortName} /> }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
       </Panel>
       <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} />
     </div>

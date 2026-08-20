@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { UCPO_COUNTRIES, type UcpoCountryCode, type UcpoCountryProfile } from "../../../../data/projects/ao-ucpo-observatoire";
-import { FilterChips, RecommendationsHub, type RecommendationGroup } from "../shared";
+import { CountryLabel, FilterChips, RecommendationsHub, type RecommendationGroup } from "../shared";
 
 function countryGroups(country: UcpoCountryProfile): readonly RecommendationGroup[] {
   return [
     {
       id: "country-overview",
-      title: `Fiche pays · Vue générale · ${country.name}`,
+      title: <span>Fiche pays · Vue générale · <CountryLabel iso3={country.iso3} name={country.name} /></span>,
       items: [
         { id: "country-overview-1", title: "Lecture 1", body: "La progression de la mCPR doit être lue avec l’évolution de la demande satisfaite." },
         { id: "country-overview-2", title: "Lecture 2", body: "Les écarts annuels relèvent ici d’un scénario et non d’une série FPET validée.", variant: "warning" },
@@ -15,7 +15,7 @@ function countryGroups(country: UcpoCountryProfile): readonly RecommendationGrou
     },
     {
       id: "country-financing",
-      title: `Fiche pays · Financement · ${country.name}`,
+      title: <span>Fiche pays · Financement · <CountryLabel iso3={country.iso3} name={country.name} /></span>,
       items: [
         { id: "country-financing-1", title: "Lecture 1", body: `La dépendance illustrée à USAID atteint ${country.usaidExposure} % de l’enveloppe.` },
         { id: "country-financing-2", title: "Lecture 2", body: "La part domestique indique la résilience potentielle, pas la qualité d’exécution budgétaire.", variant: "warning" },
@@ -24,7 +24,7 @@ function countryGroups(country: UcpoCountryProfile): readonly RecommendationGrou
     },
     {
       id: "country-demography",
-      title: `Fiche pays · Démographie · ${country.name}`,
+      title: <span>Fiche pays · Démographie · <CountryLabel iso3={country.iso3} name={country.name} /></span>,
       items: [
         { id: "country-demography-1", title: "Lecture 1", body: "L’ISF donne le contexte démographique mais ne mesure pas à lui seul la performance du programme." },
         { id: "country-demography-2", title: "Lecture 2", body: "La population des femmes de 15–49 ans sert de dénominateur de planification dans ce prototype.", variant: "warning" },
@@ -33,7 +33,7 @@ function countryGroups(country: UcpoCountryProfile): readonly RecommendationGrou
     },
     {
       id: "country-methods",
-      title: `Fiche pays · Méthodes · ${country.name}`,
+      title: <span>Fiche pays · Méthodes · <CountryLabel iso3={country.iso3} name={country.name} /></span>,
       items: [
         { id: "country-methods-1", title: "Lecture 1", body: "Un mix diversifié réduit la dépendance à une seule chaîne d’approvisionnement." },
         { id: "country-methods-2", title: "Lecture 2", body: "La part d’implants et d’injectables éclaire les besoins de formation et de logistique.", variant: "warning" },
@@ -42,7 +42,7 @@ function countryGroups(country: UcpoCountryProfile): readonly RecommendationGrou
     },
     {
       id: "country-impact",
-      title: `Fiche pays · Impact · ${country.name}`,
+      title: <span>Fiche pays · Impact · <CountryLabel iso3={country.iso3} name={country.name} /></span>,
       items: [
         { id: "country-impact-1", title: "Lecture 1", body: "Les grossesses évitées sont un résultat modélisé, pas un décompte administratif." },
         { id: "country-impact-2", title: "Lecture 2", body: "Le coût par utilisatrice facilite la comparaison, sans remplacer une analyse coût-efficacité complète.", variant: "warning" },
@@ -51,7 +51,7 @@ function countryGroups(country: UcpoCountryProfile): readonly RecommendationGrou
     },
     {
       id: "country-crisis",
-      title: `Fiche pays · Crise · ${country.name}`,
+      title: <span>Fiche pays · Crise · <CountryLabel iso3={country.iso3} name={country.name} /></span>,
       items: [
         { id: "country-crisis-1", title: "Lecture 1", body: "La continuité des services doit être priorisée dans les zones à déplacement prolongé." },
         { id: "country-crisis-2", title: "Lecture 2", body: "Les ruptures nationales peuvent masquer de fortes disparités infranationales.", variant: "warning" },
@@ -112,7 +112,7 @@ export default function UcpoRecommendations() {
       controls={(
         <FilterChips
           label="Lectures des fiches pays"
-          options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: item.shortName }))}
+          options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: <CountryLabel iso3={item.iso3} name={item.shortName} /> }))}
           value={[selected]}
           onChange={(values) => setSelected(values[0] as UcpoCountryCode)}
           multiple={false}

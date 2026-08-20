@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 import { AoDataBadges } from "./badges";
+import { CountryLabel } from "./CountryFlag";
 
 export interface RankListItem {
   readonly id: string;
@@ -8,6 +9,7 @@ export interface RankListItem {
   readonly value: number;
   readonly displayValue?: string;
   readonly detail?: string;
+  readonly iso3?: string;
 }
 
 interface RankListProps {
@@ -33,7 +35,7 @@ export default function RankList({ items, source, illustrative = false, descendi
             <span className="text-[10px] font-bold" style={{ color: theme.colors.accent }}>{String(index + 1).padStart(2, "0")}</span>
             <div className="min-w-0">
               <div className="flex items-baseline justify-between gap-2">
-                <span className="truncate text-[10px] font-semibold" style={{ color: theme.colors.primary }}>{item.label}</span>
+                <span className="truncate text-[10px] font-semibold" style={{ color: theme.colors.primary }}>{item.iso3 ? <CountryLabel iso3={item.iso3} name={item.label} /> : item.label}</span>
                 {item.detail && <span className="truncate text-[8px]" style={{ color: theme.colors.muted }}>{item.detail}</span>}
               </div>
               <div className="mt-1 h-1 overflow-hidden rounded-full" style={{ background: theme.colors.soft }}>
