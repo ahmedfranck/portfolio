@@ -101,7 +101,7 @@ function OverviewSection() {
       <div className="grid gap-3 md:grid-cols-3">
         <Note title="Périmètre confirmé">La vue régionale exclut tout pays hors des neuf membres du Partenariat de Ouagadougou.</Note>
         <Note title="Dates hétérogènes" variant="warning">Le millésime affiché varie selon le pays; comparer une valeur exige de vérifier son année d’observation.</Note>
-        <Note title="Lecture responsable" variant="info">Les KPIs transversaux de démonstration sont séparés des observations WDI réelles par un badge orange.</Note>
+        <Note title="Lecture responsable" variant="info">Les indicateurs illustratifs sont explicitement séparés des observations WDI réelles et signalés par un badge dédié.</Note>
       </div>
     </div>
   );
@@ -177,7 +177,7 @@ function CountriesSection() {
   return (
     <div className="space-y-4">
       <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles et trois callouts d’interprétation.">
-        <FilterChips label="Pays UCPO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: item.shortName }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
+        <FilterChips label="Pays PO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: item.shortName }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
       </Panel>
       <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} />
     </div>

@@ -19,6 +19,13 @@ interface HorizontalRankBarsProps {
   readonly illustrative?: boolean;
   readonly rampStart?: string;
   readonly rampEnd?: string;
+  readonly referenceYear?: number;
+}
+
+interface YearTickProps {
+  readonly x?: string | number;
+  readonly y?: string | number;
+  readonly payload?: { readonly value?: string };
 }
 
 function hexToRgb(hex: string) {
@@ -43,12 +50,37 @@ export default function HorizontalRankBars({
   illustrative = false,
   rampStart = "#D7B85A",
   rampEnd,
+  referenceYear = new Date().getFullYear(),
 }: HorizontalRankBarsProps) {
   const { theme } = useAoTheme();
   const endColor = rampEnd ?? theme.colors.primary;
   const sorted = [...data].sort((a, b) => b.value - a.value);
   const ticks = Array.from({ length: Math.floor(axisMax / 5) + 1 }, (_, index) => index * 5);
   const tableRows: ChartTableRow[] = sorted.map((item) => ({ country: item.name, value: item.value, year: item.year }));
+  const yearByName = new Map(sorted.map((item) => [item.name, item.year]));
+
+  function yearColors(year?: number) {
+    if (year == null) return { background: theme.colors.canvas, color: theme.colors.muted };
+    const age = referenceYear - year;
+    if (age < 2) return { background: `${theme.colors.positive}18`, color: theme.colors.positive };
+    if (age <= 4) return { background: "#FEF0E0", color: theme.colors.warning };
+    return { background: `${theme.colors.negative}16`, color: theme.colors.negative };
+  }
+
+  function YearTick({ x = 0, y = 0, payload }: YearTickProps) {
+    const name = payload?.value ?? "";
+    const year = yearByName.get(name);
+    const colors = yearColors(year);
+    const resolvedX = Number(x) || 0;
+    const resolvedY = Number(y) || 0;
+    return (
+      <g transform={`translate(${resolvedX},${resolvedY})`}>
+        <text x={-46} y={3} textAnchor="end" fill={theme.colors.primary} fontSize={9} fontWeight={600} fontFamily={theme.typography.body}>{name}</text>
+        <rect x={-40} y={-8} width={34} height={16} rx={8} fill={colors.background} />
+        <text x={-23} y={3} textAnchor="middle" fill={colors.color} fontSize={9} fontWeight={700} fontFamily={theme.typography.body}>{year ?? "n.d."}</text>
+      </g>
+    );
+  }
 
   return (
     <ChartScaffold
@@ -62,6 +94,12 @@ export default function HorizontalRankBars({
         { key: "year", label: "Millésime" },
       ]}
     >
+      <div className="mb-1 flex flex-wrap justify-end gap-2 text-[8px]" style={{ color: theme.colors.muted }}>
+        <span>Millésime :</span>
+        <span className="rounded-full px-2 py-0.5" style={yearColors(referenceYear)}>moins de 2 ans</span>
+        <span className="rounded-full px-2 py-0.5" style={yearColors(referenceYear - 3)}>2–4 ans</span>
+        <span className="rounded-full px-2 py-0.5" style={yearColors(referenceYear - 5)}>plus de 4 ans</span>
+      </div>
       <ResponsiveContainer width="100%" height={height}>
         <BarChart data={sorted} layout="vertical" margin={{ top: 8, right: 46, bottom: 14, left: 6 }}>
           <CartesianGrid stroke={theme.colors.border} strokeOpacity={0.65} horizontal={false} />
@@ -77,8 +115,8 @@ export default function HorizontalRankBars({
           <YAxis
             type="category"
             dataKey="name"
-            width={92}
-            tick={{ fontSize: 9, fill: theme.colors.primary, fontWeight: 600, fontFamily: theme.typography.body }}
+            width={148}
+            tick={YearTick}
             tickLine={false}
             axisLine={false}
           />
