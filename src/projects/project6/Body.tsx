@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import rawData from "../../data/project6.json";
 import type { DisplacementRow } from "../../data/types";
 import { COUNTRY_NAMES, MAX_YEAR } from "../../data/countries";
-import CountryMultiSelect from "../../components/filters/CountryMultiSelect";
 import YearSlider from "../../components/filters/YearSlider";
 import CountrySelect from "../../components/filters/CountrySelect";
 import KpiCard from "../../components/KpiCard";
@@ -22,7 +21,8 @@ import { formatCompact } from "../../lib/format";
 
 const ROWS = rawData.rows as DisplacementRow[];
 const INDICATORS = rawData.indicators as IndicatorSourceInfo[];
-const DEFAULT_COUNTRIES = ["BFA", "MLI", "NER", "TCD", "COD", "NGA"];
+const AVAILABLE_ISO3 = Array.from(new Set(ROWS.map((r) => r.iso3)));
+const INITIAL_COUNTRY = "BFA";
 
 function sumLatest(rows: DisplacementRow[], field: keyof DisplacementRow, countries: string[], cutoff: number) {
   const latest = latestAtOrBefore(rows, field, cutoff);
@@ -33,19 +33,26 @@ function sumLatest(rows: DisplacementRow[], field: keyof DisplacementRow, countr
 
 export default function Body() {
   const [tab, setTab] = useState("overview");
-  const [countries, setCountries] = useState<string[]>(DEFAULT_COUNTRIES);
+  const [countryFilter, setCountryFilter] = useState<string>("ALL");
   const [year, setYear] = useState<number>(MAX_YEAR);
-  const [selectedCountry, setSelectedCountry] = useState<string>(DEFAULT_COUNTRIES[0]);
+  const [selectedCountry, setSelectedCountry] = useState<string>(INITIAL_COUNTRY);
 
-  const filtered = useMemo(() => ROWS.filter((r) => countries.includes(r.iso3)), [countries]);
+  const effectiveCountries = useMemo(
+    () => (countryFilter === "ALL" ? AVAILABLE_ISO3 : [countryFilter]),
+    [countryFilter]
+  );
+  const filtered = useMemo(
+    () => (countryFilter === "ALL" ? ROWS : ROWS.filter((r) => r.iso3 === countryFilter)),
+    [countryFilter]
+  );
 
   const totals = useMemo(
     () => ({
-      refugees: sumLatest(filtered, "refugees", countries, year),
-      refugeesOrigin: sumLatest(filtered, "refugeesOrigin", countries, year),
-      idp: sumLatest(filtered, "idp", countries, year),
+      refugees: sumLatest(filtered, "refugees", effectiveCountries, year),
+      refugeesOrigin: sumLatest(filtered, "refugeesOrigin", effectiveCountries, year),
+      idp: sumLatest(filtered, "idp", effectiveCountries, year),
     }),
-    [filtered, countries, year]
+    [filtered, effectiveCountries, year]
   );
 
   const totalDisplaced = useMemo(() => {
@@ -75,7 +82,7 @@ export default function Body() {
   const rankingData = useMemo(() => {
     const latestRefugees = latestAtOrBefore(filtered, "refugees", year);
     const latestIdp = latestAtOrBefore(filtered, "idp", year);
-    return countries
+    return effectiveCountries
       .map((iso3) => {
         const r = latestRefugees[iso3]?.value;
         const i = latestIdp[iso3]?.value;
@@ -83,19 +90,19 @@ export default function Body() {
         return { name: COUNTRY_NAMES[iso3], value: (r ?? 0) + (i ?? 0) };
       })
       .filter((d): d is { name: string; value: number } => d != null);
-  }, [filtered, countries, year]);
+  }, [filtered, effectiveCountries, year]);
 
   const idpLineData = useMemo(() => {
     const years = Array.from({ length: year - 2010 + 1 }, (_, i) => 2010 + i);
     return years.map((y) => {
       const row: Record<string, number | string> = { year: y };
-      countries.forEach((iso3) => {
+      effectiveCountries.forEach((iso3) => {
         const rec = ROWS.find((r) => r.iso3 === iso3 && r.year === y);
         if (rec && rec.idp != null) row[iso3] = rec.idp;
       });
       return row;
     });
-  }, [countries, year]);
+  }, [effectiveCountries, year]);
 
   const countryProfile = useMemo(
     () => ({
@@ -118,8 +125,8 @@ export default function Body() {
 
   const filterBar = (
     <div className="flex flex-wrap items-end gap-4 rounded-card border border-line bg-white p-4 shadow-card">
-      <CountryMultiSelect selected={countries} onChange={setCountries} />
-      <YearSlider year={year} onChange={setYear} label="Données jusqu'à l'année" />
+      <CountrySelect value={countryFilter} onChange={setCountryFilter} countries={AVAILABLE_ISO3} allOption label="Pays" />
+      <YearSlider year={year} onChange={setYear} label="Année maximale" />
       <div className="ml-auto">
         <ExportButton filename="populations-deplacees" rows={tableRows} />
       </div>
@@ -142,8 +149,8 @@ export default function Body() {
             <StackedAreaChart
               data={flowData}
               series={[
-                { key: "idp", label: "Déplacés internes", color: "#F59E0B" },
-                { key: "refugees", label: "Réfugiés accueillis", color: "#5B4BE3" },
+                { key: "idp", label: "Déplacés internes", color: "#9A7850" },
+                { key: "refugees", label: "Réfugiés accueillis", color: "#29463A" },
               ]}
               valueSuffix=""
             />
@@ -184,7 +191,7 @@ export default function Body() {
       label: "Tendances",
       render: () => (
         <ChartCard title="Évolution des déplacés internes" description="Évolution réelle 2010 → année sélectionnée, pour les pays sélectionnés.">
-          <MultiLineChart data={idpLineData} seriesCodes={countries} valueSuffix=" pers." />
+          <MultiLineChart data={idpLineData} seriesCodes={effectiveCountries} valueSuffix=" pers." />
         </ChartCard>
       ),
     },

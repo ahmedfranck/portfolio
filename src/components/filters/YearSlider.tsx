@@ -14,9 +14,10 @@ export default function YearSlider({
   onChange,
   min = MIN_YEAR,
   max = MAX_YEAR,
-  label = "Année",
+  label = "Année maximale",
 }: YearSliderProps) {
   const id = useId();
+  const pct = max === min ? 100 : ((year - min) / (max - min)) * 100;
 
   return (
     <div className="min-w-[180px]">
@@ -31,7 +32,10 @@ export default function YearSlider({
         step={1}
         value={year}
         onChange={(e) => onChange(Number(e.target.value))}
-        className="h-2 w-full cursor-pointer appearance-none rounded-full bg-surface-2 accent-brand"
+        className="h-2 w-full cursor-pointer appearance-none rounded-full accent-brand"
+        style={{
+          background: `linear-gradient(to right, #29463A 0%, #29463A ${pct}%, #EBE8DF ${pct}%, #EBE8DF 100%)`,
+        }}
       />
       <div className="mt-1 flex justify-between text-[10px] text-text-2">
         <span>{min}</span>
