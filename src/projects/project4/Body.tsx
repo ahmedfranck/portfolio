@@ -32,12 +32,12 @@ import {
 const ROWS = rawData.rows as ReproductiveHealthRow[];
 
 const SECTIONS: readonly UcpoSection[] = [
-  { id: "overview", label: "Vue régionale", shortLabel: "Vue régionale", description: "9 pays, KPIs et carte" },
-  { id: "financing", label: "Financement", shortLabel: "Financement", description: "Mix bailleurs et exposition" },
-  { id: "countries", label: "Fiches pays", shortLabel: "9 fiches pays", description: "6 angles d’analyse par pays" },
-  { id: "crisis", label: "Contexte de crise", shortLabel: "Contexte de crise", description: "INFORM, PDI et ruptures" },
-  { id: "recommendations", label: "Lecture & recommandations", shortLabel: "Recommandations", description: "Interprétation et pilotage" },
-  { id: "sources", label: "Sources & méthode", shortLabel: "Sources & méthode", description: "Traçabilité des datasets" },
+  { id: "overview", label: "Vue régionale", shortLabel: "Vue régionale", description: "9 pays, KPIs et carte", group: "Pilotage" },
+  { id: "financing", label: "Financement", shortLabel: "Financement", description: "Mix bailleurs et exposition", group: "Pilotage" },
+  { id: "countries", label: "Fiches pays", shortLabel: "Fiches pays", description: "6 angles d’analyse par pays", group: "Pays & résilience", badge: "9" },
+  { id: "crisis", label: "Contexte de crise", shortLabel: "Contexte de crise", description: "INFORM, PDI et ruptures", group: "Pays & résilience" },
+  { id: "recommendations", label: "Lecture & recommandations", shortLabel: "Recommandations", description: "Interprétation et pilotage", group: "Capitalisation", badge: "30" },
+  { id: "sources", label: "Sources & méthode", shortLabel: "Sources & méthode", description: "Traçabilité des datasets", group: "Capitalisation" },
 ] as const;
 
 function latestReal(iso3: string, field: "mcprModern" | "tfr") {
