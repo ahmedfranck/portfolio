@@ -55,7 +55,7 @@ export default function KpiCard({
           <TrendIcon size={11} aria-hidden="true" /> {delta}
         </p>
       )}
-      {(source || illustrative) && <div className="mt-3"><AoDataBadges source={source} illustrative={illustrative} /></div>}
+      {(source || illustrative) && <div className="mt-3"><AoDataBadges source={source} illustrative={illustrative} sourceDisplay="disclosure" /></div>}
     </article>
   );
 }
