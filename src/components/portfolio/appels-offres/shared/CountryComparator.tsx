@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import { Check, GitCompareArrows } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
-import { AoDataBadges } from "./badges";
 import CountryFlag, { CountryLabel } from "./CountryFlag";
 
 export interface CountryComparatorMetric {
@@ -148,11 +147,6 @@ export default function CountryComparator({
         </div>
       </div>
 
-      {(source || illustrative) && (
-        <footer className="border-t px-4 py-3" style={{ borderColor: theme.colors.border, background: theme.colors.canvas }}>
-          <AoDataBadges source={source} illustrative={illustrative} />
-        </footer>
-      )}
     </section>
   );
 }

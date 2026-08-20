@@ -1,5 +1,4 @@
 import { useAoTheme } from "../../../../hooks/useAoTheme";
-import { AoDataBadges } from "./badges";
 
 export interface TimelineEntry {
   readonly id: string;
@@ -44,7 +43,6 @@ export default function Timeline({ entries, ariaLabel = "Événements structuran
                 {entry.impact && <span className="rounded-full px-2 py-0.5 text-[8px] font-bold" style={{ color, background: `${color}12` }}>{entry.impact}</span>}
               </div>
               <p className="mt-1 text-[10px] leading-relaxed" style={{ color: theme.colors.muted }}>{entry.description}</p>
-              {(entry.source || entry.illustrative) && <div className="mt-2"><AoDataBadges source={entry.source} illustrative={entry.illustrative} /></div>}
             </div>
           </li>
         );

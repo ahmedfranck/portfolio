@@ -4,7 +4,6 @@ import { Minus, Plus } from "lucide-react";
 import geoData from "../../../../data/geo/africa.json";
 import { COUNTRY_NAMES } from "../../../../data/countries";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
-import { AoDataBadges } from "./badges";
 
 interface MapChoroplethProps {
   readonly values: Readonly<Record<string, number | null>>;
@@ -228,7 +227,6 @@ export default function MapChoropleth({
             <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${resolvedOutsideFill} 0 3px, #C9C3B8 3px 4px)` }} />{outsideScopeLabel}</span>
           </div>
         </div>
-        <div><AoDataBadges source={source} illustrative={illustrative} /></div>
       </div>
     </div>
   );
