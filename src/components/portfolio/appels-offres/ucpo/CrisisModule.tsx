@@ -38,7 +38,7 @@ export default function CrisisModule() {
         </Panel>
       </div>
 
-      <Panel title="Registre de continuité des services" subtitle="Lecture opérationnelle par pays.">
+      <Panel title="Registre de continuité des services" subtitle="Priorisation opérationnelle par pays.">
         <DataTable
           rows={UCPO_COUNTRIES}
           rowKey={(row) => row.iso3}

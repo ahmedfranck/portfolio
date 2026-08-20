@@ -22,6 +22,7 @@ interface HorizontalRankBarsProps {
   readonly rampStart?: string;
   readonly rampEnd?: string;
   readonly referenceYear?: number;
+  readonly showYear?: boolean;
 }
 
 interface YearTickProps {
@@ -53,6 +54,7 @@ export default function HorizontalRankBars({
   rampStart = "#D7B85A",
   rampEnd,
   referenceYear = new Date().getFullYear(),
+  showYear = true,
 }: HorizontalRankBarsProps) {
   const { theme } = useAoTheme();
   const endColor = rampEnd ?? theme.colors.primary;
@@ -79,10 +81,9 @@ export default function HorizontalRankBars({
     const resolvedY = Number(y) || 0;
     return (
       <g transform={`translate(${resolvedX},${resolvedY})`}>
-        {iso3 && <foreignObject x={-174} y={-7} width={20} height={14}><CountryFlag iso3={iso3} size="sm" /></foreignObject>}
-        <text x={-150} y={3} textAnchor="start" fill={theme.colors.primary} fontSize={9} fontWeight={600} fontFamily={theme.typography.body}>{name}</text>
-        <rect x={-40} y={-8} width={34} height={16} rx={8} fill={colors.background} />
-        <text x={-23} y={3} textAnchor="middle" fill={colors.color} fontSize={9} fontWeight={700} fontFamily={theme.typography.body}>{year ?? "n.d."}</text>
+        {iso3 && <foreignObject x={showYear ? -174 : -132} y={-7} width={20} height={14}><CountryFlag iso3={iso3} size="sm" /></foreignObject>}
+        <text x={showYear ? -150 : -108} y={3} textAnchor="start" fill={theme.colors.primary} fontSize={9} fontWeight={600} fontFamily={theme.typography.body}>{name}</text>
+        {showYear && <><rect x={-40} y={-8} width={34} height={16} rx={8} fill={colors.background} /><text x={-23} y={3} textAnchor="middle" fill={colors.color} fontSize={9} fontWeight={700} fontFamily={theme.typography.body}>{year ?? "n.d."}</text></>}
       </g>
     );
   }
@@ -96,15 +97,15 @@ export default function HorizontalRankBars({
       tableColumns={[
         { key: "country", label: "Pays", render: (value, row) => row.iso3 ? <CountryLabel iso3={String(row.iso3)} name={String(value)} /> : String(value) },
         { key: "value", label: "mCPR moderne", format: (value) => typeof value === "number" ? `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}${unit}` : "n.d." },
-        { key: "year", label: "Millésime" },
+        ...(showYear ? [{ key: "year", label: "Millésime" }] : []),
       ]}
     >
-      <div className="mb-1 flex flex-wrap justify-end gap-2 text-[8px]" style={{ color: theme.colors.muted }}>
+      {showYear && <div className="mb-1 flex flex-wrap justify-end gap-2 text-[8px]" style={{ color: theme.colors.muted }}>
         <span>Millésime :</span>
         <span className="rounded-full px-2 py-0.5" style={yearColors(referenceYear)}>moins de 2 ans</span>
         <span className="rounded-full px-2 py-0.5" style={yearColors(referenceYear - 3)}>2–4 ans</span>
         <span className="rounded-full px-2 py-0.5" style={yearColors(referenceYear - 5)}>plus de 4 ans</span>
-      </div>
+      </div>}
       <ResponsiveContainer width="100%" height={height}>
         <BarChart data={sorted} layout="vertical" margin={{ top: 8, right: 46, bottom: 14, left: 6 }}>
           <CartesianGrid stroke={theme.colors.border} strokeOpacity={0.65} horizontal={false} />
@@ -120,7 +121,7 @@ export default function HorizontalRankBars({
           <YAxis
             type="category"
             dataKey="name"
-            width={182}
+            width={showYear ? 182 : 140}
             tick={YearTick}
             tickLine={false}
             axisLine={false}
@@ -128,7 +129,7 @@ export default function HorizontalRankBars({
           <Tooltip content={({ active, payload }) => {
             const item = payload?.[0]?.payload as HorizontalRankDatum | undefined;
             if (!active || !item) return null;
-            return <div className="rounded-md border bg-white px-3 py-2 text-[10px] shadow-lg" style={{ borderColor: theme.colors.border, fontFamily: theme.typography.body }}><strong style={{ color: theme.colors.primary }}>{item.iso3 ? <CountryLabel iso3={item.iso3} name={item.name} /> : item.name}</strong><p style={{ color: theme.colors.muted }}>mCPR moderne : {item.value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}{unit} · {item.year ?? "n.d."}</p></div>;
+            return <div className="rounded-md border bg-white px-3 py-2 text-[10px] shadow-lg" style={{ borderColor: theme.colors.border, fontFamily: theme.typography.body }}><strong style={{ color: theme.colors.primary }}>{item.iso3 ? <CountryLabel iso3={item.iso3} name={item.name} /> : item.name}</strong><p style={{ color: theme.colors.muted }}>{item.value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })}{unit}{showYear ? ` · ${item.year ?? "n.d."}` : ""}</p></div>;
           }} />
           <Bar dataKey="value" radius={[0, 4, 4, 0]} maxBarSize={18} isAnimationActive>
             {sorted.map((item) => <Cell key={item.id} fill={mixHex(rampStart, endColor, Math.max(0, Math.min(1, item.value / axisMax)))} />)}
