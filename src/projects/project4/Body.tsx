@@ -1,198 +1,249 @@
 import { useMemo, useState } from "react";
 import rawData from "../../data/project4.json";
 import type { ReproductiveHealthRow } from "../../data/types";
-import { COUNTRY_NAMES, MAX_YEAR } from "../../data/countries";
-import CountryMultiSelect from "../../components/filters/CountryMultiSelect";
-import YearSlider from "../../components/filters/YearSlider";
-import KpiCard from "../../components/KpiCard";
-import ChartCard from "../../components/ChartCard";
-import ExportButton from "../../components/ExportButton";
-import InsightBox from "../../components/InsightBox";
-import DashboardTabs, { type DashboardTab } from "../../components/DashboardTabs";
-import DataTable, { type DataTableColumn } from "../../components/DataTable";
-import ChoroplethMap from "../../components/charts/ChoroplethMap";
-import MultiLineChart from "../../components/charts/MultiLineChart";
-import ScatterChartCard from "../../components/charts/ScatterChartCard";
-import RankingBarChart from "../../components/charts/RankingBarChart";
-import SourcesPanel, { type IndicatorSourceInfo } from "../../components/SourcesPanel";
-import { latestAtOrBefore, averageDefined, averageYoYAcrossCountries, NO_DATA_LABEL } from "../../lib/realdata";
-import { formatNumber, formatPercent } from "../../lib/format";
+import {
+  UCPO_COUNTRIES,
+  UCPO_COUNTRY_CODES,
+  UCPO_DATASETS,
+  UCPO_OBSERVATOIRE_MANIFEST,
+  UCPO_TIMELINE,
+  type UcpoCountryCode,
+  type UcpoDatasetMeta,
+} from "../../data/projects/ao-ucpo-observatoire";
+import { useAoTheme } from "../../hooks/useAoTheme";
+import { BarStack, DoughnutMix } from "../../components/portfolio/appels-offres/charts";
+import {
+  DataTable,
+  FilterChips,
+  KpiCard,
+  MapChoropleth,
+  Note,
+  Panel,
+  RankList,
+  SumBand,
+  Timeline,
+} from "../../components/portfolio/appels-offres/shared";
+import {
+  CrisisModule,
+  MotionTracker,
+  UcpoCountryFiche,
+  UcpoSidebar,
+  type UcpoSection,
+} from "../../components/portfolio/appels-offres/ucpo";
 
 const ROWS = rawData.rows as ReproductiveHealthRow[];
-const INDICATORS = rawData.indicators as IndicatorSourceInfo[];
-const DEFAULT_COUNTRIES = ["BEN", "CIV", "GHA", "MLI", "SEN", "TGO"];
 
-function kpiFor(
-  rows: ReproductiveHealthRow[],
-  field: keyof ReproductiveHealthRow,
-  countries: string[],
-  cutoff: number
-) {
-  const latest = latestAtOrBefore(rows, field, cutoff);
-  const avg = averageDefined(countries.map((c) => latest[c]?.value));
-  const rowsUpToCutoff = rows.filter((r) => r.year <= cutoff);
-  const yoy = averageYoYAcrossCountries(rowsUpToCutoff, field, countries);
-  return { avg, yoy };
+const SECTIONS: readonly UcpoSection[] = [
+  { id: "overview", label: "Vue régionale", shortLabel: "Vue régionale", description: "9 pays, KPIs et carte" },
+  { id: "motion", label: "Motion Tracker", shortLabel: "Motion Tracker", description: "Trajectoires mCPR 2011–2024" },
+  { id: "financing", label: "Financement", shortLabel: "Financement", description: "Mix bailleurs et exposition" },
+  { id: "countries", label: "Fiches pays", shortLabel: "9 fiches pays", description: "6 angles d’analyse par pays" },
+  { id: "crisis", label: "Contexte de crise", shortLabel: "Contexte de crise", description: "INFORM, PDI et ruptures" },
+  { id: "sources", label: "Sources & méthode", shortLabel: "Sources & méthode", description: "Traçabilité des datasets" },
+] as const;
+
+function latestReal(iso3: string, field: "mcprModern" | "tfr") {
+  const observations = ROWS
+    .filter((row) => row.iso3 === iso3 && row[field] != null)
+    .sort((a, b) => b.year - a.year);
+  const row = observations[0];
+  return row ? { value: row[field] as number, year: row.year } : null;
 }
 
-export default function Body() {
-  const [tab, setTab] = useState("overview");
-  const [countries, setCountries] = useState<string[]>(DEFAULT_COUNTRIES);
-  const [year, setYear] = useState<number>(MAX_YEAR);
+function average(values: readonly number[]) {
+  return values.reduce((sum, value) => sum + value, 0) / Math.max(1, values.length);
+}
 
-  const filtered = useMemo(() => ROWS.filter((r) => countries.includes(r.iso3)), [countries]);
+function OverviewSection() {
+  const realMcpr = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern")?.value ?? null]));
+  const realYears = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern")?.year ?? null]));
+  const ranking = UCPO_COUNTRIES.flatMap((country) => {
+    const observation = latestReal(country.iso3, "mcprModern");
+    return observation ? [{ id: country.iso3, label: country.name, value: observation.value, displayValue: `${observation.value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`, detail: String(observation.year) }] : [];
+  });
 
-  const kpis = useMemo(
-    () => ({
-      mcpr: kpiFor(filtered, "mcpr", countries, year),
-      mcprModern: kpiFor(filtered, "mcprModern", countries, year),
-      tfr: kpiFor(filtered, "tfr", countries, year),
-      demandSatisfied: kpiFor(filtered, "demandSatisfied", countries, year),
-    }),
-    [filtered, countries, year]
-  );
-
-  const lineData = useMemo(() => {
-    const years = Array.from({ length: year - 2010 + 1 }, (_, i) => 2010 + i);
-    return years.map((y) => {
-      const row: Record<string, number | string> = { year: y };
-      countries.forEach((iso3) => {
-        const rec = ROWS.find((r) => r.iso3 === iso3 && r.year === y);
-        if (rec && rec.mcpr != null) row[iso3] = rec.mcpr;
-      });
-      return row;
-    });
-  }, [countries, year]);
-
-  const mapValues = useMemo(() => {
-    const latest = latestAtOrBefore(ROWS, "mcprModern", year);
-    return Object.fromEntries(Object.entries(latest).map(([iso3, obs]) => [iso3, obs?.value ?? null]));
-  }, [year]);
-  const mapYears = useMemo(() => {
-    const latest = latestAtOrBefore(ROWS, "mcprModern", year);
-    return Object.fromEntries(Object.entries(latest).map(([iso3, obs]) => [iso3, obs?.year ?? null]));
-  }, [year]);
-
-  const scatterData = useMemo(() => {
-    const tfr = latestAtOrBefore(filtered, "tfr", year);
-    const mcprModern = latestAtOrBefore(filtered, "mcprModern", year);
-    return countries
-      .map((iso3) => ({
-        iso3,
-        name: COUNTRY_NAMES[iso3],
-        x: tfr[iso3]?.value,
-        y: mcprModern[iso3]?.value,
-      }))
-      .filter((d): d is { iso3: string; name: string; x: number; y: number } => d.x != null && d.y != null);
-  }, [filtered, countries, year]);
-
-  const modernRankingData = useMemo(() => {
-    const latest = latestAtOrBefore(filtered, "mcprModern", year);
-    return countries
-      .map((iso3) => ({ name: COUNTRY_NAMES[iso3], value: latest[iso3]?.value }))
-      .filter((d): d is { name: string; value: number } => d.value != null);
-  }, [filtered, countries, year]);
-
-  const demandRankingData = useMemo(() => {
-    const latest = latestAtOrBefore(filtered, "demandSatisfied", year);
-    return countries
-      .map((iso3) => ({ name: COUNTRY_NAMES[iso3], value: latest[iso3]?.value }))
-      .filter((d): d is { name: string; value: number } => d.value != null);
-  }, [filtered, countries, year]);
-
-  const tableRows = useMemo(() => filtered.map((r) => ({ ...r, pays: COUNTRY_NAMES[r.iso3] })), [filtered]);
-
-  const columns: DataTableColumn<(typeof tableRows)[number]>[] = [
-    { key: "pays", label: "Pays" },
-    { key: "year", label: "Année" },
-    { key: "mcpr", label: "Prévalence (toutes méthodes)", format: (v) => (v != null ? formatPercent(v as number) : NO_DATA_LABEL) },
-    { key: "mcprModern", label: "Prévalence moderne", format: (v) => (v != null ? formatPercent(v as number) : NO_DATA_LABEL) },
-    { key: "tfr", label: "Fécondité (ISF)", format: (v) => (v != null ? formatNumber(v as number, 2) : NO_DATA_LABEL) },
-    { key: "demandSatisfied", label: "Demande satisfaite", format: (v) => (v != null ? formatPercent(v as number) : NO_DATA_LABEL) },
-  ];
-
-  const filterBar = (
-    <div className="flex flex-wrap items-end gap-4 rounded-card border border-line bg-white p-4 shadow-card">
-      <CountryMultiSelect selected={countries} onChange={setCountries} />
-      <YearSlider year={year} onChange={setYear} label="Données jusqu'à l'année" />
-      <div className="ml-auto">
-        <ExportButton filename="sante-reproductive-fecondite" rows={tableRows} />
+  return (
+    <div className="space-y-4">
+      <div className="grid gap-4 xl:grid-cols-[minmax(0,1.5fr)_minmax(270px,.75fr)]">
+        <Panel title="mCPR moderne — dernière observation réelle" subtitle="Périmètre strict des neuf pays membres du Partenariat de Ouagadougou.">
+          <MapChoropleth values={realMcpr} years={realYears} countries={UCPO_COUNTRY_CODES} suffix=" %" source={UCPO_DATASETS.wdiCore.source} ariaLabel="Prévalence contraceptive moderne dans les neuf pays UCPO" />
+        </Panel>
+        <Panel title="Repères pays" subtitle="Classement selon la dernière observation WDI disponible.">
+          <RankList items={ranking} source={UCPO_DATASETS.wdiCore.source} />
+        </Panel>
+      </div>
+      <div className="grid gap-3 md:grid-cols-3">
+        <Note title="Périmètre confirmé">La vue régionale exclut tout pays hors des neuf membres du Partenariat de Ouagadougou.</Note>
+        <Note title="Dates hétérogènes" variant="warning">Le millésime affiché varie selon le pays; comparer une valeur exige de vérifier son année d’observation.</Note>
+        <Note title="Lecture responsable" variant="info">Les KPIs transversaux de démonstration sont séparés des observations WDI réelles par un badge orange.</Note>
       </div>
     </div>
   );
+}
 
-  const tabs: DashboardTab[] = [
-    {
-      id: "overview",
-      label: "Vue d'ensemble",
-      render: () => (
-        <div className="space-y-6">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <KpiCard label="Prévalence contraceptive (toutes méthodes)" value={kpis.mcpr.avg != null ? formatPercent(kpis.mcpr.avg) : NO_DATA_LABEL} yoyChange={kpis.mcpr.yoy} />
-            <KpiCard label="Prévalence, méthodes modernes" value={kpis.mcprModern.avg != null ? formatPercent(kpis.mcprModern.avg) : NO_DATA_LABEL} yoyChange={kpis.mcprModern.yoy} />
-            <KpiCard label="Indice synthétique de fécondité" value={kpis.tfr.avg != null ? formatNumber(kpis.tfr.avg, 2) : NO_DATA_LABEL} unit={kpis.tfr.avg != null ? "naiss./femme" : undefined} yoyChange={kpis.tfr.yoy} lowerIsBetter />
-            <KpiCard label="Demande satisfaite (méthodes modernes)" value={kpis.demandSatisfied.avg != null ? formatPercent(kpis.demandSatisfied.avg) : NO_DATA_LABEL} yoyChange={kpis.demandSatisfied.yoy} />
-          </div>
-          <ChartCard title="Classement — prévalence contraceptive moderne" description="Dernière valeur réelle disponible par pays sélectionné.">
-            <RankingBarChart data={modernRankingData} valueSuffix=" %" />
-          </ChartCard>
-          <InsightBox>
-            <p>
-              La prévalence contraceptive moderne progresse dans la plupart des pays du panel, en lien avec une
-              baisse progressive de l'indice de fécondité.
-            </p>
-          </InsightBox>
+function MotionSection() {
+  const [countries, setCountries] = useState<UcpoCountryCode[]>([...UCPO_COUNTRY_CODES]);
+  return (
+    <div className="space-y-4">
+      <Panel title="Motion Tracker régional" subtitle="Filtrer les trajectoires sans perdre la traçabilité du scénario.">
+        <div className="mb-4">
+          <FilterChips
+            label="Pays"
+            options={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, label: country.shortName }))}
+            value={countries}
+            onChange={(values) => values.length > 0 && setCountries(values as UcpoCountryCode[])}
+          />
         </div>
-      ),
-    },
-    {
-      id: "trends",
-      label: "Tendances",
-      render: () => (
-        <ChartCard title="Évolution de la prévalence contraceptive (toutes méthodes)" description="Évolution réelle 2010 → année sélectionnée, pour les pays sélectionnés.">
-          <MultiLineChart data={lineData} seriesCodes={countries} valueSuffix=" %" />
-        </ChartCard>
-      ),
-    },
-    {
-      id: "map",
-      label: "Carte",
-      render: () => (
-        <ChartCard title="Prévalence contraceptive moderne par pays" description="Carte interactive : zoom, survol et clic. Dernière valeur réelle disponible.">
-          <ChoroplethMap values={mapValues} years={mapYears} valueSuffix=" %" polarity="positive" />
-        </ChartCard>
-      ),
-    },
-    {
-      id: "comparison",
-      label: "Comparaison",
-      render: () => (
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-          <ChartCard title="Fécondité vs prévalence contraceptive moderne" description="Dernière valeur réelle disponible par pays sélectionné.">
-            <ScatterChartCard data={scatterData} xLabel="Indice de fécondité" yLabel="Prévalence, méthodes modernes" xSuffix=" naiss./femme" ySuffix=" %" />
-          </ChartCard>
-          <ChartCard title="Classement — demande satisfaite par méthodes modernes" description="Dernière valeur réelle disponible par pays.">
-            <RankingBarChart data={demandRankingData} valueSuffix=" %" />
-          </ChartCard>
-        </div>
-      ),
-    },
-    {
-      id: "data",
-      label: "Données",
-      render: () => (
-        <div className="space-y-4">
-          <DataTable rows={tableRows} columns={columns} searchableKey="pays" />
-          <SourcesPanel indicators={INDICATORS} />
-        </div>
-      ),
-    },
-  ];
+        <MotionTracker countries={countries} />
+      </Panel>
+      <div className="grid gap-3 md:grid-cols-3">
+        <Note title="Courbe monotone">Le rendu Recharts reprend la tension visuelle du prototype UCPO via une interpolation monotone.</Note>
+        <Note title="Série démonstrative" variant="warning">Les points annuels sont interpolés pour le prototype et ne doivent pas être cités comme estimations FPET.</Note>
+        <Note title="Substitution finale" variant="info">La livraison finale doit charger les séries pays validées par Track20/FP2030 et conserver leurs intervalles d’incertitude.</Note>
+      </div>
+    </div>
+  );
+}
+
+function FinancingSection() {
+  const rows = UCPO_COUNTRIES.map((country) => ({
+    country: country.shortName,
+    domestic: Number((country.financingUsdMillions * country.domesticShare / 100).toFixed(1)),
+    usaid: Number((country.financingUsdMillions * country.usaidExposure / 100).toFixed(1)),
+    others: Number((country.financingUsdMillions * (100 - country.domesticShare - country.usaidExposure) / 100).toFixed(1)),
+  }));
+  const domestic = rows.reduce((sum, row) => sum + row.domestic, 0);
+  const usaid = rows.reduce((sum, row) => sum + row.usaid, 0);
+  const others = rows.reduce((sum, row) => sum + row.others, 0);
+  const total = domestic + usaid + others;
 
   return (
-    <div className="space-y-6">
-      {filterBar}
-      <DashboardTabs tabs={tabs} active={tab} onChange={setTab} />
+    <div className="space-y-4">
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        <KpiCard label="Enveloppe régionale" value={total.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="M USD" source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Ressources domestiques" value={(domestic / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Exposition USAID" value={(usaid / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" source={UCPO_DATASETS.financing.source} illustrative />
+        <KpiCard label="Autres partenaires" value={(others / total * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} unit="%" source={UCPO_DATASETS.financing.source} illustrative />
+      </div>
+      <div className="grid gap-4 xl:grid-cols-[minmax(0,1.5fr)_minmax(280px,.75fr)]">
+        <Panel title="Ventilation par pays" subtitle="Millions USD — scénario de portefeuille.">
+          <BarStack data={rows} xKey="country" series={[{ dataKey: "domestic", name: "Domestique", unit: " M USD" }, { dataKey: "usaid", name: "USAID", unit: " M USD" }, { dataKey: "others", name: "Autres", unit: " M USD" }]} height={350} ariaLabel="Financement illustratif de la planification familiale par pays" source={UCPO_DATASETS.financing.source} illustrative />
+        </Panel>
+        <Panel title="Mix régional" subtitle="Part de l’enveloppe illustrative.">
+          <DoughnutMix data={[{ id: "domestic", name: "Domestique", value: domestic }, { id: "usaid", name: "USAID", value: usaid }, { id: "others", name: "Autres partenaires", value: others }]} valueLabel="M USD" unit=" M" ariaLabel="Mix régional illustratif du financement" source={UCPO_DATASETS.financing.source} illustrative />
+        </Panel>
+      </div>
+      <div className="grid gap-3 md:grid-cols-3">
+        <Note title="Exposition bailleur" variant="warning">Une part USAID élevée signale un besoin de scénario de continuité, sans préjuger des décaissements réels.</Note>
+        <Note title="Effort domestique">La part nationale sert d’indicateur de résilience financière et doit être rapprochée de l’exécution budgétaire.</Note>
+        <Note title="Validation finale" variant="info">Les montants seront remplacés par les comptes nationaux, rapports FPSA et données bailleurs validés.</Note>
+      </div>
+    </div>
+  );
+}
+
+function CountriesSection() {
+  const [selected, setSelected] = useState<UcpoCountryCode>("SEN");
+  const country = UCPO_COUNTRIES.find((item) => item.iso3 === selected)!;
+  const mcpr = latestReal(selected, "mcprModern");
+  const tfr = latestReal(selected, "tfr");
+
+  return (
+    <div className="space-y-4">
+      <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles et trois callouts d’interprétation.">
+        <FilterChips label="Pays UCPO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: item.shortName }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
+      </Panel>
+      <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} />
+    </div>
+  );
+}
+
+function SourcesSection() {
+  const datasets = Object.values(UCPO_DATASETS) as UcpoDatasetMeta[];
+  return (
+    <div className="space-y-4">
+      <Panel title="Registre de provenance" subtitle="Un flag explicite distingue chaque dataset démonstratif des données publiques réelles.">
+        <DataTable
+          rows={datasets}
+          rowKey={(row) => row.id}
+          columns={[
+            { id: "dataset", header: "Dataset", accessor: (row) => row.label },
+            { id: "status", header: "Statut", accessor: (row) => row.illustrative ? "Illustratif" : "Réel" },
+            { id: "source", header: "Source / cadre", accessor: (row) => row.source },
+            { id: "note", header: "Règle d’usage", accessor: (row) => row.note },
+          ]}
+          source="Manifeste UCPO du projet"
+          illustrative={datasets.some((dataset) => dataset.illustrative)}
+          exportFilename="ucpo-registre-sources"
+        />
+      </Panel>
+      <Panel title="Chronologie programmatique" subtitle="Jalons éditoriaux du prototype.">
+        <Timeline entries={UCPO_TIMELINE} />
+      </Panel>
+      <div className="grid gap-3 md:grid-cols-3">
+        <Note title="Principe de priorité">Une donnée publique gratuite et sans clé remplace le scénario dès qu’elle est disponible et documentée.</Note>
+        <Note title="Accès restreint" variant="warning">ACLED requiert un compte; aucune valeur ACLED n’est présentée comme observation réelle dans cette version.</Note>
+        <Note title="Reproductibilité" variant="info">Le manifeste centralise statut, URL, source et règle d’usage pour faciliter le remplacement dataset par dataset.</Note>
+      </div>
+    </div>
+  );
+}
+
+export default function Body() {
+  const { theme } = useAoTheme();
+  const [section, setSection] = useState("overview");
+  const financingTotal = UCPO_COUNTRIES.reduce((sum, country) => sum + country.financingUsdMillions, 0);
+  const modernUsers = UCPO_COUNTRIES.reduce((sum, country) => sum + country.modernUsersMillions, 0);
+  const currentMcprAverage = average(UCPO_COUNTRIES.map((country) => country.currentMcpr));
+  const highRiskCountries = UCPO_COUNTRIES.filter((country) => country.informRisk >= 7).length;
+  const activeLabel = SECTIONS.find((item) => item.id === section)?.label ?? "Observatoire";
+
+  const content = useMemo(() => {
+    if (section === "motion") return <MotionSection />;
+    if (section === "financing") return <FinancingSection />;
+    if (section === "countries") return <CountriesSection />;
+    if (section === "crisis") return <CrisisModule />;
+    if (section === "sources") return <SourcesSection />;
+    return <OverviewSection />;
+  }, [section]);
+
+  return (
+    <div className="space-y-5" style={{ fontFamily: theme.typography.body }}>
+      <SumBand
+        eyebrow="Observatoire régional de la planification familiale"
+        title="Neuf pays, une lecture commune de la performance et de la résilience"
+        subtitle="Prototype de référence UCPO · données réelles et illustratives explicitement séparées."
+        stats={[
+          { label: "Pays UCPO", value: 9, source: "Périmètre du Partenariat de Ouagadougou" },
+          { label: "mCPR 2024", value: currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "%", source: UCPO_DATASETS.motion.source, illustrative: true },
+          { label: "Utilisatrices", value: modernUsers.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: "M", source: UCPO_DATASETS.impact.source, illustrative: true },
+          { label: "Financement", value: financingTotal.toLocaleString("fr-FR", { maximumFractionDigits: 0 }), unit: "M USD", source: UCPO_DATASETS.financing.source, illustrative: true },
+          { label: "Risque élevé", value: highRiskCountries, unit: "pays", source: UCPO_DATASETS.crisis.source, illustrative: true },
+        ]}
+      />
+
+      <div className="grid items-start gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">
+        <UcpoSidebar sections={SECTIONS} active={section} onChange={setSection} />
+        <main className="min-w-0" aria-label={activeLabel}>
+          <div className="mb-4 flex items-end justify-between gap-3 border-b pb-3" style={{ borderColor: theme.colors.border }}>
+            <div>
+              <p className="text-[8px] font-bold uppercase tracking-[0.16em]" style={{ color: theme.colors.accent }}>Observatoire PF</p>
+              <h2 className="mt-1 text-xl" style={{ color: theme.colors.primary, fontFamily: theme.typography.heading }}>{activeLabel}</h2>
+            </div>
+            <span className="hidden rounded-full px-3 py-1 text-[8px] font-bold uppercase tracking-[0.08em] sm:inline" style={{ color: theme.colors.primary, background: theme.colors.soft }}>9 pays PO</span>
+          </div>
+          {content}
+        </main>
+      </div>
+
+      <footer className="rounded-[9px] border px-4 py-4" style={{ borderColor: theme.colors.border, background: theme.colors.canvas }}>
+        <div className="flex flex-wrap gap-x-4 gap-y-2 text-[9px] font-semibold">
+          {Object.entries(UCPO_OBSERVATOIRE_MANIFEST.sources).map(([id, url]) => (
+            <a key={id} href={url} target="_blank" rel="noreferrer" className="underline decoration-current/30 underline-offset-2" style={{ color: theme.colors.primary }}>{id.toUpperCase()}</a>
+          ))}
+        </div>
+        <p className="mt-3 text-[10px] leading-relaxed" style={{ color: theme.colors.muted }}>{UCPO_OBSERVATOIRE_MANIFEST.disclaimer}</p>
+      </footer>
     </div>
   );
 }
