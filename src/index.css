@@ -891,3 +891,22 @@ body {
 [data-ao-theme]:not([data-ao-theme="ucpo"]) .dashboard-insights__item > span:first-child {
   font-family: "Manrope", system-ui, sans-serif;
 }
+
+.ao-year-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  background: var(--ao-slider-accent);
+  box-shadow: 0 0 0 1px var(--ao-slider-border), 0 2px 6px rgb(15 23 42 / 20%);
+}
+
+.ao-year-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  background: var(--ao-slider-accent);
+  box-shadow: 0 0 0 1px var(--ao-slider-border), 0 2px 6px rgb(15 23 42 / 20%);
+}

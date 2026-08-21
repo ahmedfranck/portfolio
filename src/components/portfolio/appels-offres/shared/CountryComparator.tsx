@@ -1,7 +1,8 @@
 import type { ReactNode } from "react";
-import { Check, GitCompareArrows } from "lucide-react";
+import { GitCompareArrows } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
-import CountryFlag, { CountryLabel } from "./CountryFlag";
+import { CountryLabel } from "./CountryFlag";
+import CountryMultiSelect from "./CountryMultiSelect";
 
 export interface CountryComparatorMetric {
   readonly id: string;
@@ -53,16 +54,6 @@ export default function CountryComparator({
   const { theme } = useAoTheme();
   const selected = entities.filter((entity) => selectedIds.includes(entity.id)).slice(0, max);
 
-  function toggle(id: string) {
-    if (selectedIds.includes(id)) {
-      if (selectedIds.length <= min) return;
-      onChange(selectedIds.filter((item) => item !== id));
-      return;
-    }
-    if (selectedIds.length >= max) return;
-    onChange([...selectedIds, id]);
-  }
-
   return (
     <section className="overflow-hidden rounded-[9px] border bg-white shadow-sm" style={{ borderColor: theme.colors.border, fontFamily: theme.typography.body }}>
       <header className="flex flex-wrap items-start justify-between gap-3 border-b px-4 py-3" style={{ borderColor: theme.colors.border }}>
@@ -79,32 +70,13 @@ export default function CountryComparator({
       </header>
 
       <div className="space-y-4 p-4">
-        <fieldset>
-          <legend className="mb-2 text-[8px] font-bold uppercase tracking-[0.12em]" style={{ color: theme.colors.muted }}>
-            Sélection persistante · minimum {min}, maximum {max}
-          </legend>
-          <div className="flex flex-wrap gap-2">
-            {entities.map((entity) => {
-              const active = selectedIds.includes(entity.id);
-              const disabled = !active && selectedIds.length >= max;
-              return (
-                <button
-                  key={entity.id}
-                  type="button"
-                  aria-pressed={active}
-                  disabled={disabled}
-                  onClick={() => toggle(entity.id)}
-                  className="inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1.5 text-[9px] font-semibold transition disabled:cursor-not-allowed disabled:opacity-35"
-                  style={{ borderColor: active ? theme.colors.primary : theme.colors.border, color: active ? "#FFFFFF" : theme.colors.primary, background: active ? theme.colors.primary : "#FFFFFF" }}
-                >
-                  <CountryFlag iso3={entity.iso3} size="sm" />
-                  {entity.shortName ?? entity.name}
-                  {active && <Check size={11} aria-hidden="true" />}
-                </button>
-              );
-            })}
-          </div>
-        </fieldset>
+        <CountryMultiSelect
+          options={entities.map((entity) => ({ value: entity.id, iso3: entity.iso3, label: entity.shortName ?? entity.name }))}
+          value={selectedIds}
+          onChange={onChange}
+          min={min}
+          max={max}
+        />
 
         <div className="grid gap-3 sm:grid-cols-2 2xl:grid-cols-4">
           {selected.map((entity) => (
