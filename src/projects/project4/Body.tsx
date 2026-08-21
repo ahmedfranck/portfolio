@@ -184,7 +184,7 @@ function CountriesSection({ countries, yearRange }: { readonly countries: readon
           options={UCPO_COUNTRIES.map((item) => ({
             value: item.iso3,
             iso3: item.iso3,
-            label: item.name,
+            label: item.shortName,
             disabled: !countries.includes(item.iso3),
             description: countries.includes(item.iso3) ? undefined : "Exclu par le filtre pays",
           }))}
@@ -205,91 +205,34 @@ function CountriesSection({ countries, yearRange }: { readonly countries: readon
 }
 
 const COMPARISON_METRICS = [
-  { id: "trend", label: "Évolution mCPR — période active", kind: "sparkline" },
   { id: "mcpr", label: "mCPR" },
-  { id: "demand", label: "Demande satisfaite" },
-  { id: "unmet", label: "Besoins non satisfaits" },
   { id: "users", label: "Utilisatrices" },
   { id: "financing", label: "Financement" },
-  { id: "domestic", label: "Financement domestique / total" },
   { id: "usaid", label: "Exposition USAID" },
-  { id: "cost", label: "Coût par utilisatrice" },
   { id: "inform", label: "Risque INFORM" },
-  { id: "displaced", label: "Personnes déplacées internes" },
-  { id: "acled", label: "Événements ACLED" },
-  { id: "stockouts", label: "Ruptures de stock" },
   { id: "pregnancies", label: "Grossesses évitées" },
   { id: "deaths", label: "Décès maternels évités" },
 ] as const;
 
-function buildComparisonEntities(maxYear: number): readonly CountryComparatorEntity[] {
-  const trajectory = UCPO_MCPR_SERIES.filter((row) => row.year <= maxYear);
-  const indicatorYear = Math.min(2024, maxYear);
-  const trajectoryStartYear = trajectory[0]?.year ?? indicatorYear;
-  const illustrativeTag = `${indicatorYear} ill.`;
+const COMPARISON_ENTITIES: readonly CountryComparatorEntity[] = UCPO_COUNTRIES.map((country) => ({
+  id: country.iso3,
+  iso3: country.iso3,
+  name: country.name,
+  shortName: country.shortName,
+  values: {
+    mcpr: `${country.currentMcpr.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`,
+    users: `${country.modernUsersMillions.toLocaleString("fr-FR", { maximumFractionDigits: 2 })} M`,
+    financing: `${country.financingUsdMillions.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} M USD`,
+    usaid: `${country.usaidExposure.toLocaleString("fr-FR")} %`,
+    inform: country.informRisk.toLocaleString("fr-FR", { maximumFractionDigits: 1 }),
+    pregnancies: `${country.pregnanciesAvoidedThousands.toLocaleString("fr-FR")} k`,
+    deaths: country.deathsAvoided.toLocaleString("fr-FR"),
+  },
+  mix: country.methods.map((method) => ({ label: method.name, value: method.value })),
+}));
 
-  return UCPO_COUNTRIES.map((country) => {
-    const realMcpr = latestReal(country.iso3, "mcprModern", [2010, maxYear]);
-    const countryTrend = trajectory.map((row) => Number(row[country.iso3]));
-    const modeledMcpr = countryTrend.at(-1) ?? country.baselineMcpr;
-    const demandSatisfied = Math.min(82, 34 + modeledMcpr * 1.28);
-    const unmetNeed = Math.max(12, 30 - modeledMcpr * 0.35);
-    const acledEvents = Math.round(country.informRisk ** 2 * 5 + country.displacedThousands / 8);
-    const realTag = realMcpr ? `${realMcpr.year} WDI` : illustrativeTag;
-
-    return {
-      id: country.iso3,
-      iso3: country.iso3,
-      name: country.name,
-      shortName: country.shortName,
-      values: {
-        mcpr: `${(realMcpr?.value ?? modeledMcpr).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`,
-        demand: `${demandSatisfied.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`,
-        unmet: `${unmetNeed.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`,
-        users: `${country.modernUsersMillions.toLocaleString("fr-FR", { maximumFractionDigits: 2 })} M`,
-        financing: `${country.financingUsdMillions.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} M USD`,
-        domestic: `${country.domesticShare.toLocaleString("fr-FR")} %`,
-        usaid: `${country.usaidExposure.toLocaleString("fr-FR")} %`,
-        cost: `${country.costPerUserUsd.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} USD`,
-        inform: country.informRisk.toLocaleString("fr-FR", { maximumFractionDigits: 1 }),
-        displaced: `${country.displacedThousands.toLocaleString("fr-FR")} k`,
-        acled: acledEvents.toLocaleString("fr-FR"),
-        stockouts: `${country.stockoutRate.toLocaleString("fr-FR")} %`,
-        pregnancies: `${country.pregnanciesAvoidedThousands.toLocaleString("fr-FR")} k`,
-        deaths: country.deathsAvoided.toLocaleString("fr-FR"),
-      },
-      tags: {
-        trend: `${trajectoryStartYear}–${indicatorYear} ill.`,
-        mcpr: realTag,
-        demand: illustrativeTag,
-        unmet: illustrativeTag,
-        users: illustrativeTag,
-        financing: illustrativeTag,
-        domestic: illustrativeTag,
-        usaid: illustrativeTag,
-        cost: illustrativeTag,
-        inform: "2024 ill.",
-        displaced: "2024 ill.",
-        acled: "2024 ill.",
-        stockouts: "2024 ill.",
-        pregnancies: illustrativeTag,
-        deaths: illustrativeTag,
-      },
-      sparklines: {
-        trend: {
-          values: countryTrend,
-          startLabel: `${trajectoryStartYear} · ${countryTrend[0]?.toLocaleString("fr-FR", { maximumFractionDigits: 1 }) ?? "n.d."} %`,
-          endLabel: `${indicatorYear} · ${modeledMcpr.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`,
-          ariaLabel: `Évolution illustrative de la mCPR de ${country.name} jusqu’en ${indicatorYear}`,
-        },
-      },
-      mix: country.methods.map((method) => ({ label: method.name, value: method.value })),
-    };
-  });
-}
-
-function ComparisonSection({ countries, selected, onChange, maxYear }: { readonly countries: readonly UcpoCountryCode[]; readonly selected: readonly string[]; readonly onChange: (ids: string[]) => void; readonly maxYear: number }) {
-  const entities = buildComparisonEntities(maxYear).filter((entity) => countries.includes(entity.id as UcpoCountryCode));
+function ComparisonSection({ countries, selected, onChange }: { readonly countries: readonly UcpoCountryCode[]; readonly selected: readonly string[]; readonly onChange: (ids: string[]) => void }) {
+  const entities = COMPARISON_ENTITIES.filter((entity) => countries.includes(entity.id as UcpoCountryCode));
   const retained = selected.filter((id) => countries.includes(id as UcpoCountryCode));
   const effectiveSelection = [...retained, ...countries.filter((id) => !retained.includes(id))].slice(0, Math.min(4, Math.max(2, retained.length)));
   if (entities.length < 2) {
@@ -336,7 +279,7 @@ export default function Body() {
   const [section, setSection] = useState("overview");
   const [selectedCountriesState, setSelectedCountriesState] = useState<string[]>([...UCPO_COUNTRY_CODES]);
   const [maxYear, setMaxYear] = useState(2024);
-  const [comparisonCountries, setComparisonCountries] = useState<string[]>(["BFA", "MLI", "NER", "SEN"]);
+  const [comparisonCountries, setComparisonCountries] = useState<string[]>(["BFA", "MLI", "SEN"]);
   const selectedCountries = useMemo<readonly UcpoCountryCode[]>(() => UCPO_COUNTRY_CODES.filter((country) => selectedCountriesState.includes(country)), [selectedCountriesState]);
   const yearRange = useMemo<YearRange>(() => [2010, maxYear], [maxYear]);
   const selectedProfiles = UCPO_COUNTRIES.filter((country) => selectedCountries.includes(country.iso3));
@@ -367,12 +310,12 @@ export default function Body() {
     }
     if (section === "financing") return <FinancingSection countries={selectedCountries} />;
     if (section === "countries") return <CountriesSection countries={selectedCountries} yearRange={yearRange} />;
-    if (section === "comparison") return <ComparisonSection countries={selectedCountries} selected={comparisonCountries} onChange={setComparisonCountries} maxYear={maxYear} />;
+    if (section === "comparison") return <ComparisonSection countries={selectedCountries} selected={comparisonCountries} onChange={setComparisonCountries} />;
     if (section === "crisis") return <CrisisModule countries={selectedCountries} />;
     if (section === "recommendations") return <UcpoRecommendations />;
     if (section === "sources") return <SourcesSection />;
     return <OverviewSection countries={selectedCountries} yearRange={yearRange} />;
-  }, [comparisonCountries, maxYear, section, selectedCountries, yearRange]);
+  }, [comparisonCountries, section, selectedCountries, yearRange]);
 
   return (
     <div className="space-y-5" style={{ fontFamily: theme.typography.body }}>
@@ -391,7 +334,7 @@ export default function Body() {
       />
 
       <DashboardFilterBar
-        countryOptions={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, iso3: country.iso3, label: country.name }))}
+        countryOptions={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, iso3: country.iso3, label: country.shortName }))}
         selectedCountries={selectedCountries}
         onCountriesChange={setSelectedCountriesState}
         maxYearValue={maxYear}
