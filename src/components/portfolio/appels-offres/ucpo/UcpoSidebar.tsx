@@ -62,13 +62,11 @@ export default function UcpoSidebar({ sections, active, onChange }: UcpoSidebarP
       </button>
 
       <aside
-        className="hidden min-h-screen self-stretch rounded-[10px] shadow-sm lg:block"
+        className="sticky top-0 hidden h-screen min-h-screen overflow-auto rounded-[10px] p-3 shadow-sm lg:block"
         style={{ background: theme.colors.primaryDark, fontFamily: theme.typography.body }}
       >
-        <div className="sticky top-0 max-h-screen overflow-auto p-3">
-          <p className="px-3 pb-3 pt-1 text-[8px] font-bold uppercase tracking-[0.16em] text-white/35">Observatoire PF</p>
-          {navigation}
-        </div>
+        <p className="px-3 pb-3 pt-1 text-[8px] font-bold uppercase tracking-[0.16em] text-white/35">Observatoire PF</p>
+        {navigation}
       </aside>
 
       {open && (
