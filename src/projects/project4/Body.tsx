@@ -16,10 +16,9 @@ import {
   DataTable,
   CountryComparator,
   type CountryComparatorEntity,
+  CountrySelect,
   DashboardFilterBar,
   CountryFlag,
-  CountryLabel,
-  FilterChips,
   KpiCard,
   MapChoropleth,
   Panel,
@@ -176,7 +175,13 @@ function CountriesSection({ countries, yearRange }: { readonly countries: readon
   return (
     <div className="space-y-4">
       <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles analytiques et des comparaisons régionales contextualisées.">
-        <FilterChips label="Pays actifs" options={UCPO_COUNTRIES.filter((item) => countries.includes(item.iso3)).map((item) => ({ value: item.iso3, label: <CountryLabel iso3={item.iso3} name={item.shortName} /> }))} value={[selected]} onChange={(values) => setCountrySelection(values[0] as UcpoCountryCode)} multiple={false} />
+        <CountrySelect
+          label="Fiche pays active"
+          options={UCPO_COUNTRIES.filter((item) => countries.includes(item.iso3)).map((item) => ({ value: item.iso3, iso3: item.iso3, label: item.shortName }))}
+          value={selected}
+          onChange={(value) => value && setCountrySelection(value as UcpoCountryCode)}
+          allOption={false}
+        />
       </Panel>
       <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} yearRange={yearRange} />
     </div>
@@ -256,9 +261,11 @@ function SourcesSection() {
 export default function Body() {
   const { theme } = useAoTheme();
   const [section, setSection] = useState("overview");
-  const [selectedCountries, setSelectedCountries] = useState<UcpoCountryCode[]>([...UCPO_COUNTRY_CODES]);
-  const [yearRange, setYearRange] = useState<[number, number]>([2010, 2024]);
+  const [selectedCountry, setSelectedCountry] = useState<UcpoCountryCode | null>(null);
+  const [maxYear, setMaxYear] = useState(2024);
   const [comparisonCountries, setComparisonCountries] = useState<string[]>(["BFA", "MLI", "SEN"]);
+  const selectedCountries = useMemo<readonly UcpoCountryCode[]>(() => selectedCountry ? [selectedCountry] : UCPO_COUNTRY_CODES, [selectedCountry]);
+  const yearRange = useMemo<YearRange>(() => [2010, maxYear], [maxYear]);
   const selectedProfiles = UCPO_COUNTRIES.filter((country) => selectedCountries.includes(country.iso3));
   const financingTotal = selectedProfiles.reduce((sum, country) => sum + country.financingUsdMillions, 0);
   const modernUsers = selectedProfiles.reduce((sum, country) => sum + country.modernUsersMillions, 0);
@@ -266,14 +273,15 @@ export default function Body() {
   const currentMcprAverage = mcprRow ? average(selectedProfiles.map((country) => Number(mcprRow[country.iso3]))) : null;
   const highRiskCountries = selectedProfiles.filter((country) => country.informRisk >= 7).length;
   const activeLabel = SECTIONS.find((item) => item.id === section)?.label ?? "Observatoire";
+  const selectedCountryLabel = selectedCountry ? UCPO_COUNTRIES.find((country) => country.iso3 === selectedCountry)?.shortName ?? selectedCountry : "Tous les pays";
   const unfilteredSection = section === "recommendations" || section === "sources";
   const fixedYearSection = section === "financing" || section === "crisis" || section === "comparison";
-  const activeFilterLabel = unfilteredSection ? "Vue complète · filtres non appliqués" : fixedYearSection ? `${selectedCountries.length} pays · données 2024` : `${selectedCountries.length} pays · ${yearRange[0]}–${yearRange[1]}`;
+  const activeFilterLabel = unfilteredSection ? "Vue complète · filtres non appliqués" : section === "comparison" ? "Sélection multi-pays indépendante" : fixedYearSection ? `${selectedCountryLabel} · données 2024` : `${selectedCountryLabel} · jusqu’en ${maxYear}`;
 
   const content = useMemo(() => {
     if (section === "financing") return <FinancingSection countries={selectedCountries} />;
     if (section === "countries") return <CountriesSection countries={selectedCountries} yearRange={yearRange} />;
-    if (section === "comparison") return <ComparisonSection countries={selectedCountries} selected={comparisonCountries} onChange={setComparisonCountries} />;
+    if (section === "comparison") return <ComparisonSection countries={UCPO_COUNTRY_CODES} selected={comparisonCountries} onChange={setComparisonCountries} />;
     if (section === "crisis") return <CrisisModule countries={selectedCountries} />;
     if (section === "recommendations") return <UcpoRecommendations />;
     if (section === "sources") return <SourcesSection />;
@@ -286,7 +294,7 @@ export default function Body() {
         eyebrow="Observatoire régional de la planification familiale"
         title="Neuf pays, une lecture commune de la performance et de la résilience"
         subtitle="Observatoire régional des neuf pays du Partenariat de Ouagadougou réalisé dans le cadre de l'appel d'offres de l'UCPO."
-        badge={`${selectedCountries.length} pays PO`}
+        badge={selectedCountry ? selectedCountryLabel : "9 pays PO"}
         illustrativeNotice="Données illustratives"
         stats={[
           { label: mcprRow ? `mCPR ${mcprRow.year}` : "mCPR", value: currentMcprAverage == null ? "n.d." : currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: currentMcprAverage == null ? undefined : "%", source: UCPO_DATASETS.trajectory.source },
@@ -297,14 +305,13 @@ export default function Body() {
       />
 
       <DashboardFilterBar
-        countryOptions={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, label: <CountryLabel iso3={country.iso3} name={country.shortName} /> }))}
-        selectedCountries={selectedCountries}
-        onCountriesChange={(countries) => setSelectedCountries(countries as UcpoCountryCode[])}
-        yearRange={yearRange}
-        onYearRangeChange={setYearRange}
+        countryOptions={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, iso3: country.iso3, label: country.shortName }))}
+        selectedCountry={selectedCountry}
+        onCountryChange={(country) => setSelectedCountry(country as UcpoCountryCode | null)}
+        maxYearValue={maxYear}
+        onMaxYearChange={setMaxYear}
         minYear={2010}
         maxYear={2024}
-        minSelectedCountries={1}
       />
 
       <div className="grid items-stretch gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">

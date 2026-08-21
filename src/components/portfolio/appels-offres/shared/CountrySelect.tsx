@@ -15,9 +15,10 @@ interface CountrySelectProps {
   readonly options: readonly CountrySelectOption[];
   readonly onChange: (value: string | null) => void;
   readonly allLabel?: string;
+  readonly allOption?: boolean;
 }
 
-export default function CountrySelect({ label = "Filtre pays", value, options, onChange, allLabel = "Tous les pays" }: CountrySelectProps) {
+export default function CountrySelect({ label = "Filtre pays", value, options, onChange, allLabel = "Tous les pays", allOption = true }: CountrySelectProps) {
   const { theme } = useAoTheme();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
@@ -57,18 +58,20 @@ export default function CountrySelect({ label = "Filtre pays", value, options, o
         style={{ borderColor: open ? theme.colors.accent : theme.colors.border, color: theme.colors.primary, outlineColor: theme.colors.accent }}
       >
         <span className="inline-flex min-w-0 items-center gap-2">
-          {selected ? <CountryLabel iso3={selected.iso3} name={selected.label} size="md" /> : <><Globe2 size={15} style={{ color: theme.colors.accent }} aria-hidden="true" /><span>{allLabel}</span></>}
+          {selected ? <CountryLabel iso3={selected.iso3} name={selected.label} size="md" /> : allOption ? <><Globe2 size={15} style={{ color: theme.colors.accent }} aria-hidden="true" /><span>{allLabel}</span></> : <span>Sélectionner un pays</span>}
         </span>
         <ChevronDown size={14} className={`shrink-0 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden="true" />
       </button>
 
       {open && (
         <div id={listboxId} role="listbox" aria-label={label} className="absolute left-0 top-[calc(100%+.35rem)] z-50 max-h-80 w-full min-w-[240px] overflow-auto rounded-md border bg-white p-1.5 shadow-xl" style={{ borderColor: theme.colors.border }}>
-          <button type="button" role="option" aria-selected={value == null} onClick={() => choose(null)} className="flex w-full items-center justify-between gap-2 rounded px-2.5 py-2 text-left text-[10px] font-semibold transition hover:bg-slate-50" style={{ color: theme.colors.primary, background: value == null ? theme.colors.soft : undefined }}>
-            <span className="inline-flex items-center gap-2"><Globe2 size={15} style={{ color: theme.colors.accent }} aria-hidden="true" />{allLabel}</span>
-            {value == null && <Check size={13} style={{ color: theme.colors.accent }} aria-hidden="true" />}
-          </button>
-          <div className="my-1 border-t" style={{ borderColor: theme.colors.border }} />
+          {allOption && <>
+            <button type="button" role="option" aria-selected={value == null} onClick={() => choose(null)} className="flex w-full items-center justify-between gap-2 rounded px-2.5 py-2 text-left text-[10px] font-semibold transition hover:bg-slate-50" style={{ color: theme.colors.primary, background: value == null ? theme.colors.soft : undefined }}>
+              <span className="inline-flex items-center gap-2"><Globe2 size={15} style={{ color: theme.colors.accent }} aria-hidden="true" />{allLabel}</span>
+              {value == null && <Check size={13} style={{ color: theme.colors.accent }} aria-hidden="true" />}
+            </button>
+            <div className="my-1 border-t" style={{ borderColor: theme.colors.border }} />
+          </>}
           {options.map((option) => {
             const active = option.value === value;
             return (
