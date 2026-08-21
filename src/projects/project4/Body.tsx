@@ -11,7 +11,7 @@ import {
   type UcpoDatasetMeta,
 } from "../../data/projects/ao-ucpo-observatoire";
 import { useAoTheme } from "../../hooks/useAoTheme";
-import { BarStack, DoughnutMix, HorizontalRankBars } from "../../components/portfolio/appels-offres/charts";
+import { BarStack, DoughnutMix } from "../../components/portfolio/appels-offres/charts";
 import {
   DataTable,
   FilterChips,
@@ -19,6 +19,7 @@ import {
   MapChoropleth,
   Note,
   Panel,
+  RankList,
   SumBand,
   Timeline,
 } from "../../components/portfolio/appels-offres/shared";
@@ -58,7 +59,7 @@ function OverviewSection() {
   const realYears = Object.fromEntries(UCPO_COUNTRY_CODES.map((iso3) => [iso3, latestReal(iso3, "mcprModern")?.year ?? null]));
   const ranking = UCPO_COUNTRIES.flatMap((country) => {
     const observation = latestReal(country.iso3, "mcprModern");
-    return observation ? [{ id: country.iso3, name: country.name, value: observation.value, year: observation.year }] : [];
+    return observation ? [{ id: country.iso3, label: country.name, value: observation.value, displayValue: `${observation.value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`, detail: String(observation.year) }] : [];
   });
 
   return (
@@ -88,14 +89,7 @@ function OverviewSection() {
           />
         </Panel>
         <Panel title="Repères pays" subtitle="Classement selon la dernière observation WDI disponible.">
-          <HorizontalRankBars
-            data={ranking}
-            axisMax={35}
-            unit=" %"
-            ariaLabel="Classement mCPR moderne des neuf pays du Partenariat de Ouagadougou, axe commençant à zéro"
-            source={UCPO_DATASETS.wdiCore.source}
-            rampStart="#D7B85A"
-          />
+          <RankList items={ranking} source={UCPO_DATASETS.wdiCore.source} />
         </Panel>
       </div>
       <div className="grid gap-3 md:grid-cols-3">

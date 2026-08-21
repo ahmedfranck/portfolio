@@ -6,5 +6,3 @@ export { default as DoughnutMix } from "./DoughnutMix";
 export type { DoughnutMixDatum } from "./DoughnutMix";
 export { default as BubbleScatter } from "./BubbleScatter";
 export type { BubbleScatterDatum } from "./BubbleScatter";
-export { default as HorizontalRankBars } from "./HorizontalRankBars";
-export type { HorizontalRankDatum } from "./HorizontalRankBars";
