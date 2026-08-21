@@ -1,5 +1,5 @@
-import { Database, Flag, LayoutDashboard, Lightbulb, Landmark, Menu, ShieldAlert, X, type LucideIcon } from "lucide-react";
-import { Fragment, useState } from "react";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 
 export interface UcpoSection {
@@ -7,8 +7,6 @@ export interface UcpoSection {
   readonly label: string;
   readonly shortLabel: string;
   readonly description: string;
-  readonly group: string;
-  readonly badge?: string;
 }
 
 interface UcpoSidebarProps {
@@ -21,54 +19,32 @@ export default function UcpoSidebar({ sections, active, onChange }: UcpoSidebarP
   const { theme } = useAoTheme();
   const [open, setOpen] = useState(false);
 
-  const icons: Readonly<Record<string, LucideIcon>> = {
-    overview: LayoutDashboard,
-    financing: Landmark,
-    countries: Flag,
-    crisis: ShieldAlert,
-    recommendations: Lightbulb,
-    sources: Database,
-  };
-
   const navigation = (
     <nav aria-label="Sections de l’Observatoire PF" className="space-y-1.5">
       {sections.map((section, index) => {
         const selected = section.id === active;
-        const Icon = icons[section.id] ?? LayoutDashboard;
         return (
-          <Fragment key={section.id}>
-            {section.group !== sections[index - 1]?.group && (
-              <p className="px-3 pb-1 pt-4 text-[7px] font-bold uppercase tracking-[0.18em] first:pt-1" style={{ color: theme.colors.accentLight }}>{section.group}</p>
-            )}
-            <button
-              type="button"
-              aria-current={selected ? "page" : undefined}
-              onClick={() => {
-                onChange(section.id);
-                setOpen(false);
-              }}
-              className="group w-full rounded-md border px-3 py-2.5 text-left transition"
-              style={{
-                borderColor: selected ? theme.colors.accent : "transparent",
-                background: selected ? `${theme.colors.accent}16` : "transparent",
-                color: selected ? theme.colors.accentLight : "rgba(255,255,255,.72)",
-              }}
-            >
-              <span className="flex items-center gap-2.5">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md" style={{ background: selected ? `${theme.colors.accent}28` : "rgba(255,255,255,.07)", color: selected ? theme.colors.accentLight : "rgba(255,255,255,.55)" }}>
-                  <Icon size={14} strokeWidth={1.8} aria-hidden="true" />
-                </span>
-                <span className="min-w-0 flex-1">
-                  <span className="flex items-center gap-1.5 text-[9px] font-bold uppercase tracking-[0.06em]">
-                    <span className="text-[7px] opacity-40">{String(index + 1).padStart(2, "0")}</span>
-                    <span className="truncate">{section.shortLabel}</span>
-                    {section.badge && <span className="ml-auto rounded-full px-1.5 py-0.5 text-[7px]" style={{ color: theme.colors.primaryDark, background: theme.colors.accentLight }}>{section.badge}</span>}
-                  </span>
-                  <span className="mt-0.5 block text-[8px] leading-relaxed opacity-55">{section.description}</span>
-                </span>
-              </span>
-            </button>
-          </Fragment>
+          <button
+            key={section.id}
+            type="button"
+            aria-current={selected ? "page" : undefined}
+            onClick={() => {
+              onChange(section.id);
+              setOpen(false);
+            }}
+            className="group w-full rounded-md border px-3 py-2.5 text-left transition"
+            style={{
+              borderColor: selected ? theme.colors.accent : "transparent",
+              background: selected ? `${theme.colors.accent}16` : "transparent",
+              color: selected ? theme.colors.accentLight : "rgba(255,255,255,.72)",
+            }}
+          >
+            <span className="flex items-center gap-2 text-[9px] font-bold uppercase tracking-[0.08em]">
+              <span className="text-[8px] opacity-45">{String(index + 1).padStart(2, "0")}</span>
+              {section.shortLabel}
+            </span>
+            <span className="mt-1 block text-[8px] leading-relaxed opacity-55">{section.description}</span>
+          </button>
         );
       })}
     </nav>
