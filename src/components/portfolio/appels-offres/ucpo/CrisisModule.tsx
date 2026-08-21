@@ -1,6 +1,6 @@
 import { UCPO_COUNTRIES, UCPO_DATASETS } from "../../../../data/projects/ao-ucpo-observatoire";
 import { BubbleScatter } from "../charts";
-import { DataTable, Panel, RankList } from "../shared";
+import { DataTable, Note, Panel, RankList } from "../shared";
 
 const crisisPoints = UCPO_COUNTRIES.map((country) => ({
   id: country.iso3,
@@ -54,6 +54,11 @@ export default function CrisisModule() {
         />
       </Panel>
 
+      <div className="grid gap-3 md:grid-cols-3">
+        <Note title="Signal de risque" variant="crisis">Un indice élevé devient critique lorsqu’il coïncide avec une rupture de produits et des déplacements massifs.</Note>
+        <Note title="Décision logistique" variant="warning">Le tableau sert à prioriser le prépositionnement; il ne constitue pas une alerte opérationnelle réelle.</Note>
+        <Note title="Validation requise" variant="info">Les agrégats INFORM, IDMC et ACLED devront être datés, rapprochés et validés avant publication finale.</Note>
+      </div>
     </div>
   );
 }
