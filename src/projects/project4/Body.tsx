@@ -5,14 +5,13 @@ import {
   UCPO_COUNTRIES,
   UCPO_COUNTRY_CODES,
   UCPO_DATASETS,
-  UCPO_MCPR_SERIES,
   UCPO_OBSERVATOIRE_MANIFEST,
   UCPO_TIMELINE,
   type UcpoCountryCode,
   type UcpoDatasetMeta,
 } from "../../data/projects/ao-ucpo-observatoire";
 import { useAoTheme } from "../../hooks/useAoTheme";
-import { BarStack, BubbleScatter, DoughnutMix, HorizontalRankBars, LineTrend } from "../../components/portfolio/appels-offres/charts";
+import { BarStack, DoughnutMix, HorizontalRankBars } from "../../components/portfolio/appels-offres/charts";
 import {
   DataTable,
   CountryFlag,
@@ -62,8 +61,6 @@ function OverviewSection() {
     const observation = latestReal(country.iso3, "mcprModern");
     return observation ? [{ id: country.iso3, iso3: country.iso3, name: country.name, value: observation.value, year: observation.year }] : [];
   });
-  const trajectorySeries = UCPO_COUNTRIES.map((country) => ({ dataKey: country.iso3, name: country.shortName, unit: " %" }));
-  const riskPoints = UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, x: country.informRisk, y: country.currentMcpr, z: Math.max(20, country.displacedThousands), group: country.informRisk >= 7 ? "Risque élevé" : "Risque modéré" }));
 
   return (
     <div className="space-y-4">
@@ -103,14 +100,6 @@ function OverviewSection() {
           />
         </Panel>
       </div>
-      <div className="grid gap-4 xl:grid-cols-2">
-        <Panel title="Trajectoires mCPR comparées" subtitle="Apport analytique : la pente compare la vitesse de progression modélisée entre pays, au-delà du seul niveau le plus récent.">
-          <LineTrend data={UCPO_MCPR_SERIES} xKey="year" xLabel="Année" series={trajectorySeries} yLabel="mCPR (%)" height={310} ariaLabel="Trajectoires mCPR illustratives comparées des neuf pays du Partenariat de Ouagadougou" source={UCPO_DATASETS.trajectory.source} illustrative formatValue={(value) => `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`} />
-        </Panel>
-        <Panel title="Risque opérationnel × mCPR" subtitle="Apport analytique : ce croisement identifie les pays où une progression contraceptive reste exposée à un environnement opérationnel fragile.">
-          <BubbleScatter data={riskPoints} xLabel="Indice INFORM" yLabel="mCPR 2024" zLabel="PDI" yUnit=" %" zUnit=" k" height={310} ariaLabel="Relation illustrative entre risque INFORM et mCPR dans les pays PO" source={`${UCPO_DATASETS.trajectory.source} + ${UCPO_DATASETS.crisis.source}`} illustrative />
-        </Panel>
-      </div>
     </div>
   );
 }
@@ -127,8 +116,6 @@ function FinancingSection() {
   const usaid = rows.reduce((sum, row) => sum + row.usaid, 0);
   const others = rows.reduce((sum, row) => sum + row.others, 0);
   const total = domestic + usaid + others;
-  const exposureRanking = UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, value: country.usaidExposure }));
-  const resiliencePoints = UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, name: country.name, x: country.costPerUserUsd, y: country.domesticShare, z: country.financingUsdMillions, group: country.domesticShare >= 25 ? "Effort domestique renforcé" : "Effort domestique limité" }));
 
   return (
     <div className="space-y-4">
@@ -146,14 +133,6 @@ function FinancingSection() {
           <DoughnutMix data={[{ id: "domestic", name: "Domestique", value: domestic }, { id: "usaid", name: "USAID", value: usaid }, { id: "others", name: "Autres partenaires", value: others }]} valueLabel="M USD" unit=" M" ariaLabel="Mix régional illustratif du financement" source={UCPO_DATASETS.financing.source} illustrative />
         </Panel>
       </div>
-      <div className="grid gap-4 xl:grid-cols-2">
-        <Panel title="Exposition USAID par pays" subtitle="Apport analytique : le classement met en évidence les portefeuilles les plus sensibles à une variation de ce financement.">
-          <HorizontalRankBars data={exposureRanking} axisMax={50} unit=" %" showYear={false} height={330} ariaLabel="Exposition illustrative au financement USAID par pays" source={UCPO_DATASETS.financing.source} illustrative rampStart="#D7B85A" />
-        </Panel>
-        <Panel title="Effort domestique × coût par utilisatrice" subtitle="Apport analytique : la taille de bulle représente l’enveloppe et distingue niveau d’autonomie et efficience apparente.">
-          <BubbleScatter data={resiliencePoints} xLabel="Coût / utilisatrice" yLabel="Part domestique" zLabel="Financement" xUnit=" USD" yUnit=" %" zUnit=" M USD" height={330} ariaLabel="Relation illustrative entre coût par utilisatrice, part domestique et financement" source={`${UCPO_DATASETS.financing.source} + ${UCPO_DATASETS.impact.source}`} illustrative />
-        </Panel>
-      </div>
     </div>
   );
 }
@@ -166,7 +145,7 @@ function CountriesSection() {
 
   return (
     <div className="space-y-4">
-      <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles analytiques et des comparaisons régionales contextualisées.">
+      <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles et trois callouts d’interprétation.">
         <FilterChips label="Pays PO" options={UCPO_COUNTRIES.map((item) => ({ value: item.iso3, label: <CountryLabel iso3={item.iso3} name={item.shortName} /> }))} value={[selected]} onChange={(values) => setSelected(values[0] as UcpoCountryCode)} multiple={false} />
       </Panel>
       <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} />
