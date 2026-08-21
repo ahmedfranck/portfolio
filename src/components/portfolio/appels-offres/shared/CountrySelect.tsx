@@ -7,8 +7,6 @@ export interface CountrySelectOption {
   readonly value: string;
   readonly iso3: string;
   readonly label: string;
-  readonly disabled?: boolean;
-  readonly description?: string;
 }
 
 interface CountrySelectProps {
@@ -77,21 +75,8 @@ export default function CountrySelect({ label = "Filtre pays", value, options, o
           {options.map((option) => {
             const active = option.value === value;
             return (
-              <button
-                key={option.value}
-                type="button"
-                role="option"
-                aria-selected={active}
-                aria-disabled={option.disabled || undefined}
-                disabled={option.disabled}
-                onClick={() => choose(option.value)}
-                className="flex w-full items-center justify-between gap-2 rounded px-2.5 py-2 text-left text-[10px] font-semibold transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-45"
-                style={{ color: theme.colors.primary, background: active ? theme.colors.soft : undefined }}
-              >
-                <span className="min-w-0">
-                  <CountryLabel iso3={option.iso3} name={option.label} size="md" />
-                  {option.description && <span className="mt-0.5 block pl-6 text-[7px] font-medium" style={{ color: theme.colors.muted }}>{option.description}</span>}
-                </span>
+              <button key={option.value} type="button" role="option" aria-selected={active} onClick={() => choose(option.value)} className="flex w-full items-center justify-between gap-2 rounded px-2.5 py-2 text-left text-[10px] font-semibold transition hover:bg-slate-50" style={{ color: theme.colors.primary, background: active ? theme.colors.soft : undefined }}>
+                <CountryLabel iso3={option.iso3} name={option.label} size="md" />
                 {active && <Check size={13} style={{ color: theme.colors.accent }} aria-hidden="true" />}
               </button>
             );
