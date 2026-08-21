@@ -9,7 +9,6 @@ interface UcpoCountryFicheProps {
   readonly realMcprYear?: number | null;
   readonly realTfr?: number | null;
   readonly realTfrYear?: number | null;
-  readonly yearRange?: readonly [number, number];
 }
 
 const COUNTRY_TABS: readonly { readonly value: UcpoCountryTab; readonly label: string }[] = [
@@ -21,24 +20,21 @@ const COUNTRY_TABS: readonly { readonly value: UcpoCountryTab; readonly label: s
   { value: "crisis", label: "Crise" },
 ];
 
-export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, realTfr, realTfrYear, yearRange = [2010, 2024] }: UcpoCountryFicheProps) {
+export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, realTfr, realTfrYear }: UcpoCountryFicheProps) {
   const [tab, setTab] = useState<UcpoCountryTab>("overview");
   const financingOther = 100 - country.domesticShare - country.usaidExposure;
-  const trajectory = UCPO_MCPR_SERIES.filter((row) => row.year >= yearRange[0] && row.year <= yearRange[1]).map((row) => ({ year: row.year, mcpr: row[country.iso3] }));
+  const trajectory = UCPO_MCPR_SERIES.map((row) => ({ year: row.year, mcpr: row[country.iso3] }));
   const financingComparison = UCPO_COUNTRIES.map((item) => ({ id: item.iso3, iso3: item.iso3, name: item.name, x: item.costPerUserUsd, y: item.domesticShare, z: item.financingUsdMillions, color: item.iso3 === country.iso3 ? "#C3911F" : undefined }));
   const demographyComparison = UCPO_COUNTRIES.map((item) => ({ id: item.iso3, iso3: item.iso3, name: item.name, x: item.tfr, y: item.currentMcpr, z: item.women15to49Millions, color: item.iso3 === country.iso3 ? "#C3911F" : undefined }));
   const methodSeries = country.methods.map((method) => ({ dataKey: method.name, name: method.name, unit: " %" }));
   const methodAverage = Object.fromEntries(country.methods.map((method) => [method.name, Number((UCPO_COUNTRIES.reduce((sum, item) => sum + (item.methods.find((candidate) => candidate.name === method.name)?.value ?? 0), 0) / UCPO_COUNTRIES.length).toFixed(1))]));
   const methodComparison = [{ profile: country.shortName, iso3: country.iso3, ...Object.fromEntries(country.methods.map((method) => [method.name, method.value])) }, { profile: "Moyenne PO", iso3: null, ...methodAverage }];
-  const impactTrajectory = UCPO_MCPR_SERIES.filter((row) => row.year >= yearRange[0] && row.year <= yearRange[1]).map((row) => ({ year: row.year, pregnancies: Math.round(country.pregnanciesAvoidedThousands * Number(row[country.iso3]) / country.currentMcpr) }));
+  const impactTrajectory = UCPO_MCPR_SERIES.map((row) => ({ year: row.year, pregnancies: Math.round(country.pregnanciesAvoidedThousands * Number(row[country.iso3]) / country.currentMcpr) }));
   const crisisComparison = UCPO_COUNTRIES.map((item) => ({ id: item.iso3, iso3: item.iso3, name: item.name, x: item.informRisk, y: item.stockoutRate, z: Math.max(20, item.displacedThousands), color: item.iso3 === country.iso3 ? "#C3911F" : undefined }));
 
   return (
     <div className="space-y-4">
       <FilterChips label={<span className="normal-case tracking-normal">Fiche <CountryLabel iso3={country.iso3} name={country.name} size="md" /></span>} options={COUNTRY_TABS} value={[tab]} onChange={(value) => setTab((value[0] as UcpoCountryTab) ?? "overview")} multiple={false} />
-      <p className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-[9px] leading-relaxed text-slate-500">
-        Période active : {yearRange[0]}–{yearRange[1]} pour les séries et observations disponibles. Financement, mix méthodes, impact et crise restent des scénarios illustratifs au millésime 2024.
-      </p>
 
       {tab === "overview" && (
         <div className="space-y-4">

@@ -10,7 +10,6 @@ interface MapChoroplethProps {
   readonly values: Readonly<Record<string, number | null>>;
   readonly years?: Readonly<Record<string, number | null>>;
   readonly countries?: readonly string[];
-  readonly activeCountries?: readonly string[];
   readonly selectedIso3?: string | null;
   readonly onSelectCountry?: (iso3: string) => void;
   readonly formatValue?: (value: number) => string;
@@ -23,7 +22,6 @@ interface MapChoroplethProps {
   readonly legendTitle?: string;
   readonly scopeLabel?: string;
   readonly outsideScopeLabel?: string;
-  readonly inactiveScopeLabel?: string;
   readonly noDataLabel?: string;
   readonly discreteSteps?: number;
   readonly rampStart?: string;
@@ -49,7 +47,6 @@ interface HoverState {
   readonly x: number;
   readonly y: number;
   readonly inScope: boolean;
-  readonly active: boolean;
 }
 
 function hexToRgb(hex: string) {
@@ -68,7 +65,6 @@ export default function MapChoropleth({
   values,
   years,
   countries,
-  activeCountries,
   selectedIso3,
   onSelectCountry,
   formatValue = (value) => value.toLocaleString("fr-FR"),
@@ -81,7 +77,6 @@ export default function MapChoropleth({
   legendTitle,
   scopeLabel = "Périmètre couvert",
   outsideScopeLabel = "Hors périmètre",
-  inactiveScopeLabel = "Masqué par le filtre pays",
   noDataLabel = "Pas de donnée disponible",
   discreteSteps = 0,
   rampStart,
@@ -101,8 +96,7 @@ export default function MapChoropleth({
   const missingPatternId = `ao-map-missing-${idSuffix}`;
   const resolvedOutsidePatternId = outsidePatternId ?? `ao-map-outside-${idSuffix}`;
   const allowed = useMemo(() => new Set(countries ?? Object.keys(values)), [countries, values]);
-  const active = useMemo(() => new Set(activeCountries ?? countries ?? Object.keys(values)), [activeCountries, countries, values]);
-  const numericValues = useMemo(() => Object.entries(values).filter(([iso3, value]) => allowed.has(iso3) && active.has(iso3) && value != null).map(([, value]) => value as number), [active, allowed, values]);
+  const numericValues = useMemo(() => Object.entries(values).filter(([iso3, value]) => allowed.has(iso3) && value != null).map(([, value]) => value as number), [allowed, values]);
   const min = numericValues.length ? Math.min(...numericValues) : 0;
   const max = numericValues.length ? Math.max(...numericValues) : 1;
   const range = max - min || 1;
@@ -157,11 +151,10 @@ export default function MapChoropleth({
               const iso3 = geo.id as string;
               const properties = geo.properties as GeoProperties;
               const isAllowed = allowed.has(iso3);
-              const isActive = isAllowed && active.has(iso3);
               const value = isAllowed ? values[iso3] ?? null : null;
               const name = COUNTRY_NAMES[iso3] ?? properties.name;
               const fill = !isAllowed ? `url(#${resolvedOutsidePatternId})` : value == null ? `url(#${missingPatternId})` : colorFor(value);
-              const label = !isAllowed ? `${name} : ${outsideScopeLabel}` : !isActive ? `${name} : ${inactiveScopeLabel}` : `${name} : ${value == null ? noDataLabel : `${formatValue(value)}${suffix}`}, pays du périmètre`;
+              const label = !isAllowed ? `${name} : ${outsideScopeLabel}` : `${name} : ${value == null ? noDataLabel : `${formatValue(value)}${suffix}`}, pays du périmètre`;
               return (
                 <Geography
                   key={geo.rsmKey}
@@ -169,21 +162,21 @@ export default function MapChoropleth({
                   fill={fill}
                   stroke={selectedIso3 === iso3 ? theme.colors.accentLight : isAllowed ? scopeStroke ?? theme.colors.accent : "#FFFFFF"}
                   strokeWidth={selectedIso3 === iso3 ? 2 : isAllowed ? scopeStrokeWidth : 0.55}
-                  tabIndex={isActive ? 0 : -1}
+                  tabIndex={isAllowed ? 0 : -1}
                   aria-label={label}
-                  onMouseEnter={(event) => setHover({ iso3, name, value: isActive ? value : null, year: isActive ? years?.[iso3] : null, x: event.clientX, y: event.clientY, inScope: isAllowed, active: isActive })}
+                  onMouseEnter={(event) => setHover({ iso3, name, value, year: years?.[iso3], x: event.clientX, y: event.clientY, inScope: isAllowed })}
                   onMouseMove={(event) => setHover((current) => current ? { ...current, x: event.clientX, y: event.clientY } : current)}
                   onMouseLeave={() => setHover(null)}
-                  onClick={() => isActive && onSelectCountry?.(iso3)}
+                  onClick={() => isAllowed && onSelectCountry?.(iso3)}
                   onKeyDown={(event) => {
-                    if (isActive && (event.key === "Enter" || event.key === " ")) {
+                    if (isAllowed && (event.key === "Enter" || event.key === " ")) {
                       event.preventDefault();
                       onSelectCountry?.(iso3);
                     }
                   }}
                   style={{
-                    default: { outline: "none", opacity: isActive || !isAllowed ? 1 : 0.22, transition: "fill 180ms ease, opacity 180ms ease" },
-                    hover: { outline: "none", cursor: isActive ? "pointer" : "default", filter: isActive ? "brightness(0.94)" : "none", opacity: isActive || !isAllowed ? 1 : 0.22 },
+                    default: { outline: "none", transition: "fill 180ms ease" },
+                    hover: { outline: "none", cursor: isAllowed ? "pointer" : "default", filter: isAllowed ? "brightness(0.94)" : "none" },
                     pressed: { outline: "none" },
                   }}
                 />
@@ -207,7 +200,7 @@ export default function MapChoropleth({
       {hover && (
         <div className="pointer-events-none fixed z-50 rounded-md border bg-white px-3 py-2 text-[10px] shadow-lg" style={{ left: hover.x + 12, top: hover.y + 12, borderColor: theme.colors.border }}>
           <strong className="inline-flex items-center gap-1.5" style={{ color: theme.colors.primary }}>{countryAdornment?.(hover.iso3)}<span>{hover.name}</span></strong>
-          <p style={{ color: theme.colors.muted }}>{!hover.inScope ? outsideScopeLabel : !hover.active ? inactiveScopeLabel : hover.value == null ? noDataLabel : `${formatValue(hover.value)}${suffix}${hover.year ? ` · ${hover.year}` : ""} · pays du périmètre`}</p>
+          <p style={{ color: theme.colors.muted }}>{hover.inScope ? hover.value == null ? noDataLabel : `${formatValue(hover.value)}${suffix}${hover.year ? ` · ${hover.year}` : ""} · pays du périmètre` : outsideScopeLabel}</p>
         </div>
       )}
 
@@ -224,7 +217,6 @@ export default function MapChoropleth({
           <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-[8px]" style={{ color: theme.colors.muted }}>
             <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `linear-gradient(90deg, ${startColor}, ${endColor})`, border: `1px solid ${scopeStroke ?? theme.colors.accent}` }} />{scopeLabel}</span>
             <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${startColor} 0 3px, ${theme.colors.accent} 3px 4px)` }} />{noDataLabel}</span>
-            {active.size < allowed.size && <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm opacity-25" style={{ background: endColor, border: `1px solid ${scopeStroke ?? theme.colors.accent}` }} />{inactiveScopeLabel}</span>}
             <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-5 rounded-sm" style={{ background: `repeating-linear-gradient(135deg, ${resolvedOutsideFill} 0 3px, #C9C3B8 3px 4px)` }} />{outsideScopeLabel}</span>
           </div>
         </div>
