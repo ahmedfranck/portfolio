@@ -1,0 +1,953 @@
+diff --git a/.gitignore b/.gitignore
+index d7b7d54..775a412 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -28,3 +28,4 @@ dist-ssr
+ *.sln
+ *.sw?
+ .vercel
++.env*
+diff --git a/index.html b/index.html
+index 345bde3..fd182d8 100644
+--- a/index.html
++++ b/index.html
+@@ -16,14 +16,14 @@
+     />
+     <meta property="og:type" content="website" />
+     <meta property="og:url" content="https://agbadamassi.vercel.app/" />
+-    <meta property="og:image" content="https://agbadamassi.vercel.app/favicon.jpg" />
++    <meta property="og:image" content="https://agbadamassi.vercel.app/og.png" />
+     <meta name="twitter:card" content="summary_large_image" />
+     <meta name="twitter:title" content="Ahmed Franck-Aubin GBADAMASSI | Senior Business Analytics & Insights" />
+     <meta
+       name="twitter:description"
+       content="Portfolio de projets data, dashboards interactifs et applications analytiques."
+     />
+-    <meta name="twitter:image" content="https://agbadamassi.vercel.app/favicon.jpg" />
++    <meta name="twitter:image" content="https://agbadamassi.vercel.app/og.png" />
+     <script id="site-structured-data" type="application/ld+json">
+       {
+         "@context": "https://schema.org",
+diff --git a/src/App.tsx b/src/App.tsx
+index e912ef3..87d0eea 100644
+--- a/src/App.tsx
++++ b/src/App.tsx
+@@ -36,10 +36,10 @@ function AnimatedRoutes() {
+     <AnimatePresence mode="wait">
+       <motion.div
+         key={location.pathname}
+-        initial={{ opacity: 0, y: reduceMotion ? 0 : 12 }}
++        initial={{ opacity: 0, y: reduceMotion ? 0 : 8 }}
+         animate={{ opacity: 1, y: 0 }}
+-        exit={{ opacity: 0, y: reduceMotion ? 0 : -8 }}
+-        transition={reduceMotion ? { duration: 0 } : { duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
++        exit={{ opacity: 0, y: reduceMotion ? 0 : -5 }}
++        transition={reduceMotion ? { duration: 0 } : { duration: 0.38, ease: [0.22, 1, 0.36, 1] }}
+       >
+         <Routes location={location}>
+           <Route path="/" element={<Home />} />
+diff --git a/src/components/ChartCard.tsx b/src/components/ChartCard.tsx
+index 3fbe254..adc9218 100644
+--- a/src/components/ChartCard.tsx
++++ b/src/components/ChartCard.tsx
+@@ -1,4 +1,5 @@
+ import type { ReactNode } from "react";
++import { CheckCircle2 } from "lucide-react";
+ 
+ interface ChartCardProps {
+   title: string;
+@@ -9,13 +10,20 @@ interface ChartCardProps {
+ 
+ export default function ChartCard({ title, description, children, className = "" }: ChartCardProps) {
+   return (
+-    <div className={`rounded-card border border-line bg-white p-5 shadow-card transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover sm:p-6 ${className}`}>
+-      <div className="mb-4">
+-        <h3 className="font-display text-base font-semibold text-ink">{title}</h3>
+-        {description && <p className="mt-1 text-sm text-text-2">{description}</p>}
++    <div className={`dashboard-chart-card rounded-card border border-line bg-white p-5 shadow-card transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover sm:p-6 ${className}`}>
++      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
++        <div>
++          <p className="mb-1 font-mono text-[9px] font-semibold uppercase tracking-[0.18em] text-text-3">Analyse visuelle</p>
++          <h3 className="font-display text-base font-semibold text-ink">{title}</h3>
++          {description && <p className="mt-1 text-sm text-text-2">{description}</p>}
++        </div>
++        <span className="dashboard-chart-card__status"><CheckCircle2 size={13} aria-hidden="true" /> Donnée vérifiée</span>
+       </div>
+       <div className="w-full">{children}</div>
+-      <p className="mt-3 font-mono text-xs text-text-2">Source : Banque mondiale</p>
++      <div className="dashboard-chart-card__footer">
++        <span>Source : Banque mondiale · Open Data</span>
++        <span>Valeur réelle disponible</span>
++      </div>
+     </div>
+   );
+ }
+diff --git a/src/components/ConsultingPortfolio.tsx b/src/components/ConsultingPortfolio.tsx
+index 225071d..b0ebac5 100644
+--- a/src/components/ConsultingPortfolio.tsx
++++ b/src/components/ConsultingPortfolio.tsx
+@@ -1,5 +1,5 @@
+ import { useState } from "react";
+-import { BarChart3, ShieldCheck } from "lucide-react";
++import { BarChart3, BriefcaseBusiness, DatabaseZap, ShieldCheck } from "lucide-react";
+ import { CONSULTING_CLIENTS, CONSULTING_DISCLAIMER, type ConsultingClient } from "../config/content";
+ import { getEmployerLogo } from "../lib/employerLogos";
+ import PowerBIEmbed from "./PowerBIEmbed";
+@@ -44,9 +44,24 @@ function ConsultingClientLogo({ client }: { client: ConsultingClient }) {
+ }
+ 
+ export default function ConsultingPortfolio() {
++  const reportCount = CONSULTING_CLIENTS.reduce((total, client) => total + client.reports.length, 0);
++
+   return (
+     <div className="mt-8">
+-      <Reveal className="flex gap-3 border-l-4 border-brand bg-brand-soft px-4 py-4 sm:px-5">
++      <Reveal className="consulting-observatory">
++        <div>
++          <span className="consulting-observatory__eyebrow"><BriefcaseBusiness size={14} aria-hidden="true" /> Missions réalisées</span>
++          <h2>Dashboards de pilotage & performance</h2>
++          <p>Une sélection de rapports BI conçus pour rendre les indicateurs opérationnels lisibles, comparables et directement actionnables.</p>
++        </div>
++        <div className="consulting-observatory__metrics">
++          <span><strong>{CONSULTING_CLIENTS.length}</strong>organisations</span>
++          <span><strong>{reportCount}</strong>rapports interactifs</span>
++          <span><DatabaseZap size={17} aria-hidden="true" /><strong>Power BI</strong>données agrégées</span>
++        </div>
++      </Reveal>
++
++      <Reveal className="mt-4 flex gap-3 border-l-4 border-brand bg-brand-soft px-4 py-4 sm:px-5">
+         <ShieldCheck size={22} aria-hidden="true" className="mt-0.5 shrink-0 text-brand" />
+         <div>
+           <h2 className="font-display text-sm font-semibold text-ink">Confidentialité des données</h2>
+diff --git a/src/components/DashboardTabs.tsx b/src/components/DashboardTabs.tsx
+index 0653d7b..dd5a942 100644
+--- a/src/components/DashboardTabs.tsx
++++ b/src/components/DashboardTabs.tsx
+@@ -1,5 +1,17 @@
+ import type { ReactNode } from "react";
+-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
++import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
++import {
++  BarChart3,
++  Database,
++  GitCompareArrows,
++  LayoutDashboard,
++  Map,
++  PanelLeft,
++  SearchCheck,
++  TrendingUp,
++  UserRound,
++  type LucideIcon,
++} from "lucide-react";
+ 
+ export interface DashboardTab {
+   id: string;
+@@ -13,62 +25,96 @@ interface DashboardTabsProps {
+   onChange: (id: string) => void;
+ }
+ 
++function iconForTab(id: string): LucideIcon {
++  if (id.includes("map")) return Map;
++  if (id.includes("trend")) return TrendingUp;
++  if (id.includes("compar") || id.includes("correl")) return GitCompareArrows;
++  if (id.includes("country") || id.includes("profile")) return UserRound;
++  if (id.includes("data") || id.includes("source")) return Database;
++  if (id.includes("rank") || id.includes("analyse")) return BarChart3;
++  return LayoutDashboard;
++}
++
+ /**
+- * Shell de dashboard réutilisable : la sélection d'onglet est contrôlée par le parent
+- * (qui porte l'état partagé pays/année/indicateur), seule la transition est gérée ici.
++ * Cadre de navigation analytique partagé. L'état reste porté par chaque dashboard,
++ * tandis que ce composant fournit la fluidité, la navigation desktop et le repli mobile.
+  */
+ export default function DashboardTabs({ tabs, active, onChange }: DashboardTabsProps) {
+-  const activeTab = tabs.find((t) => t.id === active) ?? tabs[0];
++  const activeTab = tabs.find((tab) => tab.id === active) ?? tabs[0];
+   const reduceMotion = useReducedMotion();
+   const tabTransition = reduceMotion ? { duration: 0 } : { type: "spring" as const, stiffness: 380, damping: 32 };
+   const panelTransition = reduceMotion ? { duration: 0 } : { duration: 0.22, ease: [0.22, 1, 0.36, 1] as const };
+ 
+-  return (
+-    <div>
+-      <div
+-        role="tablist"
+-        aria-label="Onglets du tableau de bord"
+-        className="flex flex-wrap gap-2 border-b border-line pb-4"
++  function renderTabButton(tab: DashboardTab, compact = false) {
++    const isActive = tab.id === activeTab.id;
++    const Icon = iconForTab(tab.id);
++
++    return (
++      <button
++        key={tab.id}
++        type="button"
++        role="tab"
++        aria-selected={isActive}
++        onClick={() => onChange(tab.id)}
++        className={compact ? `dashboard-mobile-tab ${isActive ? "is-active" : ""}` : `dashboard-side-tab ${isActive ? "is-active" : ""}`}
+       >
+-        {tabs.map((tab) => {
+-          const isActive = tab.id === activeTab.id;
+-          return (
+-            <button
+-              key={tab.id}
+-              type="button"
+-              role="tab"
+-              aria-selected={isActive}
+-              onClick={() => onChange(tab.id)}
+-              className={`relative overflow-hidden rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${
+-                isActive
+-                  ? "text-white"
+-                  : "cursor-pointer bg-surface text-text-2 hover:scale-[1.02] hover:bg-brand-soft hover:text-brand"
+-              }`}
++        {isActive && !compact && (
++          <motion.span
++            layoutId="dashboardSideIndicator"
++            className="dashboard-side-tab__indicator"
++            transition={tabTransition}
++          />
++        )}
++        <Icon size={compact ? 15 : 17} aria-hidden="true" className="relative z-10 shrink-0" />
++        <span className="relative z-10">{tab.label}</span>
++      </button>
++    );
++  }
++
++  return (
++    <div className="dashboard-console">
++      <aside className="dashboard-console__sidebar">
++        <div className="dashboard-console__sidebar-head">
++          <PanelLeft size={17} aria-hidden="true" />
++          <span>Navigation analytique</span>
++        </div>
++        <p className="dashboard-console__group-label">Vues du dashboard</p>
++        <div role="tablist" aria-label="Vues du tableau de bord" className="dashboard-console__side-tabs">
++          {tabs.map((tab) => renderTabButton(tab))}
++        </div>
++        <div className="dashboard-console__quality">
++          <SearchCheck size={18} aria-hidden="true" />
++          <div>
++            <strong>Qualité contrôlée</strong>
++            <span>Valeurs manquantes signalées, jamais estimées.</span>
++          </div>
++        </div>
++      </aside>
++
++      <div className="min-w-0">
++        <div className="dashboard-console__topbar">
++          <div>
++            <p>Espace d'analyse</p>
++            <h2>{activeTab.label}</h2>
++          </div>
++          <span>{tabs.length} vues complémentaires</span>
++        </div>
++        <div role="tablist" aria-label="Onglets du tableau de bord" className="dashboard-console__mobile-tabs">
++          {tabs.map((tab) => renderTabButton(tab, true))}
++        </div>
++        <div className="dashboard-console__panel">
++          <AnimatePresence mode="wait">
++            <motion.div
++              key={activeTab.id}
++              initial={{ opacity: 0, y: reduceMotion ? 0 : 10 }}
++              animate={{ opacity: 1, y: 0 }}
++              exit={{ opacity: 0, y: reduceMotion ? 0 : -10 }}
++              transition={panelTransition}
+             >
+-              {isActive && (
+-                <motion.span
+-                  layoutId="dashboardTabIndicator"
+-                  className="absolute inset-0 rounded-full bg-brand"
+-                  transition={tabTransition}
+-                />
+-              )}
+-              <span className="relative z-10">{tab.label}</span>
+-            </button>
+-          );
+-        })}
+-      </div>
+-      <div className="pt-6">
+-        <AnimatePresence mode="wait">
+-          <motion.div
+-            key={activeTab.id}
+-            initial={{ opacity: 0, y: reduceMotion ? 0 : 10 }}
+-            animate={{ opacity: 1, y: 0 }}
+-            exit={{ opacity: 0, y: reduceMotion ? 0 : -10 }}
+-            transition={panelTransition}
+-          >
+-            {activeTab.render()}
+-          </motion.div>
+-        </AnimatePresence>
++              {activeTab.render()}
++            </motion.div>
++          </AnimatePresence>
++        </div>
+       </div>
+     </div>
+   );
+diff --git a/src/components/Footer.tsx b/src/components/Footer.tsx
+index f6ea13d..fafb1a8 100644
+--- a/src/components/Footer.tsx
++++ b/src/components/Footer.tsx
+@@ -3,15 +3,15 @@ import { PROFILE } from "../config/content";
+ 
+ export default function Footer() {
+   return (
+-    <footer className="border-t border-line bg-white">
+-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 text-sm text-text-2 sm:flex-row sm:items-center sm:justify-between sm:px-6">
++    <footer className="border-t border-white/10 bg-ink">
++      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-10 text-sm text-white/65 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+         <p>
+           © {new Date().getFullYear()} {PROFILE.fullName}
+         </p>
+         <div className="flex flex-wrap gap-4">
+           <a
+             href={`mailto:${PROFILE.email}`}
+-            className="inline-flex items-center gap-2 underline-offset-4 transition-colors duration-200 hover:text-brand hover:underline"
++            className="inline-flex items-center gap-2 underline-offset-4 transition-colors duration-200 hover:text-white hover:underline"
+           >
+             <Mail size={16} aria-hidden="true" /> Email
+           </a>
+@@ -19,7 +19,7 @@ export default function Footer() {
+             href={PROFILE.linkedin}
+             target="_blank"
+             rel="noopener noreferrer"
+-            className="inline-flex items-center gap-2 underline-offset-4 transition-colors duration-200 hover:text-brand hover:underline"
++            className="inline-flex items-center gap-2 underline-offset-4 transition-colors duration-200 hover:text-white hover:underline"
+           >
+             <Link2 size={16} aria-hidden="true" /> LinkedIn
+           </a>
+diff --git a/src/components/KpiCard.tsx b/src/components/KpiCard.tsx
+index 4323d6b..bea90ce 100644
+--- a/src/components/KpiCard.tsx
++++ b/src/components/KpiCard.tsx
+@@ -24,8 +24,12 @@ export default function KpiCard({
+   const isImprovement = !isFlat && (lowerIsBetter ? !isIncrease : isIncrease);
+ 
+   return (
+-    <div className="rounded-card border border-line bg-white p-5 shadow-card transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover">
+-      <p className="font-mono text-[11px] font-medium uppercase tracking-wide text-text-2">{label}</p>
++    <div className="dashboard-kpi rounded-card border border-line bg-white p-5 shadow-card transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover">
++      <div className="dashboard-kpi__accent" aria-hidden="true" />
++      <div className="flex items-start justify-between gap-3">
++        <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.12em] text-text-2">{label}</p>
++        <span className="dashboard-kpi__badge">KPI</span>
++      </div>
+       <p className="mt-2 flex items-baseline gap-1.5">
+         <CountUpText text={value} className="font-display text-3xl font-bold text-ink" />
+         {unit && <span className="text-sm font-medium text-text-2">{unit}</span>}
+@@ -47,6 +51,7 @@ export default function KpiCard({
+         </p>
+       )}
+       {helpText && <p className="mt-1 text-xs text-text-2">{helpText}</p>}
++      <div className="dashboard-kpi__rail" aria-hidden="true"><span /></div>
+     </div>
+   );
+ }
+diff --git a/src/components/Layout.tsx b/src/components/Layout.tsx
+index d3be42d..ab8bfed 100644
+--- a/src/components/Layout.tsx
++++ b/src/components/Layout.tsx
+@@ -8,7 +8,7 @@ interface LayoutProps {
+ 
+ export default function Layout({ children }: LayoutProps) {
+   return (
+-    <div className="flex min-h-screen flex-col bg-surface">
++    <div className="flex min-h-screen flex-col bg-paper">
+       <Nav />
+       <main className="flex-1">{children}</main>
+       <Footer />
+diff --git a/src/components/Nav.tsx b/src/components/Nav.tsx
+index 31b301f..70aa485 100644
+--- a/src/components/Nav.tsx
++++ b/src/components/Nav.tsx
+@@ -26,14 +26,14 @@ export default function Nav() {
+   const reduceMotion = useReducedMotion();
+ 
+   return (
+-    <header className="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur">
+-      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
++    <header className="sticky top-0 z-50 border-b border-line/80 bg-paper/90 backdrop-blur-xl">
++      <nav className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between px-4 sm:px-6">
+         <Link
+           to="/"
+           className="flex min-w-0 items-center gap-3 font-display font-medium text-ink transition-colors duration-200 hover:text-brand"
+           onClick={() => setOpen(false)}
+         >
+-          <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-brand/40 bg-surface">
++          <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-line bg-surface shadow-sm">
+             {profilePhoto ? (
+               <img src={profilePhoto} alt="" className="h-full w-full object-cover" />
+             ) : (
+@@ -67,7 +67,7 @@ export default function Nav() {
+                   {isActive && (
+                     <motion.span
+                       layoutId="navIndicator"
+-                      className="absolute inset-0 rounded-full bg-brand-soft"
++                      className="absolute inset-0 rounded-full border border-brand/10 bg-brand-soft/80"
+                       transition={reduceMotion ? { duration: 0 } : { type: "spring", stiffness: 380, damping: 32 }}
+                     />
+                   )}
+@@ -85,7 +85,7 @@ export default function Nav() {
+           <li>
+             <Link
+               to="/contact"
+-              className="cursor-pointer rounded-full bg-brand px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
++              className="cursor-pointer rounded-full bg-ink px-4 py-2 text-sm font-medium text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-deep hover:shadow-card"
+             >
+               Me contacter
+             </Link>
+@@ -94,7 +94,7 @@ export default function Nav() {
+       </nav>
+ 
+       {open && (
+-        <ul className="flex flex-col gap-1 border-t border-line bg-white px-4 py-3 lg:hidden">
++        <ul className="flex flex-col gap-1 border-t border-line bg-paper/95 px-4 py-3 backdrop-blur-xl lg:hidden">
+           {NAV_LINKS.map((link) => {
+             const isActive = isActivePath(location.pathname, link.path);
+             return (
+@@ -115,7 +115,7 @@ export default function Nav() {
+           <li>
+             <Link
+               to="/contact"
+-              className="mt-2 block cursor-pointer rounded-full bg-brand px-4 py-2 text-center text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
++              className="mt-2 block cursor-pointer rounded-full bg-ink px-4 py-2 text-center text-sm font-medium text-white transition-all duration-300 hover:bg-brand-deep"
+               onClick={() => setOpen(false)}
+             >
+               Me contacter
+diff --git a/src/components/OrganizationProjectSection.tsx b/src/components/OrganizationProjectSection.tsx
+index d11af73..1c7efd5 100644
+--- a/src/components/OrganizationProjectSection.tsx
++++ b/src/components/OrganizationProjectSection.tsx
+@@ -22,7 +22,7 @@ function OrganizationIdentity({ organization }: { organization: PortfolioOrganiz
+     <div
+       className={`flex w-full items-center ${
+         isUnep ? "h-28 max-w-[180px]" : "h-20 max-w-[520px] sm:h-24"
+-      } ${isUnicef ? "bg-[#1cabe2] px-4 sm:px-5" : ""}`}
++      } ${isUnicef ? "bg-[#356b81] px-4 sm:px-5" : ""}`}
+       aria-label={organization.name}
+     >
+       <img
+@@ -36,13 +36,14 @@ function OrganizationIdentity({ organization }: { organization: PortfolioOrganiz
+ 
+ export default function OrganizationProjectSection({ organization }: { organization: PortfolioOrganization }) {
+   const projectCount = organization.projectSlugs.length;
++  const projectGrid = projectCount === 5 ? "xl:grid-cols-3" : "xl:grid-cols-4";
+ 
+   return (
+-    <section aria-labelledby={`organization-${organization.id}`} className="border-t border-line pt-8 first:border-t-0 first:pt-0">
++    <section aria-labelledby={`organization-${organization.id}`} className="border-t border-line pt-10 first:border-t-0 first:pt-0">
+       <Reveal>
+         <div
+-          className="border-l-4 px-4 py-5 sm:flex sm:items-center sm:justify-between sm:gap-8 sm:px-6"
+-          style={{ borderColor: organization.accent, backgroundColor: organization.soft }}
++          className="overflow-hidden rounded-card border border-line px-5 py-6 shadow-card sm:flex sm:items-center sm:justify-between sm:gap-8 sm:px-7"
++          style={{ borderTopColor: organization.accent, borderTopWidth: 3, backgroundColor: organization.soft }}
+         >
+           <div className="min-w-0 flex-1">
+             <p className="mb-2 font-mono text-[11px] font-semibold uppercase tracking-wide text-text-2">
+@@ -62,7 +63,7 @@ export default function OrganizationProjectSection({ organization }: { organizat
+         </div>
+       </Reveal>
+ 
+-      <RevealGroup className="mt-5 grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
++      <RevealGroup className={`mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 ${projectGrid}`}>
+         {organization.projectSlugs.map((slug, index) => (
+           <ProjectCard key={slug} slug={slug} index={index} />
+         ))}
+diff --git a/src/components/PowerBIEmbed.tsx b/src/components/PowerBIEmbed.tsx
+index eac4671..c9d2254 100644
+--- a/src/components/PowerBIEmbed.tsx
++++ b/src/components/PowerBIEmbed.tsx
+@@ -1,13 +1,19 @@
+ import { useState } from "react";
+-import { ExternalLink } from "lucide-react";
++import { CircleCheck, ExternalLink, Maximize2 } from "lucide-react";
+ import type { ConsultingReport } from "../config/content";
+ 
+ export default function PowerBIEmbed({ report }: { report: ConsultingReport }) {
+   const [loaded, setLoaded] = useState(false);
+ 
+   return (
+-    <article className="flex h-full flex-col rounded-card border border-line bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover">
+-      <h3 className="font-display text-base font-semibold text-ink">{report.title}</h3>
++    <article className="consulting-report-card flex h-full flex-col rounded-card border border-line bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover">
++      <div className="flex items-start justify-between gap-3">
++        <div>
++          <p className="font-mono text-[9px] font-semibold uppercase tracking-[0.17em] text-text-3">Rapport interactif</p>
++          <h3 className="mt-1 font-display text-base font-semibold text-ink">{report.title}</h3>
++        </div>
++        <span className="consulting-report-card__status"><CircleCheck size={13} aria-hidden="true" /> Publié</span>
++      </div>
+       <div className="relative mt-3 aspect-[16/10] w-full overflow-hidden rounded-card border border-line bg-surface">
+         {!loaded && (
+           <div className="absolute inset-0 z-10 overflow-hidden bg-surface" role="status" aria-live="polite">
+@@ -35,8 +41,9 @@ export default function PowerBIEmbed({ report }: { report: ConsultingReport }) {
+         rel="noreferrer"
+         className="group mt-3 inline-flex w-fit items-center gap-1.5 text-sm font-medium text-brand transition-colors duration-200 hover:text-brand-deep"
+       >
++        <Maximize2 size={14} aria-hidden="true" />
+         Ouvrir en plein écran
+-        <ExternalLink size={14} aria-hidden="true" className="transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
++        <ExternalLink size={13} aria-hidden="true" className="transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+       </a>
+     </article>
+   );
+diff --git a/src/components/Reveal.tsx b/src/components/Reveal.tsx
+index 1a3e756..c558723 100644
+--- a/src/components/Reveal.tsx
++++ b/src/components/Reveal.tsx
+@@ -2,8 +2,8 @@ import { motion, type Variants } from "framer-motion";
+ import type { ReactNode } from "react";
+ 
+ const revealVariants: Variants = {
+-  hidden: { opacity: 0, y: 18 },
+-  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
++  hidden: { opacity: 0, y: 14 },
++  show: { opacity: 1, y: 0, transition: { duration: 0.62, ease: [0.22, 1, 0.36, 1] } },
+ };
+ 
+ interface RevealProps {
+@@ -20,7 +20,7 @@ export default function Reveal({ children, className, delay = 0 }: RevealProps)
+       whileInView="show"
+       viewport={{ once: true, margin: "-80px" }}
+       variants={revealVariants}
+-      transition={{ delay, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
++      transition={{ delay, duration: 0.62, ease: [0.22, 1, 0.36, 1] }}
+     >
+       {children}
+     </motion.div>
+diff --git a/src/components/charts/ChoroplethMap.tsx b/src/components/charts/ChoroplethMap.tsx
+index 2d8c02b..1f8fe98 100644
+--- a/src/components/charts/ChoroplethMap.tsx
++++ b/src/components/charts/ChoroplethMap.tsx
+@@ -102,7 +102,7 @@ export default function ChoroplethMap({
+                     key={geo.rsmKey}
+                     geography={geo}
+                     fill={fill}
+-                    stroke={isSelected ? "#5B4BE3" : "#FFFFFF"}
++                    stroke={isSelected ? "#29463A" : "#FFFFFF"}
+                     strokeWidth={isSelected ? 2 : 0.6}
+                     tabIndex={inPortfolio ? 0 : -1}
+                     aria-label={inPortfolio ? `${name} : ${value != null ? `${fmt(value)}${valueSuffix}` : "donnée non disponible"}` : undefined}
+diff --git a/src/components/charts/DivergingBarChart.tsx b/src/components/charts/DivergingBarChart.tsx
+index 36df483..2b6dda6 100644
+--- a/src/components/charts/DivergingBarChart.tsx
++++ b/src/components/charts/DivergingBarChart.tsx
+@@ -17,8 +17,8 @@ export default function DivergingBarChart({
+   data,
+   valueSuffix = " pts",
+   height = 380,
+-  positiveColor = "#5B4BE3",
+-  negativeColor = "#F59E0B",
++  positiveColor = "#29463A",
++  negativeColor = "#9A7850",
+ }: DivergingBarChartProps) {
+   const sorted = [...data].sort((a, b) => a.value - b.value);
+ 
+diff --git a/src/components/charts/GaugeGrid.tsx b/src/components/charts/GaugeGrid.tsx
+index 040209f..48da354 100644
+--- a/src/components/charts/GaugeGrid.tsx
++++ b/src/components/charts/GaugeGrid.tsx
+@@ -44,7 +44,7 @@ function Gauge({ name, value, color }: { name: string; value: number; color: str
+   );
+ }
+ 
+-export default function GaugeGrid({ data, color = "#5B4BE3" }: GaugeGridProps) {
++export default function GaugeGrid({ data, color = "#29463A" }: GaugeGridProps) {
+   return (
+     <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-8">
+       {data.map((d) => (
+diff --git a/src/components/charts/ScatterChartCard.tsx b/src/components/charts/ScatterChartCard.tsx
+index f450979..b00cf6c 100644
+--- a/src/components/charts/ScatterChartCard.tsx
++++ b/src/components/charts/ScatterChartCard.tsx
+@@ -75,7 +75,7 @@ export default function ScatterChartCard({
+             );
+           }}
+         />
+-        <Scatter data={data} fill="#5B4BE3" isAnimationActive>
++        <Scatter data={data} fill="#29463A" isAnimationActive>
+           {data.map((_, i) => (
+             <Cell key={i} fill={colorForIndex(i)} fillOpacity={0.85} />
+           ))}
+diff --git a/src/lib/palette.ts b/src/lib/palette.ts
+index d05d988..530cb6c 100644
+--- a/src/lib/palette.ts
++++ b/src/lib/palette.ts
+@@ -1,25 +1,25 @@
+ import { scaleSequential } from "d3-scale";
+ 
+ export const PALETTE = {
+-  ink: "#14161B",
+-  brand: "#5B4BE3",
+-  brandDeep: "#3F32B5",
+-  surface: "#F5F6F8",
+-  surface2: "#EDEFF3",
+-  line: "#E4E7EC",
+-  text2: "#586072",
+-  text3: "#8A92A3",
++  ink: "#171B18",
++  brand: "#29463A",
++  brandDeep: "#193126",
++  surface: "#F5F3ED",
++  surface2: "#EBE8DF",
++  line: "#DDD8CC",
++  text2: "#5C645E",
++  text3: "#858C86",
+ };
+ 
+ // Palette catégorielle (séries de graphiques, badges) — §2.1 du brief.
+ export const CATEGORICAL: string[] = [
+-  "#5B4BE3", // c1
+-  "#0EA5A4", // c2
+-  "#F59E0B", // c3
+-  "#E0457B", // c4
+-  "#3B82F6", // c5
+-  "#10B981", // c6
+-  "#64748B", // c7
++  "#4F645A", // c1
++  "#65766D", // c2
++  "#9A7850", // c3
++  "#8F6867", // c4
++  "#626D7B", // c5
++  "#707A58", // c6
++  "#7B746A", // c7
+ ];
+ 
+ export function colorForIndex(index: number): string {
+@@ -55,16 +55,16 @@ function multiLerp(stops: string[], t: number): string {
+ export type IndicatorPolarity = "positive" | "negative";
+ 
+ // Indicateur "positif" (mCPR, accès à l'eau...) → rampe claire→indigo.
+-const POSITIVE_RAMP = ["#EEEBFB", "#0EA5A4", "#3F32B5"];
++const POSITIVE_RAMP = ["#E9EEE9", "#6F8278", "#193126"];
+ // Indicateur "négatif" (mortalité, déplacement...) → rampe claire→ambre→brun.
+-const NEGATIVE_RAMP = ["#FEF3E2", "#F59E0B", "#7C4A03"];
++const NEGATIVE_RAMP = ["#F3ECE2", "#B08A5C", "#664A2D"];
+ 
+ /** Couleur séquentielle à teinte unique pour t ∈ [0,1], jamais rouge/vert seuls. */
+ export function sequentialColor(t: number, polarity: IndicatorPolarity = "positive"): string {
+   return multiLerp(polarity === "negative" ? NEGATIVE_RAMP : POSITIVE_RAMP, t);
+ }
+ 
+-export const MISSING_DATA_COLOR = "#D7DBE3";
++export const MISSING_DATA_COLOR = "#D8D5CD";
+ 
+ /** Échelle séquentielle d3 (domaine réel -> couleur), choisie selon la polarité de l'indicateur. */
+ export function makeSequentialScale(
+diff --git a/src/pages/Home.tsx b/src/pages/Home.tsx
+index c55ee57..864dea9 100644
+--- a/src/pages/Home.tsx
++++ b/src/pages/Home.tsx
+@@ -8,17 +8,17 @@ import { ProfileImage, ProjectCard, StatTile } from "./pageShared";
+ export default function Home() {
+   return (
+     <>
+-      <section className="bg-white">
+-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[170px_1fr] lg:py-20">
++      <section className="premium-hero">
++        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[190px_1fr] lg:items-center lg:py-24">
+           <Reveal>
+             <ProfileImage />
+           </Reveal>
+           <Reveal delay={0.1} className="max-w-4xl">
+-            <p className="font-mono text-xs uppercase tracking-wide text-text-2">{PROFILE.title}</p>
+-            <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold leading-tight tracking-tight text-ink sm:text-5xl">
++            <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-brand">{PROFILE.title}</p>
++            <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-[1.08] tracking-[-0.035em] text-ink sm:text-6xl">
+               {PROFILE.fullName}
+             </h1>
+-            <p className="mt-3 text-lg font-medium text-brand-deep">{PROFILE.tagline}</p>
++            <p className="mt-4 text-lg font-medium text-brand-deep sm:text-xl">{PROFILE.tagline}</p>
+             <p className="mt-5 max-w-3xl text-base leading-7 text-text-2">{PROFILE.pitch}</p>
+             <p className="mt-3 flex items-center gap-1.5 text-sm text-text-2">
+               <MapPin size={16} aria-hidden="true" /> {PROFILE.location}
+@@ -26,13 +26,13 @@ export default function Home() {
+             <div className="mt-7 flex flex-wrap gap-3">
+               <Link
+                 to="/portfolio"
+-                className="inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
++                className="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-white shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-deep hover:shadow-cardHover"
+               >
+                 Voir le portfolio <ArrowRight size={16} aria-hidden="true" />
+               </Link>
+               <Link
+                 to="/contact"
+-                className="rounded-full bg-surface px-5 py-2.5 text-sm font-medium text-ink transition-all duration-200 hover:scale-[1.02] hover:bg-surface-2"
++                className="rounded-full border border-line bg-paper/70 px-5 py-2.5 text-sm font-medium text-ink transition-all duration-300 hover:-translate-y-0.5 hover:border-brand/30 hover:bg-paper"
+               >
+                 Me contacter
+               </Link>
+@@ -41,8 +41,9 @@ export default function Home() {
+         </div>
+       </section>
+ 
+-      <section className="bg-brand">
+-        <RevealGroup className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-4 py-10 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
++      <section className="premium-grid relative overflow-hidden bg-ink">
++        <div aria-hidden="true" className="ambient-drift absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/10" />
++        <RevealGroup className="relative mx-auto grid max-w-7xl grid-cols-1 gap-2 px-4 py-11 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
+           {HIGHLIGHTS.map((item) => (
+             <StatTile key={item.value} value={item.value} label={item.label} inverse />
+           ))}
+@@ -58,7 +59,7 @@ export default function Home() {
+             {FEATURE_POINTS.map((item) => (
+               <RevealItem
+                 key={item.title}
+-                className="rounded-card border border-line bg-white p-5 shadow-card transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover"
++                className="rounded-card border border-line bg-paper p-5 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-brand/20 hover:shadow-cardHover"
+               >
+                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-soft text-brand-deep">
+                   <item.icon size={20} aria-hidden="true" />
+@@ -71,18 +72,18 @@ export default function Home() {
+         </div>
+       </section>
+ 
+-      <section className="bg-white">
++      <section className="bg-paper">
+         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
+           <Reveal className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+             <div>
+               <h2 className="font-display text-2xl font-bold tracking-tight text-ink">Aperçu portfolio</h2>
+               <p className="mt-2 max-w-2xl text-sm leading-6 text-text-2">
+-                Trois réalisations représentatives avant d'accéder aux 16 projets interactifs.
++                Une sélection de réalisations représentatives avant d'explorer l'ensemble des projets interactifs.
+               </p>
+             </div>
+             <Link
+               to="/portfolio"
+-              className="inline-flex w-fit items-center gap-2 rounded-full bg-brand px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
++              className="inline-flex w-fit items-center gap-2 rounded-full bg-ink px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-deep"
+             >
+               Voir tous les projets <ArrowRight size={16} aria-hidden="true" />
+             </Link>
+@@ -113,7 +114,7 @@ export default function Home() {
+         </div>
+       </section>
+ 
+-      <section className="bg-white">
++      <section className="bg-paper">
+         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
+           <Reveal className="rounded-card border border-line bg-surface p-6 sm:flex sm:items-center sm:justify-between sm:gap-8">
+             <div>
+@@ -132,7 +133,7 @@ export default function Home() {
+             </div>
+             <Link
+               to="/contact"
+-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep sm:mt-0"
++              className="mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-deep sm:mt-0"
+             >
+               Me contacter <ArrowRight size={16} aria-hidden="true" />
+             </Link>
+diff --git a/src/pages/PortfolioPage.tsx b/src/pages/PortfolioPage.tsx
+index 38e1f75..183aa2a 100644
+--- a/src/pages/PortfolioPage.tsx
++++ b/src/pages/PortfolioPage.tsx
+@@ -46,15 +46,15 @@ export default function PortfolioPage() {
+   }
+ 
+   return (
+-    <div className="bg-white">
+-      <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:py-16">
++    <div className="bg-paper">
++      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:py-20">
+         <PageIntro
+           eyebrow="Portfolio"
+           title="Dashboards interactifs & applications data"
+           description="Projets organisés selon leur contexte de réalisation : consultance, études et réponses à des appels d'offres."
+         />
+ 
+-        <Reveal delay={0.05} className="mt-7 grid grid-cols-1 gap-2 lg:grid-cols-3">
++        <Reveal delay={0.05} className="mt-9 grid grid-cols-1 gap-2 rounded-[1.35rem] border border-line bg-surface p-2 lg:grid-cols-3">
+           {PORTFOLIO_CATEGORIES.map((item) => {
+             const isActive = item.id === category;
+             const Icon = item.icon;
+@@ -64,14 +64,14 @@ export default function PortfolioPage() {
+                 type="button"
+                 onClick={() => selectCategory(item.id)}
+                 aria-pressed={isActive}
+-                className={`group relative flex min-h-12 cursor-pointer items-center gap-2 overflow-hidden rounded-card px-4 py-3 text-left text-sm font-medium transition-colors duration-200 ${
+-                  isActive ? "text-brand-deep" : "bg-surface text-text-2 hover:text-brand"
++                className={`group relative flex min-h-12 cursor-pointer items-center gap-2 overflow-hidden rounded-[0.95rem] px-4 py-3 text-left text-sm font-medium transition-colors duration-300 ${
++                  isActive ? "text-brand-deep" : "text-text-2 hover:bg-paper/70 hover:text-brand"
+                 }`}
+               >
+                 {isActive && (
+                   <motion.span
+                     layoutId="portfolioCategoryIndicator"
+-                    className="absolute inset-0 border border-brand/20 bg-brand-soft"
++                    className="absolute inset-0 border border-line bg-paper shadow-sm"
+                     transition={reduceMotion ? { duration: 0 } : { type: "spring", stiffness: 380, damping: 32 }}
+                   />
+                 )}
+diff --git a/src/pages/pageData.ts b/src/pages/pageData.ts
+index f66c40a..2f7796f 100644
+--- a/src/pages/pageData.ts
++++ b/src/pages/pageData.ts
+@@ -51,7 +51,8 @@ export const PORTFOLIO_CATEGORIES: {
+ ];
+ 
+ export function getDashboardPortfolioCategory(slug: string): PortfolioCategory {
+-  return slug === "economie-croissance" ? "etudes" : "appels-offres";
++  void slug;
++  return "appels-offres";
+ }
+ 
+ export function getPortfolioCategory(category: PortfolioCategory) {
+diff --git a/src/pages/pageShared.tsx b/src/pages/pageShared.tsx
+index 9b9871e..74d9867 100644
+--- a/src/pages/pageShared.tsx
++++ b/src/pages/pageShared.tsx
+@@ -10,12 +10,12 @@ import profilePhoto from "../assets/profile.jpg";
+ export function ProfileImage() {
+   return (
+     <div
+-      className="flex h-[150px] w-[150px] shrink-0 items-center justify-center overflow-hidden rounded-full border-2 border-brand bg-surface"
++      className="flex h-[168px] w-[168px] shrink-0 items-center justify-center overflow-hidden rounded-[2.25rem] border border-line bg-surface p-1.5 shadow-card"
+       role="img"
+       aria-label={`Photo de profil de ${PROFILE.fullName}`}
+     >
+       {profilePhoto ? (
+-        <img src={profilePhoto} alt="" className="h-full w-full object-cover" />
++        <img src={profilePhoto} alt="" className="h-full w-full rounded-[1.85rem] object-cover grayscale-[12%]" />
+       ) : (
+         <User size={52} aria-hidden="true" className="text-text-3" />
+       )}
+@@ -34,8 +34,8 @@ export function PageIntro({
+ }) {
+   return (
+     <Reveal>
+-      {eyebrow && <p className="font-mono text-xs font-semibold uppercase tracking-wide text-brand">{eyebrow}</p>}
+-      <h1 className="mt-2 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">{title}</h1>
++      {eyebrow && <p className="font-mono text-[11px] font-semibold uppercase tracking-[0.18em] text-brand">{eyebrow}</p>}
++      <h1 className="mt-3 font-display text-3xl font-semibold tracking-[-0.025em] text-ink sm:text-5xl">{title}</h1>
+       {description && <p className="mt-3 max-w-3xl text-base leading-7 text-text-2">{description}</p>}
+     </Reveal>
+   );
+@@ -47,7 +47,7 @@ export function StatTile({ value, label, inverse = false }: { value: string; lab
+       className={`rounded-card p-4 transition-all duration-200 hover:-translate-y-[3px] ${
+         inverse
+           ? "text-white hover:bg-white/10"
+-          : "border border-line bg-surface text-ink shadow-sm hover:shadow-cardHover"
++          : "border border-line bg-surface text-ink shadow-sm hover:border-brand/20 hover:shadow-cardHover"
+       }`}
+     >
+       <CountUpText text={value} className="font-display text-2xl font-bold sm:text-3xl" />
+@@ -67,7 +67,7 @@ export function ProjectCard({ slug, index = 0 }: { slug: string; index?: number
+     <RevealItem>
+       <Link
+         to={`/portfolio/${project.slug}`}
+-        className="group block h-full overflow-hidden rounded-card border border-line bg-white transition-all duration-200 hover:-translate-y-[3px] hover:shadow-cardHover"
++        className="group block h-full overflow-hidden rounded-card border border-line bg-paper shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-brand/20 hover:shadow-cardHover"
+       >
+         <div className="relative aspect-video overflow-hidden bg-surface">
+           {image ? (
+@@ -75,7 +75,7 @@ export function ProjectCard({ slug, index = 0 }: { slug: string; index?: number
+               src={image}
+               alt={getProjectImageAlt(project.slug, project.title)}
+               loading="lazy"
+-              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
++              className="h-full w-full object-cover saturate-[0.82] transition-transform duration-700 ease-out group-hover:scale-[1.035] group-hover:saturate-100"
+             />
+           ) : (
+             <div
+@@ -83,10 +83,10 @@ export function ProjectCard({ slug, index = 0 }: { slug: string; index?: number
+               style={{
+                 background:
+                   index % 3 === 0
+-                    ? "linear-gradient(135deg, #5B4BE3 0%, #0EA5A4 100%)"
++                    ? "linear-gradient(135deg, #29463A 0%, #65766D 100%)"
+                     : index % 3 === 1
+-                      ? "linear-gradient(135deg, #3F32B5 0%, #F59E0B 100%)"
+-                      : "linear-gradient(135deg, #0EA5A4 0%, #64748B 100%)",
++                      ? "linear-gradient(135deg, #193126 0%, #9A7850 100%)"
++                      : "linear-gradient(135deg, #65766D 0%, #7B746A 100%)",
+               }}
+               aria-hidden="true"
+             />
+@@ -138,7 +138,7 @@ export function ProjectContactCta({
+       </div>
+       <Link
+         to="/contact"
+-        className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.02] hover:bg-brand-deep"
++        className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-deep"
+       >
+         Échanger sur votre projet <ArrowRight size={16} aria-hidden="true" />
+       </Link>
+diff --git a/tailwind.config.js b/tailwind.config.js
+index 7d762b0..548bfe2 100644
+--- a/tailwind.config.js
++++ b/tailwind.config.js
+@@ -5,46 +5,46 @@ export default {
+     extend: {
+       colors: {
+         ink: {
+-          DEFAULT: "#14161B",
+-          soft: "#1E2129",
++          DEFAULT: "#171B18",
++          soft: "#252B27",
+         },
+-        paper: "#FFFFFF",
++        paper: "#FDFCF8",
+         surface: {
+-          DEFAULT: "#F5F6F8",
+-          2: "#EDEFF3",
++          DEFAULT: "#F5F3ED",
++          2: "#EBE8DF",
+         },
+-        line: "#E4E7EC",
++        line: "#DDD8CC",
+         text: {
+-          DEFAULT: "#14161B",
+-          2: "#586072",
+-          3: "#8A92A3",
++          DEFAULT: "#171B18",
++          2: "#5C645E",
++          3: "#858C86",
+         },
+         brand: {
+-          DEFAULT: "#5B4BE3",
+-          deep: "#3F32B5",
+-          soft: "#EEEBFB",
++          DEFAULT: "#29463A",
++          deep: "#193126",
++          soft: "#E4EBE5",
+         },
+         cat: {
+-          1: "#5B4BE3",
+-          2: "#0EA5A4",
+-          3: "#F59E0B",
+-          4: "#E0457B",
+-          5: "#3B82F6",
+-          6: "#10B981",
+-          7: "#64748B",
++          1: "#4F645A",
++          2: "#65766D",
++          3: "#9A7850",
++          4: "#8F6867",
++          5: "#626D7B",
++          6: "#707A58",
++          7: "#7B746A",
+         },
+       },
+       fontFamily: {
+-        display: ["Space Grotesk", "system-ui", "sans-serif"],
+-        sans: ["Inter", "system-ui", "sans-serif"],
++        display: ["Manrope", "system-ui", "sans-serif"],
++        sans: ["DM Sans", "system-ui", "sans-serif"],
+         mono: ["IBM Plex Mono", "ui-monospace", "monospace"],
+       },
+       boxShadow: {
+-        card: "0 6px 20px rgba(20, 22, 27, 0.05)",
+-        cardHover: "0 10px 28px rgba(20, 22, 27, 0.09)",
++        card: "0 12px 34px rgba(23, 27, 24, 0.055)",
++        cardHover: "0 18px 46px rgba(23, 27, 24, 0.11)",
+       },
+       borderRadius: {
+-        card: "14px",
++        card: "18px",
+       },
+     },
+   },
