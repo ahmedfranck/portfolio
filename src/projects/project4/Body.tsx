@@ -313,7 +313,7 @@ function ComparisonSection({ countries, selected, onChange, maxYear }: { readonl
 }
 
 function SourcesSection() {
-  const datasets = Object.values(UCPO_DATASETS) as UcpoDatasetMeta[];
+  const datasets = (Object.values(UCPO_DATASETS) as UcpoDatasetMeta[]).filter((d) => d.id !== "timeline");
   return (
     <Panel title="Registre de provenance" subtitle="Vue complète non filtrée : un flag explicite distingue chaque dataset démonstratif des données publiques réelles.">
       <DataTable
