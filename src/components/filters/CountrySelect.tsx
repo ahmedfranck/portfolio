@@ -6,10 +6,9 @@ interface CountrySelectProps {
   onChange: (iso3: string) => void;
   countries?: string[];
   label?: string;
-  allOption?: boolean;
 }
 
-export default function CountrySelect({ value, onChange, countries, label = "Pays", allOption = false }: CountrySelectProps) {
+export default function CountrySelect({ value, onChange, countries, label = "Pays" }: CountrySelectProps) {
   const id = useId();
   const options = countries ? COUNTRIES.filter((c) => countries.includes(c.iso3)) : COUNTRIES;
 
@@ -24,7 +23,6 @@ export default function CountrySelect({ value, onChange, countries, label = "Pay
         onChange={(e) => onChange(e.target.value)}
         className="w-full cursor-pointer rounded-lg border border-line bg-white px-3 py-2 text-sm text-ink transition-colors duration-200 hover:border-brand focus:border-brand focus:outline-none"
       >
-        {allOption && <option value="ALL">Tous les pays</option>}
         {options.map((c) => (
           <option key={c.iso3} value={c.iso3}>
             {c.name}
