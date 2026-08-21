@@ -6,7 +6,6 @@ import DashboardMasthead from "../components/DashboardMasthead";
 import Reveal from "../components/Reveal";
 import { getPortfolioOrganizationByProject } from "../config/portfolioOrganizations";
 import { PROJECTS } from "../projects";
-import { AO_THEMES, type AoThemeKey } from "../themes/appelsOffres";
 import { getDashboardPortfolioCategory, getPortfolioCategory } from "./pageData";
 import { ProjectContactCta } from "./pageShared";
 
@@ -17,6 +16,13 @@ function BodyFallback() {
     </div>
   );
 }
+
+const DASHBOARD_THEMES: Record<string, { deep: string; accent: string; soft: string; canvas: string }> = {
+  bad: { deep: "#244d3e", accent: "#4f806b", soft: "#e9f1ec", canvas: "#f6f8f6" },
+  unicef: { deep: "#123b55", accent: "#39a4d2", soft: "#e8f5fb", canvas: "#f4f8fa" },
+  pnue: { deep: "#173d35", accent: "#6aa873", soft: "#e9f3ec", canvas: "#f4f7f4" },
+  unverified: { deep: "#2c3e50", accent: "#16a085", soft: "#e8f6f3", canvas: "#f6f8f9" },
+};
 
 export default function ProjectPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -36,19 +42,15 @@ export default function ProjectPage() {
   const next = categoryProjects[(categoryIndex + 1) % categoryProjects.length];
   const Body = project.Body;
   const isUcpo = organization?.id === "ucpo";
-  const organizationKey: AoThemeKey = isUcpo
-    ? "ucpo"
-    : organization?.id === "bad" || organization?.id === "unicef" || organization?.id === "pnue"
-      ? organization.id
-      : "unverified";
-  const theme = AO_THEMES[organizationKey];
+  const organizationKey = isUcpo ? "ucpo" : (organization?.id ?? "unverified");
+  const theme = DASHBOARD_THEMES[organizationKey] ?? DASHBOARD_THEMES.unverified;
   const dashboardStyle = isUcpo
     ? undefined
     : ({
-        "--dash-deep": theme.colors.primaryDark,
-        "--dash-accent": theme.colors.accent,
-        "--dash-soft": theme.colors.soft,
-        "--dash-canvas": theme.colors.canvas,
+        "--dash-deep": theme.deep,
+        "--dash-accent": theme.accent,
+        "--dash-soft": theme.soft,
+        "--dash-canvas": theme.canvas,
       } as CSSProperties);
 
   return (
