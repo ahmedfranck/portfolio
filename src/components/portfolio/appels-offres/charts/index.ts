@@ -1,8 +1,0 @@
-export { default as LineTrend } from "./LineTrend";
-export type { LineTrendDatum, LineTrendSeries } from "./LineTrend";
-export { default as BarStack } from "./BarStack";
-export type { BarStackDatum, BarStackSeries } from "./BarStack";
-export { default as DoughnutMix } from "./DoughnutMix";
-export type { DoughnutMixDatum } from "./DoughnutMix";
-export { default as BubbleScatter } from "./BubbleScatter";
-export type { BubbleScatterDatum } from "./BubbleScatter";
