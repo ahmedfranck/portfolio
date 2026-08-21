@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import { AoDataBadges } from "./badges";
 
 export interface SumBandStat {
   readonly label: string;
@@ -59,8 +60,9 @@ export default function SumBand({ eyebrow, title, subtitle, badge, illustrativeN
                 {stat.value}
                 {stat.unit && <span className="text-[11px] font-semibold text-white/55">{stat.unit}</span>}
               </dd>
-              <dt className="mt-2 text-[8px] font-bold uppercase tracking-[0.08em] text-white/45">
-                {stat.label}
+              <dt className="mt-2 flex items-center gap-1.5 text-[8px] font-bold uppercase tracking-[0.08em] text-white/45">
+                <span>{stat.label}</span>
+                {stat.source && <AoDataBadges source={stat.source} sourceDisplay="icon" />}
               </dt>
             </div>
           ))}

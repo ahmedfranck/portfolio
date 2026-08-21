@@ -1,6 +1,7 @@
 import { ArrowDownRight, ArrowRight, ArrowUpRight } from "lucide-react";
 import type { ReactNode } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import { AoDataBadges } from "./badges";
 
 export type KpiTrend = "up" | "down" | "flat";
 
@@ -63,6 +64,7 @@ export default function KpiCard({
           {delta}
         </p>
       )}
+      {(source || illustrative) && <div className="mt-3"><AoDataBadges source={source} illustrative={illustrative} sourceDisplay="disclosure" /></div>}
     </article>
   );
 }

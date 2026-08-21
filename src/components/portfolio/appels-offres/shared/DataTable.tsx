@@ -1,6 +1,7 @@
 import { useMemo, useState, type CSSProperties, type Key, type ReactNode } from "react";
 import { ArrowDown, ArrowUp, Download, Search } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import { AoDataBadges } from "./badges";
 
 export interface AoDataTableColumn<T> {
   readonly id: string;
@@ -136,7 +137,10 @@ export default function DataTable<T extends object>({
         </table>
         {visibleRows.length === 0 && <p className="p-6 text-center text-[10px]" style={{ color: theme.colors.muted }}>{emptyLabel}</p>}
       </div>
-      <p className="mt-3 text-[9px]" style={{ color: theme.colors.muted }}>{visibleRows.length.toLocaleString("fr-FR")} ligne(s)</p>
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
+        <span className="text-[9px]" style={{ color: theme.colors.muted }}>{visibleRows.length.toLocaleString("fr-FR")} ligne(s)</span>
+        <AoDataBadges source={source} illustrative={illustrative} />
+      </div>
     </div>
   );
 }

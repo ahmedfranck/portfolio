@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import { AoDataBadges } from "./badges";
 import { CountryLabel } from "./CountryFlag";
 
 export interface RankListItem {
@@ -45,6 +46,7 @@ export default function RankList({ items, source, illustrative = false, descendi
           </li>
         ))}
       </ol>
+      {(source || illustrative) && <div className="mt-4"><AoDataBadges source={source} illustrative={illustrative} /></div>}
     </div>
   );
 }

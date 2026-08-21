@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Table2 } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import { AoDataBadges } from "../shared/badges";
 
 export type ChartCell = string | number | null | undefined;
 export type ChartTableRow = Readonly<Record<string, ChartCell>>;
@@ -36,7 +37,8 @@ export default function ChartScaffold({
       <div role="img" aria-label={ariaLabel}>
         {children}
       </div>
-      <div className="mt-3 flex flex-wrap items-center justify-end gap-2">
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
+        <AoDataBadges source={source} illustrative={illustrative} />
         <details className="group text-[9px]" style={{ color: theme.colors.muted }}>
           <summary className="inline-flex cursor-pointer list-none items-center gap-1 font-semibold" style={{ color: theme.colors.primary }}>
             <Table2 size={12} aria-hidden="true" /> Voir les données du graphique

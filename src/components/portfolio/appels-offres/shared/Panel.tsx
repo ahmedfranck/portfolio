@@ -1,5 +1,6 @@
 import { useId, type ReactNode } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
+import { AoDataBadges } from "./badges";
 
 interface PanelProps {
   readonly title: ReactNode;
@@ -33,6 +34,11 @@ export default function Panel({ title, subtitle, action, children, source, illus
         {action}
       </header>
       <div className="p-4">{children}</div>
+      {(source || illustrative) && (
+        <footer className="border-t px-4 py-3" style={{ borderColor: theme.colors.border, background: theme.colors.canvas }}>
+          <AoDataBadges source={source} illustrative={illustrative} />
+        </footer>
+      )}
     </section>
   );
 }
