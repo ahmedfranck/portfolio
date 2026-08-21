@@ -1,14 +1,15 @@
 import { RotateCcw, SlidersHorizontal } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
-import CountrySelect, { type CountrySelectOption } from "./CountrySelect";
+import CountryMultiSelect from "./CountryMultiSelect";
+import type { CountrySelectOption } from "./CountrySelect";
 import YearSlider from "./YearSlider";
 
 export type DashboardFilterOption = CountrySelectOption;
 
 interface DashboardFilterBarProps {
   readonly countryOptions: readonly DashboardFilterOption[];
-  readonly selectedCountry: string | null;
-  readonly onCountryChange: (country: string | null) => void;
+  readonly selectedCountries: readonly string[];
+  readonly onCountriesChange: (countries: string[]) => void;
   readonly maxYearValue: number;
   readonly onMaxYearChange: (year: number) => void;
   readonly minYear: number;
@@ -18,8 +19,8 @@ interface DashboardFilterBarProps {
 
 export default function DashboardFilterBar({
   countryOptions,
-  selectedCountry,
-  onCountryChange,
+  selectedCountries,
+  onCountriesChange,
   maxYearValue,
   onMaxYearChange,
   minYear,
@@ -27,11 +28,18 @@ export default function DashboardFilterBar({
   allLabel = "Tous les pays",
 }: DashboardFilterBarProps) {
   const { theme } = useAoTheme();
-  const selectedLabel = countryOptions.find((option) => option.value === selectedCountry)?.label ?? allLabel;
-  const isDefault = selectedCountry == null && maxYearValue === maxYear;
+  const validSelection = countryOptions.filter((option) => selectedCountries.includes(option.value));
+  const selectedLabel = validSelection.length === countryOptions.length
+    ? allLabel
+    : validSelection.length === 0
+      ? "Aucun pays sélectionné"
+      : validSelection.length === 1
+        ? validSelection[0].label
+        : `${validSelection.length} pays sélectionnés`;
+  const isDefault = validSelection.length === countryOptions.length && maxYearValue === maxYear;
 
   function reset() {
-    onCountryChange(null);
+    onCountriesChange(countryOptions.map((option) => option.value));
     onMaxYearChange(maxYear);
   }
 
@@ -51,7 +59,17 @@ export default function DashboardFilterBar({
       </div>
 
       <div className="grid gap-4 px-4 py-3 md:grid-cols-2 md:items-end">
-        <CountrySelect label="Filtre pays" value={selectedCountry} options={countryOptions} onChange={onCountryChange} allLabel={allLabel} />
+        <CountryMultiSelect
+          label="Filtre pays"
+          options={countryOptions}
+          value={selectedCountries}
+          onChange={onCountriesChange}
+          min={0}
+          max={countryOptions.length}
+          allOption
+          allLabel={allLabel}
+          summaryMode="count"
+        />
         <YearSlider value={maxYearValue} onChange={onMaxYearChange} min={minYear} max={maxYear} />
       </div>
     </section>
