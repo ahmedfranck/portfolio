@@ -1,4 +1,4 @@
-import { Database, Flag, GitCompareArrows, LayoutDashboard, Lightbulb, Landmark, Menu, ShieldAlert, X, type LucideIcon } from "lucide-react";
+import { Database, Flag, LayoutDashboard, Lightbulb, Landmark, Menu, ShieldAlert, X, type LucideIcon } from "lucide-react";
 import { Fragment, useState } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 
@@ -25,7 +25,6 @@ export default function UcpoSidebar({ sections, active, onChange }: UcpoSidebarP
     overview: LayoutDashboard,
     financing: Landmark,
     countries: Flag,
-    comparison: GitCompareArrows,
     crisis: ShieldAlert,
     recommendations: Lightbulb,
     sources: Database,
