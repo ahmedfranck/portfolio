@@ -43,13 +43,15 @@ export default function SumBand({ eyebrow, title, subtitle, badge, illustrativeN
           )}
           <div className="mt-1 flex flex-wrap items-start justify-between gap-3">
             <h2 className="max-w-[720px] text-xl leading-tight sm:text-2xl" style={{ fontFamily: theme.typography.heading }}>{title}</h2>
-            <span className="flex flex-wrap items-center justify-end gap-2">
-              {illustrativeNotice && <span className="shrink-0 rounded-full px-2.5 py-1 text-[8px] font-bold" style={{ color: theme.colors.warning, background: "#FEF0E0" }}>⚠ {illustrativeNotice}</span>}
-              {badge && <span className="shrink-0 rounded-full border px-3 py-1 text-[8px] font-bold uppercase tracking-[0.09em]" style={{ borderColor: `${theme.colors.accentLight}66`, color: theme.colors.accentLight, background: `${theme.colors.accent}18` }}>{badge}</span>}
-            </span>
+            {badge && <span className="shrink-0 rounded-full border px-3 py-1 text-[8px] font-bold uppercase tracking-[0.09em]" style={{ borderColor: `${theme.colors.accentLight}66`, color: theme.colors.accentLight, background: `${theme.colors.accent}18` }}>{badge}</span>}
           </div>
           {subtitle && <p className="mt-2 max-w-[720px] text-[11px] leading-relaxed text-white/55">{subtitle}</p>}
         </div>
+        {illustrativeNotice && (
+          <p className="inline-flex max-w-full items-center rounded-full px-3 py-1.5 text-[8px] font-bold" style={{ color: theme.colors.warning, background: "#FEF0E0" }}>
+            ⚠ {illustrativeNotice}
+          </p>
+        )}
         <dl className="grid grid-cols-2 gap-x-2 gap-y-4 lg:grid-cols-4">
           {stats.slice(0, 4).map((stat, index) => (
             <div
@@ -63,7 +65,7 @@ export default function SumBand({ eyebrow, title, subtitle, badge, illustrativeN
               <dt className="mt-1 text-[8px] font-bold uppercase tracking-[0.08em] text-white/40">{stat.label}</dt>
               {(stat.source || stat.illustrative) && (
                 <span className="mt-2 block">
-                  <AoDataBadges source={stat.source} illustrative={stat.illustrative} compactSource sourceDisplay="disclosure" />
+                  <AoDataBadges source={stat.source} illustrative={stat.illustrative} compactSource />
                 </span>
               )}
             </div>
