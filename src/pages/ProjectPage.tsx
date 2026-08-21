@@ -1,11 +1,10 @@
-import { Suspense } from "react";
+import { Suspense, type CSSProperties } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { ArrowLeft, ArrowRight, ChevronRight } from "lucide-react";
 import Badge from "../components/Badge";
 import DashboardMasthead from "../components/DashboardMasthead";
 import Reveal from "../components/Reveal";
 import { getPortfolioOrganizationByProject } from "../config/portfolioOrganizations";
-import { AoThemeProvider } from "../hooks/useAoTheme";
 import { PROJECTS } from "../projects";
 import { AO_THEMES, type AoThemeKey } from "../themes/appelsOffres";
 import { getDashboardPortfolioCategory, getPortfolioCategory } from "./pageData";
@@ -43,7 +42,14 @@ export default function ProjectPage() {
       ? organization.id
       : "unverified";
   const theme = AO_THEMES[organizationKey];
-  const footerNote = "footerNote" in theme ? theme.footerNote : undefined;
+  const dashboardStyle = isUcpo
+    ? undefined
+    : ({
+        "--dash-deep": theme.colors.primaryDark,
+        "--dash-accent": theme.colors.accent,
+        "--dash-soft": theme.colors.soft,
+        "--dash-canvas": theme.colors.canvas,
+      } as CSSProperties);
 
   return (
     <div className="bg-surface">
@@ -72,16 +78,16 @@ export default function ProjectPage() {
             {organization && (
               <span
                 className="rounded-full px-3 py-1 text-xs font-medium"
-                style={{ color: theme.colors.primaryDark, backgroundColor: theme.colors.soft }}
+                style={{ color: organization.accent, backgroundColor: organization.soft }}
               >
-                {theme.organizationDisplay}
+                {organization.acronym} · organisme de référence
               </span>
             )}
           </div>
           <p className="max-w-3xl text-sm font-medium text-brand-deep">{project.angle}</p>
         </Reveal>
 
-        <AoThemeProvider themeKey={organizationKey} className="space-y-6">
+        <div className="space-y-6" data-ao-theme={organizationKey} style={dashboardStyle}>
           <section
             className={`dashboard-experience ${isUcpo ? "dashboard-experience--ucpo" : "dashboard-experience--standard"}`}
             data-organization={organization?.id ?? "unverified"}
@@ -109,15 +115,7 @@ export default function ProjectPage() {
               ))}
             </ol>
           </Reveal>
-          {footerNote && (
-            <p
-              className="rounded-md border px-4 py-3 text-[10px]"
-              style={{ borderColor: theme.colors.border, color: theme.colors.muted, background: theme.colors.canvas }}
-            >
-              {footerNote}
-            </p>
-          )}
-        </AoThemeProvider>
+        </div>
 
         <ProjectContactCta />
 

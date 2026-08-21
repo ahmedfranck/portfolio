@@ -2,10 +2,9 @@ import afdbLogo from "../assets/organizations/afdb.webp";
 import partenariatOuagadougouLogo from "../assets/organizations/partenariat-ouagadougou.png";
 import unepLogo from "../assets/organizations/unep.svg";
 import unicefLogo from "../assets/organizations/unicef.webp";
-import unverifiedLogo from "../assets/organizations/unverified.svg";
 
 export interface PortfolioOrganization {
-  id: "ucpo" | "bad" | "unicef" | "pnue" | "unverified";
+  id: "ucpo" | "bad" | "unicef" | "pnue";
   acronym: string;
   name: string;
   focus: string;
@@ -25,16 +24,6 @@ export const CALL_FOR_OFFERS_ORGANIZATIONS: PortfolioOrganization[] = [
     soft: "#fdf3dc",
     logo: partenariatOuagadougouLogo,
     projectSlugs: ["sante-reproductive-fecondite"],
-  },
-  {
-    id: "unverified",
-    acronym: "À CONFIRMER",
-    name: "Commanditaire à confirmer",
-    focus: "Association institutionnelle laissée ouverte : aucune identité de commanditaire n'est revendiquée sans preuve documentaire.",
-    accent: "#16a085",
-    soft: "#e8f6f3",
-    logo: unverifiedLogo,
-    projectSlugs: ["sante-maternelle-neonatale", "nutrition-survie-enfant", "education-filles-genre"],
   },
   {
     id: "bad",
