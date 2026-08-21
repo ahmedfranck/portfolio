@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from "react";
-import { Check, ChevronDown, Globe2 } from "lucide-react";
+import { Check, ChevronDown } from "lucide-react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 import { CountryLabel } from "./CountryFlag";
 import type { CountrySelectOption } from "./CountrySelect";
@@ -11,37 +11,17 @@ interface CountryMultiSelectProps {
   readonly onChange: (value: string[]) => void;
   readonly min?: number;
   readonly max?: number;
-  readonly allOption?: boolean;
-  readonly allLabel?: string;
-  readonly summaryMode?: "names" | "count";
 }
 
-export default function CountryMultiSelect({
-  label = "Pays à comparer",
-  options,
-  value,
-  onChange,
-  min = 2,
-  max = 4,
-  allOption = false,
-  allLabel = "Tous les pays",
-  summaryMode = "names",
-}: CountryMultiSelectProps) {
+export default function CountryMultiSelect({ label = "Pays à comparer", options, value, onChange, min = 2, max = 4 }: CountryMultiSelectProps) {
   const { theme } = useAoTheme();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
   const listboxId = useId();
   const selectedOptions = options.filter((option) => value.includes(option.value));
-  const allSelected = options.length > 0 && selectedOptions.length === options.length;
-  const summary = allSelected && allOption
-    ? allLabel
-    : selectedOptions.length === 0
-      ? "Aucun pays sélectionné"
-      : selectedOptions.length === 1
-        ? selectedOptions[0].label
-        : summaryMode === "count" || selectedOptions.length > 3
-          ? `${selectedOptions.length} pays sélectionnés`
-          : selectedOptions.map((option) => option.label).join(", ");
+  const summary = selectedOptions.length <= 3
+    ? selectedOptions.map((option) => option.label).join(", ")
+    : `${selectedOptions.length} pays sélectionnés`;
 
   useEffect(() => {
     function closeOnOutsideClick(event: MouseEvent) {
@@ -68,49 +48,24 @@ export default function CountryMultiSelect({
     onChange([...value, id]);
   }
 
-  function toggleAll() {
-    if (allSelected) {
-      if (min === 0) onChange([]);
-      return;
-    }
-    onChange(options.slice(0, max).map((option) => option.value));
-  }
-
-  function Checkbox({ checked }: { readonly checked: boolean }) {
-    return (
-      <span className="flex h-4 w-4 shrink-0 items-center justify-center rounded border" style={{ borderColor: checked ? theme.colors.accent : theme.colors.border, background: checked ? theme.colors.accent : "#FFFFFF", color: "#FFFFFF" }}>
-        {checked && <Check size={11} aria-hidden="true" />}
-      </span>
-    );
-  }
-
   return (
     <div ref={rootRef} className="relative min-w-[260px]" style={{ fontFamily: theme.typography.body }}>
       <span className="mb-1.5 block text-[8px] font-bold uppercase tracking-[0.1em]" style={{ color: theme.colors.muted }}>{label}</span>
       <button type="button" aria-haspopup="listbox" aria-expanded={open} aria-controls={listboxId} onClick={() => setOpen((current) => !current)} className="flex w-full items-center justify-between gap-3 rounded-md border bg-white px-3 py-2 text-left text-[10px] font-semibold shadow-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" style={{ borderColor: open ? theme.colors.accent : theme.colors.border, color: theme.colors.primary, outlineColor: theme.colors.accent }}>
-        <span className="truncate">{summary}</span>
-        <span className="inline-flex shrink-0 items-center gap-1.5"><span className="rounded-full px-1.5 py-0.5 text-[8px]" style={{ background: theme.colors.soft }}>{selectedOptions.length}/{Math.min(max, options.length)}</span><ChevronDown size={14} className={`transition-transform ${open ? "rotate-180" : ""}`} aria-hidden="true" /></span>
+        <span className="truncate">{summary || `Sélectionnez ${min} à ${max} pays`}</span>
+        <span className="inline-flex shrink-0 items-center gap-1.5"><span className="rounded-full px-1.5 py-0.5 text-[8px]" style={{ background: theme.colors.soft }}>{value.length}/{max}</span><ChevronDown size={14} className={`transition-transform ${open ? "rotate-180" : ""}`} aria-hidden="true" /></span>
       </button>
 
       {open && (
         <div id={listboxId} role="listbox" aria-multiselectable="true" aria-label={label} className="absolute left-0 top-[calc(100%+.35rem)] z-50 max-h-80 w-full min-w-[280px] overflow-auto rounded-md border bg-white p-1.5 shadow-xl" style={{ borderColor: theme.colors.border }}>
-          <p className="px-2.5 py-1.5 text-[8px] font-semibold" style={{ color: theme.colors.muted }}>{min === 0 ? "Sélection libre" : `Minimum ${min}`} · maximum {Math.min(max, options.length)}</p>
-          {allOption && (
-            <>
-              <button type="button" role="option" aria-selected={allSelected} onClick={toggleAll} className="flex w-full items-center justify-between gap-2 rounded px-2.5 py-2 text-left text-[10px] font-semibold transition hover:bg-slate-50" style={{ color: theme.colors.primary, background: allSelected ? theme.colors.soft : undefined }}>
-                <span className="inline-flex items-center gap-2"><Globe2 size={15} style={{ color: theme.colors.accent }} aria-hidden="true" />{allLabel}</span>
-                <Checkbox checked={allSelected} />
-              </button>
-              <div className="my-1 border-t" style={{ borderColor: theme.colors.border }} />
-            </>
-          )}
+          <p className="px-2.5 py-1.5 text-[8px] font-semibold" style={{ color: theme.colors.muted }}>Minimum {min} · maximum {max}</p>
           {options.map((option) => {
             const active = value.includes(option.value);
             const disabled = active ? value.length <= min : value.length >= max;
             return (
               <button key={option.value} type="button" role="option" aria-selected={active} aria-disabled={disabled} disabled={disabled} onClick={() => toggle(option.value)} className="flex w-full items-center justify-between gap-2 rounded px-2.5 py-2 text-left text-[10px] font-semibold transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40" style={{ color: theme.colors.primary, background: active ? theme.colors.soft : undefined }}>
                 <CountryLabel iso3={option.iso3} name={option.label} size="md" />
-                <Checkbox checked={active} />
+                <span className="flex h-4 w-4 items-center justify-center rounded border" style={{ borderColor: active ? theme.colors.accent : theme.colors.border, background: active ? theme.colors.accent : "#FFFFFF", color: "#FFFFFF" }}>{active && <Check size={11} aria-hidden="true" />}</span>
               </button>
             );
           })}

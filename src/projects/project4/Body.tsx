@@ -277,40 +277,27 @@ function SourcesSection() {
 export default function Body() {
   const { theme } = useAoTheme();
   const [section, setSection] = useState("overview");
-  const [selectedCountriesState, setSelectedCountriesState] = useState<string[]>([...UCPO_COUNTRY_CODES]);
+  const [selectedCountry, setSelectedCountry] = useState<UcpoCountryCode | null>(null);
   const [maxYear, setMaxYear] = useState(2024);
   const [comparisonCountries, setComparisonCountries] = useState<string[]>(["BFA", "MLI", "SEN"]);
-  const selectedCountries = useMemo<readonly UcpoCountryCode[]>(() => UCPO_COUNTRY_CODES.filter((country) => selectedCountriesState.includes(country)), [selectedCountriesState]);
+  const selectedCountries = useMemo<readonly UcpoCountryCode[]>(() => selectedCountry ? [selectedCountry] : UCPO_COUNTRY_CODES, [selectedCountry]);
   const yearRange = useMemo<YearRange>(() => [2010, maxYear], [maxYear]);
   const selectedProfiles = UCPO_COUNTRIES.filter((country) => selectedCountries.includes(country.iso3));
   const financingTotal = selectedProfiles.reduce((sum, country) => sum + country.financingUsdMillions, 0);
   const modernUsers = selectedProfiles.reduce((sum, country) => sum + country.modernUsersMillions, 0);
   const mcprRow = [...UCPO_MCPR_SERIES].reverse().find((row) => row.year >= yearRange[0] && row.year <= yearRange[1]);
-  const currentMcprAverage = mcprRow && selectedProfiles.length > 0 ? average(selectedProfiles.map((country) => Number(mcprRow[country.iso3]))) : null;
+  const currentMcprAverage = mcprRow ? average(selectedProfiles.map((country) => Number(mcprRow[country.iso3]))) : null;
   const highRiskCountries = selectedProfiles.filter((country) => country.informRisk >= 7).length;
   const activeLabel = SECTIONS.find((item) => item.id === section)?.label ?? "Observatoire";
-  const selectedCountryLabel = selectedCountries.length === UCPO_COUNTRY_CODES.length
-    ? "Tous les pays"
-    : selectedCountries.length === 0
-      ? "Aucun pays sélectionné"
-      : selectedCountries.length === 1
-        ? UCPO_COUNTRIES.find((country) => country.iso3 === selectedCountries[0])?.shortName ?? selectedCountries[0]
-        : `${selectedCountries.length} pays sélectionnés`;
+  const selectedCountryLabel = selectedCountry ? UCPO_COUNTRIES.find((country) => country.iso3 === selectedCountry)?.shortName ?? selectedCountry : "Tous les pays";
   const unfilteredSection = section === "recommendations" || section === "sources";
   const fixedYearSection = section === "financing" || section === "crisis" || section === "comparison";
-  const activeFilterLabel = unfilteredSection ? "Vue complète · filtres non appliqués" : section === "comparison" ? `${selectedCountryLabel} · comparaison locale` : fixedYearSection ? `${selectedCountryLabel} · données 2024` : `${selectedCountryLabel} · jusqu’en ${maxYear}`;
+  const activeFilterLabel = unfilteredSection ? "Vue complète · filtres non appliqués" : section === "comparison" ? "Sélection multi-pays indépendante" : fixedYearSection ? `${selectedCountryLabel} · données 2024` : `${selectedCountryLabel} · jusqu’en ${maxYear}`;
 
   const content = useMemo(() => {
-    if (selectedCountries.length === 0 && section !== "recommendations" && section !== "sources") {
-      return (
-        <Panel title="Aucun pays sélectionné" subtitle="Les agrégats sont suspendus pour éviter d’afficher des résultats incomplets ou trompeurs.">
-          <p className="text-[10px] leading-relaxed text-slate-500">Cochez « Tous les pays » ou au moins un pays dans le filtre transverse pour réactiver cette vue.</p>
-        </Panel>
-      );
-    }
     if (section === "financing") return <FinancingSection countries={selectedCountries} />;
     if (section === "countries") return <CountriesSection countries={selectedCountries} yearRange={yearRange} />;
-    if (section === "comparison") return <ComparisonSection countries={selectedCountries} selected={comparisonCountries} onChange={setComparisonCountries} />;
+    if (section === "comparison") return <ComparisonSection countries={UCPO_COUNTRY_CODES} selected={comparisonCountries} onChange={setComparisonCountries} />;
     if (section === "crisis") return <CrisisModule countries={selectedCountries} />;
     if (section === "recommendations") return <UcpoRecommendations />;
     if (section === "sources") return <SourcesSection />;
@@ -323,7 +310,7 @@ export default function Body() {
         eyebrow="Observatoire régional de la planification familiale"
         title="Neuf pays, une lecture commune de la performance et de la résilience"
         subtitle="Observatoire régional des neuf pays du Partenariat de Ouagadougou réalisé dans le cadre de l'appel d'offres de l'UCPO."
-        badge={selectedCountries.length === UCPO_COUNTRY_CODES.length ? "9 pays PO" : selectedCountryLabel}
+        badge={selectedCountry ? selectedCountryLabel : "9 pays PO"}
         illustrativeNotice="Données illustratives"
         stats={[
           { label: mcprRow ? `mCPR ${mcprRow.year}` : "mCPR", value: currentMcprAverage == null ? "n.d." : currentMcprAverage.toLocaleString("fr-FR", { maximumFractionDigits: 1 }), unit: currentMcprAverage == null ? undefined : "%", source: UCPO_DATASETS.trajectory.source },
@@ -335,8 +322,8 @@ export default function Body() {
 
       <DashboardFilterBar
         countryOptions={UCPO_COUNTRIES.map((country) => ({ value: country.iso3, iso3: country.iso3, label: country.shortName }))}
-        selectedCountries={selectedCountries}
-        onCountriesChange={setSelectedCountriesState}
+        selectedCountry={selectedCountry}
+        onCountryChange={(country) => setSelectedCountry(country as UcpoCountryCode | null)}
         maxYearValue={maxYear}
         onMaxYearChange={setMaxYear}
         minYear={2010}
