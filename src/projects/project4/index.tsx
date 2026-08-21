@@ -3,13 +3,13 @@ import type { ProjectConfig } from "../types";
 
 export const config: ProjectConfig = {
   slug: "sante-reproductive-fecondite",
-  shortTitle: "Observatoire PF",
-  title: "Observatoire PF — santé reproductive & fécondité",
+  shortTitle: "Santé reproductive",
+  title: "Santé reproductive & fécondité",
   domain: "Santé reproductive",
-  keywords: ["contraception", "fécondité", "financement", "crise", "Motion Tracker"],
+  keywords: ["contraception", "fécondité", "demande satisfaite"],
   angle: "Quel accès réel à la contraception, et avec quel effet sur la fécondité ?",
   pitch:
-    "Observatoire régional des neuf pays du Partenariat de Ouagadougou : indicateurs Banque mondiale réels, Motion Tracker, financement, impact et contexte de crise avec scénarios illustratifs explicitement signalés.",
+    "Indicateurs réels (Banque mondiale, Open Data) de prévalence contraceptive, de fécondité et de demande satisfaite par des méthodes modernes dans 16 pays entre 2010 et 2024.",
   insights: [
     "La prévalence contraceptive moderne progresse dans la plupart des pays du panel, en lien avec une baisse progressive de l'indice de fécondité.",
     "Les pays où la demande de planification familiale est le mieux satisfaite par des méthodes modernes affichent généralement une prévalence contraceptive globale plus élevée.",
