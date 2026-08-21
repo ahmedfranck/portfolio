@@ -10,7 +10,6 @@ export interface ChartTableColumn {
   readonly key: string;
   readonly label: string;
   readonly format?: (value: ChartCell, row: ChartTableRow) => string;
-  readonly render?: (value: ChartCell, row: ChartTableRow) => ReactNode;
 }
 
 interface ChartScaffoldProps {
@@ -55,7 +54,7 @@ export default function ChartScaffold({
                   <tr key={index} className="border-b last:border-0" style={{ borderColor: theme.colors.border }}>
                     {tableColumns.map((column) => (
                       <td key={column.key} className="whitespace-nowrap px-2.5 py-2" style={{ color: theme.colors.text }}>
-                        {column.render ? column.render(row[column.key], row) : column.format ? column.format(row[column.key], row) : String(row[column.key] ?? "n.d.")}
+                        {column.format ? column.format(row[column.key], row) : String(row[column.key] ?? "n.d.")}
                       </td>
                     ))}
                   </tr>

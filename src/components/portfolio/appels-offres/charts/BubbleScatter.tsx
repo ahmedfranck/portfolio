@@ -10,7 +10,6 @@ import {
   ZAxis,
 } from "recharts";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
-import { CountryLabel } from "../shared/CountryFlag";
 import ChartScaffold, { type ChartTableColumn, type ChartTableRow } from "./ChartScaffold";
 
 export interface BubbleScatterDatum {
@@ -21,7 +20,6 @@ export interface BubbleScatterDatum {
   readonly z?: number;
   readonly group?: string;
   readonly color?: string;
-  readonly iso3?: string;
 }
 
 interface BubbleScatterProps {
@@ -62,14 +60,13 @@ export default function BubbleScatter({
   const colorFor = (item: BubbleScatterDatum, index: number) => item.color ?? palette[Math.max(0, groupNames.indexOf(item.group ?? item.id)) % palette.length] ?? palette[index % palette.length];
   const tableRows: ChartTableRow[] = data.map((item) => ({
     name: item.name,
-    iso3: item.iso3,
     x: item.x,
     y: item.y,
     z: item.z,
     group: item.group,
   }));
   const tableColumns: ChartTableColumn[] = [
-    { key: "name", label: "Entité", render: (value, row) => row.iso3 ? <CountryLabel iso3={String(row.iso3)} name={String(value)} /> : String(value) },
+    { key: "name", label: "Entité" },
     { key: "x", label: xLabel, format: (value) => typeof value === "number" ? `${formatValue(value)}${xUnit}` : "n.d." },
     { key: "y", label: yLabel, format: (value) => typeof value === "number" ? `${formatValue(value)}${yUnit}` : "n.d." },
     ...(hasSize ? [{ key: "z", label: zLabel, format: (value) => typeof value === "number" ? `${formatValue(value)}${zUnit}` : "n.d." } satisfies ChartTableColumn] : []),
@@ -109,7 +106,7 @@ export default function BubbleScatter({
               const item = payload[0].payload as BubbleScatterDatum;
               return (
                 <div className="rounded-md border bg-white px-3 py-2 text-[10px] shadow-lg" style={{ borderColor: theme.colors.border, fontFamily: theme.typography.body }}>
-                  <strong style={{ color: theme.colors.primary }}>{item.iso3 ? <CountryLabel iso3={item.iso3} name={item.name} /> : item.name}</strong>
+                  <strong style={{ color: theme.colors.primary }}>{item.name}</strong>
                   <p style={{ color: theme.colors.muted }}>{xLabel} : {formatValue(item.x)}{xUnit}</p>
                   <p style={{ color: theme.colors.muted }}>{yLabel} : {formatValue(item.y)}{yUnit}</p>
                   {item.z != null && <p style={{ color: theme.colors.muted }}>{zLabel} : {formatValue(item.z)}{zUnit}</p>}

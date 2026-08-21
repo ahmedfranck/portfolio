@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { UCPO_DATASETS, type UcpoCountryProfile, type UcpoCountryTab } from "../../../../data/projects/ao-ucpo-observatoire";
 import { BarStack, DoughnutMix } from "../charts";
-import { CountryLabel, FilterChips, KpiCard, Panel } from "../shared";
+import { FilterChips, KpiCard, Panel } from "../shared";
 
 interface UcpoCountryFicheProps {
   readonly country: UcpoCountryProfile;
@@ -26,7 +26,7 @@ export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, real
 
   return (
     <div className="space-y-4">
-      <FilterChips label={<span className="normal-case tracking-normal">Fiche <CountryLabel iso3={country.iso3} name={country.name} size="md" /></span>} options={COUNTRY_TABS} value={[tab]} onChange={(value) => setTab((value[0] as UcpoCountryTab) ?? "overview")} multiple={false} />
+      <FilterChips label={`Fiche ${country.name}`} options={COUNTRY_TABS} value={[tab]} onChange={(value) => setTab((value[0] as UcpoCountryTab) ?? "overview")} multiple={false} />
 
       {tab === "overview" && (
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
@@ -38,8 +38,8 @@ export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, real
       )}
 
       {tab === "financing" && (
-        <Panel title={<span>Structure de financement · <CountryLabel iso3={country.iso3} name={country.name} /></span>} subtitle={`${country.financingUsdMillions.toLocaleString("fr-FR")} M USD illustratifs`}>
-          <BarStack data={[{ iso3: country.iso3, segment: country.shortName, domestic: country.domesticShare, usaid: country.usaidExposure, others: financingOther }]} xKey="segment" countryCodeKey="iso3" series={[{ dataKey: "domestic", name: "Ressources domestiques", unit: " %" }, { dataKey: "usaid", name: "Exposition USAID", unit: " %" }, { dataKey: "others", name: "Autres partenaires", unit: " %" }]} mode="percent" height={260} ariaLabel={`Structure illustrative du financement de ${country.name}`} source={UCPO_DATASETS.financing.source} illustrative />
+        <Panel title={`Structure de financement · ${country.name}`} subtitle={`${country.financingUsdMillions.toLocaleString("fr-FR")} M USD illustratifs`}>
+          <BarStack data={[{ segment: country.shortName, domestic: country.domesticShare, usaid: country.usaidExposure, others: financingOther }]} xKey="segment" series={[{ dataKey: "domestic", name: "Ressources domestiques", unit: " %" }, { dataKey: "usaid", name: "Exposition USAID", unit: " %" }, { dataKey: "others", name: "Autres partenaires", unit: " %" }]} mode="percent" height={260} ariaLabel={`Structure illustrative du financement de ${country.name}`} source={UCPO_DATASETS.financing.source} illustrative />
         </Panel>
       )}
 
@@ -52,7 +52,7 @@ export default function UcpoCountryFiche({ country, realMcpr, realMcprYear, real
       )}
 
       {tab === "methods" && (
-        <Panel title={<span>Mix de méthodes · <CountryLabel iso3={country.iso3} name={country.name} /></span>} subtitle="Répartition illustrative des utilisatrices de méthodes modernes.">
+        <Panel title={`Mix de méthodes · ${country.name}`} subtitle="Répartition illustrative des utilisatrices de méthodes modernes.">
           <DoughnutMix data={country.methods.map((method) => ({ id: method.name, name: method.name, value: method.value }))} ariaLabel={`Mix de méthodes contraceptives de ${country.name}`} source={UCPO_DATASETS.methods.source} illustrative unit=" %" valueLabel="Part" />
         </Panel>
       )}

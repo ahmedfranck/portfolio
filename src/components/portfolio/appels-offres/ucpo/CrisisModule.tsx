@@ -1,10 +1,9 @@
 import { UCPO_COUNTRIES, UCPO_DATASETS } from "../../../../data/projects/ao-ucpo-observatoire";
 import { BubbleScatter } from "../charts";
-import { CountryLabel, DataTable, Panel, RankList } from "../shared";
+import { DataTable, Panel, RankList } from "../shared";
 
 const crisisPoints = UCPO_COUNTRIES.map((country) => ({
   id: country.iso3,
-  iso3: country.iso3,
   name: country.name,
   x: country.informRisk,
   y: country.stockoutRate,
@@ -31,7 +30,7 @@ export default function CrisisModule() {
         </Panel>
         <Panel title="Pays à surveiller" subtitle="Classement composite par niveau de risque INFORM.">
           <RankList
-            items={UCPO_COUNTRIES.map((country) => ({ id: country.iso3, iso3: country.iso3, label: country.name, value: country.informRisk, displayValue: country.informRisk.toFixed(1), detail: `${country.stockoutRate} % ruptures` }))}
+            items={UCPO_COUNTRIES.map((country) => ({ id: country.iso3, label: country.name, value: country.informRisk, displayValue: country.informRisk.toFixed(1), detail: `${country.stockoutRate} % ruptures` }))}
             source={UCPO_DATASETS.crisis.source}
             illustrative
           />
@@ -43,7 +42,7 @@ export default function CrisisModule() {
           rows={UCPO_COUNTRIES}
           rowKey={(row) => row.iso3}
           columns={[
-            { id: "country", header: "Pays", accessor: (row) => row.name, render: (value, row) => <CountryLabel iso3={row.iso3} name={String(value)} /> },
+            { id: "country", header: "Pays", accessor: (row) => row.name },
             { id: "inform", header: "INFORM", accessor: (row) => row.informRisk, align: "right" },
             { id: "pdi", header: "PDI (milliers)", accessor: (row) => row.displacedThousands, align: "right" },
             { id: "stock", header: "Ruptures", accessor: (row) => row.stockoutRate, render: (value) => `${value} %`, align: "right" },

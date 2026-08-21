@@ -1,4 +1,4 @@
-import { useId, useMemo, useState, type ReactNode } from "react";
+import { useId, useMemo, useState } from "react";
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
 import { Minus, Plus } from "lucide-react";
 import geoData from "../../../../data/geo/africa.json";
@@ -31,7 +31,6 @@ interface MapChoroplethProps {
   readonly scopeStrokeWidth?: number;
   readonly projectionCenter?: readonly [number, number];
   readonly projectionScale?: number;
-  readonly countryAdornment?: (iso3: string) => ReactNode;
 }
 
 interface GeoProperties {
@@ -86,7 +85,6 @@ export default function MapChoropleth({
   scopeStrokeWidth = 0.6,
   projectionCenter = [4, 8],
   projectionScale = 620,
-  countryAdornment,
 }: MapChoroplethProps) {
   const { theme } = useAoTheme();
   const [hover, setHover] = useState<HoverState | null>(null);
@@ -199,7 +197,7 @@ export default function MapChoropleth({
 
       {hover && (
         <div className="pointer-events-none fixed z-50 rounded-md border bg-white px-3 py-2 text-[10px] shadow-lg" style={{ left: hover.x + 12, top: hover.y + 12, borderColor: theme.colors.border }}>
-          <strong className="inline-flex items-center gap-1.5" style={{ color: theme.colors.primary }}>{countryAdornment?.(hover.iso3)}<span>{hover.name}</span></strong>
+          <strong style={{ color: theme.colors.primary }}>{hover.name}</strong>
           <p style={{ color: theme.colors.muted }}>{hover.inScope ? hover.value == null ? noDataLabel : `${formatValue(hover.value)}${suffix}${hover.year ? ` · ${hover.year}` : ""} · pays du périmètre` : outsideScopeLabel}</p>
         </div>
       )}
