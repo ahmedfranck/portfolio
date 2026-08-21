@@ -52,9 +52,9 @@ export const UCPO_DATASETS = {
     illustrative: false,
     note: "Valeurs publiques déjà intégrées au portfolio; dernière observation disponible affichée par pays.",
   },
-  trajectory: {
-    id: "mcpr-trajectories",
-    label: "Trajectoires mCPR 2011–2024",
+  motion: {
+    id: "motion-tracker",
+    label: "Motion Tracker mCPR 2011–2024",
     source: "Scénario UCPO documenté · cadre méthodologique Track20 / FP2030",
     url: OFFICIAL_SOURCES.track20,
     illustrative: true,
@@ -122,7 +122,7 @@ export const UCPO_COUNTRIES: readonly UcpoCountryProfile[] = [
   { iso3: "TGO", name: "Togo", shortName: "Togo", baselineMcpr: 13.2, currentMcpr: 24.4, tfr: 4.10, women15to49Millions: 2.2, financingUsdMillions: 11.7, domesticShare: 22, usaidExposure: 29, modernUsersMillions: 0.43, pregnanciesAvoidedThousands: 151, deathsAvoided: 390, costPerUserUsd: 10.9, informRisk: 4.8, displacedThousands: 18, stockoutRate: 16, methods: [{ name: "Injectables", value: 25 }, { name: "Implants", value: 27 }, { name: "Pilules", value: 19 }, { name: "DIU", value: 6 }, { name: "Préservatifs", value: 15 }, { name: "Autres", value: 8 }] },
 ] as const;
 
-export const UCPO_MCPR_SERIES = Array.from({ length: 14 }, (_, index) => {
+export const UCPO_MOTION_SERIES = Array.from({ length: 14 }, (_, index) => {
   const year = 2011 + index;
   const progress = index / 13;
   return Object.fromEntries([
