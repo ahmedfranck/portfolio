@@ -3,7 +3,7 @@ import { useAoTheme } from "../../../../hooks/useAoTheme";
 import { AoDataBadges } from "./badges";
 
 interface PanelProps {
-  readonly title: ReactNode;
+  readonly title: string;
   readonly subtitle?: string;
   readonly action?: ReactNode;
   readonly children: ReactNode;

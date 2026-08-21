@@ -1,14 +1,13 @@
-import type { ReactNode } from "react";
 import { useAoTheme } from "../../../../hooks/useAoTheme";
 
 export interface FilterChipOption {
   readonly value: string;
-  readonly label: ReactNode;
+  readonly label: string;
   readonly count?: number;
 }
 
 interface FilterChipsProps {
-  readonly label: ReactNode;
+  readonly label: string;
   readonly options: readonly FilterChipOption[];
   readonly value: readonly string[];
   readonly onChange: (value: string[]) => void;
