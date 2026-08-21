@@ -1,8 +1,7 @@
-import { Suspense, type CSSProperties } from "react";
+import { Suspense } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { ArrowLeft, ArrowRight, ChevronRight } from "lucide-react";
 import Badge from "../components/Badge";
-import DashboardMasthead from "../components/DashboardMasthead";
 import Reveal from "../components/Reveal";
 import { getPortfolioOrganizationByProject } from "../config/portfolioOrganizations";
 import { PROJECTS } from "../projects";
@@ -16,13 +15,6 @@ function BodyFallback() {
     </div>
   );
 }
-
-const DASHBOARD_THEMES: Record<string, { deep: string; accent: string; soft: string; canvas: string }> = {
-  bad: { deep: "#244d3e", accent: "#4f806b", soft: "#e9f1ec", canvas: "#f6f8f6" },
-  unicef: { deep: "#123b55", accent: "#39a4d2", soft: "#e8f5fb", canvas: "#f4f8fa" },
-  pnue: { deep: "#173d35", accent: "#6aa873", soft: "#e9f3ec", canvas: "#f4f7f4" },
-  unverified: { deep: "#2c3e50", accent: "#16a085", soft: "#e8f6f3", canvas: "#f6f8f9" },
-};
 
 export default function ProjectPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -41,17 +33,6 @@ export default function ProjectPage() {
   const prev = categoryProjects[(categoryIndex - 1 + categoryProjects.length) % categoryProjects.length];
   const next = categoryProjects[(categoryIndex + 1) % categoryProjects.length];
   const Body = project.Body;
-  const isUcpo = organization?.id === "ucpo";
-  const organizationKey = isUcpo ? "ucpo" : (organization?.id ?? "unverified");
-  const theme = DASHBOARD_THEMES[organizationKey] ?? DASHBOARD_THEMES.unverified;
-  const dashboardStyle = isUcpo
-    ? undefined
-    : ({
-        "--dash-deep": theme.deep,
-        "--dash-accent": theme.accent,
-        "--dash-soft": theme.soft,
-        "--dash-canvas": theme.canvas,
-      } as CSSProperties);
 
   return (
     <div className="bg-surface">
@@ -71,7 +52,7 @@ export default function ProjectPage() {
         <span className="text-ink">{project.shortTitle}</span>
       </nav>
 
-        <Reveal className="mb-6 flex flex-col gap-3">
+        <Reveal className="mb-8 flex flex-col gap-3">
           <div className="flex flex-wrap items-center gap-2">
             <Badge tone="brand">{project.domain}</Badge>
             <span className="rounded-full bg-white px-3 py-1 text-xs font-medium text-text-2">
@@ -86,36 +67,26 @@ export default function ProjectPage() {
               </span>
             )}
           </div>
+          <h1 className="font-display text-2xl font-bold text-ink sm:text-3xl">{project.title}</h1>
+          <p className="max-w-3xl text-base text-text-2">{project.pitch}</p>
           <p className="max-w-3xl text-sm font-medium text-brand-deep">{project.angle}</p>
         </Reveal>
 
-        <div className="space-y-6" data-ao-theme={organizationKey} style={dashboardStyle}>
-          <section
-            className={`dashboard-experience ${isUcpo ? "dashboard-experience--ucpo" : "dashboard-experience--standard"}`}
-            data-organization={organization?.id ?? "unverified"}
-            aria-label={`Tableau de bord ${project.title}`}
-          >
-            <DashboardMasthead project={project} organization={organization} isUcpo={isUcpo} />
-            <div className="dashboard-project-content">
-              <Suspense fallback={<BodyFallback />}>
-                <Body />
-              </Suspense>
-            </div>
-          </section>
+        <div className="space-y-6">
+          <Suspense fallback={<BodyFallback />}>
+            <Body />
+          </Suspense>
 
-          <Reveal className="dashboard-insights">
-            <div>
-              <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-text-2">Synthèse exécutive</p>
-              <h2 className="mt-1 font-display text-lg font-semibold text-ink">Lecture & enseignements</h2>
-            </div>
-            <ol className="mt-4 grid gap-3 lg:grid-cols-3">
+          <Reveal className="rounded-card border border-line bg-surface p-5">
+            <h2 className="font-display text-sm font-semibold text-ink">Lecture & enseignements</h2>
+            <ul className="mt-2 space-y-1.5 text-sm text-ink">
               {project.insights.map((insight, i) => (
-                <li key={i} className="dashboard-insights__item">
-                  <span aria-hidden="true">0{i + 1}</span>
+                <li key={i} className="flex gap-2">
+                  <span aria-hidden="true">•</span>
                   <span>{insight}</span>
                 </li>
               ))}
-            </ol>
+            </ul>
           </Reveal>
         </div>
 
