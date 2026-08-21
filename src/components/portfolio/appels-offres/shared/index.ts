@@ -14,5 +14,3 @@ export { default as FilterChips } from "./FilterChips";
 export type { FilterChipOption } from "./FilterChips";
 export { default as RankList } from "./RankList";
 export type { RankListItem } from "./RankList";
-export { default as RecommendationsHub } from "./RecommendationsHub";
-export type { RecommendationGroup, RecommendationItem } from "./RecommendationsHub";
