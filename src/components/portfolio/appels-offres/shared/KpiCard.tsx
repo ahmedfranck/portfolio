@@ -27,6 +27,8 @@ export default function KpiCard({
   trend = "flat",
   trendMagnitude = 55,
   positive,
+  source,
+  illustrative = false,
   accent,
 }: KpiCardProps) {
   const { theme } = useAoTheme();

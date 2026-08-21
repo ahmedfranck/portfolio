@@ -18,7 +18,7 @@ interface RankListProps {
   readonly descending?: boolean;
 }
 
-export default function RankList({ items, descending = true }: RankListProps) {
+export default function RankList({ items, source, illustrative = false, descending = true }: RankListProps) {
   const { theme } = useAoTheme();
   const sorted = useMemo(
     () => [...items].sort((a, b) => (descending ? b.value - a.value : a.value - b.value)),

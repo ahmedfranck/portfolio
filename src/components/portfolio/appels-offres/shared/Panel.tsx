@@ -12,7 +12,7 @@ interface PanelProps {
   readonly className?: string;
 }
 
-export default function Panel({ title, subtitle, action, children, accent, className = "" }: PanelProps) {
+export default function Panel({ title, subtitle, action, children, source, illustrative = false, accent, className = "" }: PanelProps) {
   const { theme } = useAoTheme();
   const titleId = useId();
 
