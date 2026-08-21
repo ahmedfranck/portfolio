@@ -19,7 +19,7 @@ export default function MotionTracker({ countries }: MotionTrackerProps) {
       series={series}
       yLabel="mCPR (%)"
       height={360}
-      ariaLabel="Motion Tracker de la prévalence contraceptive moderne dans les neuf pays du Partenariat de Ouagadougou"
+      ariaLabel="Motion Tracker de la prévalence contraceptive moderne dans les pays UCPO"
       source={UCPO_DATASETS.motion.source}
       illustrative={UCPO_DATASETS.motion.illustrative}
       formatValue={(value) => `${value.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`}

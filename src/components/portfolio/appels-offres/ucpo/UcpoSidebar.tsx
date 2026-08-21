@@ -62,7 +62,7 @@ export default function UcpoSidebar({ sections, active, onChange }: UcpoSidebarP
       </button>
 
       <aside
-        className="sticky top-0 hidden h-screen min-h-screen overflow-auto rounded-[10px] p-3 shadow-sm lg:block"
+        className="sticky top-4 hidden max-h-[calc(100vh-2rem)] overflow-auto rounded-[10px] p-3 shadow-sm lg:block"
         style={{ background: theme.colors.primaryDark, fontFamily: theme.typography.body }}
       >
         <p className="px-3 pb-3 pt-1 text-[8px] font-bold uppercase tracking-[0.16em] text-white/35">Observatoire PF</p>
