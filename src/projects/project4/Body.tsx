@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import rawData from "../../data/project4.json";
 import type { ReproductiveHealthRow } from "../../data/types";
 import {
@@ -167,23 +167,39 @@ function FinancingSection({ countries }: { readonly countries: readonly UcpoCoun
 
 function CountriesSection({ countries, yearRange }: { readonly countries: readonly UcpoCountryCode[]; readonly yearRange: YearRange }) {
   const [countrySelection, setCountrySelection] = useState<UcpoCountryCode>("SEN");
-  const selected = countries.includes(countrySelection) ? countrySelection : countries[0];
-  const country = UCPO_COUNTRIES.find((item) => item.iso3 === selected)!;
-  const mcpr = latestReal(selected, "mcprModern", yearRange);
-  const tfr = latestReal(selected, "tfr", yearRange);
+  const selected = countries.includes(countrySelection) ? countrySelection : countries[0] ?? null;
+  const country = selected ? UCPO_COUNTRIES.find((item) => item.iso3 === selected) ?? null : null;
+  const mcpr = selected ? latestReal(selected, "mcprModern", yearRange) : null;
+  const tfr = selected ? latestReal(selected, "tfr", yearRange) : null;
+
+  useEffect(() => {
+    if (selected && selected !== countrySelection) setCountrySelection(selected);
+  }, [countrySelection, selected]);
 
   return (
     <div className="space-y-4">
       <Panel title="Sélection pays" subtitle="Chaque fiche comprend six angles analytiques et des comparaisons régionales contextualisées.">
         <CountrySelect
           label="Fiche pays active"
-          options={UCPO_COUNTRIES.filter((item) => countries.includes(item.iso3)).map((item) => ({ value: item.iso3, iso3: item.iso3, label: item.shortName }))}
+          options={UCPO_COUNTRIES.map((item) => ({
+            value: item.iso3,
+            iso3: item.iso3,
+            label: item.shortName,
+            disabled: !countries.includes(item.iso3),
+            description: countries.includes(item.iso3) ? undefined : "Exclu par le filtre pays",
+          }))}
           value={selected}
           onChange={(value) => value && setCountrySelection(value as UcpoCountryCode)}
           allOption={false}
         />
       </Panel>
-      <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} yearRange={yearRange} />
+      {country ? (
+        <UcpoCountryFiche country={country} realMcpr={mcpr?.value} realMcprYear={mcpr?.year} realTfr={tfr?.value} realTfrYear={tfr?.year} yearRange={yearRange} />
+      ) : (
+        <Panel title="Aucune fiche accessible" subtitle="Le filtre transverse ne contient actuellement aucun pays.">
+          <p className="text-[10px] leading-relaxed text-slate-500">Réactivez au moins un pays dans la barre de filtres pour ouvrir sa fiche détaillée.</p>
+        </Panel>
+      )}
     </div>
   );
 }
