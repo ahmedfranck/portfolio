@@ -21,7 +21,3 @@ export { default as CountryComparator } from "./CountryComparator";
 export type { CountryComparatorEntity, CountryComparatorMetric, CountryComparatorMixItem } from "./CountryComparator";
 export { default as DashboardFilterBar } from "./DashboardFilterBar";
 export type { DashboardFilterOption } from "./DashboardFilterBar";
-export { default as CountrySelect } from "./CountrySelect";
-export type { CountrySelectOption } from "./CountrySelect";
-export { default as CountryMultiSelect } from "./CountryMultiSelect";
-export { default as YearSlider } from "./YearSlider";
